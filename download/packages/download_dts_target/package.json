@@ -1,0 +1,17 @@
+{
+    "name": "download-dts-target",
+    "version": "1.0.0",
+    "description": "Download @types/react-native",
+    "main": "./lib/src/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "license": "UNLICENSED",
+    "dependencies": {
+        "@types/react-native": "0.64.10"
+    },
+    "devDependencies": {
+        "@types/node": "15.12.2",
+        "typescript":"^4.3.2"
+    }
+}

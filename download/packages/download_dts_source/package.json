@@ -1,0 +1,17 @@
+{
+    "name": "download-dts-source",
+    "version": "1.0.0",
+    "description": "Download react-native-tscodegen-types",
+    "main": "./lib/src/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "license": "UNLICENSED",
+    "dependencies": {
+      "react-native-tscodegen-types": "0.67.1"
+    },
+    "devDependencies": {
+        "@types/node": "15.12.2",
+        "typescript":"^4.3.2"
+    }
+}
