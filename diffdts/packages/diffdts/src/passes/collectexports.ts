@@ -75,6 +75,13 @@ function exportMembersOfSymbol(state: State, key: string, name: string, output: 
     // TODO:
 }
 
+function recordExport(output: ResolvedExports, id: string, ...values: Export[]): void {
+    if (output.exports[id] === undefined) {
+        output.exports[id] = [];
+    }
+    output.exports[id].push(...values);
+}
+
 export function collectExports(state: State, key: string): ResolvedExports {
     const output: ResolvedExports = {
         exports: {}
@@ -82,27 +89,24 @@ export function collectExports(state: State, key: string): ResolvedExports {
     const entry = state.entries[key];
 
     for (const exportName in entry.raw.exports) {
-        if (output.exports[exportName] === undefined) {
-            output.exports[exportName] = [];
-        }
         for (const rawExport of entry.raw.exports[exportName]) {
             switch (rawExport[0]) {
                 case "type": {
                     if (rawExport[1] === "TSTypeAliasDeclaration") {
-                        output.exports[exportName].push({ type: "type" });
+                        recordExport(output, exportName, { type: "type" });
                     } else {
-                        output.exports[exportName].push({ type: "type", declType: rawExport[1] });
+                        recordExport(output, exportName, { type: "type", declType: rawExport[1] });
                     }
                     break;
                 }
                 case "symbol": {
                     const resolvedExports = findSymbolAsExport(state, key, exportName);
-                    output.exports[exportName].push(...resolvedExports);
+                    recordExport(output, exportName, ...resolvedExports);
                     break;
                 }
                 case "rename": {
                     const resolvedExports = findSymbolAsExport(state, key, rawExport[1]);
-                    output.exports[exportName].push(...resolvedExports);
+                    recordExport(output, exportName, ...resolvedExports);
                     break;
                 }
             }
@@ -122,10 +126,7 @@ export function collectExports(state: State, key: string): ResolvedExports {
                 for (const [propType, propValue] of entry.raw.exportDefault[1]) {
                     switch (propType) {
                         case "value": {
-                            if (output.exports[propValue] === undefined) {
-                                output.exports[propValue] = [];
-                            }
-                            output.exports[propValue].push({ type: "value" });
+                            recordExport(output, propValue, { type: "value" });
                             break;
                         }
                         case "spread": {
