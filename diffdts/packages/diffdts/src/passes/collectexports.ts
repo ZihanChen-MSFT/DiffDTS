@@ -22,7 +22,7 @@ function findSymbolAsExport(state: State, key: string, name: string): Export | u
                     return findSymbolAsExport(state, importedKey, imported[1]);
                 }
             }
-            return undefined;
+            return { type: "unrecognized" };
         }
     }
     {
@@ -43,7 +43,7 @@ function findSymbolAsExport(state: State, key: string, name: string): Export | u
                     }
                 }
             }
-            return undefined;
+            return { type: "unrecognized" };
         }
     }
     {
@@ -62,7 +62,7 @@ function findSymbolAsExport(state: State, key: string, name: string): Export | u
                 case "ClassDeclaration": {
                     return { type: "type", declType: decl.type };
                 }
-                default: return undefined;
+                default: return { type: "unrecognized" };
             }
         }
     }

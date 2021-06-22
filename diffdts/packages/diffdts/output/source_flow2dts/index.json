@@ -1,23 +1,254 @@
 {
     "pwd": "react-native-tscodegen-types/react-native/",
     "exports": {
+        "AccessibilityInfo": {
+            "type": "unrecognized"
+        },
+        "ActionSheetIOS": {
+            "type": "unrecognized"
+        },
+        "ActivityIndicator": {
+            "type": "unrecognized"
+        },
+        "Alert": {
+            "type": "unrecognized"
+        },
         "Animated": {
             "type": "value"
+        },
+        "AppRegistry": {
+            "type": "unrecognized"
+        },
+        "AppState": {
+            "type": "unrecognized"
+        },
+        "Appearance": {
+            "type": "unrecognized"
+        },
+        "AsyncStorage": {
+            "type": "unrecognized"
+        },
+        "BackHandler": {
+            "type": "unrecognized"
+        },
+        "Button": {
+            "type": "unrecognized"
+        },
+        "Clipboard": {
+            "type": "unrecognized"
+        },
+        "DatePickerAndroid": {
+            "type": "unrecognized"
+        },
+        "DatePickerIOS": {
+            "type": "unrecognized"
+        },
+        "DevSettings": {
+            "type": "unrecognized"
+        },
+        "DeviceEventEmitter": {
+            "type": "unrecognized"
+        },
+        "DeviceInfo": {
+            "type": "unrecognized"
+        },
+        "Dimensions": {
+            "type": "unrecognized"
         },
         "DynamicColorIOS": {
             "type": "value"
         },
+        "Easing": {
+            "type": "unrecognized"
+        },
+        "EdgeInsetsPropType": {
+            "type": "unrecognized"
+        },
+        "FlatList": {
+            "type": "unrecognized"
+        },
         "HostComponent": {
             "type": "type"
+        },
+        "I18nManager": {
+            "type": "unrecognized"
+        },
+        "Image": {
+            "type": "unrecognized"
+        },
+        "ImageBackground": {
+            "type": "unrecognized"
+        },
+        "ImagePickerIOS": {
+            "type": "unrecognized"
+        },
+        "InputAccessoryView": {
+            "type": "unrecognized"
+        },
+        "InteractionManager": {
+            "type": "unrecognized"
+        },
+        "Keyboard": {
+            "type": "unrecognized"
+        },
+        "KeyboardAvoidingView": {
+            "type": "unrecognized"
+        },
+        "LayoutAnimation": {
+            "type": "unrecognized"
+        },
+        "Linking": {
+            "type": "unrecognized"
+        },
+        "LogBox": {
+            "type": "unrecognized"
+        },
+        "MaskedViewIOS": {
+            "type": "unrecognized"
+        },
+        "Modal": {
+            "type": "unrecognized"
+        },
+        "NativeAppEventEmitter": {
+            "type": "unrecognized"
+        },
+        "NativeDialogManagerAndroid": {
+            "type": "unrecognized"
+        },
+        "NativeEventEmitter": {
+            "type": "unrecognized"
+        },
+        "NativeModules": {
+            "type": "unrecognized"
+        },
+        "Networking": {
+            "type": "unrecognized"
+        },
+        "PanResponder": {
+            "type": "unrecognized"
+        },
+        "PermissionsAndroid": {
+            "type": "unrecognized"
+        },
+        "Picker": {
+            "type": "unrecognized"
+        },
+        "PickerIOS": {
+            "type": "unrecognized"
+        },
+        "PixelRatio": {
+            "type": "unrecognized"
+        },
+        "Platform": {
+            "type": "unrecognized"
         },
         "PlatformColor": {
             "type": "value"
         },
+        "PointPropType": {
+            "type": "unrecognized"
+        },
+        "Pressable": {
+            "type": "unrecognized"
+        },
+        "ProgressViewIOS": {
+            "type": "unrecognized"
+        },
+        "PushNotificationIOS": {
+            "type": "unrecognized"
+        },
+        "RefreshControl": {
+            "type": "unrecognized"
+        },
+        "SafeAreaView": {
+            "type": "unrecognized"
+        },
+        "ScrollView": {
+            "type": "unrecognized"
+        },
+        "SectionList": {
+            "type": "unrecognized"
+        },
+        "SegmentedControlIOS": {
+            "type": "unrecognized"
+        },
+        "Settings": {
+            "type": "unrecognized"
+        },
+        "Share": {
+            "type": "unrecognized"
+        },
+        "Slider": {
+            "type": "unrecognized"
+        },
+        "StatusBar": {
+            "type": "unrecognized"
+        },
+        "StatusBarIOS": {
+            "type": "unrecognized"
+        },
+        "StyleSheet": {
+            "type": "unrecognized"
+        },
+        "Switch": {
+            "type": "unrecognized"
+        },
+        "Systrace": {
+            "type": "unrecognized"
+        },
+        "Text": {
+            "type": "unrecognized"
+        },
+        "TextInput": {
+            "type": "unrecognized"
+        },
+        "Touchable": {
+            "type": "unrecognized"
+        },
+        "TouchableHighlight": {
+            "type": "unrecognized"
+        },
+        "TouchableNativeFeedback": {
+            "type": "unrecognized"
+        },
+        "TouchableOpacity": {
+            "type": "unrecognized"
+        },
+        "TouchableWithoutFeedback": {
+            "type": "unrecognized"
+        },
         "TurboModuleRegistry": {
             "type": "value"
         },
+        "UIManager": {
+            "type": "unrecognized"
+        },
+        "UTFSequence": {
+            "type": "unrecognized"
+        },
+        "Vibration": {
+            "type": "unrecognized"
+        },
+        "View": {
+            "type": "unrecognized"
+        },
+        "ViewPropTypes": {
+            "type": "unrecognized"
+        },
+        "VirtualizedList": {
+            "type": "unrecognized"
+        },
+        "VirtualizedSectionList": {
+            "type": "unrecognized"
+        },
+        "YellowBox": {
+            "type": "unrecognized"
+        },
         "findNodeHandle": {
             "type": "value"
+        },
+        "processColor": {
+            "type": "unrecognized"
         },
         "requireNativeComponent": {
             "type": "value"
@@ -30,6 +261,12 @@
         },
         "unstable_enableLogBox": {
             "type": "value"
+        },
+        "useColorScheme": {
+            "type": "unrecognized"
+        },
+        "useWindowDimensions": {
+            "type": "unrecognized"
         }
     }
 }
