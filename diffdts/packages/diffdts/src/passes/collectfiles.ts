@@ -19,24 +19,30 @@ function astToRawVisitor(): Visitor<Context> {
       exit(path, context) {
         const node = path.node;
         if (node.specifiers.length === 1 && node.specifiers[0].type === "ImportDefaultSpecifier") {
+          const name = node.specifiers[0].local.name;
           context.raw.importedFiles[node.source.value] = [
             "default",
-            node.specifiers[0].local.name
+            name
           ];
+          context.index.importedDefaults[name] = node.source.value;
         } else if (node.specifiers.length === 1 && node.specifiers[0].type === "ImportNamespaceSpecifier") {
+          const name = node.specifiers[0].local.name;
           context.raw.importedFiles[node.source.value] = [
             "namespace",
-            node.specifiers[0].local.name
+            name
           ];
+          context.index.importedNamespaces[name] = node.source.value;
         } else {
           context.raw.importedFiles[node.source.value] = [
             "names",
             node.specifiers
               .filter((specifier) => specifier.type === "ImportSpecifier")
-              .map((specifier: t.ImportSpecifier) => [
-                specifier.imported.type === "Identifier" ? specifier.imported.name : specifier.imported.value,
-                specifier.local.name
-              ])
+              .map((specifier: t.ImportSpecifier) => {
+                const imported = specifier.imported.type === "Identifier" ? specifier.imported.name : specifier.imported.value;
+                const local = specifier.local.name;
+                context.index.importedNames[local] = [node.source.value, imported];
+                return [imported, local];
+              })
           ];
         }
       }

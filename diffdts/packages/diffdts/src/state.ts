@@ -5,13 +5,16 @@ import * as fs from "fs";
 import * as path from "path";
 
 export interface SymbolRawEntry {
-    importedFiles: { [key: string]: ["names", [string, string][]] | ["default", string] | ["namespace", string] }
+    importedFiles: { [key: string]: ["names", [string, string][]] | ["default", string] | ["namespace", string] };
     exports: { [key: string]: ["type", string] | ["variable"] | ["rename", string] };
     exportDefault: ["type", string] | ["symbol", string] | ["object", ["value" | "spread", string][]] | "unrecognized" | "none";
 }
 
 export interface SymbolIndex {
-    decls: { [key: string]: t.Declaration | t.VariableDeclarator }
+    importedNames: { [key: string]: [string, string] };
+    importedNamespaces: { [key: string]: string };
+    importedDefaults: { [key: string]: string };
+    decls: { [key: string]: t.Declaration | t.VariableDeclarator };
     exportDefault?: t.ExportDefaultDeclaration;
 }
 
@@ -28,6 +31,9 @@ export function createSymbolEntry(): SymbolEntry {
             exportDefault: "none"
         },
         index: {
+            importedNames: {},
+            importedNamespaces: {},
+            importedDefaults: {},
             decls: {}
         }
     };
