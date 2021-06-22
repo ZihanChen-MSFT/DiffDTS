@@ -7,7 +7,7 @@ export interface Export {
 }
 
 export interface ResolvedExports {
-    exports: { [key: string]: Export };
+    exports: { [key: string]: Export[] };
 }
 
 function findSymbolAsExport(state: State, key: string, name: string): Export | undefined {
@@ -80,30 +80,31 @@ export function collectExports(state: State, key: string): ResolvedExports {
 
     for (const exportName in entry.raw.exports) {
         if (output.exports[exportName] === undefined) {
-            const rawExport = entry.raw.exports[exportName];
-            switch (rawExport[0]) {
-                case "type": {
-                    if (rawExport[1] === "TSTypeAliasDeclaration") {
-                        output.exports[exportName] = { type: "type" };
-                    } else {
-                        output.exports[exportName] = { type: "type", declType: rawExport[1] };
-                    }
-                    break;
+            output.exports[exportName] = [];
+        }
+        const rawExport = entry.raw.exports[exportName];
+        switch (rawExport[0]) {
+            case "type": {
+                if (rawExport[1] === "TSTypeAliasDeclaration") {
+                    output.exports[exportName].push({ type: "type" });
+                } else {
+                    output.exports[exportName].push({ type: "type", declType: rawExport[1] });
                 }
-                case "symbol": {
-                    const resolvedExport = findSymbolAsExport(state, key, exportName);
-                    if (resolvedExport !== undefined) {
-                        output.exports[exportName] = resolvedExport;
-                    }
-                    break;
+                break;
+            }
+            case "symbol": {
+                const resolvedExport = findSymbolAsExport(state, key, exportName);
+                if (resolvedExport !== undefined) {
+                    output.exports[exportName].push(resolvedExport);
                 }
-                case "rename": {
-                    const resolvedExport = findSymbolAsExport(state, key, rawExport[1]);
-                    if (resolvedExport !== undefined) {
-                        output.exports[exportName] = resolvedExport;
-                    }
-                    break;
+                break;
+            }
+            case "rename": {
+                const resolvedExport = findSymbolAsExport(state, key, rawExport[1]);
+                if (resolvedExport !== undefined) {
+                    output.exports[exportName].push(resolvedExport);
                 }
+                break;
             }
         }
     }
@@ -123,8 +124,9 @@ export function collectExports(state: State, key: string): ResolvedExports {
                     switch (propType) {
                         case "value": {
                             if (output.exports[propValue] !== undefined) {
-                                output.exports[propValue] = { type: "value" };
+                                output.exports[propValue] = [];
                             }
+                            output.exports[propValue].push({ type: "value" });
                             break;
                         }
                         case "spread": {

@@ -1,297 +1,475 @@
 {
     "pwd": "react-native-tscodegen-types/react-native/",
     "exports": {
-        "AccessibilityInfo": {
-            "type": "value"
-        },
-        "ActionSheetIOS": {
-            "type": "value"
-        },
-        "ActivityIndicator": {
-            "type": "value"
-        },
-        "Alert": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "Animated": {
-            "type": "value"
-        },
-        "AppRegistry": {
-            "type": "value"
-        },
-        "AppState": {
-            "type": "value"
-        },
-        "Appearance": {
-            "type": "value"
-        },
-        "AsyncStorage": {
-            "type": "value"
-        },
-        "BackHandler": {
-            "type": "value"
-        },
-        "Button": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "Clipboard": {
-            "type": "value"
-        },
-        "DatePickerAndroid": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "DatePickerIOS": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "DevSettings": {
-            "type": "value"
-        },
-        "DeviceEventEmitter": {
-            "type": "value"
-        },
-        "DeviceInfo": {
-            "type": "value"
-        },
-        "Dimensions": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "DynamicColorIOS": {
-            "type": "value"
-        },
-        "Easing": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "EdgeInsetsPropType": {
-            "type": "value"
-        },
-        "FlatList": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "HostComponent": {
-            "type": "type"
-        },
-        "I18nManager": {
-            "type": "value"
-        },
-        "Image": {
-            "type": "value"
-        },
-        "ImageBackground": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "ImagePickerIOS": {
-            "type": "value"
-        },
-        "InputAccessoryView": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "InteractionManager": {
-            "type": "value"
-        },
-        "Keyboard": {
-            "type": "value"
-        },
-        "KeyboardAvoidingView": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "LayoutAnimation": {
-            "type": "value"
-        },
-        "Linking": {
-            "type": "value"
-        },
-        "LogBox": {
-            "type": "value"
-        },
-        "MaskedViewIOS": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "Modal": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "NativeAppEventEmitter": {
-            "type": "value"
-        },
-        "NativeDialogManagerAndroid": {
-            "type": "value"
-        },
-        "NativeEventEmitter": {
-            "type": "unrecognized"
-        },
-        "NativeModules": {
-            "type": "value"
-        },
-        "Networking": {
-            "type": "value"
-        },
-        "PanResponder": {
-            "type": "value"
-        },
-        "PermissionsAndroid": {
-            "type": "value"
-        },
-        "Picker": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "PickerIOS": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "PixelRatio": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "Platform": {
-            "type": "value"
-        },
-        "PlatformColor": {
-            "type": "value"
-        },
-        "PointPropType": {
-            "type": "value"
-        },
-        "Pressable": {
-            "type": "value"
-        },
-        "ProgressViewIOS": {
-            "type": "value"
-        },
-        "PushNotificationIOS": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "RefreshControl": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "SafeAreaView": {
-            "type": "value"
-        },
-        "ScrollView": {
-            "type": "value"
-        },
-        "SectionList": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "SegmentedControlIOS": {
-            "type": "value"
-        },
-        "Settings": {
-            "type": "value"
-        },
-        "Share": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "Slider": {
-            "type": "value"
-        },
-        "StatusBar": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "StatusBarIOS": {
-            "type": "value"
-        },
-        "StyleSheet": {
-            "type": "value"
-        },
-        "Switch": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "Systrace": {
-            "type": "value"
-        },
-        "Text": {
-            "type": "value"
-        },
-        "TextInput": {
-            "type": "value"
-        },
-        "Touchable": {
-            "type": "value"
-        },
-        "TouchableHighlight": {
-            "type": "value"
-        },
-        "TouchableNativeFeedback": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "TouchableOpacity": {
-            "type": "value"
-        },
-        "TouchableWithoutFeedback": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "TurboModuleRegistry": {
-            "type": "value"
-        },
-        "UIManager": {
-            "type": "value"
-        },
-        "UTFSequence": {
-            "type": "value"
-        },
-        "Vibration": {
-            "type": "value"
-        },
-        "View": {
-            "type": "value"
-        },
-        "ViewPropTypes": {
-            "type": "value"
-        },
-        "VirtualizedList": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "VirtualizedSectionList": {
-            "type": "type",
-            "declType": "ClassDeclaration"
-        },
-        "YellowBox": {
-            "type": "value"
-        },
-        "findNodeHandle": {
-            "type": "value"
-        },
-        "processColor": {
-            "type": "value"
-        },
-        "requireNativeComponent": {
-            "type": "value"
-        },
-        "unstable_RootTagContext": {
-            "type": "value"
-        },
-        "unstable_batchedUpdates": {
-            "type": "value"
-        },
-        "unstable_enableLogBox": {
-            "type": "value"
-        },
-        "useColorScheme": {
-            "type": "unrecognized"
-        },
-        "useWindowDimensions": {
-            "type": "unrecognized"
-        }
+        "AccessibilityInfo": [
+            {
+                "type": "value"
+            }
+        ],
+        "ActionSheetIOS": [
+            {
+                "type": "value"
+            }
+        ],
+        "ActivityIndicator": [
+            {
+                "type": "value"
+            }
+        ],
+        "Alert": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "Animated": [
+            {
+                "type": "value"
+            }
+        ],
+        "AppRegistry": [
+            {
+                "type": "value"
+            }
+        ],
+        "AppState": [
+            {
+                "type": "value"
+            }
+        ],
+        "Appearance": [
+            {
+                "type": "value"
+            }
+        ],
+        "AsyncStorage": [
+            {
+                "type": "value"
+            }
+        ],
+        "BackHandler": [
+            {
+                "type": "value"
+            }
+        ],
+        "Button": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "Clipboard": [
+            {
+                "type": "value"
+            }
+        ],
+        "DatePickerAndroid": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "DatePickerIOS": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "DevSettings": [
+            {
+                "type": "value"
+            }
+        ],
+        "DeviceEventEmitter": [
+            {
+                "type": "value"
+            }
+        ],
+        "DeviceInfo": [
+            {
+                "type": "value"
+            }
+        ],
+        "Dimensions": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "DynamicColorIOS": [
+            {
+                "type": "value"
+            }
+        ],
+        "Easing": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "EdgeInsetsPropType": [
+            {
+                "type": "value"
+            }
+        ],
+        "FlatList": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "HostComponent": [
+            {
+                "type": "type"
+            }
+        ],
+        "I18nManager": [
+            {
+                "type": "value"
+            }
+        ],
+        "Image": [
+            {
+                "type": "value"
+            }
+        ],
+        "ImageBackground": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "ImagePickerIOS": [
+            {
+                "type": "value"
+            }
+        ],
+        "InputAccessoryView": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "InteractionManager": [
+            {
+                "type": "value"
+            }
+        ],
+        "Keyboard": [
+            {
+                "type": "value"
+            }
+        ],
+        "KeyboardAvoidingView": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "LayoutAnimation": [
+            {
+                "type": "value"
+            }
+        ],
+        "Linking": [
+            {
+                "type": "value"
+            }
+        ],
+        "LogBox": [
+            {
+                "type": "value"
+            }
+        ],
+        "MaskedViewIOS": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "Modal": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "NativeAppEventEmitter": [
+            {
+                "type": "value"
+            }
+        ],
+        "NativeDialogManagerAndroid": [
+            {
+                "type": "value"
+            }
+        ],
+        "NativeEventEmitter": [
+            {
+                "type": "unrecognized"
+            }
+        ],
+        "NativeModules": [
+            {
+                "type": "value"
+            }
+        ],
+        "Networking": [
+            {
+                "type": "value"
+            }
+        ],
+        "PanResponder": [
+            {
+                "type": "value"
+            }
+        ],
+        "PermissionsAndroid": [
+            {
+                "type": "value"
+            }
+        ],
+        "Picker": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "PickerIOS": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "PixelRatio": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "Platform": [
+            {
+                "type": "value"
+            }
+        ],
+        "PlatformColor": [
+            {
+                "type": "value"
+            }
+        ],
+        "PointPropType": [
+            {
+                "type": "value"
+            }
+        ],
+        "Pressable": [
+            {
+                "type": "value"
+            }
+        ],
+        "ProgressViewIOS": [
+            {
+                "type": "value"
+            }
+        ],
+        "PushNotificationIOS": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "RefreshControl": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "SafeAreaView": [
+            {
+                "type": "value"
+            }
+        ],
+        "ScrollView": [
+            {
+                "type": "value"
+            }
+        ],
+        "SectionList": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "SegmentedControlIOS": [
+            {
+                "type": "value"
+            }
+        ],
+        "Settings": [
+            {
+                "type": "value"
+            }
+        ],
+        "Share": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "Slider": [
+            {
+                "type": "value"
+            }
+        ],
+        "StatusBar": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "StatusBarIOS": [
+            {
+                "type": "value"
+            }
+        ],
+        "StyleSheet": [
+            {
+                "type": "value"
+            }
+        ],
+        "Switch": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "Systrace": [
+            {
+                "type": "value"
+            }
+        ],
+        "Text": [
+            {
+                "type": "value"
+            }
+        ],
+        "TextInput": [
+            {
+                "type": "value"
+            }
+        ],
+        "Touchable": [
+            {
+                "type": "value"
+            }
+        ],
+        "TouchableHighlight": [
+            {
+                "type": "value"
+            }
+        ],
+        "TouchableNativeFeedback": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "TouchableOpacity": [
+            {
+                "type": "value"
+            }
+        ],
+        "TouchableWithoutFeedback": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "TurboModuleRegistry": [
+            {
+                "type": "value"
+            }
+        ],
+        "UIManager": [
+            {
+                "type": "value"
+            }
+        ],
+        "UTFSequence": [
+            {
+                "type": "value"
+            }
+        ],
+        "Vibration": [
+            {
+                "type": "value"
+            }
+        ],
+        "View": [
+            {
+                "type": "value"
+            }
+        ],
+        "ViewPropTypes": [
+            {
+                "type": "value"
+            }
+        ],
+        "VirtualizedList": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "VirtualizedSectionList": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "YellowBox": [
+            {
+                "type": "value"
+            }
+        ],
+        "findNodeHandle": [
+            {
+                "type": "value"
+            }
+        ],
+        "processColor": [
+            {
+                "type": "value"
+            }
+        ],
+        "requireNativeComponent": [
+            {
+                "type": "value"
+            }
+        ],
+        "unstable_RootTagContext": [
+            {
+                "type": "value"
+            }
+        ],
+        "unstable_batchedUpdates": [
+            {
+                "type": "value"
+            }
+        ],
+        "unstable_enableLogBox": [
+            {
+                "type": "value"
+            }
+        ],
+        "useColorScheme": [
+            {
+                "type": "unrecognized"
+            }
+        ],
+        "useWindowDimensions": [
+            {
+                "type": "unrecognized"
+            }
+        ]
     }
 }
