@@ -6,7 +6,7 @@ import * as fs from "fs";
 export interface SymbolRawEntry {
     importedFiles: { [key: string]: ["names", [string, string][]] | ["default", string] | ["namespace", string] }
     exports: { [key: string]: ["type", string] | ["variable"] | ["rename", string] };
-    exportDefault: ["variable", string] | ["object", ["value" | "spread", string][]] | "unrecognized" | "none";
+    exportDefault: ["type", string] | ["symbol", string] | ["object", ["value" | "spread", string][]] | "unrecognized" | "none";
 }
 
 export interface SymbolIndex {

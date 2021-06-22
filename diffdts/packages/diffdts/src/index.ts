@@ -15,7 +15,10 @@ function processEntry(inputFilename: string, outputFilename: string): void {
 
   const output = {
     pwd: state.pwd.substr(dirbase.length),
-    files: Object.keys(state.entries).map((key) => state.entries[key].raw)
+    files: Object.keys(state.entries).map((key) => ({
+      raw: state.entries[key].raw,
+      decls: Object.keys(state.entries[key].index.decls).map((id) => [id, state.entries[key].index.decls[id].type])
+    }))
   };
   console.log(state.pwd);
   fs.writeFileSync(outputFilename, JSON.stringify(output, undefined, 4));

@@ -2,742 +2,1110 @@
     "pwd": "react-native-tscodegen-types/react-native/",
     "files": [
         {
-            "importedFiles": {
-                "utility-types": [
-                    "names",
-                    [
+            "raw": {
+                "importedFiles": {
+                    "utility-types": [
+                        "names",
                         [
-                            "$PropertyType",
-                            "$PropertyType"
+                            [
+                                "$PropertyType",
+                                "$PropertyType"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/Components/AccessibilityInfo/AccessibilityInfo": [
+                        "default",
+                        "AccessibilityInfo$f2tTypeof"
+                    ],
+                    "./Libraries/Components/ActivityIndicator/ActivityIndicator": [
+                        "default",
+                        "ActivityIndicator$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Button": [
+                        "default",
+                        "Button$f2tTypeof"
+                    ],
+                    "./Libraries/Components/DatePicker/DatePickerIOS": [
+                        "default",
+                        "DatePickerIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/FlatList": [
+                        "default",
+                        "FlatList$f2tTypeof"
+                    ],
+                    "./Libraries/Image/Image": [
+                        "default",
+                        "Image$f2tTypeof"
+                    ],
+                    "./Libraries/Image/ImageBackground": [
+                        "default",
+                        "ImageBackground$f2tTypeof"
+                    ],
+                    "./Libraries/Components/TextInput/InputAccessoryView": [
+                        "default",
+                        "InputAccessoryView$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Keyboard/KeyboardAvoidingView": [
+                        "default",
+                        "KeyboardAvoidingView$f2tTypeof"
+                    ],
+                    "./Libraries/Components/MaskedView/MaskedViewIOS": [
+                        "default",
+                        "MaskedViewIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Modal/Modal": [
+                        "default",
+                        "Modal$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Picker/Picker": [
+                        "default",
+                        "Picker$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Picker/PickerIOS": [
+                        "default",
+                        "PickerIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Pressable/Pressable": [
+                        "default",
+                        "Pressable$f2tTypeof"
+                    ],
+                    "./Libraries/Components/ProgressViewIOS/ProgressViewIOS": [
+                        "default",
+                        "ProgressViewIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Components/RefreshControl/RefreshControl": [
+                        "default",
+                        "RefreshControl$f2tTypeof"
+                    ],
+                    "./Libraries/Components/SafeAreaView/SafeAreaView": [
+                        "default",
+                        "SafeAreaView$f2tTypeof"
+                    ],
+                    "./Libraries/Components/ScrollView/ScrollView": [
+                        "default",
+                        "ScrollView$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/SectionList": [
+                        "default",
+                        "SectionList$f2tTypeof"
+                    ],
+                    "./Libraries/Components/SegmentedControlIOS/SegmentedControlIOS": [
+                        "default",
+                        "SegmentedControlIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Slider/Slider": [
+                        "default",
+                        "Slider$f2tTypeof"
+                    ],
+                    "./Libraries/Components/StatusBar/StatusBar": [
+                        "default",
+                        "StatusBar$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Switch/Switch": [
+                        "default",
+                        "Switch$f2tTypeof"
+                    ],
+                    "./Libraries/Text/Text": [
+                        "default",
+                        "Text$f2tTypeof"
+                    ],
+                    "./Libraries/Components/TextInput/TextInput": [
+                        "default",
+                        "TextInput$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/Touchable": [
+                        "default",
+                        "Touchable$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableHighlight": [
+                        "default",
+                        "TouchableHighlight$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableNativeFeedback": [
+                        "default",
+                        "TouchableNativeFeedback$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableOpacity": [
+                        "default",
+                        "TouchableOpacity$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableWithoutFeedback": [
+                        "default",
+                        "TouchableWithoutFeedback$f2tTypeof"
+                    ],
+                    "./Libraries/Components/View/View": [
+                        "default",
+                        "View$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/VirtualizedList": [
+                        "default",
+                        "VirtualizedList$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/VirtualizedSectionList": [
+                        "default",
+                        "VirtualizedSectionList$f2tTypeof"
+                    ],
+                    "./Libraries/ActionSheetIOS/ActionSheetIOS": [
+                        "default",
+                        "ActionSheetIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Alert/Alert": [
+                        "default",
+                        "Alert$f2tTypeof"
+                    ],
+                    "./Libraries/Animated/Animated": [
+                        "namespace",
+                        "Animated$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/Appearance": [
+                        "default",
+                        "Appearance$f2tTypeof"
+                    ],
+                    "./Libraries/ReactNative/AppRegistry": [
+                        "default",
+                        "AppRegistry$f2tTypeof"
+                    ],
+                    "./Libraries/AppState/AppState": [
+                        "default",
+                        "AppState$f2tTypeof"
+                    ],
+                    "./Libraries/Storage/AsyncStorage": [
+                        "default",
+                        "AsyncStorage$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/BackHandler": [
+                        "default",
+                        "BackHandler$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Clipboard/Clipboard": [
+                        "default",
+                        "Clipboard$f2tTypeof"
+                    ],
+                    "./Libraries/Components/DatePickerAndroid/DatePickerAndroid": [
+                        "default",
+                        "DatePickerAndroid$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/DeviceInfo": [
+                        "default",
+                        "DeviceInfo$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/DevSettings": [
+                        "default",
+                        "DevSettings$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/Dimensions": [
+                        "default",
+                        "Dimensions$f2tTypeof"
+                    ],
+                    "./Libraries/Animated/Easing": [
+                        "default",
+                        "Easing$f2tTypeof"
+                    ],
+                    "./Libraries/Renderer/shims/ReactNative": [
+                        "default",
+                        "ReactNative$f2tTypeof"
+                    ],
+                    "./Libraries/ReactNative/I18nManager": [
+                        "default",
+                        "I18nManager$f2tTypeof"
+                    ],
+                    "./Libraries/Image/ImagePickerIOS": [
+                        "default",
+                        "ImagePickerIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Interaction/InteractionManager": [
+                        "default",
+                        "InteractionManager$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Keyboard/Keyboard": [
+                        "default",
+                        "Keyboard$f2tTypeof"
+                    ],
+                    "./Libraries/LayoutAnimation/LayoutAnimation": [
+                        "default",
+                        "LayoutAnimation$f2tTypeof"
+                    ],
+                    "./Libraries/Linking/Linking": [
+                        "default",
+                        "Linking$f2tTypeof"
+                    ],
+                    "./Libraries/LogBox/LogBox": [
+                        "default",
+                        "LogBox$f2tTypeof"
+                    ],
+                    "./Libraries/NativeModules/specs/NativeDialogManagerAndroid": [
+                        "default",
+                        "NativeDialogManagerAndroid$f2tTypeof"
+                    ],
+                    "./Libraries/EventEmitter/NativeEventEmitter": [
+                        "default",
+                        "NativeEventEmitter$f2tTypeof"
+                    ],
+                    "./Libraries/Network/RCTNetworking": [
+                        "default",
+                        "Networking$f2tTypeof"
+                    ],
+                    "./Libraries/Interaction/PanResponder": [
+                        "default",
+                        "PanResponder$f2tTypeof"
+                    ],
+                    "./Libraries/PermissionsAndroid/PermissionsAndroid": [
+                        "default",
+                        "PermissionsAndroid$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/PixelRatio": [
+                        "default",
+                        "PixelRatio$f2tTypeof"
+                    ],
+                    "./Libraries/PushNotificationIOS/PushNotificationIOS": [
+                        "default",
+                        "PushNotificationIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Settings/Settings": [
+                        "default",
+                        "Settings$f2tTypeof"
+                    ],
+                    "./Libraries/Share/Share": [
+                        "default",
+                        "Share$f2tTypeof"
+                    ],
+                    "./Libraries/Components/StatusBar/StatusBarIOS": [
+                        "default",
+                        "StatusBarIOS$f2tTypeof"
+                    ],
+                    "./Libraries/StyleSheet/StyleSheet": [
+                        "default",
+                        "StyleSheet$f2tTypeof"
+                    ],
+                    "./Libraries/Performance/Systrace": [
+                        "default",
+                        "Systrace$f2tTypeof"
+                    ],
+                    "./Libraries/TurboModule/TurboModuleRegistry": [
+                        "namespace",
+                        "TurboModuleRegistry"
+                    ],
+                    "./Libraries/ReactNative/UIManager": [
+                        "default",
+                        "UIManager$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/useColorScheme": [
+                        "default",
+                        "useColorScheme$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/useWindowDimensions": [
+                        "default",
+                        "useWindowDimensions$f2tTypeof"
+                    ],
+                    "./Libraries/UTFSequence": [
+                        "default",
+                        "UTFSequence$f2tTypeof"
+                    ],
+                    "./Libraries/Vibration/Vibration": [
+                        "default",
+                        "Vibration$f2tTypeof"
+                    ],
+                    "./Libraries/YellowBox/YellowBoxDeprecated": [
+                        "default",
+                        "YellowBox$f2tTypeof"
+                    ],
+                    "./Libraries/StyleSheet/PlatformColorValueTypesIOS": [
+                        "names",
+                        [
+                            [
+                                "DynamicColorIOS",
+                                "DynamicColorIOS$f2tTypeof"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/BatchedBridge/NativeModules": [
+                        "default",
+                        "NativeModules$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/Platform": [
+                        "default",
+                        "Platform$f2tTypeof"
+                    ],
+                    "./Libraries/StyleSheet/PlatformColorValueTypes": [
+                        "names",
+                        [
+                            [
+                                "PlatformColor",
+                                "PlatformColor$f2tTypeof"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/StyleSheet/processColor": [
+                        "default",
+                        "processColor$f2tTypeof"
+                    ],
+                    "./Libraries/EventEmitter/RCTDeviceEventEmitter": [
+                        "default",
+                        "RCTDeviceEventEmitter$f2tTypeof"
+                    ],
+                    "./Libraries/EventEmitter/RCTNativeAppEventEmitter": [
+                        "default",
+                        "RCTNativeAppEventEmitter$f2tTypeof"
+                    ],
+                    "./Libraries/ReactNative/RootTag": [
+                        "names",
+                        [
+                            [
+                                "RootTagContext",
+                                "RootTagContext$f2tTypeof"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/DeprecatedPropTypes/DeprecatedEdgeInsetsPropType": [
+                        "default",
+                        "DeprecatedEdgeInsetsPropType$f2tTypeof"
+                    ],
+                    "./Libraries/DeprecatedPropTypes/DeprecatedPointPropType": [
+                        "default",
+                        "DeprecatedPointPropType$f2tTypeof"
+                    ],
+                    "./Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes": [
+                        "default",
+                        "DeprecatedViewPropTypes$f2tTypeof"
+                    ],
+                    "./Libraries/Renderer/shims/ReactNativeTypes": [
+                        "names",
+                        [
+                            [
+                                "HostComponent",
+                                "_HostComponentInternal"
+                            ]
                         ]
                     ]
-                ],
-                "./Libraries/Components/AccessibilityInfo/AccessibilityInfo": [
-                    "default",
-                    "AccessibilityInfo$f2tTypeof"
-                ],
-                "./Libraries/Components/ActivityIndicator/ActivityIndicator": [
-                    "default",
-                    "ActivityIndicator$f2tTypeof"
-                ],
-                "./Libraries/Components/Button": [
-                    "default",
-                    "Button$f2tTypeof"
-                ],
-                "./Libraries/Components/DatePicker/DatePickerIOS": [
-                    "default",
-                    "DatePickerIOS$f2tTypeof"
-                ],
-                "./Libraries/Lists/FlatList": [
-                    "default",
-                    "FlatList$f2tTypeof"
-                ],
-                "./Libraries/Image/Image": [
-                    "default",
-                    "Image$f2tTypeof"
-                ],
-                "./Libraries/Image/ImageBackground": [
-                    "default",
-                    "ImageBackground$f2tTypeof"
-                ],
-                "./Libraries/Components/TextInput/InputAccessoryView": [
-                    "default",
-                    "InputAccessoryView$f2tTypeof"
-                ],
-                "./Libraries/Components/Keyboard/KeyboardAvoidingView": [
-                    "default",
-                    "KeyboardAvoidingView$f2tTypeof"
-                ],
-                "./Libraries/Components/MaskedView/MaskedViewIOS": [
-                    "default",
-                    "MaskedViewIOS$f2tTypeof"
-                ],
-                "./Libraries/Modal/Modal": [
-                    "default",
-                    "Modal$f2tTypeof"
-                ],
-                "./Libraries/Components/Picker/Picker": [
-                    "default",
-                    "Picker$f2tTypeof"
-                ],
-                "./Libraries/Components/Picker/PickerIOS": [
-                    "default",
-                    "PickerIOS$f2tTypeof"
-                ],
-                "./Libraries/Components/Pressable/Pressable": [
-                    "default",
-                    "Pressable$f2tTypeof"
-                ],
-                "./Libraries/Components/ProgressViewIOS/ProgressViewIOS": [
-                    "default",
-                    "ProgressViewIOS$f2tTypeof"
-                ],
-                "./Libraries/Components/RefreshControl/RefreshControl": [
-                    "default",
-                    "RefreshControl$f2tTypeof"
-                ],
-                "./Libraries/Components/SafeAreaView/SafeAreaView": [
-                    "default",
-                    "SafeAreaView$f2tTypeof"
-                ],
-                "./Libraries/Components/ScrollView/ScrollView": [
-                    "default",
-                    "ScrollView$f2tTypeof"
-                ],
-                "./Libraries/Lists/SectionList": [
-                    "default",
-                    "SectionList$f2tTypeof"
-                ],
-                "./Libraries/Components/SegmentedControlIOS/SegmentedControlIOS": [
-                    "default",
-                    "SegmentedControlIOS$f2tTypeof"
-                ],
-                "./Libraries/Components/Slider/Slider": [
-                    "default",
-                    "Slider$f2tTypeof"
-                ],
-                "./Libraries/Components/StatusBar/StatusBar": [
-                    "default",
-                    "StatusBar$f2tTypeof"
-                ],
-                "./Libraries/Components/Switch/Switch": [
-                    "default",
-                    "Switch$f2tTypeof"
-                ],
-                "./Libraries/Text/Text": [
-                    "default",
-                    "Text$f2tTypeof"
-                ],
-                "./Libraries/Components/TextInput/TextInput": [
-                    "default",
-                    "TextInput$f2tTypeof"
-                ],
-                "./Libraries/Components/Touchable/Touchable": [
-                    "default",
-                    "Touchable$f2tTypeof"
-                ],
-                "./Libraries/Components/Touchable/TouchableHighlight": [
-                    "default",
-                    "TouchableHighlight$f2tTypeof"
-                ],
-                "./Libraries/Components/Touchable/TouchableNativeFeedback": [
-                    "default",
-                    "TouchableNativeFeedback$f2tTypeof"
-                ],
-                "./Libraries/Components/Touchable/TouchableOpacity": [
-                    "default",
-                    "TouchableOpacity$f2tTypeof"
-                ],
-                "./Libraries/Components/Touchable/TouchableWithoutFeedback": [
-                    "default",
-                    "TouchableWithoutFeedback$f2tTypeof"
-                ],
-                "./Libraries/Components/View/View": [
-                    "default",
-                    "View$f2tTypeof"
-                ],
-                "./Libraries/Lists/VirtualizedList": [
-                    "default",
-                    "VirtualizedList$f2tTypeof"
-                ],
-                "./Libraries/Lists/VirtualizedSectionList": [
-                    "default",
-                    "VirtualizedSectionList$f2tTypeof"
-                ],
-                "./Libraries/ActionSheetIOS/ActionSheetIOS": [
-                    "default",
-                    "ActionSheetIOS$f2tTypeof"
-                ],
-                "./Libraries/Alert/Alert": [
-                    "default",
-                    "Alert$f2tTypeof"
-                ],
-                "./Libraries/Animated/Animated": [
-                    "namespace",
-                    "Animated$f2tTypeof"
-                ],
-                "./Libraries/Utilities/Appearance": [
-                    "default",
-                    "Appearance$f2tTypeof"
-                ],
-                "./Libraries/ReactNative/AppRegistry": [
-                    "default",
-                    "AppRegistry$f2tTypeof"
-                ],
-                "./Libraries/AppState/AppState": [
-                    "default",
-                    "AppState$f2tTypeof"
-                ],
-                "./Libraries/Storage/AsyncStorage": [
-                    "default",
-                    "AsyncStorage$f2tTypeof"
-                ],
-                "./Libraries/Utilities/BackHandler": [
-                    "default",
-                    "BackHandler$f2tTypeof"
-                ],
-                "./Libraries/Components/Clipboard/Clipboard": [
-                    "default",
-                    "Clipboard$f2tTypeof"
-                ],
-                "./Libraries/Components/DatePickerAndroid/DatePickerAndroid": [
-                    "default",
-                    "DatePickerAndroid$f2tTypeof"
-                ],
-                "./Libraries/Utilities/DeviceInfo": [
-                    "default",
-                    "DeviceInfo$f2tTypeof"
-                ],
-                "./Libraries/Utilities/DevSettings": [
-                    "default",
-                    "DevSettings$f2tTypeof"
-                ],
-                "./Libraries/Utilities/Dimensions": [
-                    "default",
-                    "Dimensions$f2tTypeof"
-                ],
-                "./Libraries/Animated/Easing": [
-                    "default",
-                    "Easing$f2tTypeof"
-                ],
-                "./Libraries/Renderer/shims/ReactNative": [
-                    "default",
-                    "ReactNative$f2tTypeof"
-                ],
-                "./Libraries/ReactNative/I18nManager": [
-                    "default",
-                    "I18nManager$f2tTypeof"
-                ],
-                "./Libraries/Image/ImagePickerIOS": [
-                    "default",
-                    "ImagePickerIOS$f2tTypeof"
-                ],
-                "./Libraries/Interaction/InteractionManager": [
-                    "default",
-                    "InteractionManager$f2tTypeof"
-                ],
-                "./Libraries/Components/Keyboard/Keyboard": [
-                    "default",
-                    "Keyboard$f2tTypeof"
-                ],
-                "./Libraries/LayoutAnimation/LayoutAnimation": [
-                    "default",
-                    "LayoutAnimation$f2tTypeof"
-                ],
-                "./Libraries/Linking/Linking": [
-                    "default",
-                    "Linking$f2tTypeof"
-                ],
-                "./Libraries/LogBox/LogBox": [
-                    "default",
-                    "LogBox$f2tTypeof"
-                ],
-                "./Libraries/NativeModules/specs/NativeDialogManagerAndroid": [
-                    "default",
-                    "NativeDialogManagerAndroid$f2tTypeof"
-                ],
-                "./Libraries/EventEmitter/NativeEventEmitter": [
-                    "default",
-                    "NativeEventEmitter$f2tTypeof"
-                ],
-                "./Libraries/Network/RCTNetworking": [
-                    "default",
-                    "Networking$f2tTypeof"
-                ],
-                "./Libraries/Interaction/PanResponder": [
-                    "default",
-                    "PanResponder$f2tTypeof"
-                ],
-                "./Libraries/PermissionsAndroid/PermissionsAndroid": [
-                    "default",
-                    "PermissionsAndroid$f2tTypeof"
-                ],
-                "./Libraries/Utilities/PixelRatio": [
-                    "default",
-                    "PixelRatio$f2tTypeof"
-                ],
-                "./Libraries/PushNotificationIOS/PushNotificationIOS": [
-                    "default",
-                    "PushNotificationIOS$f2tTypeof"
-                ],
-                "./Libraries/Settings/Settings": [
-                    "default",
-                    "Settings$f2tTypeof"
-                ],
-                "./Libraries/Share/Share": [
-                    "default",
-                    "Share$f2tTypeof"
-                ],
-                "./Libraries/Components/StatusBar/StatusBarIOS": [
-                    "default",
-                    "StatusBarIOS$f2tTypeof"
-                ],
-                "./Libraries/StyleSheet/StyleSheet": [
-                    "default",
-                    "StyleSheet$f2tTypeof"
-                ],
-                "./Libraries/Performance/Systrace": [
-                    "default",
-                    "Systrace$f2tTypeof"
-                ],
-                "./Libraries/TurboModule/TurboModuleRegistry": [
-                    "namespace",
-                    "TurboModuleRegistry"
-                ],
-                "./Libraries/ReactNative/UIManager": [
-                    "default",
-                    "UIManager$f2tTypeof"
-                ],
-                "./Libraries/Utilities/useColorScheme": [
-                    "default",
-                    "useColorScheme$f2tTypeof"
-                ],
-                "./Libraries/Utilities/useWindowDimensions": [
-                    "default",
-                    "useWindowDimensions$f2tTypeof"
-                ],
-                "./Libraries/UTFSequence": [
-                    "default",
-                    "UTFSequence$f2tTypeof"
-                ],
-                "./Libraries/Vibration/Vibration": [
-                    "default",
-                    "Vibration$f2tTypeof"
-                ],
-                "./Libraries/YellowBox/YellowBoxDeprecated": [
-                    "default",
-                    "YellowBox$f2tTypeof"
-                ],
-                "./Libraries/StyleSheet/PlatformColorValueTypesIOS": [
-                    "names",
-                    [
-                        [
-                            "DynamicColorIOS",
-                            "DynamicColorIOS$f2tTypeof"
-                        ]
+                },
+                "exports": {
+                    "HostComponent": [
+                        "rename",
+                        "HostComponent"
+                    ],
+                    "AccessibilityInfo": [
+                        "rename",
+                        "AccessibilityInfo$f2tTypeof"
+                    ],
+                    "ActivityIndicator": [
+                        "rename",
+                        "ActivityIndicator$f2tTypeof"
+                    ],
+                    "Button": [
+                        "rename",
+                        "Button$f2tTypeof"
+                    ],
+                    "DatePickerIOS": [
+                        "rename",
+                        "DatePickerIOS$f2tTypeof"
+                    ],
+                    "FlatList": [
+                        "rename",
+                        "FlatList$f2tTypeof"
+                    ],
+                    "Image": [
+                        "rename",
+                        "Image$f2tTypeof"
+                    ],
+                    "ImageBackground": [
+                        "rename",
+                        "ImageBackground$f2tTypeof"
+                    ],
+                    "InputAccessoryView": [
+                        "rename",
+                        "InputAccessoryView$f2tTypeof"
+                    ],
+                    "KeyboardAvoidingView": [
+                        "rename",
+                        "KeyboardAvoidingView$f2tTypeof"
+                    ],
+                    "MaskedViewIOS": [
+                        "rename",
+                        "MaskedViewIOS$f2tTypeof"
+                    ],
+                    "Modal": [
+                        "rename",
+                        "Modal$f2tTypeof"
+                    ],
+                    "Picker": [
+                        "rename",
+                        "Picker$f2tTypeof"
+                    ],
+                    "PickerIOS": [
+                        "rename",
+                        "PickerIOS$f2tTypeof"
+                    ],
+                    "Pressable": [
+                        "rename",
+                        "Pressable$f2tTypeof"
+                    ],
+                    "ProgressViewIOS": [
+                        "rename",
+                        "ProgressViewIOS$f2tTypeof"
+                    ],
+                    "RefreshControl": [
+                        "rename",
+                        "RefreshControl$f2tTypeof"
+                    ],
+                    "SafeAreaView": [
+                        "rename",
+                        "SafeAreaView$f2tTypeof"
+                    ],
+                    "ScrollView": [
+                        "rename",
+                        "ScrollView$f2tTypeof"
+                    ],
+                    "SectionList": [
+                        "rename",
+                        "SectionList$f2tTypeof"
+                    ],
+                    "SegmentedControlIOS": [
+                        "rename",
+                        "SegmentedControlIOS$f2tTypeof"
+                    ],
+                    "Slider": [
+                        "rename",
+                        "Slider$f2tTypeof"
+                    ],
+                    "StatusBar": [
+                        "rename",
+                        "StatusBar$f2tTypeof"
+                    ],
+                    "Switch": [
+                        "rename",
+                        "Switch$f2tTypeof"
+                    ],
+                    "Text": [
+                        "rename",
+                        "Text$f2tTypeof"
+                    ],
+                    "TextInput": [
+                        "rename",
+                        "TextInput$f2tTypeof"
+                    ],
+                    "Touchable": [
+                        "rename",
+                        "Touchable$f2tTypeof"
+                    ],
+                    "TouchableHighlight": [
+                        "rename",
+                        "TouchableHighlight$f2tTypeof"
+                    ],
+                    "TouchableNativeFeedback": [
+                        "rename",
+                        "TouchableNativeFeedback$f2tTypeof"
+                    ],
+                    "TouchableOpacity": [
+                        "rename",
+                        "TouchableOpacity$f2tTypeof"
+                    ],
+                    "TouchableWithoutFeedback": [
+                        "rename",
+                        "TouchableWithoutFeedback$f2tTypeof"
+                    ],
+                    "View": [
+                        "rename",
+                        "View$f2tTypeof"
+                    ],
+                    "VirtualizedList": [
+                        "rename",
+                        "VirtualizedList$f2tTypeof"
+                    ],
+                    "VirtualizedSectionList": [
+                        "rename",
+                        "VirtualizedSectionList$f2tTypeof"
+                    ],
+                    "ActionSheetIOS": [
+                        "rename",
+                        "ActionSheetIOS$f2tTypeof"
+                    ],
+                    "Alert": [
+                        "rename",
+                        "Alert$f2tTypeof"
+                    ],
+                    "Animated": [
+                        "rename",
+                        "Animated$f2tTypeof"
+                    ],
+                    "Appearance": [
+                        "rename",
+                        "Appearance$f2tTypeof"
+                    ],
+                    "AppRegistry": [
+                        "rename",
+                        "AppRegistry$f2tTypeof"
+                    ],
+                    "AppState": [
+                        "rename",
+                        "AppState$f2tTypeof"
+                    ],
+                    "AsyncStorage": [
+                        "rename",
+                        "AsyncStorage$f2tTypeof"
+                    ],
+                    "BackHandler": [
+                        "rename",
+                        "BackHandler$f2tTypeof"
+                    ],
+                    "Clipboard": [
+                        "rename",
+                        "Clipboard$f2tTypeof"
+                    ],
+                    "DatePickerAndroid": [
+                        "rename",
+                        "DatePickerAndroid$f2tTypeof"
+                    ],
+                    "DeviceInfo": [
+                        "rename",
+                        "DeviceInfo$f2tTypeof"
+                    ],
+                    "DevSettings": [
+                        "rename",
+                        "DevSettings$f2tTypeof"
+                    ],
+                    "Dimensions": [
+                        "rename",
+                        "Dimensions$f2tTypeof"
+                    ],
+                    "Easing": [
+                        "rename",
+                        "Easing$f2tTypeof"
+                    ],
+                    "findNodeHandle": [
+                        "rename",
+                        "$f2d_findNodeHandle"
+                    ],
+                    "I18nManager": [
+                        "rename",
+                        "I18nManager$f2tTypeof"
+                    ],
+                    "ImagePickerIOS": [
+                        "rename",
+                        "ImagePickerIOS$f2tTypeof"
+                    ],
+                    "InteractionManager": [
+                        "rename",
+                        "InteractionManager$f2tTypeof"
+                    ],
+                    "Keyboard": [
+                        "rename",
+                        "Keyboard$f2tTypeof"
+                    ],
+                    "LayoutAnimation": [
+                        "rename",
+                        "LayoutAnimation$f2tTypeof"
+                    ],
+                    "Linking": [
+                        "rename",
+                        "Linking$f2tTypeof"
+                    ],
+                    "LogBox": [
+                        "rename",
+                        "LogBox$f2tTypeof"
+                    ],
+                    "NativeDialogManagerAndroid": [
+                        "rename",
+                        "NativeDialogManagerAndroid$f2tTypeof"
+                    ],
+                    "NativeEventEmitter": [
+                        "rename",
+                        "NativeEventEmitter$f2tTypeof"
+                    ],
+                    "Networking": [
+                        "rename",
+                        "Networking$f2tTypeof"
+                    ],
+                    "PanResponder": [
+                        "rename",
+                        "PanResponder$f2tTypeof"
+                    ],
+                    "PermissionsAndroid": [
+                        "rename",
+                        "PermissionsAndroid$f2tTypeof"
+                    ],
+                    "PixelRatio": [
+                        "rename",
+                        "PixelRatio$f2tTypeof"
+                    ],
+                    "PushNotificationIOS": [
+                        "rename",
+                        "PushNotificationIOS$f2tTypeof"
+                    ],
+                    "Settings": [
+                        "rename",
+                        "Settings$f2tTypeof"
+                    ],
+                    "Share": [
+                        "rename",
+                        "Share$f2tTypeof"
+                    ],
+                    "StatusBarIOS": [
+                        "rename",
+                        "StatusBarIOS$f2tTypeof"
+                    ],
+                    "StyleSheet": [
+                        "rename",
+                        "StyleSheet$f2tTypeof"
+                    ],
+                    "Systrace": [
+                        "rename",
+                        "Systrace$f2tTypeof"
+                    ],
+                    "TurboModuleRegistry": [
+                        "rename",
+                        "$f2d_TurboModuleRegistry"
+                    ],
+                    "UIManager": [
+                        "rename",
+                        "UIManager$f2tTypeof"
+                    ],
+                    "unstable_batchedUpdates": [
+                        "rename",
+                        "$f2d_unstable_batchedUpdates"
+                    ],
+                    "useColorScheme": [
+                        "rename",
+                        "useColorScheme$f2tTypeof"
+                    ],
+                    "useWindowDimensions": [
+                        "rename",
+                        "useWindowDimensions$f2tTypeof"
+                    ],
+                    "UTFSequence": [
+                        "rename",
+                        "UTFSequence$f2tTypeof"
+                    ],
+                    "Vibration": [
+                        "rename",
+                        "Vibration$f2tTypeof"
+                    ],
+                    "YellowBox": [
+                        "rename",
+                        "YellowBox$f2tTypeof"
+                    ],
+                    "DeviceEventEmitter": [
+                        "rename",
+                        "RCTDeviceEventEmitter$f2tTypeof"
+                    ],
+                    "DynamicColorIOS": [
+                        "rename",
+                        "DynamicColorIOS$f2tTypeof"
+                    ],
+                    "NativeAppEventEmitter": [
+                        "rename",
+                        "RCTNativeAppEventEmitter$f2tTypeof"
+                    ],
+                    "NativeModules": [
+                        "rename",
+                        "NativeModules$f2tTypeof"
+                    ],
+                    "Platform": [
+                        "rename",
+                        "Platform$f2tTypeof"
+                    ],
+                    "PlatformColor": [
+                        "rename",
+                        "PlatformColor$f2tTypeof"
+                    ],
+                    "processColor": [
+                        "rename",
+                        "processColor$f2tTypeof"
+                    ],
+                    "requireNativeComponent": [
+                        "rename",
+                        "$f2d_requireNativeComponent"
+                    ],
+                    "unstable_RootTagContext": [
+                        "rename",
+                        "RootTagContext$f2tTypeof"
+                    ],
+                    "unstable_enableLogBox": [
+                        "rename",
+                        "$f2d_unstable_enableLogBox"
+                    ],
+                    "EdgeInsetsPropType": [
+                        "rename",
+                        "DeprecatedEdgeInsetsPropType$f2tTypeof"
+                    ],
+                    "PointPropType": [
+                        "rename",
+                        "DeprecatedPointPropType$f2tTypeof"
+                    ],
+                    "ViewPropTypes": [
+                        "rename",
+                        "DeprecatedViewPropTypes$f2tTypeof"
                     ]
-                ],
-                "./Libraries/BatchedBridge/NativeModules": [
-                    "default",
-                    "NativeModules$f2tTypeof"
-                ],
-                "./Libraries/Utilities/Platform": [
-                    "default",
-                    "Platform$f2tTypeof"
-                ],
-                "./Libraries/StyleSheet/PlatformColorValueTypes": [
-                    "names",
-                    [
-                        [
-                            "PlatformColor",
-                            "PlatformColor$f2tTypeof"
-                        ]
-                    ]
-                ],
-                "./Libraries/StyleSheet/processColor": [
-                    "default",
-                    "processColor$f2tTypeof"
-                ],
-                "./Libraries/EventEmitter/RCTDeviceEventEmitter": [
-                    "default",
-                    "RCTDeviceEventEmitter$f2tTypeof"
-                ],
-                "./Libraries/EventEmitter/RCTNativeAppEventEmitter": [
-                    "default",
-                    "RCTNativeAppEventEmitter$f2tTypeof"
-                ],
-                "./Libraries/ReactNative/RootTag": [
-                    "names",
-                    [
-                        [
-                            "RootTagContext",
-                            "RootTagContext$f2tTypeof"
-                        ]
-                    ]
-                ],
-                "./Libraries/DeprecatedPropTypes/DeprecatedEdgeInsetsPropType": [
-                    "default",
-                    "DeprecatedEdgeInsetsPropType$f2tTypeof"
-                ],
-                "./Libraries/DeprecatedPropTypes/DeprecatedPointPropType": [
-                    "default",
-                    "DeprecatedPointPropType$f2tTypeof"
-                ],
-                "./Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes": [
-                    "default",
-                    "DeprecatedViewPropTypes$f2tTypeof"
-                ],
-                "./Libraries/Renderer/shims/ReactNativeTypes": [
-                    "names",
-                    [
-                        [
-                            "HostComponent",
-                            "_HostComponentInternal"
-                        ]
-                    ]
+                },
+                "exportDefault": [
+                    "symbol",
+                    "$f2tExportDefault"
                 ]
             },
-            "exports": {
-                "HostComponent": [
-                    "rename",
-                    "HostComponent"
-                ],
-                "AccessibilityInfo": [
-                    "rename",
-                    "AccessibilityInfo$f2tTypeof"
-                ],
-                "ActivityIndicator": [
-                    "rename",
-                    "ActivityIndicator$f2tTypeof"
-                ],
-                "Button": [
-                    "rename",
-                    "Button$f2tTypeof"
-                ],
-                "DatePickerIOS": [
-                    "rename",
-                    "DatePickerIOS$f2tTypeof"
-                ],
-                "FlatList": [
-                    "rename",
-                    "FlatList$f2tTypeof"
-                ],
-                "Image": [
-                    "rename",
-                    "Image$f2tTypeof"
-                ],
-                "ImageBackground": [
-                    "rename",
-                    "ImageBackground$f2tTypeof"
-                ],
-                "InputAccessoryView": [
-                    "rename",
-                    "InputAccessoryView$f2tTypeof"
-                ],
-                "KeyboardAvoidingView": [
-                    "rename",
-                    "KeyboardAvoidingView$f2tTypeof"
-                ],
-                "MaskedViewIOS": [
-                    "rename",
-                    "MaskedViewIOS$f2tTypeof"
-                ],
-                "Modal": [
-                    "rename",
-                    "Modal$f2tTypeof"
-                ],
-                "Picker": [
-                    "rename",
-                    "Picker$f2tTypeof"
-                ],
-                "PickerIOS": [
-                    "rename",
-                    "PickerIOS$f2tTypeof"
-                ],
-                "Pressable": [
-                    "rename",
-                    "Pressable$f2tTypeof"
-                ],
-                "ProgressViewIOS": [
-                    "rename",
-                    "ProgressViewIOS$f2tTypeof"
-                ],
-                "RefreshControl": [
-                    "rename",
-                    "RefreshControl$f2tTypeof"
-                ],
-                "SafeAreaView": [
-                    "rename",
-                    "SafeAreaView$f2tTypeof"
-                ],
-                "ScrollView": [
-                    "rename",
-                    "ScrollView$f2tTypeof"
-                ],
-                "SectionList": [
-                    "rename",
-                    "SectionList$f2tTypeof"
-                ],
-                "SegmentedControlIOS": [
-                    "rename",
-                    "SegmentedControlIOS$f2tTypeof"
-                ],
-                "Slider": [
-                    "rename",
-                    "Slider$f2tTypeof"
-                ],
-                "StatusBar": [
-                    "rename",
-                    "StatusBar$f2tTypeof"
-                ],
-                "Switch": [
-                    "rename",
-                    "Switch$f2tTypeof"
-                ],
-                "Text": [
-                    "rename",
-                    "Text$f2tTypeof"
-                ],
-                "TextInput": [
-                    "rename",
-                    "TextInput$f2tTypeof"
+            "decls": [
+                [
+                    "AccessibilityInfo",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "ActivityIndicator",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Button",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "DatePickerIOS",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "FlatList",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Image",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "ImageBackground",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "InputAccessoryView",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "KeyboardAvoidingView",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "MaskedViewIOS",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Modal",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Picker",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "PickerIOS",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Pressable",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "ProgressViewIOS",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "RefreshControl",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "SafeAreaView",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "ScrollView",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "SectionList",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "SegmentedControlIOS",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Slider",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "StatusBar",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Switch",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Text",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "TextInput",
+                    "TSTypeAliasDeclaration"
+                ],
+                [
+                    "Touchable",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Touchable": [
-                    "rename",
-                    "Touchable$f2tTypeof"
+                [
+                    "TouchableHighlight",
+                    "TSTypeAliasDeclaration"
                 ],
-                "TouchableHighlight": [
-                    "rename",
-                    "TouchableHighlight$f2tTypeof"
+                [
+                    "TouchableNativeFeedback",
+                    "TSTypeAliasDeclaration"
                 ],
-                "TouchableNativeFeedback": [
-                    "rename",
-                    "TouchableNativeFeedback$f2tTypeof"
+                [
+                    "TouchableOpacity",
+                    "TSTypeAliasDeclaration"
                 ],
-                "TouchableOpacity": [
-                    "rename",
-                    "TouchableOpacity$f2tTypeof"
+                [
+                    "TouchableWithoutFeedback",
+                    "TSTypeAliasDeclaration"
                 ],
-                "TouchableWithoutFeedback": [
-                    "rename",
-                    "TouchableWithoutFeedback$f2tTypeof"
+                [
+                    "View",
+                    "TSTypeAliasDeclaration"
                 ],
-                "View": [
-                    "rename",
-                    "View$f2tTypeof"
+                [
+                    "VirtualizedList",
+                    "TSTypeAliasDeclaration"
                 ],
-                "VirtualizedList": [
-                    "rename",
-                    "VirtualizedList$f2tTypeof"
+                [
+                    "VirtualizedSectionList",
+                    "TSTypeAliasDeclaration"
                 ],
-                "VirtualizedSectionList": [
-                    "rename",
-                    "VirtualizedSectionList$f2tTypeof"
+                [
+                    "ActionSheetIOS",
+                    "TSTypeAliasDeclaration"
                 ],
-                "ActionSheetIOS": [
-                    "rename",
-                    "ActionSheetIOS$f2tTypeof"
+                [
+                    "Alert",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Alert": [
-                    "rename",
-                    "Alert$f2tTypeof"
+                [
+                    "Animated",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Animated": [
-                    "rename",
-                    "Animated$f2tTypeof"
+                [
+                    "Appearance",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Appearance": [
-                    "rename",
-                    "Appearance$f2tTypeof"
+                [
+                    "AppRegistry",
+                    "TSTypeAliasDeclaration"
                 ],
-                "AppRegistry": [
-                    "rename",
-                    "AppRegistry$f2tTypeof"
+                [
+                    "AppState",
+                    "TSTypeAliasDeclaration"
                 ],
-                "AppState": [
-                    "rename",
-                    "AppState$f2tTypeof"
+                [
+                    "AsyncStorage",
+                    "TSTypeAliasDeclaration"
                 ],
-                "AsyncStorage": [
-                    "rename",
-                    "AsyncStorage$f2tTypeof"
+                [
+                    "BackHandler",
+                    "TSTypeAliasDeclaration"
                 ],
-                "BackHandler": [
-                    "rename",
-                    "BackHandler$f2tTypeof"
+                [
+                    "Clipboard",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Clipboard": [
-                    "rename",
-                    "Clipboard$f2tTypeof"
+                [
+                    "DatePickerAndroid",
+                    "TSTypeAliasDeclaration"
                 ],
-                "DatePickerAndroid": [
-                    "rename",
-                    "DatePickerAndroid$f2tTypeof"
+                [
+                    "DeviceInfo",
+                    "TSTypeAliasDeclaration"
                 ],
-                "DeviceInfo": [
-                    "rename",
-                    "DeviceInfo$f2tTypeof"
+                [
+                    "DevSettings",
+                    "TSTypeAliasDeclaration"
                 ],
-                "DevSettings": [
-                    "rename",
-                    "DevSettings$f2tTypeof"
+                [
+                    "Dimensions",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Dimensions": [
-                    "rename",
-                    "Dimensions$f2tTypeof"
+                [
+                    "Easing",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Easing": [
-                    "rename",
-                    "Easing$f2tTypeof"
+                [
+                    "ReactNative",
+                    "TSTypeAliasDeclaration"
                 ],
-                "findNodeHandle": [
-                    "rename",
-                    "$f2d_findNodeHandle"
+                [
+                    "I18nManager",
+                    "TSTypeAliasDeclaration"
                 ],
-                "I18nManager": [
-                    "rename",
-                    "I18nManager$f2tTypeof"
+                [
+                    "ImagePickerIOS",
+                    "TSTypeAliasDeclaration"
                 ],
-                "ImagePickerIOS": [
-                    "rename",
-                    "ImagePickerIOS$f2tTypeof"
+                [
+                    "InteractionManager",
+                    "TSTypeAliasDeclaration"
                 ],
-                "InteractionManager": [
-                    "rename",
-                    "InteractionManager$f2tTypeof"
+                [
+                    "Keyboard",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Keyboard": [
-                    "rename",
-                    "Keyboard$f2tTypeof"
+                [
+                    "LayoutAnimation",
+                    "TSTypeAliasDeclaration"
                 ],
-                "LayoutAnimation": [
-                    "rename",
-                    "LayoutAnimation$f2tTypeof"
+                [
+                    "Linking",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Linking": [
-                    "rename",
-                    "Linking$f2tTypeof"
+                [
+                    "LogBox",
+                    "TSTypeAliasDeclaration"
                 ],
-                "LogBox": [
-                    "rename",
-                    "LogBox$f2tTypeof"
+                [
+                    "NativeDialogManagerAndroid",
+                    "TSTypeAliasDeclaration"
                 ],
-                "NativeDialogManagerAndroid": [
-                    "rename",
-                    "NativeDialogManagerAndroid$f2tTypeof"
+                [
+                    "NativeEventEmitter",
+                    "TSTypeAliasDeclaration"
                 ],
-                "NativeEventEmitter": [
-                    "rename",
-                    "NativeEventEmitter$f2tTypeof"
+                [
+                    "Networking",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Networking": [
-                    "rename",
-                    "Networking$f2tTypeof"
+                [
+                    "PanResponder",
+                    "TSTypeAliasDeclaration"
                 ],
-                "PanResponder": [
-                    "rename",
-                    "PanResponder$f2tTypeof"
+                [
+                    "PermissionsAndroid",
+                    "TSTypeAliasDeclaration"
                 ],
-                "PermissionsAndroid": [
-                    "rename",
-                    "PermissionsAndroid$f2tTypeof"
+                [
+                    "PixelRatio",
+                    "TSTypeAliasDeclaration"
                 ],
-                "PixelRatio": [
-                    "rename",
-                    "PixelRatio$f2tTypeof"
+                [
+                    "PushNotificationIOS",
+                    "TSTypeAliasDeclaration"
                 ],
-                "PushNotificationIOS": [
-                    "rename",
-                    "PushNotificationIOS$f2tTypeof"
+                [
+                    "Settings",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Settings": [
-                    "rename",
-                    "Settings$f2tTypeof"
+                [
+                    "Share",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Share": [
-                    "rename",
-                    "Share$f2tTypeof"
+                [
+                    "StatusBarIOS",
+                    "TSTypeAliasDeclaration"
                 ],
-                "StatusBarIOS": [
-                    "rename",
-                    "StatusBarIOS$f2tTypeof"
+                [
+                    "StyleSheet",
+                    "TSTypeAliasDeclaration"
                 ],
-                "StyleSheet": [
-                    "rename",
-                    "StyleSheet$f2tTypeof"
+                [
+                    "Systrace",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Systrace": [
-                    "rename",
-                    "Systrace$f2tTypeof"
+                [
+                    "UIManager",
+                    "TSTypeAliasDeclaration"
                 ],
-                "TurboModuleRegistry": [
-                    "rename",
-                    "$f2d_TurboModuleRegistry"
+                [
+                    "useColorScheme",
+                    "TSTypeAliasDeclaration"
                 ],
-                "UIManager": [
-                    "rename",
-                    "UIManager$f2tTypeof"
+                [
+                    "useWindowDimensions",
+                    "TSTypeAliasDeclaration"
                 ],
-                "unstable_batchedUpdates": [
-                    "rename",
-                    "$f2d_unstable_batchedUpdates"
+                [
+                    "UTFSequence",
+                    "TSTypeAliasDeclaration"
                 ],
-                "useColorScheme": [
-                    "rename",
-                    "useColorScheme$f2tTypeof"
+                [
+                    "Vibration",
+                    "TSTypeAliasDeclaration"
                 ],
-                "useWindowDimensions": [
-                    "rename",
-                    "useWindowDimensions$f2tTypeof"
+                [
+                    "YellowBox",
+                    "TSTypeAliasDeclaration"
                 ],
-                "UTFSequence": [
-                    "rename",
-                    "UTFSequence$f2tTypeof"
+                [
+                    "DynamicColorIOS",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Vibration": [
-                    "rename",
-                    "Vibration$f2tTypeof"
+                [
+                    "NativeModules",
+                    "TSTypeAliasDeclaration"
                 ],
-                "YellowBox": [
-                    "rename",
-                    "YellowBox$f2tTypeof"
+                [
+                    "Platform",
+                    "TSTypeAliasDeclaration"
                 ],
-                "DeviceEventEmitter": [
-                    "rename",
-                    "RCTDeviceEventEmitter$f2tTypeof"
+                [
+                    "PlatformColor",
+                    "TSTypeAliasDeclaration"
                 ],
-                "DynamicColorIOS": [
-                    "rename",
-                    "DynamicColorIOS$f2tTypeof"
+                [
+                    "processColor",
+                    "TSTypeAliasDeclaration"
                 ],
-                "NativeAppEventEmitter": [
-                    "rename",
-                    "RCTNativeAppEventEmitter$f2tTypeof"
+                [
+                    "RCTDeviceEventEmitter",
+                    "TSTypeAliasDeclaration"
                 ],
-                "NativeModules": [
-                    "rename",
-                    "NativeModules$f2tTypeof"
+                [
+                    "RCTNativeAppEventEmitter",
+                    "TSTypeAliasDeclaration"
                 ],
-                "Platform": [
-                    "rename",
-                    "Platform$f2tTypeof"
+                [
+                    "RootTagContext",
+                    "TSTypeAliasDeclaration"
                 ],
-                "PlatformColor": [
-                    "rename",
-                    "PlatformColor$f2tTypeof"
+                [
+                    "DeprecatedEdgeInsetsPropType",
+                    "TSTypeAliasDeclaration"
                 ],
-                "processColor": [
-                    "rename",
-                    "processColor$f2tTypeof"
+                [
+                    "DeprecatedPointPropType",
+                    "TSTypeAliasDeclaration"
                 ],
-                "requireNativeComponent": [
-                    "rename",
-                    "$f2d_requireNativeComponent"
+                [
+                    "DeprecatedViewPropTypes",
+                    "TSTypeAliasDeclaration"
                 ],
-                "unstable_RootTagContext": [
-                    "rename",
-                    "RootTagContext$f2tTypeof"
+                [
+                    "HostComponent",
+                    "TSTypeAliasDeclaration"
                 ],
-                "unstable_enableLogBox": [
-                    "rename",
-                    "$f2d_unstable_enableLogBox"
+                [
+                    "$f2d_findNodeHandle",
+                    "VariableDeclarator"
                 ],
-                "EdgeInsetsPropType": [
-                    "rename",
-                    "DeprecatedEdgeInsetsPropType$f2tTypeof"
+                [
+                    "$f2d_TurboModuleRegistry",
+                    "VariableDeclarator"
                 ],
-                "PointPropType": [
-                    "rename",
-                    "DeprecatedPointPropType$f2tTypeof"
+                [
+                    "$f2d_unstable_batchedUpdates",
+                    "VariableDeclarator"
                 ],
-                "ViewPropTypes": [
-                    "rename",
-                    "DeprecatedViewPropTypes$f2tTypeof"
+                [
+                    "$f2d_requireNativeComponent",
+                    "VariableDeclarator"
+                ],
+                [
+                    "$f2d_unstable_enableLogBox",
+                    "VariableDeclarator"
+                ],
+                [
+                    "$f2tExportDefault",
+                    "VariableDeclarator"
                 ]
-            },
-            "exportDefault": [
-                "variable",
-                "$f2tExportDefault"
             ]
         }
     ]

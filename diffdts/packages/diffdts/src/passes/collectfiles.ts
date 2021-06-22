@@ -40,6 +40,31 @@ function collectFileVisitor(): Visitor<Context> {
         }
       }
     },
+    TSTypeAliasDeclaration: {
+      exit(path, context) {
+        context.index.decls[path.node.id.name] = path.node;
+      }
+    },
+    TSInterfaceDeclaration: {
+      exit(path, context) {
+        context.index.decls[path.node.id.name] = path.node;
+      }
+    },
+    ClassDeclaration: {
+      exit(path, context) {
+        context.index.decls[path.node.id.name] = path.node;
+      }
+    },
+    VariableDeclaration: {
+      exit(path, context) {
+        for (const decl of path.node.declarations) {
+          if (decl.id.type === "Identifier") {
+            const id = decl.id.name;
+            context.index.decls[id] = decl;
+          }
+        }
+      }
+    },
     ExportNamedDeclaration: {
       exit(path, context) {
         const node = path.node;
@@ -78,7 +103,7 @@ function collectFileVisitor(): Visitor<Context> {
         context.index.exportDefault = node;
         switch (node.declaration.type) {
           case "Identifier": {
-            context.raw.exportDefault = ["variable", node.declaration.name];
+            context.raw.exportDefault = ["symbol", node.declaration.name];
             break;
           }
           case "ObjectExpression": {
@@ -101,6 +126,10 @@ function collectFileVisitor(): Visitor<Context> {
                 }
               }
             }
+            break;
+          }
+          case "ClassDeclaration": {
+            context.raw.exportDefault = ["type", node.declaration.type];
             break;
           }
           default: {
