@@ -1,0 +1,94 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "Stringish",
+                        "Stringish"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$2"
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/processColor": [
+                "names",
+                [
+                    [
+                        "ProcessedColorValue",
+                        "ProcessedColorValue"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "SyntheticEvent",
+                        "SyntheticEvent"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "PickerIOS"
+        ]
+    },
+    "decls": [
+        [
+            "PickerIOSChangeEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RCTPickerIOSItemType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Label",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ItemProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PickerIOSItem",
+            "VariableDeclarator"
+        ],
+        [
+            "PickerIOS",
+            "ClassDeclaration"
+        ]
+    ]
+}

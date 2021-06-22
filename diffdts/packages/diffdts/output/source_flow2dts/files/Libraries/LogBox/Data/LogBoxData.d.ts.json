@@ -1,0 +1,194 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "./LogBoxLog": [
+                "names",
+                [
+                    [
+                        "LogLevel",
+                        "LogLevel"
+                    ]
+                ]
+            ],
+            "./parseLogBoxLog": [
+                "names",
+                [
+                    [
+                        "ExtendedExceptionData",
+                        "ExtendedExceptionData"
+                    ]
+                ]
+            ],
+            "../../Core/Devtools/parseErrorStack": [
+                "names",
+                [
+                    [
+                        "ExtendedError",
+                        "ExtendedError"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "LogBoxLogs": [
+                "rename",
+                "LogBoxLogs"
+            ],
+            "LogData": [
+                "rename",
+                "LogData"
+            ],
+            "Observer": [
+                "rename",
+                "Observer"
+            ],
+            "IgnorePattern": [
+                "rename",
+                "IgnorePattern"
+            ],
+            "Subscription": [
+                "rename",
+                "Subscription"
+            ],
+            "WarningInfo": [
+                "rename",
+                "WarningInfo"
+            ],
+            "WarningFilter": [
+                "rename",
+                "WarningFilter"
+            ],
+            "reportLogBoxError": [
+                "rename",
+                "reportLogBoxError"
+            ],
+            "isLogBoxErrorMessage": [
+                "rename",
+                "isLogBoxErrorMessage"
+            ],
+            "isMessageIgnored": [
+                "rename",
+                "isMessageIgnored"
+            ],
+            "addLog": [
+                "rename",
+                "addLog"
+            ],
+            "addException": [
+                "rename",
+                "addException"
+            ],
+            "symbolicateLogNow": [
+                "rename",
+                "symbolicateLogNow"
+            ],
+            "retrySymbolicateLogNow": [
+                "rename",
+                "retrySymbolicateLogNow"
+            ],
+            "symbolicateLogLazy": [
+                "rename",
+                "symbolicateLogLazy"
+            ],
+            "clear": [
+                "rename",
+                "clear"
+            ],
+            "setSelectedLog": [
+                "rename",
+                "setSelectedLog"
+            ],
+            "clearWarnings": [
+                "rename",
+                "clearWarnings"
+            ],
+            "clearErrors": [
+                "rename",
+                "clearErrors"
+            ],
+            "dismiss": [
+                "rename",
+                "dismiss"
+            ],
+            "setWarningFilter": [
+                "rename",
+                "setWarningFilter"
+            ],
+            "setAppInfo": [
+                "rename",
+                "setAppInfo"
+            ],
+            "getAppInfo": [
+                "rename",
+                "getAppInfo"
+            ],
+            "checkWarningFilter": [
+                "rename",
+                "checkWarningFilter"
+            ],
+            "addIgnorePatterns": [
+                "rename",
+                "addIgnorePatterns"
+            ],
+            "setDisabled": [
+                "rename",
+                "setDisabled"
+            ],
+            "isDisabled": [
+                "rename",
+                "isDisabled"
+            ],
+            "observe": [
+                "rename",
+                "observe"
+            ],
+            "withSubscription": [
+                "rename",
+                "withSubscription"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "LogBoxLogs",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LogData",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Observer",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IgnorePattern",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Subscription",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "WarningInfo",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "WarningFilter",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AppInfo",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SubscribedComponent",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

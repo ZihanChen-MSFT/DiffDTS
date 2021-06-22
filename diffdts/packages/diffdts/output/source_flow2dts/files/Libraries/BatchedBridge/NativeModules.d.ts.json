@@ -1,0 +1,51 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "$FlowFixMe",
+                        "$FlowFixMe"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "NativeModules": [
+                "type",
+                "TSInterfaceDeclaration"
+            ],
+            "ModuleConfig": [
+                "rename",
+                "ModuleConfig"
+            ],
+            "MethodType": [
+                "rename",
+                "MethodType"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ModuleConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "MethodType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "NativeModules",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

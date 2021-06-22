@@ -1,0 +1,24 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "colorPropType",
+            "VariableDeclarator"
+        ],
+        [
+            "ColorPropType",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Diff",
+                        "$Diff"
+                    ],
+                    [
+                        "$PropertyType",
+                        "$PropertyType"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$1"
+            ],
+            "./VirtualizedList": [
+                "default",
+                "$2"
+            ]
+        },
+        "exports": {
+            "SectionBase": [
+                "rename",
+                "SectionBase"
+            ],
+            "Props": [
+                "rename",
+                "Props"
+            ],
+            "ScrollToLocationParamsType": [
+                "rename",
+                "ScrollToLocationParamsType"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "VirtualizedSectionList"
+        ]
+    },
+    "decls": [
+        [
+            "Item",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SectionBase",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RequiredProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "OptionalProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "VirtualizedListProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollToLocationParamsType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DefaultProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "VirtualizedSectionList",
+            "ClassDeclaration"
+        ]
+    ]
+}

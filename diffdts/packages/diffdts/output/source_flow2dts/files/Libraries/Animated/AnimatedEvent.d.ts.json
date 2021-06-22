@@ -1,0 +1,50 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./nodes/AnimatedValue": [
+                "default",
+                "$1"
+            ]
+        },
+        "exports": {
+            "Mapping": [
+                "rename",
+                "Mapping"
+            ],
+            "EventConfig": [
+                "rename",
+                "EventConfig"
+            ],
+            "AnimatedEvent": [
+                "rename",
+                "AnimatedEvent"
+            ],
+            "attachNativeEvent": [
+                "rename",
+                "attachNativeEvent"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Mapping",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "EventConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedEvent",
+            "ClassDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

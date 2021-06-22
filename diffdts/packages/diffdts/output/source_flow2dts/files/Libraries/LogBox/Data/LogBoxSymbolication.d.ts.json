@@ -1,0 +1,45 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../Core/NativeExceptionsManager": [
+                "names",
+                [
+                    [
+                        "StackFrame",
+                        "StackFrame"
+                    ]
+                ]
+            ],
+            "../../Core/Devtools/symbolicateStackTrace": [
+                "names",
+                [
+                    [
+                        "SymbolicatedStackTrace",
+                        "SymbolicatedStackTrace"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Stack": [
+                "rename",
+                "Stack"
+            ],
+            "deleteStack": [
+                "rename",
+                "deleteStack"
+            ],
+            "symbolicate": [
+                "rename",
+                "symbolicate"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "Stack",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

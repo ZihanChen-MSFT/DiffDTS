@@ -1,0 +1,34 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "Rect": [
+                "rename",
+                "Rect"
+            ],
+            "RectOrSize": [
+                "rename",
+                "RectOrSize"
+            ],
+            "createSquare": [
+                "rename",
+                "createSquare"
+            ],
+            "normalizeRect": [
+                "rename",
+                "normalizeRect"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "Rect",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RectOrSize",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

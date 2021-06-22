@@ -1,0 +1,33 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../vendor/emitter/EventEmitter": [
+                "default",
+                "EventEmitter"
+            ],
+            "../vendor/emitter/_EmitterSubscription": [
+                "default",
+                "EmitterSubscription"
+            ],
+            "../vendor/emitter/_EventSubscriptionVendor": [
+                "default",
+                "EventSubscriptionVendor"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "RCTDeviceEventEmitter",
+            "ClassDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

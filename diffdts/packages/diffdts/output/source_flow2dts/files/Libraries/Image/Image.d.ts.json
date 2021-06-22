@@ -1,0 +1,46 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../DeprecatedPropTypes/DeprecatedImagePropType": [
+                "default",
+                "$1"
+            ],
+            "react": [
+                "default",
+                "$2"
+            ],
+            "./resolveAssetSource": [
+                "default",
+                "$3"
+            ],
+            "./ImageProps": [
+                "names",
+                [
+                    [
+                        "ImageProps",
+                        "ImagePropsType"
+                    ]
+                ]
+            ],
+            "./ImageViewNativeComponent": [
+                "default",
+                "ImageViewNativeComponent"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ImageComponentStatics",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

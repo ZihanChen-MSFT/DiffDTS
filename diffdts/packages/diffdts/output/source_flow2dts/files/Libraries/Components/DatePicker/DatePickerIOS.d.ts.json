@@ -1,0 +1,47 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$2"
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "SyntheticEvent",
+                        "SyntheticEvent"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "DatePickerIOS"
+        ]
+    },
+    "decls": [
+        [
+            "Event",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DatePickerIOS",
+            "ClassDeclaration"
+        ]
+    ]
+}

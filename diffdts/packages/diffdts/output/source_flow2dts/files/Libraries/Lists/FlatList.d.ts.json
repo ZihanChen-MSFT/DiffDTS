@@ -1,0 +1,111 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Diff",
+                        "$Diff"
+                    ],
+                    [
+                        "$PropertyType",
+                        "$PropertyType"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$2"
+            ],
+            "../Components/View/View": [
+                "default",
+                "$3"
+            ],
+            "./VirtualizedList": [
+                "names",
+                [
+                    [
+                        "RenderItemType",
+                        "RenderItemType"
+                    ]
+                ]
+            ],
+            "../Components/ScrollView/ScrollView": [
+                "names",
+                [
+                    [
+                        "ScrollResponderType",
+                        "ScrollResponderType"
+                    ]
+                ]
+            ],
+            "../Components/ScrollView/ScrollViewNativeComponentType.js": [
+                "names",
+                [
+                    [
+                        "ScrollViewNativeComponentType",
+                        "ScrollViewNativeComponentType"
+                    ]
+                ]
+            ],
+            "../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ViewStyleProp",
+                        "ViewStyleProp"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Props": [
+                "rename",
+                "Props"
+            ],
+            "DefaultProps": [
+                "rename",
+                "DefaultProps"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "FlatList"
+        ]
+    },
+    "decls": [
+        [
+            "RequiredProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "OptionalProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "FlatListProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "VirtualizedListProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "defaultProps",
+            "VariableDeclarator"
+        ],
+        [
+            "DefaultProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "FlatList",
+            "ClassDeclaration"
+        ]
+    ]
+}

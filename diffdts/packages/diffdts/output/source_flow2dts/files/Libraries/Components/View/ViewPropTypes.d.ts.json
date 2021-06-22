@@ -1,0 +1,129 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "Stringish",
+                        "Stringish"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "LayoutEvent",
+                        "LayoutEvent"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/EdgeInsetsPropType": [
+                "names",
+                [
+                    [
+                        "EdgeInsetsProp",
+                        "EdgeInsetsProp"
+                    ]
+                ]
+            ],
+            "react": [
+                "names",
+                [
+                    [
+                        "Node",
+                        "Node"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ViewStyleProp",
+                        "ViewStyleProp"
+                    ]
+                ]
+            ],
+            "./ViewAccessibility": [
+                "names",
+                [
+                    [
+                        "AccessibilityActionInfo",
+                        "AccessibilityActionInfo"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ViewLayout": [
+                "rename",
+                "ViewLayout"
+            ],
+            "ViewLayoutEvent": [
+                "rename",
+                "ViewLayoutEvent"
+            ],
+            "ViewProps": [
+                "rename",
+                "ViewProps"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "ViewLayout",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewLayoutEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "BubblingEventProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DirectEventProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "MouseEventProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TouchEventProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "GestureResponderEventProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidDrawableThemeAttr",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidDrawableRipple",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidDrawable",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidViewProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSViewProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewProps",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

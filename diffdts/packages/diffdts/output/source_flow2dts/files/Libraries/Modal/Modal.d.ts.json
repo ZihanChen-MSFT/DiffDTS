@@ -1,0 +1,61 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$2"
+            ],
+            "../Components/View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ],
+            "../ReactNative/RootTag": [
+                "names",
+                [
+                    [
+                        "RootTag",
+                        "RootTag"
+                    ]
+                ]
+            ],
+            "../Types/CodegenTypes": [
+                "names",
+                [
+                    [
+                        "DirectEventHandler",
+                        "DirectEventHandler"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Props": [
+                "rename",
+                "Props"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "Modal"
+        ]
+    },
+    "decls": [
+        [
+            "OrientationChangeEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Modal",
+            "ClassDeclaration"
+        ]
+    ]
+}

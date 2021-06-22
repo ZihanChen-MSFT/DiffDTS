@@ -1,0 +1,59 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../TurboModule/RCTExport": [
+                "names",
+                [
+                    [
+                        "TurboModule",
+                        "TurboModule"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "DisplayMetrics": [
+                "rename",
+                "DisplayMetrics"
+            ],
+            "DimensionsPayload": [
+                "rename",
+                "DimensionsPayload"
+            ],
+            "Spec": [
+                "rename",
+                "Spec"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "DisplayMetricsAndroid",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DisplayMetrics",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DimensionsPayload",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Spec",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "NativeDeviceInfo",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

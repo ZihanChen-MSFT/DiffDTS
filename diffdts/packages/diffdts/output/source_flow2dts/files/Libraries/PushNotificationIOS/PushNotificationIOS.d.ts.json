@@ -1,0 +1,51 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Keys",
+                        "$Keys"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ContentAvailable": [
+                "rename",
+                "ContentAvailable"
+            ],
+            "FetchResult": [
+                "rename",
+                "FetchResult"
+            ],
+            "PushNotificationEventName": [
+                "rename",
+                "PushNotificationEventName"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "PushNotificationIOS"
+        ]
+    },
+    "decls": [
+        [
+            "ContentAvailable",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "FetchResult",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PushNotificationEventName",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PushNotificationIOS",
+            "ClassDeclaration"
+        ]
+    ]
+}

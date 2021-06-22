@@ -1,0 +1,25 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./_EventSubscriptionVendor": [
+                "default",
+                "EventSubscriptionVendor"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "EventEmitter"
+        ]
+    },
+    "decls": [
+        [
+            "EmitterSubscription",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "EventEmitter",
+            "ClassDeclaration"
+        ]
+    ]
+}

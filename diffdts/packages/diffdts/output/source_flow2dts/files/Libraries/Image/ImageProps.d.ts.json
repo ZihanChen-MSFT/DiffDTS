@@ -1,0 +1,98 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "Stringish",
+                        "Stringish"
+                    ]
+                ]
+            ],
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Diff",
+                        "$Diff"
+                    ]
+                ]
+            ],
+            "../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "LayoutEvent",
+                        "LayoutEvent"
+                    ]
+                ]
+            ],
+            "../StyleSheet/EdgeInsetsPropType": [
+                "names",
+                [
+                    [
+                        "EdgeInsetsProp",
+                        "EdgeInsetsProp"
+                    ]
+                ]
+            ],
+            "./ImageSource": [
+                "names",
+                [
+                    [
+                        "ImageSource",
+                        "ImageSource"
+                    ]
+                ]
+            ],
+            "../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ImageStyleProp",
+                        "ImageStyleProp"
+                    ]
+                ]
+            ],
+            "../Components/View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ImageLoadEvent": [
+                "rename",
+                "ImageLoadEvent"
+            ],
+            "ImageProps": [
+                "rename",
+                "ImageProps"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "ImageLoadEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSImageProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidImageProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ImageProps",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

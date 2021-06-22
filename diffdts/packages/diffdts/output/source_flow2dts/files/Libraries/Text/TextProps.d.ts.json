@@ -1,0 +1,72 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "Stringish",
+                        "Stringish"
+                    ]
+                ]
+            ],
+            "../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "TextLayoutEvent",
+                        "TextLayoutEvent"
+                    ]
+                ]
+            ],
+            "react": [
+                "names",
+                [
+                    [
+                        "Node",
+                        "Node"
+                    ]
+                ]
+            ],
+            "../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "TextStyleProp",
+                        "TextStyleProp"
+                    ]
+                ]
+            ],
+            "../Components/View/ViewAccessibility": [
+                "names",
+                [
+                    [
+                        "AccessibilityState",
+                        "AccessibilityState"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "PressRetentionOffset": [
+                "rename",
+                "PressRetentionOffset"
+            ],
+            "TextProps": [
+                "rename",
+                "TextProps"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "PressRetentionOffset",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextProps",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

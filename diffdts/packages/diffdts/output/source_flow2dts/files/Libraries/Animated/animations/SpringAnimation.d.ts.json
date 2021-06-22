@@ -1,0 +1,55 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../nodes/AnimatedValue": [
+                "default",
+                "$2"
+            ],
+            "../nodes/AnimatedValueXY": [
+                "default",
+                "$3"
+            ],
+            "../nodes/AnimatedInterpolation": [
+                "default",
+                "$1"
+            ],
+            "./Animation": [
+                "names",
+                [
+                    [
+                        "EndCallback",
+                        "EndCallback"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "SpringAnimationConfig": [
+                "rename",
+                "SpringAnimationConfig"
+            ],
+            "SpringAnimationConfigSingle": [
+                "rename",
+                "SpringAnimationConfigSingle"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "SpringAnimation"
+        ]
+    },
+    "decls": [
+        [
+            "SpringAnimationConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SpringAnimationConfigSingle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SpringAnimation",
+            "ClassDeclaration"
+        ]
+    ]
+}

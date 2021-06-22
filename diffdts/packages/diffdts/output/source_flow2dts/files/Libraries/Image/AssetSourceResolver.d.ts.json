@@ -1,0 +1,35 @@
+{
+    "raw": {
+        "importedFiles": {
+            "@react-native/assets/registry": [
+                "names",
+                [
+                    [
+                        "PackagerAsset",
+                        "PackagerAsset"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ResolvedAssetSource": [
+                "rename",
+                "ResolvedAssetSource"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "AssetSourceResolver"
+        ]
+    },
+    "decls": [
+        [
+            "ResolvedAssetSource",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AssetSourceResolver",
+            "ClassDeclaration"
+        ]
+    ]
+}

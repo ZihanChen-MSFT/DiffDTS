@@ -1,0 +1,26 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./BlobTypes": [
+                "names",
+                [
+                    [
+                        "BlobOptions",
+                        "BlobOptions"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "Blob"
+        ]
+    },
+    "decls": [
+        [
+            "Blob",
+            "ClassDeclaration"
+        ]
+    ]
+}

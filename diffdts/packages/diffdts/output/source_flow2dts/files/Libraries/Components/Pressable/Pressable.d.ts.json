@@ -1,0 +1,96 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "Stringish",
+                        "Stringish"
+                    ]
+                ]
+            ],
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$ElementType",
+                        "$ElementType"
+                    ]
+                ]
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "./useAndroidRippleForView": [
+                "names",
+                [
+                    [
+                        "RippleConfig",
+                        "RippleConfig"
+                    ]
+                ]
+            ],
+            "../View/ViewAccessibility": [
+                "names",
+                [
+                    [
+                        "AccessibilityValue",
+                        "AccessibilityValue"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/Rect": [
+                "names",
+                [
+                    [
+                        "RectOrSize",
+                        "RectOrSize"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "PressEvent",
+                        "PressEvent"
+                    ]
+                ]
+            ],
+            "../View/View": [
+                "default",
+                "View"
+            ]
+        },
+        "exports": {
+            "StateCallbackType": [
+                "rename",
+                "StateCallbackType"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ViewStyleProp",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "StateCallbackType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

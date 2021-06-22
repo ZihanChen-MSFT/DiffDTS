@@ -1,0 +1,81 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/EdgeInsetsPropType": [
+                "names",
+                [
+                    [
+                        "EdgeInsetsProp",
+                        "EdgeInsetsProp"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "ScrollEvent",
+                        "ScrollEvent"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/PointPropType": [
+                "names",
+                [
+                    [
+                        "PointProp",
+                        "PointProp"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ScrollViewNativeProps": [
+                "rename",
+                "ScrollViewNativeProps"
+            ],
+            "ScrollViewNativeComponentType": [
+                "rename",
+                "ScrollViewNativeComponentType"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "ScrollViewNativeProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollViewNativeComponentType",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

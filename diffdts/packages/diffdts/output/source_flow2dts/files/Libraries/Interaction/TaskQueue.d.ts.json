@@ -1,0 +1,33 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "Task": [
+                "rename",
+                "Task"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "TaskQueue"
+        ]
+    },
+    "decls": [
+        [
+            "SimpleTask",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PromiseTask",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Task",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TaskQueue",
+            "ClassDeclaration"
+        ]
+    ]
+}

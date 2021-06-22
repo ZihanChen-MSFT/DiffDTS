@@ -1,0 +1,47 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../Animated/AnimatedImplementation": [
+                "default",
+                "AnimatedImplementation"
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "LayoutEvent",
+                        "LayoutEvent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Props": [
+                "rename",
+                "Props"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "ScrollViewStickyHeader"
+        ]
+    },
+    "decls": [
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollViewStickyHeader",
+            "ClassDeclaration"
+        ]
+    ]
+}

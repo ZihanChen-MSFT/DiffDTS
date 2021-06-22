@@ -1,0 +1,21 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./NativeDeviceInfo": [
+                "default",
+                "NativeDeviceInfo"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "BackPressEventName",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TBackHandler",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "BackHandler",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

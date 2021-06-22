@@ -1,0 +1,21 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./AnimatedNode": [
+                "default",
+                "$1"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "AnimatedProps"
+        ]
+    },
+    "decls": [
+        [
+            "AnimatedProps",
+            "ClassDeclaration"
+        ]
+    ]
+}

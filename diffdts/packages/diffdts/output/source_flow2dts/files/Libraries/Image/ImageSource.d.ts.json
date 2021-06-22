@@ -1,0 +1,26 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "ImageURISource": [
+                "rename",
+                "ImageURISource"
+            ],
+            "ImageSource": [
+                "rename",
+                "ImageSource"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "ImageURISource",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ImageSource",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

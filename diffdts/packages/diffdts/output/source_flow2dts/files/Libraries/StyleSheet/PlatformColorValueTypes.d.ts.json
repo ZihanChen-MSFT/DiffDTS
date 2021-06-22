@@ -1,0 +1,77 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "./processColor": [
+                "names",
+                [
+                    [
+                        "ProcessedColorValue",
+                        "ProcessedColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "NativeColorValue": [
+                "rename",
+                "NativeColorValue"
+            ],
+            "PlatformColor": [
+                "rename",
+                "PlatformColor"
+            ],
+            "DynamicColorIOSTuplePrivate": [
+                "rename",
+                "DynamicColorIOSTuplePrivate"
+            ],
+            "DynamicColorIOSPrivate": [
+                "rename",
+                "DynamicColorIOSPrivate"
+            ],
+            "normalizeColorObject": [
+                "rename",
+                "normalizeColorObject"
+            ],
+            "processColorObject": [
+                "rename",
+                "processColorObject"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "NativeColorValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PlatformColor",
+            "VariableDeclarator"
+        ],
+        [
+            "DynamicColorIOSTuplePrivate",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DynamicColorIOSPrivate",
+            "VariableDeclarator"
+        ],
+        [
+            "normalizeColorObject",
+            "VariableDeclarator"
+        ],
+        [
+            "processColorObject",
+            "VariableDeclarator"
+        ]
+    ]
+}

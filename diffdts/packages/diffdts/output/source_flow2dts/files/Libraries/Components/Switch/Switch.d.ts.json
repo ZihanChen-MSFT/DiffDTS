@@ -1,0 +1,61 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "SyntheticEvent",
+                        "SyntheticEvent"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Props": [
+                "rename",
+                "Props"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "Switch"
+        ]
+    },
+    "decls": [
+        [
+            "SwitchChangeEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Switch",
+            "ClassDeclaration"
+        ]
+    ]
+}

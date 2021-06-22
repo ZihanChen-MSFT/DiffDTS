@@ -1,0 +1,38 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "React$PropType$Primitive",
+                        "React$PropType$Primitive"
+                    ]
+                ]
+            ],
+            "prop-types": [
+                "default",
+                "$3"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ImageURISourcePropType",
+            "VariableDeclarator"
+        ],
+        [
+            "ImageSourcePropType",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

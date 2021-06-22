@@ -1,0 +1,203 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "React$PropType$Primitive",
+                        "React$PropType$Primitive"
+                    ],
+                    [
+                        "ReactPropsCheckType",
+                        "ReactPropsCheckType"
+                    ]
+                ]
+            ],
+            "../../TypeScriptSupplementals/DeprecatedColorPropType": [
+                "default",
+                "$1"
+            ],
+            "./DeprecatedEdgeInsetsPropType": [
+                "default",
+                "$2"
+            ],
+            "prop-types": [
+                "default",
+                "$3"
+            ]
+        },
+        "exports": {
+            "ellipsizeMode": [
+                "rename",
+                "$f2d_ellipsizeMode"
+            ],
+            "numberOfLines": [
+                "rename",
+                "$f2d_numberOfLines"
+            ],
+            "textBreakStrategy": [
+                "rename",
+                "$f2d_textBreakStrategy"
+            ],
+            "onLayout": [
+                "rename",
+                "$f2d_onLayout"
+            ],
+            "onPress": [
+                "rename",
+                "$f2d_onPress"
+            ],
+            "onLongPress": [
+                "rename",
+                "$f2d_onLongPress"
+            ],
+            "pressRetentionOffset": [
+                "rename",
+                "$f2d_pressRetentionOffset"
+            ],
+            "selectable": [
+                "rename",
+                "$f2d_selectable"
+            ],
+            "selectionColor": [
+                "rename",
+                "$f2d_selectionColor"
+            ],
+            "suppressHighlighting": [
+                "rename",
+                "$f2d_suppressHighlighting"
+            ],
+            "style": [
+                "rename",
+                "stylePropType"
+            ],
+            "testID": [
+                "rename",
+                "$f2d_testID"
+            ],
+            "nativeID": [
+                "rename",
+                "$f2d_nativeID"
+            ],
+            "allowFontScaling": [
+                "rename",
+                "$f2d_allowFontScaling"
+            ],
+            "maxFontSizeMultiplier": [
+                "rename",
+                "$f2d_maxFontSizeMultiplier"
+            ],
+            "accessible": [
+                "rename",
+                "$f2d_accessible"
+            ],
+            "adjustsFontSizeToFit": [
+                "rename",
+                "$f2d_adjustsFontSizeToFit"
+            ],
+            "minimumFontScale": [
+                "rename",
+                "$f2d_minimumFontScale"
+            ],
+            "disabled": [
+                "rename",
+                "$f2d_disabled"
+            ],
+            "dataDetectorType": [
+                "rename",
+                "$f2d_dataDetectorType"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "stylePropType",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_ellipsizeMode",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_numberOfLines",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_textBreakStrategy",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onLayout",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onPress",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onLongPress",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_pressRetentionOffset",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_selectable",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_selectionColor",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_suppressHighlighting",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_testID",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_nativeID",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_allowFontScaling",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_maxFontSizeMultiplier",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_accessible",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_adjustsFontSizeToFit",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_minimumFontScale",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_disabled",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_dataDetectorType",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

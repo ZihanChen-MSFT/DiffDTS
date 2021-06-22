@@ -1,0 +1,54 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "Timespan": [
+                "rename",
+                "Timespan"
+            ],
+            "ExtraValue": [
+                "rename",
+                "ExtraValue"
+            ],
+            "Extras": [
+                "rename",
+                "Extras"
+            ],
+            "IPerformanceLogger": [
+                "rename",
+                "IPerformanceLogger"
+            ],
+            "getCurrentTimestamp": [
+                "rename",
+                "getCurrentTimestamp"
+            ],
+            "default": [
+                "rename",
+                "createPerformanceLogger"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "Timespan",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ExtraValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Extras",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IPerformanceLogger",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "getCurrentTimestamp",
+            "VariableDeclarator"
+        ]
+    ]
+}

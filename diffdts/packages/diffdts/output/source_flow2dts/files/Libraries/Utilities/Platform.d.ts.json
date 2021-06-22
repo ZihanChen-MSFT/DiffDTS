@@ -1,0 +1,29 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "PlatformSelectSpec": [
+                "rename",
+                "PlatformSelectSpec"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "PlatformSelectSpec",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Platform",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

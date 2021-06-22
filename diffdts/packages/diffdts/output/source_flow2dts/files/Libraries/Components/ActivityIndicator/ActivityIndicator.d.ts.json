@@ -1,0 +1,64 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "IndicatorSize",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ActivityIndicatorWithRef",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

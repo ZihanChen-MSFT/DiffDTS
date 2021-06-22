@@ -1,0 +1,51 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../TurboModule/RCTExport": [
+                "names",
+                [
+                    [
+                        "TurboModule",
+                        "TurboModule"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ColorSchemeName": [
+                "rename",
+                "ColorSchemeName"
+            ],
+            "AppearancePreferences": [
+                "rename",
+                "AppearancePreferences"
+            ],
+            "Spec": [
+                "rename",
+                "Spec"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ColorSchemeName",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AppearancePreferences",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Spec",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

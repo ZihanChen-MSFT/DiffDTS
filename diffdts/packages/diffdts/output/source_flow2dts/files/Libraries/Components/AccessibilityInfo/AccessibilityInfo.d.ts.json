@@ -1,0 +1,43 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "$FlowFixMe",
+                        "$FlowFixMe"
+                    ]
+                ]
+            ],
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Keys",
+                        "$Keys"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ChangeEventName",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AccessibilityInfo",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

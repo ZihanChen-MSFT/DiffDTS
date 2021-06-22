@@ -1,0 +1,47 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$2"
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ViewStyleProp",
+                        "ViewStyleProp"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "KeyboardAvoidingView"
+        ]
+    },
+    "decls": [
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "KeyboardAvoidingView",
+            "ClassDeclaration"
+        ]
+    ]
+}

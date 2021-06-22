@@ -1,0 +1,26 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "ReactNativeType",
+                        "ReactNativeType"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

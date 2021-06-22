@@ -1,0 +1,55 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./NativeAppearance": [
+                "names",
+                [
+                    [
+                        "ColorSchemeName",
+                        "ColorSchemeName"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "getColorScheme": [
+                "rename",
+                "$f2d_getColorScheme"
+            ],
+            "addChangeListener": [
+                "rename",
+                "$f2d_addChangeListener"
+            ],
+            "removeChangeListener": [
+                "rename",
+                "$f2d_removeChangeListener"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "AppearanceListener",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2d_getColorScheme",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_addChangeListener",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_removeChangeListener",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

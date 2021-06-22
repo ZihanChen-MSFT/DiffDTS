@@ -1,0 +1,44 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "./PlatformColorValueTypes": [
+                "names",
+                [
+                    [
+                        "NativeColorValue",
+                        "NativeColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ProcessedColorValue": [
+                "rename",
+                "ProcessedColorValue"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ProcessedColorValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

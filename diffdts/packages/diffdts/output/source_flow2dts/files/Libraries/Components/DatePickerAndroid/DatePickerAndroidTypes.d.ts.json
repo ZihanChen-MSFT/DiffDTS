@@ -1,0 +1,26 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "Options": [
+                "rename",
+                "Options"
+            ],
+            "DatePickerOpenAction": [
+                "rename",
+                "DatePickerOpenAction"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "Options",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DatePickerOpenAction",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

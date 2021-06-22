@@ -1,0 +1,69 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "Stringish",
+                        "Stringish"
+                    ]
+                ]
+            ],
+            "../../Pressability/Pressability": [
+                "default",
+                "Pressability"
+            ],
+            "../../Components/View/ViewAccessibility": [
+                "names",
+                [
+                    [
+                        "AccessibilityValue",
+                        "AccessibilityValue"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/EdgeInsetsPropType": [
+                "names",
+                [
+                    [
+                        "EdgeInsetsProp",
+                        "EdgeInsetsProp"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "PressEvent",
+                        "PressEvent"
+                    ]
+                ]
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "TouchableWithoutFeedback"
+        ]
+    },
+    "decls": [
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TouchableWithoutFeedback",
+            "ClassDeclaration"
+        ]
+    ]
+}

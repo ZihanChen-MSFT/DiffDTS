@@ -1,0 +1,48 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "$FlowFixMe",
+                        "$FlowFixMe"
+                    ]
+                ]
+            ],
+            "./TaskQueue": [
+                "names",
+                [
+                    [
+                        "Task",
+                        "Task"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Handle": [
+                "rename",
+                "Handle"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Handle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "InteractionManager",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

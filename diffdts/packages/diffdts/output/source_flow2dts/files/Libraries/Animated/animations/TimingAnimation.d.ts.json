@@ -1,0 +1,55 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../nodes/AnimatedValue": [
+                "default",
+                "$2"
+            ],
+            "../nodes/AnimatedValueXY": [
+                "default",
+                "$3"
+            ],
+            "../nodes/AnimatedInterpolation": [
+                "default",
+                "$1"
+            ],
+            "./Animation": [
+                "names",
+                [
+                    [
+                        "EndCallback",
+                        "EndCallback"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "TimingAnimationConfig": [
+                "rename",
+                "TimingAnimationConfig"
+            ],
+            "TimingAnimationConfigSingle": [
+                "rename",
+                "TimingAnimationConfigSingle"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "TimingAnimation"
+        ]
+    },
+    "decls": [
+        [
+            "TimingAnimationConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TimingAnimationConfigSingle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TimingAnimation",
+            "ClassDeclaration"
+        ]
+    ]
+}

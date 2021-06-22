@@ -1,0 +1,63 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../../StyleSheet/EdgeInsetsPropType": [
+                "names",
+                [
+                    [
+                        "EdgeInsetsProp",
+                        "EdgeInsetsProp"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "PressEvent",
+                        "PressEvent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "States",
+            "VariableDeclarator"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Signals",
+            "VariableDeclarator"
+        ],
+        [
+            "Signal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TouchableMixin",
+            "VariableDeclarator"
+        ],
+        [
+            "Touchable",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

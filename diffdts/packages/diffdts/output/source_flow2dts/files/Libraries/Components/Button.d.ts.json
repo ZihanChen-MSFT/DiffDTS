@@ -1,0 +1,43 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$2"
+            ],
+            "../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "PressEvent",
+                        "PressEvent"
+                    ]
+                ]
+            ],
+            "../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "Button"
+        ]
+    },
+    "decls": [
+        [
+            "ButtonProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Button",
+            "ClassDeclaration"
+        ]
+    ]
+}

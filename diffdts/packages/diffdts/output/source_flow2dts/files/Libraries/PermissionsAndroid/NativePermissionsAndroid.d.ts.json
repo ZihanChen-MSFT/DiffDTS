@@ -1,0 +1,51 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../TurboModule/RCTExport": [
+                "names",
+                [
+                    [
+                        "TurboModule",
+                        "TurboModule"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "PermissionStatus": [
+                "rename",
+                "PermissionStatus"
+            ],
+            "PermissionType": [
+                "rename",
+                "PermissionType"
+            ],
+            "Spec": [
+                "rename",
+                "Spec"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "PermissionStatus",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PermissionType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Spec",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

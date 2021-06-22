@@ -1,0 +1,28 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "FormData"
+        ]
+    },
+    "decls": [
+        [
+            "FormDataValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Headers",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "FormDataPart",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "FormData",
+            "ClassDeclaration"
+        ]
+    ]
+}

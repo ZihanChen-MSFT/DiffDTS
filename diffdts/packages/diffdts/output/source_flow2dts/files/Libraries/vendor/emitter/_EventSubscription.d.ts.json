@@ -1,0 +1,21 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./_EventSubscriptionVendor": [
+                "default",
+                "EventSubscriptionVendor"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "EventSubscription"
+        ]
+    },
+    "decls": [
+        [
+            "EventSubscription",
+            "ClassDeclaration"
+        ]
+    ]
+}

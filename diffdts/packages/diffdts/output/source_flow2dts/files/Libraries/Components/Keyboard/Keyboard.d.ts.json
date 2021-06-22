@@ -1,0 +1,78 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../EventEmitter/NativeEventEmitter": [
+                "default",
+                "NativeEventEmitter"
+            ]
+        },
+        "exports": {
+            "KeyboardEventName": [
+                "rename",
+                "KeyboardEventName"
+            ],
+            "KeyboardEventEasing": [
+                "rename",
+                "KeyboardEventEasing"
+            ],
+            "KeyboardEventCoordinates": [
+                "rename",
+                "KeyboardEventCoordinates"
+            ],
+            "KeyboardEvent": [
+                "rename",
+                "KeyboardEvent"
+            ],
+            "AndroidKeyboardEvent": [
+                "rename",
+                "AndroidKeyboardEvent"
+            ],
+            "IOSKeyboardEvent": [
+                "rename",
+                "IOSKeyboardEvent"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "KeyboardEventEmitter",
+            "VariableDeclarator"
+        ],
+        [
+            "KeyboardEventName",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "KeyboardEventEasing",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "KeyboardEventCoordinates",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "KeyboardEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "BaseKeyboardEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidKeyboardEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSKeyboardEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

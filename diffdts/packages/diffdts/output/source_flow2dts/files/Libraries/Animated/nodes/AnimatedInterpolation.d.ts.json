@@ -1,0 +1,38 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./AnimatedNode": [
+                "default",
+                "$2"
+            ],
+            "./AnimatedWithChildren": [
+                "default",
+                "$3"
+            ]
+        },
+        "exports": {
+            "InterpolationConfigType": [
+                "rename",
+                "InterpolationConfigType"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "AnimatedInterpolation"
+        ]
+    },
+    "decls": [
+        [
+            "ExtrapolateType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "InterpolationConfigType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedInterpolation",
+            "ClassDeclaration"
+        ]
+    ]
+}

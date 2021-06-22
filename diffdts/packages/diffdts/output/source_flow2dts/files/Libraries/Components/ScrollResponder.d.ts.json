@@ -1,0 +1,74 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ],
+            "../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "ScrollEvent",
+                        "ScrollEvent"
+                    ]
+                ]
+            ],
+            "../vendor/emitter/EventEmitter": [
+                "names",
+                [
+                    [
+                        "EventSubscription",
+                        "EventSubscription"
+                    ]
+                ]
+            ],
+            "./Keyboard/Keyboard": [
+                "names",
+                [
+                    [
+                        "KeyboardEvent",
+                        "KeyboardEvent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "State": [
+                "rename",
+                "State"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollResponderMixin",
+            "VariableDeclarator"
+        ],
+        [
+            "ScrollResponder",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

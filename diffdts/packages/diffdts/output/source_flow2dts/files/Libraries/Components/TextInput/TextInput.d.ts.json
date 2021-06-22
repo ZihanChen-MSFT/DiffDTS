@@ -1,0 +1,224 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "Stringish",
+                        "Stringish"
+                    ]
+                ]
+            ],
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Diff",
+                        "$Diff"
+                    ]
+                ]
+            ],
+            "../../DeprecatedPropTypes/DeprecatedTextInputPropTypes": [
+                "default",
+                "$1"
+            ],
+            "react": [
+                "default",
+                "$2"
+            ],
+            "./TextInputState": [
+                "default",
+                "$3"
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "PressEvent",
+                        "PressEvent"
+                    ]
+                ]
+            ],
+            "../../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ChangeEvent": [
+                "rename",
+                "ChangeEvent"
+            ],
+            "TextInputEvent": [
+                "rename",
+                "TextInputEvent"
+            ],
+            "ContentSizeChangeEvent": [
+                "rename",
+                "ContentSizeChangeEvent"
+            ],
+            "BlurEvent": [
+                "rename",
+                "BlurEvent"
+            ],
+            "FocusEvent": [
+                "rename",
+                "FocusEvent"
+            ],
+            "SelectionChangeEvent": [
+                "rename",
+                "SelectionChangeEvent"
+            ],
+            "KeyPressEvent": [
+                "rename",
+                "KeyPressEvent"
+            ],
+            "EditingEvent": [
+                "rename",
+                "EditingEvent"
+            ],
+            "KeyboardType": [
+                "rename",
+                "KeyboardType"
+            ],
+            "ReturnKeyType": [
+                "rename",
+                "ReturnKeyType"
+            ],
+            "AutoCapitalize": [
+                "rename",
+                "AutoCapitalize"
+            ],
+            "TextContentType": [
+                "rename",
+                "TextContentType"
+            ],
+            "Props": [
+                "rename",
+                "Props"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ReactRefSetter",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ChangeEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextInputEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ContentSizeChangeEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TargetEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "BlurEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "FocusEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Selection",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SelectionChangeEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "KeyPressEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "EditingEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DataDetectorTypesType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "KeyboardType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ReturnKeyType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AutoCapitalize",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextContentType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PasswordRules",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ImperativeMethods",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextInputComponentStatics",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

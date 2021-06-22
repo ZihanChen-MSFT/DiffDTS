@@ -1,0 +1,46 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "namespace",
+                "React"
+            ]
+        },
+        "exports": {
+            "HORIZONTAL": [
+                "rename",
+                "HORIZONTAL"
+            ],
+            "VERTICAL": [
+                "rename",
+                "VERTICAL"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Value",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollViewContext",
+            "VariableDeclarator"
+        ],
+        [
+            "HORIZONTAL",
+            "VariableDeclarator"
+        ],
+        [
+            "VERTICAL",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

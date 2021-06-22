@@ -1,0 +1,43 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../EventEmitter/NativeEventEmitter": [
+                "default",
+                "NativeEventEmitter"
+            ],
+            "./XMLHttpRequest": [
+                "names",
+                [
+                    [
+                        "NativeResponseType",
+                        "NativeResponseType"
+                    ]
+                ]
+            ],
+            "./convertRequestBody": [
+                "names",
+                [
+                    [
+                        "RequestBody",
+                        "RequestBody"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "RCTNetworking",
+            "ClassDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

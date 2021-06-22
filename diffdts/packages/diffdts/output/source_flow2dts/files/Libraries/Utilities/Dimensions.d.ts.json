@@ -1,0 +1,30 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./NativeDeviceInfo": [
+                "names",
+                [
+                    [
+                        "DisplayMetrics",
+                        "DisplayMetrics"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "Dimensions"
+        ]
+    },
+    "decls": [
+        [
+            "DimensionsValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Dimensions",
+            "ClassDeclaration"
+        ]
+    ]
+}

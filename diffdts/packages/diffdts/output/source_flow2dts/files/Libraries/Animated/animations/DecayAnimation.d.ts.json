@@ -1,0 +1,47 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./Animation": [
+                "names",
+                [
+                    [
+                        "EndCallback",
+                        "EndCallback"
+                    ]
+                ]
+            ],
+            "../nodes/AnimatedValue": [
+                "default",
+                "AnimatedValue"
+            ]
+        },
+        "exports": {
+            "DecayAnimationConfig": [
+                "rename",
+                "DecayAnimationConfig"
+            ],
+            "DecayAnimationConfigSingle": [
+                "rename",
+                "DecayAnimationConfigSingle"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "DecayAnimation"
+        ]
+    },
+    "decls": [
+        [
+            "DecayAnimationConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DecayAnimationConfigSingle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DecayAnimation",
+            "ClassDeclaration"
+        ]
+    ]
+}

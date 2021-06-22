@@ -1,0 +1,28 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./Rect": [
+                "names",
+                [
+                    [
+                        "Rect",
+                        "Rect"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "EdgeInsetsProp": [
+                "rename",
+                "EdgeInsetsProp"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "EdgeInsetsProp",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

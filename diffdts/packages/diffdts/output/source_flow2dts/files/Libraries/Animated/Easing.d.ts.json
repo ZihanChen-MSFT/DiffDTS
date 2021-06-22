@@ -1,0 +1,16 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "Easing"
+        ]
+    },
+    "decls": [
+        [
+            "Easing",
+            "ClassDeclaration"
+        ]
+    ]
+}

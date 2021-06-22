@@ -1,0 +1,68 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "Class",
+                        "Class"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../LogBox/Data/LogBoxData": [
+                "names",
+                [
+                    [
+                        "IgnorePattern",
+                        "IgnorePattern"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ignoreWarnings": [
+                "rename",
+                "$f2d_ignoreWarnings"
+            ],
+            "install": [
+                "rename",
+                "$f2d_install"
+            ],
+            "uninstall": [
+                "rename",
+                "$f2d_uninstall"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2d_ignoreWarnings",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_install",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_uninstall",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

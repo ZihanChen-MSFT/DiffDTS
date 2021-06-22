@@ -1,0 +1,55 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../TurboModule/RCTExport": [
+                "names",
+                [
+                    [
+                        "TurboModule",
+                        "TurboModule"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "StackFrame": [
+                "rename",
+                "StackFrame"
+            ],
+            "ExceptionData": [
+                "rename",
+                "ExceptionData"
+            ],
+            "Spec": [
+                "rename",
+                "Spec"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "StackFrame",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ExceptionData",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Spec",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "ExceptionsManager",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../NativeExceptionsManager": [
+                "names",
+                [
+                    [
+                        "StackFrame",
+                        "StackFrame"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "CodeFrame": [
+                "rename",
+                "CodeFrame"
+            ],
+            "SymbolicatedStackTrace": [
+                "rename",
+                "SymbolicatedStackTrace"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "CodeFrame",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SymbolicatedStackTrace",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

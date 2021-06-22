@@ -1,0 +1,85 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../Core/NativeExceptionsManager": [
+                "names",
+                [
+                    [
+                        "ExceptionData",
+                        "ExceptionData"
+                    ]
+                ]
+            ],
+            "./LogBoxLog": [
+                "names",
+                [
+                    [
+                        "LogBoxLogData",
+                        "LogBoxLogData"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ExtendedExceptionData": [
+                "rename",
+                "ExtendedExceptionData"
+            ],
+            "Category": [
+                "rename",
+                "Category"
+            ],
+            "CodeFrame": [
+                "rename",
+                "CodeFrame"
+            ],
+            "Message": [
+                "rename",
+                "Message"
+            ],
+            "ComponentStack": [
+                "rename",
+                "ComponentStack"
+            ],
+            "parseInterpolation": [
+                "rename",
+                "parseInterpolation"
+            ],
+            "parseComponentStack": [
+                "rename",
+                "parseComponentStack"
+            ],
+            "parseLogBoxException": [
+                "rename",
+                "parseLogBoxException"
+            ],
+            "parseLogBoxLog": [
+                "rename",
+                "parseLogBoxLog"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "ExtendedExceptionData",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Category",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "CodeFrame",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Message",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ComponentStack",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

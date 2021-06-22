@@ -1,0 +1,68 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Keys",
+                        "$Keys"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "StatusBarStyle": [
+                "rename",
+                "StatusBarStyle"
+            ],
+            "StatusBarAnimation": [
+                "rename",
+                "StatusBarAnimation"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "StatusBar"
+        ]
+    },
+    "decls": [
+        [
+            "StatusBarStyle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "StatusBarAnimation",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "StatusBar",
+            "ClassDeclaration"
+        ]
+    ]
+}

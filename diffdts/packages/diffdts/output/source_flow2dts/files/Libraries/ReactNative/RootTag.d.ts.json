@@ -1,0 +1,40 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "React$Context",
+                        "React$Context"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "RootTag": [
+                "rename",
+                "RootTag"
+            ],
+            "RootTagContext": [
+                "rename",
+                "RootTagContext"
+            ],
+            "createRootTag": [
+                "rename",
+                "createRootTag"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "RootTag",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RootTagContext",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "AlertType": [
+                "rename",
+                "AlertType"
+            ],
+            "AlertButtonStyle": [
+                "rename",
+                "AlertButtonStyle"
+            ],
+            "Buttons": [
+                "rename",
+                "Buttons"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "Alert"
+        ]
+    },
+    "decls": [
+        [
+            "AlertType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AlertButtonStyle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Buttons",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Options",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Alert",
+            "ClassDeclaration"
+        ]
+    ]
+}

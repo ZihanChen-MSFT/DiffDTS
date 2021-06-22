@@ -1,0 +1,53 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../StyleSheet/Rect": [
+                "names",
+                [
+                    [
+                        "RectOrSize",
+                        "RectOrSize"
+                    ]
+                ]
+            ],
+            "../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "MouseEvent",
+                        "MouseEvent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "PressabilityConfig": [
+                "rename",
+                "PressabilityConfig"
+            ],
+            "EventHandlers": [
+                "rename",
+                "EventHandlers"
+            ],
+            "default": [
+                "rename",
+                "Pressability"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "PressabilityConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "EventHandlers",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Pressability",
+            "ClassDeclaration"
+        ]
+    ]
+}

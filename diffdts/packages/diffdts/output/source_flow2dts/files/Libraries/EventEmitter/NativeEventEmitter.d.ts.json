@@ -1,0 +1,36 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../vendor/emitter/EventEmitter": [
+                "names",
+                [
+                    [
+                        "EventSubscription",
+                        "EventSubscription"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "default": [
+                "rename",
+                "NativeEventEmitter"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "NativeModule",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "NativeEventEmitterOptions",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "NativeEventEmitter",
+            "ClassDeclaration"
+        ]
+    ]
+}

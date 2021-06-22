@@ -1,0 +1,201 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "React$Element",
+                        "React$Element"
+                    ]
+                ]
+            ],
+            "react": [
+                "names",
+                [
+                    [
+                        "AbstractComponent",
+                        "AbstractComponent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "MeasureOnSuccessCallback": [
+                "rename",
+                "MeasureOnSuccessCallback"
+            ],
+            "MeasureInWindowOnSuccessCallback": [
+                "rename",
+                "MeasureInWindowOnSuccessCallback"
+            ],
+            "MeasureLayoutOnSuccessCallback": [
+                "rename",
+                "MeasureLayoutOnSuccessCallback"
+            ],
+            "AttributeConfiguration": [
+                "rename",
+                "AttributeConfiguration"
+            ],
+            "ReactNativeBaseComponentViewConfig": [
+                "rename",
+                "ReactNativeBaseComponentViewConfig"
+            ],
+            "ViewConfigGetter": [
+                "rename",
+                "ViewConfigGetter"
+            ],
+            "NativeMethods": [
+                "rename",
+                "NativeMethods"
+            ],
+            "HostComponent": [
+                "rename",
+                "HostComponent"
+            ],
+            "InspectorData": [
+                "rename",
+                "InspectorData"
+            ],
+            "TouchedViewDataAtPoint": [
+                "rename",
+                "TouchedViewDataAtPoint"
+            ],
+            "ReactNativeType": [
+                "rename",
+                "ReactNativeType"
+            ],
+            "ReactFabricType": [
+                "rename",
+                "ReactFabricType"
+            ],
+            "ReactNativeEventTarget": [
+                "rename",
+                "ReactNativeEventTarget"
+            ],
+            "ReactFaricEventTouch": [
+                "rename",
+                "ReactFaricEventTouch"
+            ],
+            "ReactFaricEvent": [
+                "rename",
+                "ReactFaricEvent"
+            ],
+            "LayoutAnimationType": [
+                "rename",
+                "LayoutAnimationType"
+            ],
+            "LayoutAnimationProperty": [
+                "rename",
+                "LayoutAnimationProperty"
+            ],
+            "LayoutAnimationAnimationConfig": [
+                "rename",
+                "LayoutAnimationAnimationConfig"
+            ],
+            "LayoutAnimationConfig": [
+                "rename",
+                "LayoutAnimationConfig"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "MeasureOnSuccessCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "MeasureInWindowOnSuccessCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "MeasureLayoutOnSuccessCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AttributeType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AttributeConfiguration",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ReactNativeBaseComponentViewConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewConfigGetter",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "NativeMethods",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "HostComponent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SecretInternalsType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "InspectorDataProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "InspectorDataSource",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "InspectorDataGetter",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "InspectorData",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TouchedViewDataAtPoint",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ReactNativeType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ReactFabricType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ReactNativeEventTarget",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ReactFaricEventTouch",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ReactFaricEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LayoutAnimationType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LayoutAnimationProperty",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LayoutAnimationAnimationConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LayoutAnimationConfig",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

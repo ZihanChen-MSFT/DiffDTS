@@ -1,0 +1,59 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Diff",
+                        "$Diff"
+                    ]
+                ]
+            ],
+            "./TouchableWithoutFeedback": [
+                "default",
+                "TouchableWithoutFeedback$f2tTypeof"
+            ],
+            "../../../Libraries/Animated/Animated": [
+                "default",
+                "Animated"
+            ],
+            "../../../Libraries/StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ViewStyleProp",
+                        "ViewStyleProp"
+                    ]
+                ]
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "TouchableWithoutFeedback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TVProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

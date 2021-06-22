@@ -1,0 +1,63 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./VirtualizedList.js": [
+                "default",
+                "VirtualizedList"
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ]
+        },
+        "exports": {
+            "ChildListState": [
+                "rename",
+                "ChildListState"
+            ],
+            "ListDebugInfo": [
+                "rename",
+                "ListDebugInfo"
+            ],
+            "VirtualizedListContext": [
+                "rename",
+                "VirtualizedListContext"
+            ],
+            "VirtualizedListContextResetter": [
+                "rename",
+                "VirtualizedListContextResetter"
+            ],
+            "VirtualizedListContextProvider": [
+                "rename",
+                "VirtualizedListContextProvider"
+            ],
+            "VirtualizedListCellContextProvider": [
+                "rename",
+                "VirtualizedListCellContextProvider"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "Frame",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ChildListState",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ListDebugInfo",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Context",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "VirtualizedListContext",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$PropertyType",
+                        "$PropertyType"
+                    ]
+                ]
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "../ScrollResponder": [
+                "names",
+                [
+                    [
+                        "State",
+                        "ScrollResponderState"
+                    ]
+                ]
+            ],
+            "../View/View": [
+                "default",
+                "View"
+            ],
+            "../../StyleSheet/EdgeInsetsPropType": [
+                "names",
+                [
+                    [
+                        "EdgeInsetsProp",
+                        "EdgeInsetsProp"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/PointPropType": [
+                "names",
+                [
+                    [
+                        "PointProp",
+                        "PointProp"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "ScrollEvent",
+                        "ScrollEvent"
+                    ]
+                ]
+            ],
+            "../../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ],
+            "./ScrollViewStickyHeader": [
+                "names",
+                [
+                    [
+                        "Props",
+                        "ScrollViewStickyHeaderProps"
+                    ]
+                ]
+            ],
+            "./ScrollViewContext": [
+                "default",
+                "ScrollViewContext"
+            ],
+            "./ScrollViewNativeComponent": [
+                "default",
+                "ScrollViewNativeComponent"
+            ]
+        },
+        "exports": {
+            "ScrollViewImperativeMethods": [
+                "rename",
+                "ScrollViewImperativeMethods"
+            ],
+            "ScrollResponderType": [
+                "rename",
+                "ScrollResponderType"
+            ],
+            "Props": [
+                "rename",
+                "Props"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ScrollViewImperativeMethods",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollResponderType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "VRProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "StickyHeaderComponentType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollViewComponentStatics",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollView",
+            "ClassDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

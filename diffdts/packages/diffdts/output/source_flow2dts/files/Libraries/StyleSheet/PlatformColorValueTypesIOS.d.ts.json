@@ -1,0 +1,36 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "DynamicColorIOSTuple": [
+                "rename",
+                "DynamicColorIOSTuple"
+            ],
+            "DynamicColorIOS": [
+                "rename",
+                "DynamicColorIOS"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "DynamicColorIOSTuple",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DynamicColorIOS",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,319 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./AnimatedEvent": [
+                "names",
+                [
+                    [
+                        "EventConfig",
+                        "EventConfig"
+                    ]
+                ]
+            ],
+            "./nodes/AnimatedAddition": [
+                "default",
+                "$1"
+            ],
+            "./nodes/AnimatedDiffClamp": [
+                "default",
+                "$2"
+            ],
+            "./nodes/AnimatedDivision": [
+                "default",
+                "$3"
+            ],
+            "./nodes/AnimatedInterpolation": [
+                "default",
+                "$6"
+            ],
+            "./nodes/AnimatedModulo": [
+                "default",
+                "$7"
+            ],
+            "./nodes/AnimatedMultiplication": [
+                "default",
+                "$8"
+            ],
+            "./nodes/AnimatedNode": [
+                "default",
+                "$9"
+            ],
+            "./nodes/AnimatedProps": [
+                "default",
+                "$10"
+            ],
+            "./nodes/AnimatedSubtraction": [
+                "default",
+                "$11"
+            ],
+            "./nodes/AnimatedValue": [
+                "default",
+                "$12"
+            ],
+            "./nodes/AnimatedValueXY": [
+                "default",
+                "$13"
+            ],
+            "./createAnimatedComponent": [
+                "default",
+                "$16"
+            ],
+            "./animations/Animation": [
+                "names",
+                [
+                    [
+                        "EndCallback",
+                        "EndCallback"
+                    ]
+                ]
+            ],
+            "./animations/TimingAnimation": [
+                "names",
+                [
+                    [
+                        "TimingAnimationConfig",
+                        "TimingAnimationConfig"
+                    ]
+                ]
+            ],
+            "./animations/DecayAnimation": [
+                "names",
+                [
+                    [
+                        "DecayAnimationConfig",
+                        "DecayAnimationConfig"
+                    ]
+                ]
+            ],
+            "./animations/SpringAnimation": [
+                "names",
+                [
+                    [
+                        "SpringAnimationConfig",
+                        "SpringAnimationConfig"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "CompositeAnimation": [
+                "rename",
+                "CompositeAnimation"
+            ],
+            "Value": [
+                "rename",
+                "$f2d_Value"
+            ],
+            "ValueXY": [
+                "rename",
+                "$f2d_ValueXY"
+            ],
+            "Interpolation": [
+                "rename",
+                "$f2d_Interpolation"
+            ],
+            "Node": [
+                "rename",
+                "$f2d_Node"
+            ],
+            "decay": [
+                "rename",
+                "decay"
+            ],
+            "timing": [
+                "rename",
+                "timing"
+            ],
+            "spring": [
+                "rename",
+                "spring"
+            ],
+            "add": [
+                "rename",
+                "add"
+            ],
+            "subtract": [
+                "rename",
+                "subtract"
+            ],
+            "divide": [
+                "rename",
+                "divide"
+            ],
+            "multiply": [
+                "rename",
+                "multiply"
+            ],
+            "modulo": [
+                "rename",
+                "modulo"
+            ],
+            "diffClamp": [
+                "rename",
+                "diffClamp"
+            ],
+            "delay": [
+                "rename",
+                "delay"
+            ],
+            "sequence": [
+                "rename",
+                "sequence"
+            ],
+            "parallel": [
+                "rename",
+                "parallel"
+            ],
+            "stagger": [
+                "rename",
+                "stagger"
+            ],
+            "loop": [
+                "rename",
+                "loop"
+            ],
+            "event": [
+                "rename",
+                "event"
+            ],
+            "createAnimatedComponent": [
+                "rename",
+                "$f2d_createAnimatedComponent"
+            ],
+            "attachNativeEvent": [
+                "rename",
+                "$f2d_attachNativeEvent"
+            ],
+            "forkEvent": [
+                "rename",
+                "forkEvent"
+            ],
+            "unforkEvent": [
+                "rename",
+                "unforkEvent"
+            ],
+            "Event": [
+                "rename",
+                "$f2d_Event"
+            ],
+            "__PropsOnlyForTests": [
+                "rename",
+                "$f2d___PropsOnlyForTests"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "CompositeAnimation",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "add",
+            "VariableDeclarator"
+        ],
+        [
+            "subtract",
+            "VariableDeclarator"
+        ],
+        [
+            "divide",
+            "VariableDeclarator"
+        ],
+        [
+            "multiply",
+            "VariableDeclarator"
+        ],
+        [
+            "modulo",
+            "VariableDeclarator"
+        ],
+        [
+            "diffClamp",
+            "VariableDeclarator"
+        ],
+        [
+            "spring",
+            "VariableDeclarator"
+        ],
+        [
+            "timing",
+            "VariableDeclarator"
+        ],
+        [
+            "decay",
+            "VariableDeclarator"
+        ],
+        [
+            "sequence",
+            "VariableDeclarator"
+        ],
+        [
+            "ParallelConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "parallel",
+            "VariableDeclarator"
+        ],
+        [
+            "delay",
+            "VariableDeclarator"
+        ],
+        [
+            "stagger",
+            "VariableDeclarator"
+        ],
+        [
+            "LoopAnimationConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "loop",
+            "VariableDeclarator"
+        ],
+        [
+            "event",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_Value",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_ValueXY",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_Interpolation",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_Node",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_createAnimatedComponent",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_attachNativeEvent",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_Event",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d___PropsOnlyForTests",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

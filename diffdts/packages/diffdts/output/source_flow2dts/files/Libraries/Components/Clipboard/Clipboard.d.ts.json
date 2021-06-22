@@ -1,0 +1,33 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "getString": [
+                "rename",
+                "$f2d_getString"
+            ],
+            "setString": [
+                "rename",
+                "$f2d_setString"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2d_getString",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_setString",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

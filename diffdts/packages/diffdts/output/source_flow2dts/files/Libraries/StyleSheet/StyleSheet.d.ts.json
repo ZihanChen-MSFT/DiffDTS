@@ -1,0 +1,180 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$ElementType",
+                        "$ElementType"
+                    ],
+                    [
+                        "$Keys",
+                        "$Keys"
+                    ]
+                ]
+            ],
+            "./flattenStyle": [
+                "default",
+                "$1"
+            ],
+            "./StyleSheetTypes": [
+                "names",
+                [
+                    [
+                        "____ImageStyleProp_Internal",
+                        "____ImageStyleProp_Internal"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ColorValue": [
+                "rename",
+                "ColorValue"
+            ],
+            "ViewStyleProp": [
+                "rename",
+                "ViewStyleProp"
+            ],
+            "TextStyleProp": [
+                "rename",
+                "TextStyleProp"
+            ],
+            "ImageStyleProp": [
+                "rename",
+                "ImageStyleProp"
+            ],
+            "DangerouslyImpreciseStyleProp": [
+                "rename",
+                "DangerouslyImpreciseStyleProp"
+            ],
+            "TypeForStyleKey": [
+                "rename",
+                "TypeForStyleKey"
+            ],
+            "ViewStyle": [
+                "rename",
+                "ViewStyle"
+            ],
+            "TextStyle": [
+                "rename",
+                "TextStyle"
+            ],
+            "ImageStyle": [
+                "rename",
+                "ImageStyle"
+            ],
+            "DangerouslyImpreciseStyle": [
+                "rename",
+                "DangerouslyImpreciseStyle"
+            ],
+            "hairlineWidth": [
+                "rename",
+                "hairlineWidth"
+            ],
+            "absoluteFill": [
+                "rename",
+                "$f2d_absoluteFill"
+            ],
+            "absoluteFillObject": [
+                "rename",
+                "absoluteFill"
+            ],
+            "compose": [
+                "rename",
+                "$f2d_compose"
+            ],
+            "flatten": [
+                "rename",
+                "$f2d_flatten"
+            ],
+            "setStyleAttributePreprocessor": [
+                "rename",
+                "$f2d_setStyleAttributePreprocessor"
+            ],
+            "create": [
+                "rename",
+                "$f2d_create"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ColorValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewStyleProp",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextStyleProp",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ImageStyleProp",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DangerouslyImpreciseStyleProp",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TypeForStyleKey",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewStyle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextStyle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ImageStyle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DangerouslyImpreciseStyle",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "hairlineWidth",
+            "VariableDeclarator"
+        ],
+        [
+            "absoluteFill",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_absoluteFill",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_compose",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_flatten",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_setStyleAttributePreprocessor",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_create",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

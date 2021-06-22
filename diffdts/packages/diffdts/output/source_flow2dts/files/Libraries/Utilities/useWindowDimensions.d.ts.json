@@ -1,0 +1,23 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./NativeDeviceInfo": [
+                "names",
+                [
+                    [
+                        "DisplayMetrics",
+                        "DisplayMetrics"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "default": [
+                "rename",
+                "useWindowDimensions"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": []
+}

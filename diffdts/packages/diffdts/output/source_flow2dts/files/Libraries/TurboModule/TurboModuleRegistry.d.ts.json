@@ -1,0 +1,27 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./RCTExport": [
+                "names",
+                [
+                    [
+                        "TurboModule",
+                        "TurboModule"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "get": [
+                "rename",
+                "get"
+            ],
+            "getEnforcing": [
+                "rename",
+                "getEnforcing"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": []
+}

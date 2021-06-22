@@ -1,0 +1,173 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Shape",
+                        "$Shape"
+                    ]
+                ]
+            ],
+            "../Animated/nodes/AnimatedNode": [
+                "default",
+                "$1"
+            ],
+            "./PlatformColorValueTypes": [
+                "names",
+                [
+                    [
+                        "NativeColorValue",
+                        "NativeColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "____ColorValue_Internal": [
+                "rename",
+                "____ColorValue_Internal"
+            ],
+            "ColorArrayValue": [
+                "rename",
+                "ColorArrayValue"
+            ],
+            "PointValue": [
+                "rename",
+                "PointValue"
+            ],
+            "EdgeInsetsValue": [
+                "rename",
+                "EdgeInsetsValue"
+            ],
+            "DimensionValue": [
+                "rename",
+                "DimensionValue"
+            ],
+            "____ShadowStyle_Internal": [
+                "rename",
+                "____ShadowStyle_Internal"
+            ],
+            "____ViewStyle_Internal": [
+                "rename",
+                "____ViewStyle_Internal"
+            ],
+            "____FontWeight_Internal": [
+                "rename",
+                "____FontWeight_Internal"
+            ],
+            "____TextStyle_Internal": [
+                "rename",
+                "____TextStyle_Internal"
+            ],
+            "____ImageStyle_Internal": [
+                "rename",
+                "____ImageStyle_Internal"
+            ],
+            "____DangerouslyImpreciseStyle_Internal": [
+                "rename",
+                "____DangerouslyImpreciseStyle_Internal"
+            ],
+            "____DangerouslyImpreciseStyleProp_Internal": [
+                "rename",
+                "____DangerouslyImpreciseStyleProp_Internal"
+            ],
+            "____ViewStyleProp_Internal": [
+                "rename",
+                "____ViewStyleProp_Internal"
+            ],
+            "____TextStyleProp_Internal": [
+                "rename",
+                "____TextStyleProp_Internal"
+            ],
+            "____ImageStyleProp_Internal": [
+                "rename",
+                "____ImageStyleProp_Internal"
+            ],
+            "____Styles_Internal": [
+                "rename",
+                "____Styles_Internal"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "____ColorValue_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ColorArrayValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PointValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "EdgeInsetsValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DimensionValue",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____LayoutStyle_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____TransformStyle_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____ShadowStyle_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____ViewStyle_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____FontWeight_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____TextStyle_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____ImageStyle_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____DangerouslyImpreciseStyle_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "GenericStyleProp",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____DangerouslyImpreciseStyleProp_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____ViewStyleProp_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____TextStyleProp_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____ImageStyleProp_Internal",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "____Styles_Internal",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

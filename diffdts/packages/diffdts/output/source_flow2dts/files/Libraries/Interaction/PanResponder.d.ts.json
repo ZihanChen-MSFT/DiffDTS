@@ -1,0 +1,68 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$PropertyType",
+                        "$PropertyType"
+                    ]
+                ]
+            ],
+            "../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "PressEvent",
+                        "PressEvent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "GestureState": [
+                "rename",
+                "GestureState"
+            ],
+            "PanResponderInstance": [
+                "rename",
+                "PanResponderInstance"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "GestureState",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ActiveCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PassiveCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PanResponderConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PanResponder",
+            "VariableDeclarator"
+        ],
+        [
+            "PanResponderInstance",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

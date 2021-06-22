@@ -1,0 +1,43 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./NativePermissionsAndroid": [
+                "names",
+                [
+                    [
+                        "PermissionType",
+                        "PermissionType"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Rationale": [
+                "rename",
+                "Rationale"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Rationale",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PermissionsAndroid",
+            "ClassDeclaration"
+        ],
+        [
+            "PermissionsAndroidInstance",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

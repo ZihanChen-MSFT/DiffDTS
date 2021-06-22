@@ -1,0 +1,121 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$PropertyType",
+                        "$PropertyType"
+                    ]
+                ]
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "SyntheticEvent": [
+                "rename",
+                "SyntheticEvent"
+            ],
+            "ResponderSyntheticEvent": [
+                "rename",
+                "ResponderSyntheticEvent"
+            ],
+            "Layout": [
+                "rename",
+                "Layout"
+            ],
+            "TextLayout": [
+                "rename",
+                "TextLayout"
+            ],
+            "LayoutEvent": [
+                "rename",
+                "LayoutEvent"
+            ],
+            "TextLayoutEvent": [
+                "rename",
+                "TextLayoutEvent"
+            ],
+            "PressEvent": [
+                "rename",
+                "PressEvent"
+            ],
+            "ScrollEvent": [
+                "rename",
+                "ScrollEvent"
+            ],
+            "BlurEvent": [
+                "rename",
+                "BlurEvent"
+            ],
+            "FocusEvent": [
+                "rename",
+                "FocusEvent"
+            ],
+            "MouseEvent": [
+                "rename",
+                "MouseEvent"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "SyntheticEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ResponderSyntheticEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Layout",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextLayout",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LayoutEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TextLayoutEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PressEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ScrollEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "BlurEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "FocusEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "MouseEvent",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

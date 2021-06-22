@@ -1,0 +1,51 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "LayoutAnimationConfig",
+                        "LayoutAnimationConfig_"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "LayoutAnimationConfig": [
+                "rename",
+                "LayoutAnimationConfig"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "LayoutAnimationConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "OnAnimationDidEndCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "OnAnimationDidFailCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Presets",
+            "VariableDeclarator"
+        ],
+        [
+            "LayoutAnimation",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

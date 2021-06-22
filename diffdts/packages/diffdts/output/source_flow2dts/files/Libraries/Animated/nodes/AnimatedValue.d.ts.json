@@ -1,0 +1,38 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./AnimatedInterpolation": [
+                "names",
+                [
+                    [
+                        "InterpolationConfigType",
+                        "InterpolationConfigType"
+                    ]
+                ]
+            ],
+            "./AnimatedWithChildren": [
+                "default",
+                "$3"
+            ],
+            "../animations/Animation": [
+                "default",
+                "Animation"
+            ],
+            "./AnimatedTracking": [
+                "default",
+                "AnimatedTracking"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "AnimatedValue"
+        ]
+    },
+    "decls": [
+        [
+            "AnimatedValue",
+            "ClassDeclaration"
+        ]
+    ]
+}

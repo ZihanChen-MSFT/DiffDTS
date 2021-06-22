@@ -1,0 +1,47 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$3"
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "PickerItem": [
+                "rename",
+                "PickerItem"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "Picker"
+        ]
+    },
+    "decls": [
+        [
+            "PickerItemProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "PickerItem",
+            "ClassDeclaration"
+        ],
+        [
+            "PickerProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Picker",
+            "ClassDeclaration"
+        ]
+    ]
+}

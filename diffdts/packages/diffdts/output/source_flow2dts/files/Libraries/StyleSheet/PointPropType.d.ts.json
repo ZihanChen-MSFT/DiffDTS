@@ -1,0 +1,18 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "PointProp": [
+                "rename",
+                "PointProp"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "PointProp",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

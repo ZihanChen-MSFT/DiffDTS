@@ -1,0 +1,72 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "./ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ],
+            "../../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ViewNativeComponentType": [
+                "rename",
+                "ViewNativeComponentType"
+            ],
+            "__INTERNAL_VIEW_CONFIG": [
+                "rename",
+                "__INTERNAL_VIEW_CONFIG"
+            ],
+            "Commands": [
+                "rename",
+                "Commands"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ViewNativeComponentType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "viewConfig",
+            "VariableDeclarator"
+        ],
+        [
+            "__INTERNAL_VIEW_CONFIG",
+            "VariableDeclarator"
+        ],
+        [
+            "NativeCommands",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "Commands",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

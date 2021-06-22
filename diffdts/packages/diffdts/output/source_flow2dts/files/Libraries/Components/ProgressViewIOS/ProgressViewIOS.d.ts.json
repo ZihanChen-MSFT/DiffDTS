@@ -1,0 +1,21 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./RCTProgressViewNativeComponent": [
+                "default",
+                "RCTProgressViewNativeComponent"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

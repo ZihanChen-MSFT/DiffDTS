@@ -1,0 +1,51 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./TextNativeComponent": [
+                "names",
+                [
+                    [
+                        "NativeVirtualText",
+                        "NativeVirtualText"
+                    ]
+                ]
+            ],
+            "../DeprecatedPropTypes/DeprecatedTextPropTypes": [
+                "default",
+                "$1"
+            ],
+            "react": [
+                "default",
+                "$2"
+            ],
+            "./TextProps": [
+                "names",
+                [
+                    [
+                        "TextProps",
+                        "TextProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Text",
+            "VariableDeclarator"
+        ],
+        [
+            "TextToExport",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

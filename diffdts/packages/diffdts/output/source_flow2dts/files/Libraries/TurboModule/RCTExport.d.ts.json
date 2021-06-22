@@ -1,0 +1,30 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "DEPRECATED_RCTExport": [
+                "rename",
+                "DEPRECATED_RCTExport"
+            ],
+            "TurboModule": [
+                "rename",
+                "TurboModule"
+            ],
+            "RootTag": [
+                "rename",
+                "RootTag"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "DEPRECATED_RCTExport",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "TurboModule",
+            "TSInterfaceDeclaration"
+        ]
+    ]
+}

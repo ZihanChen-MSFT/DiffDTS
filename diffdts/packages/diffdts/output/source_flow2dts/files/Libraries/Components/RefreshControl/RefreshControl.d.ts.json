@@ -1,0 +1,60 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "RefreshControlProps": [
+                "rename",
+                "RefreshControlProps"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "RefreshControl"
+        ]
+    },
+    "decls": [
+        [
+            "RefreshLayoutConsts",
+            "VariableDeclarator"
+        ],
+        [
+            "IOSProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RefreshControlProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RefreshControl",
+            "ClassDeclaration"
+        ]
+    ]
+}

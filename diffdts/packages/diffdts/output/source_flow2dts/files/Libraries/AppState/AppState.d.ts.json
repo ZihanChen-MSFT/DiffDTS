@@ -1,0 +1,37 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../EventEmitter/NativeEventEmitter": [
+                "default",
+                "NativeEventEmitter"
+            ],
+            "../vendor/emitter/EventEmitter": [
+                "default",
+                "EventEmitter"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "AppState",
+            "ClassDeclaration"
+        ],
+        [
+            "MissingNativeAppStateShim",
+            "ClassDeclaration"
+        ],
+        [
+            "AppStateInstance",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

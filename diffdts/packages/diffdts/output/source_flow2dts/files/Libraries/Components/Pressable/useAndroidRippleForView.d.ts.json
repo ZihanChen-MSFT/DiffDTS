@@ -1,0 +1,53 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "PressEvent",
+                        "PressEvent"
+                    ]
+                ]
+            ],
+            "../../Components/View/View": [
+                "default",
+                "View"
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ]
+        },
+        "exports": {
+            "RippleConfig": [
+                "rename",
+                "RippleConfig"
+            ],
+            "default": [
+                "rename",
+                "useAndroidRippleForView"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "NativeBackgroundProp",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RippleConfig",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "React$PropType$Primitive",
+                        "React$PropType$Primitive"
+                    ],
+                    [
+                        "ReactPropsCheckType",
+                        "ReactPropsCheckType"
+                    ]
+                ]
+            ],
+            "./DeprecatedEdgeInsetsPropType": [
+                "default",
+                "$1"
+            ],
+            "../../TypeScriptSupplementals/DeprecatedImageSourcePropType": [
+                "default",
+                "$2"
+            ],
+            "prop-types": [
+                "default",
+                "$3"
+            ]
+        },
+        "exports": {
+            "style": [
+                "rename",
+                "$f2d_style"
+            ],
+            "source": [
+                "rename",
+                "$f2d_source"
+            ],
+            "defaultSource": [
+                "rename",
+                "$f2d_defaultSource"
+            ],
+            "accessible": [
+                "rename",
+                "$f2d_accessible"
+            ],
+            "accessibilityLabel": [
+                "rename",
+                "$f2d_accessibilityLabel"
+            ],
+            "blurRadius": [
+                "rename",
+                "$f2d_blurRadius"
+            ],
+            "capInsets": [
+                "rename",
+                "$f2d_capInsets"
+            ],
+            "resizeMethod": [
+                "rename",
+                "$f2d_resizeMethod"
+            ],
+            "resizeMode": [
+                "rename",
+                "$f2d_resizeMode"
+            ],
+            "testID": [
+                "rename",
+                "$f2d_testID"
+            ],
+            "onLayout": [
+                "rename",
+                "$f2d_onLayout"
+            ],
+            "onLoadStart": [
+                "rename",
+                "$f2d_onLoadStart"
+            ],
+            "onProgress": [
+                "rename",
+                "$f2d_onProgress"
+            ],
+            "onError": [
+                "rename",
+                "$f2d_onError"
+            ],
+            "onPartialLoad": [
+                "rename",
+                "$f2d_onPartialLoad"
+            ],
+            "onLoad": [
+                "rename",
+                "$f2d_onLoad"
+            ],
+            "onLoadEnd": [
+                "rename",
+                "$f2d_onLoadEnd"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2d_style",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_source",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_defaultSource",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_accessible",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_accessibilityLabel",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_blurRadius",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_capInsets",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_resizeMethod",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_resizeMode",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_testID",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onLayout",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onLoadStart",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onProgress",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onError",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onPartialLoad",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onLoad",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_onLoadEnd",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

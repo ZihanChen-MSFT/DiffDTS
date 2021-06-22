@@ -1,0 +1,35 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../NativeExceptionsManager": [
+                "names",
+                [
+                    [
+                        "StackFrame",
+                        "StackFrame"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ExtendedError": [
+                "rename",
+                "ExtendedError"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ExtendedError",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../Types/CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "SyntheticEvent",
+                        "SyntheticEvent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "AccessibilityRole": [
+                "rename",
+                "AccessibilityRole"
+            ],
+            "AccessibilityActionInfo": [
+                "rename",
+                "AccessibilityActionInfo"
+            ],
+            "AccessibilityActionEvent": [
+                "rename",
+                "AccessibilityActionEvent"
+            ],
+            "AccessibilityState": [
+                "rename",
+                "AccessibilityState"
+            ],
+            "AccessibilityValue": [
+                "rename",
+                "AccessibilityValue"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "AccessibilityRole",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AccessibilityActionInfo",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AccessibilityActionEvent",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AccessibilityState",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AccessibilityValue",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

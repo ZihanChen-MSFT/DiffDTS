@@ -13,19 +13,26 @@ function processEntry(inputFilename: string, outputDirname: string): void {
   const [key, entryAst] = parseTS(state, inputFilename);
   collectFiles(state, key, entryAst);
 
+  console.log(`Writing: index.json`);
   const output = {
     pwd: state.pwd.substr(dirbase.length)
   };
   fs.writeFileSync(path.join(outputDirname, "index.json"), JSON.stringify(output, undefined, 4));
 
   for (const filename in state.entries) {
-    console.log(`    > ${inputFilename}`);
+    console.log(`    > ${inputFilename}.json`);
     const entry = state.entries[filename];
     const entryOutput = {
       raw: entry.raw,
       decls: Object.keys(entry.index.decls).map((id) => [id, entry.index.decls[id].type])
     };
-    fs.writeFileSync(path.join(outputDirname, "files", filename + ".json"), JSON.stringify(entryOutput, undefined, 4));
+
+    const outputEntryPath = path.join(outputDirname, "files", filename + ".json");
+    const outputEntryDir = path.dirname(outputEntryPath);
+    if (!fs.existsSync(outputEntryDir)) {
+      fs.mkdirSync(outputEntryDir, { recursive: true });
+    }
+    fs.writeFileSync(outputEntryPath, JSON.stringify(entryOutput, undefined, 4));
   }
 }
 

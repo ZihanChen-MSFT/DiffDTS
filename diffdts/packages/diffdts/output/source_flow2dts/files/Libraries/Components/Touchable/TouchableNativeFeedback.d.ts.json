@@ -1,0 +1,41 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../Pressability/Pressability": [
+                "default",
+                "Pressability"
+            ],
+            "./TouchableWithoutFeedback": [
+                "default",
+                "TouchableWithoutFeedback$f2tTypeof"
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "TouchableNativeFeedback"
+        ]
+    },
+    "decls": [
+        [
+            "TouchableWithoutFeedback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TouchableNativeFeedback",
+            "ClassDeclaration"
+        ]
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./NativeAppearance": [
+                "names",
+                [
+                    [
+                        "ColorSchemeName",
+                        "ColorSchemeName"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "default": [
+                "rename",
+                "useColorScheme"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": []
+}

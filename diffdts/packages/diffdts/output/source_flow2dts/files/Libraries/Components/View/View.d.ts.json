@@ -1,0 +1,47 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$1"
+            ],
+            "./ViewNativeComponent": [
+                "default",
+                "ViewNativeComponent"
+            ]
+        },
+        "exports": {
+            "Props": [
+                "rename",
+                "Props"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "View",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

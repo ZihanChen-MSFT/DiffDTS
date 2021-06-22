@@ -1,0 +1,24 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "Share"
+        ]
+    },
+    "decls": [
+        [
+            "Content",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Options",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Share",
+            "ClassDeclaration"
+        ]
+    ]
+}

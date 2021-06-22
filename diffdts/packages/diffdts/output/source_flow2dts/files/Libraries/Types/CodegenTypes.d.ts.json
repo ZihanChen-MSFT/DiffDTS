@@ -1,0 +1,72 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./CoreEventTypes": [
+                "names",
+                [
+                    [
+                        "SyntheticEvent",
+                        "SyntheticEvent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "BubblingEventHandler": [
+                "rename",
+                "BubblingEventHandler"
+            ],
+            "DirectEventHandler": [
+                "rename",
+                "DirectEventHandler"
+            ],
+            "Double": [
+                "rename",
+                "Double"
+            ],
+            "Float": [
+                "rename",
+                "Float"
+            ],
+            "Int32": [
+                "rename",
+                "Int32"
+            ],
+            "WithDefault": [
+                "rename",
+                "WithDefault"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "BubblingEventHandler",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DirectEventHandler",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Double",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Float",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Int32",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DefaultTypes",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "WithDefault",
+            "TSTypeAliasDeclaration"
+        ]
+    ]
+}

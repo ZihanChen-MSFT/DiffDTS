@@ -1,0 +1,30 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "$FlowFixMeProps",
+                        "$FlowFixMeProps"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$2"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "ImageBackground"
+        ]
+    },
+    "decls": [
+        [
+            "ImageBackground",
+            "ClassDeclaration"
+        ]
+    ]
+}

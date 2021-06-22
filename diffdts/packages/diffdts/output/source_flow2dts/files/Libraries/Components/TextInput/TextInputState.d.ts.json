@@ -1,0 +1,79 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "currentlyFocusedInput": [
+                "rename",
+                "currentlyFocusedInput"
+            ],
+            "focusInput": [
+                "rename",
+                "focusInput"
+            ],
+            "blurInput": [
+                "rename",
+                "blurInput"
+            ],
+            "currentlyFocusedField": [
+                "rename",
+                "currentlyFocusedField"
+            ],
+            "focusField": [
+                "rename",
+                "focusField"
+            ],
+            "blurField": [
+                "rename",
+                "blurField"
+            ],
+            "focusTextInput": [
+                "rename",
+                "focusTextInput"
+            ],
+            "blurTextInput": [
+                "rename",
+                "blurTextInput"
+            ],
+            "registerInput": [
+                "rename",
+                "registerInput"
+            ],
+            "unregisterInput": [
+                "rename",
+                "unregisterInput"
+            ],
+            "isTextInput": [
+                "rename",
+                "isTextInput"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ComponentRef",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

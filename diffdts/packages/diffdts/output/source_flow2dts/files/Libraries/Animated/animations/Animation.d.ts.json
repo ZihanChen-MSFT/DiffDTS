@@ -1,0 +1,46 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../nodes/AnimatedValue": [
+                "default",
+                "AnimatedValue"
+            ]
+        },
+        "exports": {
+            "EndResult": [
+                "rename",
+                "EndResult"
+            ],
+            "EndCallback": [
+                "rename",
+                "EndCallback"
+            ],
+            "AnimationConfig": [
+                "rename",
+                "AnimationConfig"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "Animation"
+        ]
+    },
+    "decls": [
+        [
+            "EndResult",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "EndCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimationConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Animation",
+            "ClassDeclaration"
+        ]
+    ]
+}

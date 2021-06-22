@@ -1,0 +1,59 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./Data/LogBoxData": [
+                "names",
+                [
+                    [
+                        "IgnorePattern",
+                        "IgnorePattern"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "ignoreLogs": [
+                "rename",
+                "$f2d_ignoreLogs"
+            ],
+            "ignoreAllLogs": [
+                "rename",
+                "$f2d_ignoreAllLogs"
+            ],
+            "install": [
+                "rename",
+                "$f2d_install"
+            ],
+            "uninstall": [
+                "rename",
+                "$f2d_uninstall"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2d_ignoreLogs",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_ignoreAllLogs",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_install",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_uninstall",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

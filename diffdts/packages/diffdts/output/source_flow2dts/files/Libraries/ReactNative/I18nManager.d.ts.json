@@ -1,0 +1,69 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "getConstants": [
+                "rename",
+                "$f2d_getConstants"
+            ],
+            "allowRTL": [
+                "rename",
+                "$f2d_allowRTL"
+            ],
+            "forceRTL": [
+                "rename",
+                "$f2d_forceRTL"
+            ],
+            "swapLeftAndRightInRTL": [
+                "rename",
+                "$f2d_swapLeftAndRightInRTL"
+            ],
+            "isRTL": [
+                "rename",
+                "$f2d_isRTL"
+            ],
+            "doLeftAndRightSwapInRTL": [
+                "rename",
+                "$f2d_doLeftAndRightSwapInRTL"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "i18nConstants",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_getConstants",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_allowRTL",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_forceRTL",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_swapLeftAndRightInRTL",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_isRTL",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2d_doLeftAndRightSwapInRTL",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

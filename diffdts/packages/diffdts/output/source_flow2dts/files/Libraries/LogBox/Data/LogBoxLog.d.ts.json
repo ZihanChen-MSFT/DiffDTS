@@ -1,0 +1,60 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./parseLogBoxLog": [
+                "names",
+                [
+                    [
+                        "CodeFrame",
+                        "CodeFrame"
+                    ]
+                ]
+            ],
+            "./LogBoxSymbolication": [
+                "names",
+                [
+                    [
+                        "Stack",
+                        "Stack"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "LogLevel": [
+                "rename",
+                "LogLevel"
+            ],
+            "LogBoxLogData": [
+                "rename",
+                "LogBoxLogData"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "SymbolicationStatus",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LogLevel",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LogBoxLogData",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "LogBoxLog",
+            "ClassDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

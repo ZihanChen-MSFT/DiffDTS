@@ -1,0 +1,66 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "./AssetSourceResolver": [
+                "names",
+                [
+                    [
+                        "ResolvedAssetSource",
+                        "ResolvedAssetSource"
+                    ]
+                ]
+            ],
+            "../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ],
+            "./ImageProps": [
+                "names",
+                [
+                    [
+                        "ImageProps",
+                        "ImageProps"
+                    ]
+                ]
+            ],
+            "../Components/View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "NativeProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

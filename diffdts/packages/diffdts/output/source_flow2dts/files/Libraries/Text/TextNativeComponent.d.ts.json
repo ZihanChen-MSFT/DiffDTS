@@ -1,0 +1,58 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ],
+            "../StyleSheet/processColor": [
+                "names",
+                [
+                    [
+                        "ProcessedColorValue",
+                        "ProcessedColorValue"
+                    ]
+                ]
+            ],
+            "./TextProps": [
+                "names",
+                [
+                    [
+                        "TextProps",
+                        "TextProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "NativeText": [
+                "rename",
+                "NativeText"
+            ],
+            "NativeVirtualText": [
+                "rename",
+                "NativeVirtualText"
+            ]
+        },
+        "exportDefault": "none"
+    },
+    "decls": [
+        [
+            "NativeTextProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "NativeText",
+            "VariableDeclarator"
+        ],
+        [
+            "NativeVirtualText",
+            "VariableDeclarator"
+        ]
+    ]
+}

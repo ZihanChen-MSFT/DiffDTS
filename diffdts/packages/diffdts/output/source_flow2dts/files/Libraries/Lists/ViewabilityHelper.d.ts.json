@@ -1,0 +1,41 @@
+{
+    "raw": {
+        "importedFiles": {},
+        "exports": {
+            "ViewToken": [
+                "rename",
+                "ViewToken"
+            ],
+            "ViewabilityConfigCallbackPair": [
+                "rename",
+                "ViewabilityConfigCallbackPair"
+            ],
+            "ViewabilityConfig": [
+                "rename",
+                "ViewabilityConfig"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "ViewabilityHelper"
+        ]
+    },
+    "decls": [
+        [
+            "ViewToken",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewabilityConfigCallbackPair",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewabilityConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ViewabilityHelper",
+            "ClassDeclaration"
+        ]
+    ]
+}

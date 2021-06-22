@@ -1,0 +1,51 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../TurboModule/RCTExport": [
+                "names",
+                [
+                    [
+                        "TurboModule",
+                        "TurboModule"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "DialogOptions": [
+                "rename",
+                "DialogOptions"
+            ],
+            "Spec": [
+                "rename",
+                "Spec"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "DialogAction",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DialogButtonKey",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DialogOptions",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Spec",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

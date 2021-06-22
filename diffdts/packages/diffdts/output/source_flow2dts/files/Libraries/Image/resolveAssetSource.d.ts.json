@@ -1,0 +1,35 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "$TEMPORARY$module$exports$assign",
+                        "$TEMPORARY$module$exports$assign"
+                    ]
+                ]
+            ],
+            "./AssetSourceResolver": [
+                "names",
+                [
+                    [
+                        "ResolvedAssetSource",
+                        "ResolvedAssetSource"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

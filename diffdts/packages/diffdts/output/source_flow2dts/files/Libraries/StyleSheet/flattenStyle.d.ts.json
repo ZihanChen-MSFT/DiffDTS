@@ -1,0 +1,26 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./StyleSheet": [
+                "names",
+                [
+                    [
+                        "DangerouslyImpreciseStyleProp",
+                        "DangerouslyImpreciseStyleProp"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

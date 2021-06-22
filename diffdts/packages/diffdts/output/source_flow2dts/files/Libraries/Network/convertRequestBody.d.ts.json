@@ -1,0 +1,43 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "$ArrayBufferView",
+                        "$ArrayBufferView"
+                    ]
+                ]
+            ],
+            "../Blob/Blob": [
+                "default",
+                "$1"
+            ],
+            "./FormData": [
+                "default",
+                "$2"
+            ]
+        },
+        "exports": {
+            "RequestBody": [
+                "rename",
+                "RequestBody"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "RequestBody",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

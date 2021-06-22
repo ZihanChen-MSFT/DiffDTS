@@ -1,0 +1,25 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../EventEmitter/NativeEventEmitter": [
+                "default",
+                "NativeEventEmitter"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "StatusBarIOS",
+            "ClassDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Diff",
+                        "$Diff"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "./TouchableWithoutFeedback": [
+                "default",
+                "TouchableWithoutFeedback$f2tTypeof"
+            ],
+            "../../Components/View/View": [
+                "default",
+                "View"
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "TouchableWithoutFeedback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AndroidProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "IOSProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

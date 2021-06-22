@@ -1,0 +1,30 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./_EventEmitter": [
+                "default",
+                "$1"
+            ]
+        },
+        "exports": {
+            "EventSubscription": [
+                "rename",
+                "EventSubscription"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "EventSubscription",
+            "TSInterfaceDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

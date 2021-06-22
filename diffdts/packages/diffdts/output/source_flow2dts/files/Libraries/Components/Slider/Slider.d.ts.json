@@ -1,0 +1,64 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./SliderNativeComponent": [
+                "default",
+                "SliderNativeComponent"
+            ],
+            "react": [
+                "default",
+                "$1"
+            ],
+            "../../Image/ImageSource": [
+                "names",
+                [
+                    [
+                        "ImageSource",
+                        "ImageSource"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "IOSProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SliderWithRef",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

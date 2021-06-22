@@ -1,0 +1,94 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./components/AnimatedFlatList": [
+                "default",
+                "AnimatedFlatList$f2tTypeof"
+            ],
+            "./components/AnimatedImage": [
+                "default",
+                "AnimatedImage$f2tTypeof"
+            ],
+            "./components/AnimatedScrollView": [
+                "default",
+                "AnimatedScrollView$f2tTypeof"
+            ],
+            "./components/AnimatedSectionList": [
+                "default",
+                "AnimatedSectionList$f2tTypeof"
+            ],
+            "./components/AnimatedText": [
+                "default",
+                "AnimatedText$f2tTypeof"
+            ],
+            "./components/AnimatedView": [
+                "default",
+                "AnimatedView$f2tTypeof"
+            ],
+            "./AnimatedMock": [
+                "default",
+                "$1"
+            ]
+        },
+        "exports": {
+            "FlatList": [
+                "rename",
+                "AnimatedFlatList$f2tTypeof"
+            ],
+            "Image": [
+                "rename",
+                "AnimatedImage$f2tTypeof"
+            ],
+            "ScrollView": [
+                "rename",
+                "AnimatedScrollView$f2tTypeof"
+            ],
+            "SectionList": [
+                "rename",
+                "AnimatedSectionList$f2tTypeof"
+            ],
+            "Text": [
+                "rename",
+                "AnimatedText$f2tTypeof"
+            ],
+            "View": [
+                "rename",
+                "AnimatedView$f2tTypeof"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "AnimatedFlatList",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedImage",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedScrollView",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedSectionList",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedText",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedView",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

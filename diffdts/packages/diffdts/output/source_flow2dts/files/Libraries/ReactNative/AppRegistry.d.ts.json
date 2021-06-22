@@ -1,0 +1,116 @@
+{
+    "raw": {
+        "importedFiles": {
+            "flow2dts-flow-types-polyfill": [
+                "names",
+                [
+                    [
+                        "React$ComponentType",
+                        "React$ComponentType"
+                    ]
+                ]
+            ],
+            "../Utilities/createPerformanceLogger": [
+                "names",
+                [
+                    [
+                        "IPerformanceLogger",
+                        "IPerformanceLogger"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "TaskProvider": [
+                "rename",
+                "TaskProvider"
+            ],
+            "ComponentProvider": [
+                "rename",
+                "ComponentProvider"
+            ],
+            "ComponentProviderInstrumentationHook": [
+                "rename",
+                "ComponentProviderInstrumentationHook"
+            ],
+            "AppConfig": [
+                "rename",
+                "AppConfig"
+            ],
+            "Runnable": [
+                "rename",
+                "Runnable"
+            ],
+            "Runnables": [
+                "rename",
+                "Runnables"
+            ],
+            "Registry": [
+                "rename",
+                "Registry"
+            ],
+            "WrapperComponentProvider": [
+                "rename",
+                "WrapperComponentProvider"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Task",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TaskProvider",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TaskCanceller",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "TaskCancelProvider",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ComponentProvider",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ComponentProviderInstrumentationHook",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AppConfig",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Runnable",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Runnables",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Registry",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "WrapperComponentProvider",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AppRegistry",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

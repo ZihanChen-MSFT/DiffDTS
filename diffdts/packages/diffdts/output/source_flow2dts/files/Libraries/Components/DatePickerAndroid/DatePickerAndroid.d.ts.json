@@ -1,0 +1,26 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./DatePickerAndroidTypes": [
+                "names",
+                [
+                    [
+                        "DatePickerOpenAction",
+                        "DatePickerOpenAction"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "DatePickerAndroid"
+        ]
+    },
+    "decls": [
+        [
+            "DatePickerAndroid",
+            "ClassDeclaration"
+        ]
+    ]
+}

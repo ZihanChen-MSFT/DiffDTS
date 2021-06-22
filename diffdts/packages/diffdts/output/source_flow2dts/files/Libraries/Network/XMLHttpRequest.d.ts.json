@@ -1,0 +1,67 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../Utilities/createPerformanceLogger": [
+                "names",
+                [
+                    [
+                        "IPerformanceLogger",
+                        "IPerformanceLogger"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "NativeResponseType": [
+                "rename",
+                "NativeResponseType"
+            ],
+            "ResponseType": [
+                "rename",
+                "ResponseType"
+            ],
+            "Response": [
+                "rename",
+                "Response"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "XMLHttpRequest"
+        ]
+    },
+    "decls": [
+        [
+            "NativeResponseType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "ResponseType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Response",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "XHRInterceptor",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "XMLHttpRequestEventTarget",
+            "ClassDeclaration"
+        ],
+        [
+            "$2",
+            "VariableDeclarator"
+        ],
+        [
+            "XMLHttpRequest",
+            "ClassDeclaration"
+        ],
+        [
+            "$1",
+            "VariableDeclarator"
+        ]
+    ]
+}

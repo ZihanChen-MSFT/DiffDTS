@@ -1,0 +1,29 @@
+{
+    "raw": {
+        "importedFiles": {
+            "./AnimatedValue": [
+                "default",
+                "$1"
+            ],
+            "./AnimatedWithChildren": [
+                "default",
+                "$3"
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "AnimatedValueXY"
+        ]
+    },
+    "decls": [
+        [
+            "ValueXYListenerCallback",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "AnimatedValueXY",
+            "ClassDeclaration"
+        ]
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../StyleSheet/processColor": [
+                "names",
+                [
+                    [
+                        "ProcessedColorValue",
+                        "ProcessedColorValue"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "ActionSheetIOS",
+            "VariableDeclarator"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

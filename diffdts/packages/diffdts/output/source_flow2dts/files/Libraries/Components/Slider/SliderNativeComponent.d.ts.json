@@ -1,0 +1,70 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../../Types/CodegenTypes": [
+                "names",
+                [
+                    [
+                        "WithDefault",
+                        "WithDefault"
+                    ]
+                ]
+            ],
+            "../../Renderer/shims/ReactNativeTypes": [
+                "names",
+                [
+                    [
+                        "HostComponent",
+                        "HostComponent"
+                    ]
+                ]
+            ],
+            "../../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ColorValue",
+                        "ColorValue"
+                    ]
+                ]
+            ],
+            "../../Image/ImageSource": [
+                "names",
+                [
+                    [
+                        "ImageSource",
+                        "ImageSource"
+                    ]
+                ]
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "$f2tExportDefault"
+        ]
+    },
+    "decls": [
+        [
+            "Event",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "NativeProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "$f2tExportDefault",
+            "VariableDeclarator"
+        ]
+    ]
+}

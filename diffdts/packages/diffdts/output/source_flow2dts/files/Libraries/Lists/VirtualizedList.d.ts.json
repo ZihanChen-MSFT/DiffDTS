@@ -1,0 +1,110 @@
+{
+    "raw": {
+        "importedFiles": {
+            "../Components/ScrollView/ScrollView": [
+                "names",
+                [
+                    [
+                        "ScrollResponderType",
+                        "ScrollResponderType"
+                    ]
+                ]
+            ],
+            "../Components/View/View": [
+                "default",
+                "$2"
+            ],
+            "react": [
+                "namespace",
+                "React"
+            ],
+            "../StyleSheet/StyleSheet": [
+                "names",
+                [
+                    [
+                        "ViewStyleProp",
+                        "ViewStyleProp"
+                    ]
+                ]
+            ],
+            "./ViewabilityHelper": [
+                "names",
+                [
+                    [
+                        "ViewabilityConfigCallbackPair",
+                        "ViewabilityConfigCallbackPair"
+                    ]
+                ]
+            ],
+            "./VirtualizedListContext.js": [
+                "names",
+                [
+                    [
+                        "VirtualizedListContext",
+                        "VirtualizedListContext"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "Separators": [
+                "rename",
+                "Separators"
+            ],
+            "RenderItemProps": [
+                "rename",
+                "RenderItemProps"
+            ],
+            "RenderItemType": [
+                "rename",
+                "RenderItemType"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "VirtualizedList"
+        ]
+    },
+    "decls": [
+        [
+            "Item",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Separators",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RenderItemProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RenderItemType",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RequiredProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "OptionalProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "DefaultProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "State",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "VirtualizedList",
+            "ClassDeclaration"
+        ]
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "raw": {
+        "importedFiles": {
+            "react": [
+                "default",
+                "$2"
+            ],
+            "../View/ViewPropTypes": [
+                "names",
+                [
+                    [
+                        "ViewProps",
+                        "ViewProps"
+                    ]
+                ]
+            ]
+        },
+        "exports": {},
+        "exportDefault": [
+            "symbol",
+            "MaskedViewIOS"
+        ]
+    },
+    "decls": [
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "MaskedViewIOS",
+            "ClassDeclaration"
+        ]
+    ]
+}

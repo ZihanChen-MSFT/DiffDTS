@@ -1,0 +1,89 @@
+{
+    "raw": {
+        "importedFiles": {
+            "utility-types": [
+                "names",
+                [
+                    [
+                        "$Diff",
+                        "$Diff"
+                    ],
+                    [
+                        "$PropertyType",
+                        "$PropertyType"
+                    ]
+                ]
+            ],
+            "react": [
+                "default",
+                "$1"
+            ],
+            "./VirtualizedSectionList": [
+                "names",
+                [
+                    [
+                        "Props",
+                        "VirtualizedSectionListProps"
+                    ]
+                ]
+            ],
+            "../Components/ScrollView/ScrollView": [
+                "names",
+                [
+                    [
+                        "ScrollResponderType",
+                        "ScrollResponderType"
+                    ]
+                ]
+            ]
+        },
+        "exports": {
+            "SectionBase": [
+                "rename",
+                "SectionBase"
+            ],
+            "Props": [
+                "rename",
+                "Props"
+            ]
+        },
+        "exportDefault": [
+            "symbol",
+            "SectionList"
+        ]
+    },
+    "decls": [
+        [
+            "Item",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SectionBase",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "RequiredProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "OptionalProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "Props",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "defaultProps",
+            "VariableDeclarator"
+        ],
+        [
+            "DefaultProps",
+            "TSTypeAliasDeclaration"
+        ],
+        [
+            "SectionList",
+            "ClassDeclaration"
+        ]
+    ]
+}
