@@ -30,12 +30,16 @@
         },
         "exports": {
             "RippleConfig": [
-                "rename",
-                "RippleConfig"
+                [
+                    "rename",
+                    "RippleConfig"
+                ]
             ],
             "default": [
-                "rename",
-                "useAndroidRippleForView"
+                [
+                    "rename",
+                    "useAndroidRippleForView"
+                ]
             ]
         },
         "exportDefault": "none"

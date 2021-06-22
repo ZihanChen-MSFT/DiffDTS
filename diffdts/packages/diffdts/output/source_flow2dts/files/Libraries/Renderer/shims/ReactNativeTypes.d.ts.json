@@ -22,80 +22,118 @@
         },
         "exports": {
             "MeasureOnSuccessCallback": [
-                "rename",
-                "MeasureOnSuccessCallback"
+                [
+                    "rename",
+                    "MeasureOnSuccessCallback"
+                ]
             ],
             "MeasureInWindowOnSuccessCallback": [
-                "rename",
-                "MeasureInWindowOnSuccessCallback"
+                [
+                    "rename",
+                    "MeasureInWindowOnSuccessCallback"
+                ]
             ],
             "MeasureLayoutOnSuccessCallback": [
-                "rename",
-                "MeasureLayoutOnSuccessCallback"
+                [
+                    "rename",
+                    "MeasureLayoutOnSuccessCallback"
+                ]
             ],
             "AttributeConfiguration": [
-                "rename",
-                "AttributeConfiguration"
+                [
+                    "rename",
+                    "AttributeConfiguration"
+                ]
             ],
             "ReactNativeBaseComponentViewConfig": [
-                "rename",
-                "ReactNativeBaseComponentViewConfig"
+                [
+                    "rename",
+                    "ReactNativeBaseComponentViewConfig"
+                ]
             ],
             "ViewConfigGetter": [
-                "rename",
-                "ViewConfigGetter"
+                [
+                    "rename",
+                    "ViewConfigGetter"
+                ]
             ],
             "NativeMethods": [
-                "rename",
-                "NativeMethods"
+                [
+                    "rename",
+                    "NativeMethods"
+                ]
             ],
             "HostComponent": [
-                "rename",
-                "HostComponent"
+                [
+                    "rename",
+                    "HostComponent"
+                ]
             ],
             "InspectorData": [
-                "rename",
-                "InspectorData"
+                [
+                    "rename",
+                    "InspectorData"
+                ]
             ],
             "TouchedViewDataAtPoint": [
-                "rename",
-                "TouchedViewDataAtPoint"
+                [
+                    "rename",
+                    "TouchedViewDataAtPoint"
+                ]
             ],
             "ReactNativeType": [
-                "rename",
-                "ReactNativeType"
+                [
+                    "rename",
+                    "ReactNativeType"
+                ]
             ],
             "ReactFabricType": [
-                "rename",
-                "ReactFabricType"
+                [
+                    "rename",
+                    "ReactFabricType"
+                ]
             ],
             "ReactNativeEventTarget": [
-                "rename",
-                "ReactNativeEventTarget"
+                [
+                    "rename",
+                    "ReactNativeEventTarget"
+                ]
             ],
             "ReactFaricEventTouch": [
-                "rename",
-                "ReactFaricEventTouch"
+                [
+                    "rename",
+                    "ReactFaricEventTouch"
+                ]
             ],
             "ReactFaricEvent": [
-                "rename",
-                "ReactFaricEvent"
+                [
+                    "rename",
+                    "ReactFaricEvent"
+                ]
             ],
             "LayoutAnimationType": [
-                "rename",
-                "LayoutAnimationType"
+                [
+                    "rename",
+                    "LayoutAnimationType"
+                ]
             ],
             "LayoutAnimationProperty": [
-                "rename",
-                "LayoutAnimationProperty"
+                [
+                    "rename",
+                    "LayoutAnimationProperty"
+                ]
             ],
             "LayoutAnimationAnimationConfig": [
-                "rename",
-                "LayoutAnimationAnimationConfig"
+                [
+                    "rename",
+                    "LayoutAnimationAnimationConfig"
+                ]
             ],
             "LayoutAnimationConfig": [
-                "rename",
-                "LayoutAnimationConfig"
+                [
+                    "rename",
+                    "LayoutAnimationConfig"
+                ]
             ]
         },
         "exportDefault": "none"

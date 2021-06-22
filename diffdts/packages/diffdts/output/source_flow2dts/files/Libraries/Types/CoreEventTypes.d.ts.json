@@ -26,48 +26,70 @@
         },
         "exports": {
             "SyntheticEvent": [
-                "rename",
-                "SyntheticEvent"
+                [
+                    "rename",
+                    "SyntheticEvent"
+                ]
             ],
             "ResponderSyntheticEvent": [
-                "rename",
-                "ResponderSyntheticEvent"
+                [
+                    "rename",
+                    "ResponderSyntheticEvent"
+                ]
             ],
             "Layout": [
-                "rename",
-                "Layout"
+                [
+                    "rename",
+                    "Layout"
+                ]
             ],
             "TextLayout": [
-                "rename",
-                "TextLayout"
+                [
+                    "rename",
+                    "TextLayout"
+                ]
             ],
             "LayoutEvent": [
-                "rename",
-                "LayoutEvent"
+                [
+                    "rename",
+                    "LayoutEvent"
+                ]
             ],
             "TextLayoutEvent": [
-                "rename",
-                "TextLayoutEvent"
+                [
+                    "rename",
+                    "TextLayoutEvent"
+                ]
             ],
             "PressEvent": [
-                "rename",
-                "PressEvent"
+                [
+                    "rename",
+                    "PressEvent"
+                ]
             ],
             "ScrollEvent": [
-                "rename",
-                "ScrollEvent"
+                [
+                    "rename",
+                    "ScrollEvent"
+                ]
             ],
             "BlurEvent": [
-                "rename",
-                "BlurEvent"
+                [
+                    "rename",
+                    "BlurEvent"
+                ]
             ],
             "FocusEvent": [
-                "rename",
-                "FocusEvent"
+                [
+                    "rename",
+                    "FocusEvent"
+                ]
             ],
             "MouseEvent": [
-                "rename",
-                "MouseEvent"
+                [
+                    "rename",
+                    "MouseEvent"
+                ]
             ]
         },
         "exportDefault": "none"

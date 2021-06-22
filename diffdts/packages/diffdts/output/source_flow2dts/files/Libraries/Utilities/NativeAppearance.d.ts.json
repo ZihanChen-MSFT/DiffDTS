@@ -13,16 +13,22 @@
         },
         "exports": {
             "ColorSchemeName": [
-                "rename",
-                "ColorSchemeName"
+                [
+                    "rename",
+                    "ColorSchemeName"
+                ]
             ],
             "AppearancePreferences": [
-                "rename",
-                "AppearancePreferences"
+                [
+                    "rename",
+                    "AppearancePreferences"
+                ]
             ],
             "Spec": [
-                "rename",
-                "Spec"
+                [
+                    "rename",
+                    "Spec"
+                ]
             ]
         },
         "exportDefault": [

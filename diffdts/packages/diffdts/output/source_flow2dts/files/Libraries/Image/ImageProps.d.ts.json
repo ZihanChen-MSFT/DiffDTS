@@ -67,12 +67,16 @@
         },
         "exports": {
             "ImageLoadEvent": [
-                "rename",
-                "ImageLoadEvent"
+                [
+                    "rename",
+                    "ImageLoadEvent"
+                ]
             ],
             "ImageProps": [
-                "rename",
-                "ImageProps"
+                [
+                    "rename",
+                    "ImageProps"
+                ]
             ]
         },
         "exportDefault": "none"

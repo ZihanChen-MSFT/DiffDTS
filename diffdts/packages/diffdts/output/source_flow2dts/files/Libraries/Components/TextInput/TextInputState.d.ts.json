@@ -17,48 +17,70 @@
         },
         "exports": {
             "currentlyFocusedInput": [
-                "rename",
-                "currentlyFocusedInput"
+                [
+                    "rename",
+                    "currentlyFocusedInput"
+                ]
             ],
             "focusInput": [
-                "rename",
-                "focusInput"
+                [
+                    "rename",
+                    "focusInput"
+                ]
             ],
             "blurInput": [
-                "rename",
-                "blurInput"
+                [
+                    "rename",
+                    "blurInput"
+                ]
             ],
             "currentlyFocusedField": [
-                "rename",
-                "currentlyFocusedField"
+                [
+                    "rename",
+                    "currentlyFocusedField"
+                ]
             ],
             "focusField": [
-                "rename",
-                "focusField"
+                [
+                    "rename",
+                    "focusField"
+                ]
             ],
             "blurField": [
-                "rename",
-                "blurField"
+                [
+                    "rename",
+                    "blurField"
+                ]
             ],
             "focusTextInput": [
-                "rename",
-                "focusTextInput"
+                [
+                    "rename",
+                    "focusTextInput"
+                ]
             ],
             "blurTextInput": [
-                "rename",
-                "blurTextInput"
+                [
+                    "rename",
+                    "blurTextInput"
+                ]
             ],
             "registerInput": [
-                "rename",
-                "registerInput"
+                [
+                    "rename",
+                    "registerInput"
+                ]
             ],
             "unregisterInput": [
-                "rename",
-                "unregisterInput"
+                [
+                    "rename",
+                    "unregisterInput"
+                ]
             ],
             "isTextInput": [
-                "rename",
-                "isTextInput"
+                [
+                    "rename",
+                    "isTextInput"
+                ]
             ]
         },
         "exportDefault": [

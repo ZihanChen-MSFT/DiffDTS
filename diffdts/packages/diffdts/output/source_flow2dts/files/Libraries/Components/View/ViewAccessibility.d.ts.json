@@ -13,24 +13,34 @@
         },
         "exports": {
             "AccessibilityRole": [
-                "rename",
-                "AccessibilityRole"
+                [
+                    "rename",
+                    "AccessibilityRole"
+                ]
             ],
             "AccessibilityActionInfo": [
-                "rename",
-                "AccessibilityActionInfo"
+                [
+                    "rename",
+                    "AccessibilityActionInfo"
+                ]
             ],
             "AccessibilityActionEvent": [
-                "rename",
-                "AccessibilityActionEvent"
+                [
+                    "rename",
+                    "AccessibilityActionEvent"
+                ]
             ],
             "AccessibilityState": [
-                "rename",
-                "AccessibilityState"
+                [
+                    "rename",
+                    "AccessibilityState"
+                ]
             ],
             "AccessibilityValue": [
-                "rename",
-                "AccessibilityValue"
+                [
+                    "rename",
+                    "AccessibilityValue"
+                ]
             ]
         },
         "exportDefault": "none"

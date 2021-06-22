@@ -13,12 +13,16 @@
         },
         "exports": {
             "DynamicColorIOSTuple": [
-                "rename",
-                "DynamicColorIOSTuple"
+                [
+                    "rename",
+                    "DynamicColorIOSTuple"
+                ]
             ],
             "DynamicColorIOS": [
-                "rename",
-                "DynamicColorIOS"
+                [
+                    "rename",
+                    "DynamicColorIOS"
+                ]
             ]
         },
         "exportDefault": "none"

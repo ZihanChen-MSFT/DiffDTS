@@ -17,12 +17,16 @@
         },
         "exports": {
             "DecayAnimationConfig": [
-                "rename",
-                "DecayAnimationConfig"
+                [
+                    "rename",
+                    "DecayAnimationConfig"
+                ]
             ],
             "DecayAnimationConfigSingle": [
-                "rename",
-                "DecayAnimationConfigSingle"
+                [
+                    "rename",
+                    "DecayAnimationConfigSingle"
+                ]
             ]
         },
         "exportDefault": [

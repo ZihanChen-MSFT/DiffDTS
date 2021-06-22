@@ -13,8 +13,10 @@
         },
         "exports": {
             "ExtendedError": [
-                "rename",
-                "ExtendedError"
+                [
+                    "rename",
+                    "ExtendedError"
+                ]
             ]
         },
         "exportDefault": [

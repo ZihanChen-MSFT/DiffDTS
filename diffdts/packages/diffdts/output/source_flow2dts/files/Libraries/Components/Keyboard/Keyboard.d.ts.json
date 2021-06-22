@@ -8,28 +8,40 @@
         },
         "exports": {
             "KeyboardEventName": [
-                "rename",
-                "KeyboardEventName"
+                [
+                    "rename",
+                    "KeyboardEventName"
+                ]
             ],
             "KeyboardEventEasing": [
-                "rename",
-                "KeyboardEventEasing"
+                [
+                    "rename",
+                    "KeyboardEventEasing"
+                ]
             ],
             "KeyboardEventCoordinates": [
-                "rename",
-                "KeyboardEventCoordinates"
+                [
+                    "rename",
+                    "KeyboardEventCoordinates"
+                ]
             ],
             "KeyboardEvent": [
-                "rename",
-                "KeyboardEvent"
+                [
+                    "rename",
+                    "KeyboardEvent"
+                ]
             ],
             "AndroidKeyboardEvent": [
-                "rename",
-                "AndroidKeyboardEvent"
+                [
+                    "rename",
+                    "AndroidKeyboardEvent"
+                ]
             ],
             "IOSKeyboardEvent": [
-                "rename",
-                "IOSKeyboardEvent"
+                [
+                    "rename",
+                    "IOSKeyboardEvent"
+                ]
             ]
         },
         "exportDefault": [

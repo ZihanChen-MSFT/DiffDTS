@@ -30,72 +30,106 @@
         },
         "exports": {
             "ColorValue": [
-                "rename",
-                "ColorValue"
+                [
+                    "rename",
+                    "ColorValue"
+                ]
             ],
             "ViewStyleProp": [
-                "rename",
-                "ViewStyleProp"
+                [
+                    "rename",
+                    "ViewStyleProp"
+                ]
             ],
             "TextStyleProp": [
-                "rename",
-                "TextStyleProp"
+                [
+                    "rename",
+                    "TextStyleProp"
+                ]
             ],
             "ImageStyleProp": [
-                "rename",
-                "ImageStyleProp"
+                [
+                    "rename",
+                    "ImageStyleProp"
+                ]
             ],
             "DangerouslyImpreciseStyleProp": [
-                "rename",
-                "DangerouslyImpreciseStyleProp"
+                [
+                    "rename",
+                    "DangerouslyImpreciseStyleProp"
+                ]
             ],
             "TypeForStyleKey": [
-                "rename",
-                "TypeForStyleKey"
+                [
+                    "rename",
+                    "TypeForStyleKey"
+                ]
             ],
             "ViewStyle": [
-                "rename",
-                "ViewStyle"
+                [
+                    "rename",
+                    "ViewStyle"
+                ]
             ],
             "TextStyle": [
-                "rename",
-                "TextStyle"
+                [
+                    "rename",
+                    "TextStyle"
+                ]
             ],
             "ImageStyle": [
-                "rename",
-                "ImageStyle"
+                [
+                    "rename",
+                    "ImageStyle"
+                ]
             ],
             "DangerouslyImpreciseStyle": [
-                "rename",
-                "DangerouslyImpreciseStyle"
+                [
+                    "rename",
+                    "DangerouslyImpreciseStyle"
+                ]
             ],
             "hairlineWidth": [
-                "rename",
-                "hairlineWidth"
+                [
+                    "rename",
+                    "hairlineWidth"
+                ]
             ],
             "absoluteFill": [
-                "rename",
-                "$f2d_absoluteFill"
+                [
+                    "rename",
+                    "$f2d_absoluteFill"
+                ]
             ],
             "absoluteFillObject": [
-                "rename",
-                "absoluteFill"
+                [
+                    "rename",
+                    "absoluteFill"
+                ]
             ],
             "compose": [
-                "rename",
-                "$f2d_compose"
+                [
+                    "rename",
+                    "$f2d_compose"
+                ]
             ],
             "flatten": [
-                "rename",
-                "$f2d_flatten"
+                [
+                    "rename",
+                    "$f2d_flatten"
+                ]
             ],
             "setStyleAttributePreprocessor": [
-                "rename",
-                "$f2d_setStyleAttributePreprocessor"
+                [
+                    "rename",
+                    "$f2d_setStyleAttributePreprocessor"
+                ]
             ],
             "create": [
-                "rename",
-                "$f2d_create"
+                [
+                    "rename",
+                    "$f2d_create"
+                ]
             ]
         },
         "exportDefault": [

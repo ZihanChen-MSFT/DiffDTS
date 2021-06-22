@@ -3,8 +3,10 @@
         "importedFiles": {},
         "exports": {
             "PlatformSelectSpec": [
-                "rename",
-                "PlatformSelectSpec"
+                [
+                    "rename",
+                    "PlatformSelectSpec"
+                ]
             ]
         },
         "exportDefault": [

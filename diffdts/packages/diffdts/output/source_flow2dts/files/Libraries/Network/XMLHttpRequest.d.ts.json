@@ -13,16 +13,22 @@
         },
         "exports": {
             "NativeResponseType": [
-                "rename",
-                "NativeResponseType"
+                [
+                    "rename",
+                    "NativeResponseType"
+                ]
             ],
             "ResponseType": [
-                "rename",
-                "ResponseType"
+                [
+                    "rename",
+                    "ResponseType"
+                ]
             ],
             "Response": [
-                "rename",
-                "Response"
+                [
+                    "rename",
+                    "Response"
+                ]
             ]
         },
         "exportDefault": [

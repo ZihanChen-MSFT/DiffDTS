@@ -29,84 +29,124 @@
         },
         "exports": {
             "ellipsizeMode": [
-                "rename",
-                "$f2d_ellipsizeMode"
+                [
+                    "rename",
+                    "$f2d_ellipsizeMode"
+                ]
             ],
             "numberOfLines": [
-                "rename",
-                "$f2d_numberOfLines"
+                [
+                    "rename",
+                    "$f2d_numberOfLines"
+                ]
             ],
             "textBreakStrategy": [
-                "rename",
-                "$f2d_textBreakStrategy"
+                [
+                    "rename",
+                    "$f2d_textBreakStrategy"
+                ]
             ],
             "onLayout": [
-                "rename",
-                "$f2d_onLayout"
+                [
+                    "rename",
+                    "$f2d_onLayout"
+                ]
             ],
             "onPress": [
-                "rename",
-                "$f2d_onPress"
+                [
+                    "rename",
+                    "$f2d_onPress"
+                ]
             ],
             "onLongPress": [
-                "rename",
-                "$f2d_onLongPress"
+                [
+                    "rename",
+                    "$f2d_onLongPress"
+                ]
             ],
             "pressRetentionOffset": [
-                "rename",
-                "$f2d_pressRetentionOffset"
+                [
+                    "rename",
+                    "$f2d_pressRetentionOffset"
+                ]
             ],
             "selectable": [
-                "rename",
-                "$f2d_selectable"
+                [
+                    "rename",
+                    "$f2d_selectable"
+                ]
             ],
             "selectionColor": [
-                "rename",
-                "$f2d_selectionColor"
+                [
+                    "rename",
+                    "$f2d_selectionColor"
+                ]
             ],
             "suppressHighlighting": [
-                "rename",
-                "$f2d_suppressHighlighting"
+                [
+                    "rename",
+                    "$f2d_suppressHighlighting"
+                ]
             ],
             "style": [
-                "rename",
-                "stylePropType"
+                [
+                    "rename",
+                    "stylePropType"
+                ]
             ],
             "testID": [
-                "rename",
-                "$f2d_testID"
+                [
+                    "rename",
+                    "$f2d_testID"
+                ]
             ],
             "nativeID": [
-                "rename",
-                "$f2d_nativeID"
+                [
+                    "rename",
+                    "$f2d_nativeID"
+                ]
             ],
             "allowFontScaling": [
-                "rename",
-                "$f2d_allowFontScaling"
+                [
+                    "rename",
+                    "$f2d_allowFontScaling"
+                ]
             ],
             "maxFontSizeMultiplier": [
-                "rename",
-                "$f2d_maxFontSizeMultiplier"
+                [
+                    "rename",
+                    "$f2d_maxFontSizeMultiplier"
+                ]
             ],
             "accessible": [
-                "rename",
-                "$f2d_accessible"
+                [
+                    "rename",
+                    "$f2d_accessible"
+                ]
             ],
             "adjustsFontSizeToFit": [
-                "rename",
-                "$f2d_adjustsFontSizeToFit"
+                [
+                    "rename",
+                    "$f2d_adjustsFontSizeToFit"
+                ]
             ],
             "minimumFontScale": [
-                "rename",
-                "$f2d_minimumFontScale"
+                [
+                    "rename",
+                    "$f2d_minimumFontScale"
+                ]
             ],
             "disabled": [
-                "rename",
-                "$f2d_disabled"
+                [
+                    "rename",
+                    "$f2d_disabled"
+                ]
             ],
             "dataDetectorType": [
-                "rename",
-                "$f2d_dataDetectorType"
+                [
+                    "rename",
+                    "$f2d_dataDetectorType"
+                ]
             ]
         },
         "exportDefault": [

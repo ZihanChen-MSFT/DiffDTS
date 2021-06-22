@@ -85,25 +85,26 @@ export function collectExports(state: State, key: string): ResolvedExports {
         if (output.exports[exportName] === undefined) {
             output.exports[exportName] = [];
         }
-        const rawExport = entry.raw.exports[exportName];
-        switch (rawExport[0]) {
-            case "type": {
-                if (rawExport[1] === "TSTypeAliasDeclaration") {
-                    output.exports[exportName].push({ type: "type" });
-                } else {
-                    output.exports[exportName].push({ type: "type", declType: rawExport[1] });
+        for (const rawExport of entry.raw.exports[exportName]) {
+            switch (rawExport[0]) {
+                case "type": {
+                    if (rawExport[1] === "TSTypeAliasDeclaration") {
+                        output.exports[exportName].push({ type: "type" });
+                    } else {
+                        output.exports[exportName].push({ type: "type", declType: rawExport[1] });
+                    }
+                    break;
                 }
-                break;
-            }
-            case "symbol": {
-                const resolvedExports = findSymbolAsExport(state, key, exportName);
-                output.exports[exportName].push(...resolvedExports);
-                break;
-            }
-            case "rename": {
-                const resolvedExports = findSymbolAsExport(state, key, rawExport[1]);
-                output.exports[exportName].push(...resolvedExports);
-                break;
+                case "symbol": {
+                    const resolvedExports = findSymbolAsExport(state, key, exportName);
+                    output.exports[exportName].push(...resolvedExports);
+                    break;
+                }
+                case "rename": {
+                    const resolvedExports = findSymbolAsExport(state, key, rawExport[1]);
+                    output.exports[exportName].push(...resolvedExports);
+                    break;
+                }
             }
         }
     }

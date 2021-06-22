@@ -3,20 +3,28 @@
         "importedFiles": {},
         "exports": {
             "Rect": [
-                "rename",
-                "Rect"
+                [
+                    "rename",
+                    "Rect"
+                ]
             ],
             "RectOrSize": [
-                "rename",
-                "RectOrSize"
+                [
+                    "rename",
+                    "RectOrSize"
+                ]
             ],
             "createSquare": [
-                "rename",
-                "createSquare"
+                [
+                    "rename",
+                    "createSquare"
+                ]
             ],
             "normalizeRect": [
-                "rename",
-                "normalizeRect"
+                [
+                    "rename",
+                    "normalizeRect"
+                ]
             ]
         },
         "exportDefault": "none"

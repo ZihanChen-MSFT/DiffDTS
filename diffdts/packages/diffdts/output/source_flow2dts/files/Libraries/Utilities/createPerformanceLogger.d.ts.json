@@ -3,28 +3,40 @@
         "importedFiles": {},
         "exports": {
             "Timespan": [
-                "rename",
-                "Timespan"
+                [
+                    "rename",
+                    "Timespan"
+                ]
             ],
             "ExtraValue": [
-                "rename",
-                "ExtraValue"
+                [
+                    "rename",
+                    "ExtraValue"
+                ]
             ],
             "Extras": [
-                "rename",
-                "Extras"
+                [
+                    "rename",
+                    "Extras"
+                ]
             ],
             "IPerformanceLogger": [
-                "rename",
-                "IPerformanceLogger"
+                [
+                    "rename",
+                    "IPerformanceLogger"
+                ]
             ],
             "getCurrentTimestamp": [
-                "rename",
-                "getCurrentTimestamp"
+                [
+                    "rename",
+                    "getCurrentTimestamp"
+                ]
             ],
             "default": [
-                "rename",
-                "createPerformanceLogger"
+                [
+                    "rename",
+                    "createPerformanceLogger"
+                ]
             ]
         },
         "exportDefault": "none"

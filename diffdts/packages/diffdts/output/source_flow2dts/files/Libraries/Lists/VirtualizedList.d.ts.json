@@ -48,16 +48,22 @@
         },
         "exports": {
             "Separators": [
-                "rename",
-                "Separators"
+                [
+                    "rename",
+                    "Separators"
+                ]
             ],
             "RenderItemProps": [
-                "rename",
-                "RenderItemProps"
+                [
+                    "rename",
+                    "RenderItemProps"
+                ]
             ],
             "RenderItemType": [
-                "rename",
-                "RenderItemType"
+                [
+                    "rename",
+                    "RenderItemType"
+                ]
             ]
         },
         "exportDefault": [

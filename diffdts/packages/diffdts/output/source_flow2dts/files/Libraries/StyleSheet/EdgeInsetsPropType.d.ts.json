@@ -13,8 +13,10 @@
         },
         "exports": {
             "EdgeInsetsProp": [
-                "rename",
-                "EdgeInsetsProp"
+                [
+                    "rename",
+                    "EdgeInsetsProp"
+                ]
             ]
         },
         "exportDefault": "none"

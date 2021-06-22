@@ -13,16 +13,22 @@
         },
         "exports": {
             "PermissionStatus": [
-                "rename",
-                "PermissionStatus"
+                [
+                    "rename",
+                    "PermissionStatus"
+                ]
             ],
             "PermissionType": [
-                "rename",
-                "PermissionType"
+                [
+                    "rename",
+                    "PermissionType"
+                ]
             ],
             "Spec": [
-                "rename",
-                "Spec"
+                [
+                    "rename",
+                    "Spec"
+                ]
             ]
         },
         "exportDefault": [

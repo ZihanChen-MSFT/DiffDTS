@@ -77,108 +77,160 @@
         },
         "exports": {
             "CompositeAnimation": [
-                "rename",
-                "CompositeAnimation"
+                [
+                    "rename",
+                    "CompositeAnimation"
+                ]
             ],
             "Value": [
-                "rename",
-                "$f2d_Value"
+                [
+                    "rename",
+                    "$f2d_Value"
+                ]
             ],
             "ValueXY": [
-                "rename",
-                "$f2d_ValueXY"
+                [
+                    "rename",
+                    "$f2d_ValueXY"
+                ]
             ],
             "Interpolation": [
-                "rename",
-                "$f2d_Interpolation"
+                [
+                    "rename",
+                    "$f2d_Interpolation"
+                ]
             ],
             "Node": [
-                "rename",
-                "$f2d_Node"
+                [
+                    "rename",
+                    "$f2d_Node"
+                ]
             ],
             "decay": [
-                "rename",
-                "decay"
+                [
+                    "rename",
+                    "decay"
+                ]
             ],
             "timing": [
-                "rename",
-                "timing"
+                [
+                    "rename",
+                    "timing"
+                ]
             ],
             "spring": [
-                "rename",
-                "spring"
+                [
+                    "rename",
+                    "spring"
+                ]
             ],
             "add": [
-                "rename",
-                "$f2d_add"
+                [
+                    "rename",
+                    "$f2d_add"
+                ]
             ],
             "subtract": [
-                "rename",
-                "$f2d_subtract"
+                [
+                    "rename",
+                    "$f2d_subtract"
+                ]
             ],
             "divide": [
-                "rename",
-                "$f2d_divide"
+                [
+                    "rename",
+                    "$f2d_divide"
+                ]
             ],
             "multiply": [
-                "rename",
-                "$f2d_multiply"
+                [
+                    "rename",
+                    "$f2d_multiply"
+                ]
             ],
             "modulo": [
-                "rename",
-                "$f2d_modulo"
+                [
+                    "rename",
+                    "$f2d_modulo"
+                ]
             ],
             "diffClamp": [
-                "rename",
-                "$f2d_diffClamp"
+                [
+                    "rename",
+                    "$f2d_diffClamp"
+                ]
             ],
             "delay": [
-                "rename",
-                "delay"
+                [
+                    "rename",
+                    "delay"
+                ]
             ],
             "sequence": [
-                "rename",
-                "sequence"
+                [
+                    "rename",
+                    "sequence"
+                ]
             ],
             "parallel": [
-                "rename",
-                "parallel"
+                [
+                    "rename",
+                    "parallel"
+                ]
             ],
             "stagger": [
-                "rename",
-                "stagger"
+                [
+                    "rename",
+                    "stagger"
+                ]
             ],
             "loop": [
-                "rename",
-                "loop"
+                [
+                    "rename",
+                    "loop"
+                ]
             ],
             "event": [
-                "rename",
-                "event"
+                [
+                    "rename",
+                    "event"
+                ]
             ],
             "createAnimatedComponent": [
-                "rename",
-                "$f2d_createAnimatedComponent"
+                [
+                    "rename",
+                    "$f2d_createAnimatedComponent"
+                ]
             ],
             "attachNativeEvent": [
-                "rename",
-                "$f2d_attachNativeEvent"
+                [
+                    "rename",
+                    "$f2d_attachNativeEvent"
+                ]
             ],
             "forkEvent": [
-                "rename",
-                "$f2d_forkEvent"
+                [
+                    "rename",
+                    "$f2d_forkEvent"
+                ]
             ],
             "unforkEvent": [
-                "rename",
-                "$f2d_unforkEvent"
+                [
+                    "rename",
+                    "$f2d_unforkEvent"
+                ]
             ],
             "Event": [
-                "rename",
-                "$f2d_Event"
+                [
+                    "rename",
+                    "$f2d_Event"
+                ]
             ],
             "__PropsOnlyForTests": [
-                "rename",
-                "$f2d___PropsOnlyForTests"
+                [
+                    "rename",
+                    "$f2d___PropsOnlyForTests"
+                ]
             ]
         },
         "exportDefault": [

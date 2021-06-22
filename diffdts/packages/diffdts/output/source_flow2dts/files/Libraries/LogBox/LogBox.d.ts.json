@@ -13,20 +13,28 @@
         },
         "exports": {
             "ignoreLogs": [
-                "rename",
-                "$f2d_ignoreLogs"
+                [
+                    "rename",
+                    "$f2d_ignoreLogs"
+                ]
             ],
             "ignoreAllLogs": [
-                "rename",
-                "$f2d_ignoreAllLogs"
+                [
+                    "rename",
+                    "$f2d_ignoreAllLogs"
+                ]
             ],
             "install": [
-                "rename",
-                "$f2d_install"
+                [
+                    "rename",
+                    "$f2d_install"
+                ]
             ],
             "uninstall": [
-                "rename",
-                "$f2d_uninstall"
+                [
+                    "rename",
+                    "$f2d_uninstall"
+                ]
             ]
         },
         "exportDefault": [

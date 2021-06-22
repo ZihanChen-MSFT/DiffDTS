@@ -49,12 +49,16 @@
         },
         "exports": {
             "PressRetentionOffset": [
-                "rename",
-                "PressRetentionOffset"
+                [
+                    "rename",
+                    "PressRetentionOffset"
+                ]
             ],
             "TextProps": [
-                "rename",
-                "TextProps"
+                [
+                    "rename",
+                    "TextProps"
+                ]
             ]
         },
         "exportDefault": "none"

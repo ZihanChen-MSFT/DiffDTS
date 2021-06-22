@@ -22,12 +22,16 @@
         },
         "exports": {
             "GestureState": [
-                "rename",
-                "GestureState"
+                [
+                    "rename",
+                    "GestureState"
+                ]
             ],
             "PanResponderInstance": [
-                "rename",
-                "PanResponderInstance"
+                [
+                    "rename",
+                    "PanResponderInstance"
+                ]
             ]
         },
         "exportDefault": [

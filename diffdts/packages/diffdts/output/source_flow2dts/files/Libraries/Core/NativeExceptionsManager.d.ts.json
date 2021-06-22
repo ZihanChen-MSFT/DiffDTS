@@ -13,16 +13,22 @@
         },
         "exports": {
             "StackFrame": [
-                "rename",
-                "StackFrame"
+                [
+                    "rename",
+                    "StackFrame"
+                ]
             ],
             "ExceptionData": [
-                "rename",
-                "ExceptionData"
+                [
+                    "rename",
+                    "ExceptionData"
+                ]
             ],
             "Spec": [
-                "rename",
-                "Spec"
+                [
+                    "rename",
+                    "Spec"
+                ]
             ]
         },
         "exportDefault": [

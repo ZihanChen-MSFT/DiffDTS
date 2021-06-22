@@ -6,7 +6,7 @@ import * as path from "path";
 
 export interface SymbolRawEntry {
     importedFiles: { [key: string]: ["names", [string, string][]] | ["default", string] | ["namespace", string] };
-    exports: { [key: string]: ["type", string] | ["symbol"] | ["rename", string] };
+    exports: { [key: string]: (["type", string] | ["symbol"] | ["rename", string])[] };
     exportDefault: ["type", string] | ["symbol", string] | ["object", ["value" | "spread", string][]] | "unrecognized" | "none";
 }
 

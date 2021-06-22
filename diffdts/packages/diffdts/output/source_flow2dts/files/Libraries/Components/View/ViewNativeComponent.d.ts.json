@@ -26,16 +26,22 @@
         },
         "exports": {
             "ViewNativeComponentType": [
-                "rename",
-                "ViewNativeComponentType"
+                [
+                    "rename",
+                    "ViewNativeComponentType"
+                ]
             ],
             "__INTERNAL_VIEW_CONFIG": [
-                "rename",
-                "__INTERNAL_VIEW_CONFIG"
+                [
+                    "rename",
+                    "__INTERNAL_VIEW_CONFIG"
+                ]
             ],
             "Commands": [
-                "rename",
-                "Commands"
+                [
+                    "rename",
+                    "Commands"
+                ]
             ]
         },
         "exportDefault": [

@@ -58,12 +58,16 @@
         },
         "exports": {
             "ScrollViewNativeProps": [
-                "rename",
-                "ScrollViewNativeProps"
+                [
+                    "rename",
+                    "ScrollViewNativeProps"
+                ]
             ],
             "ScrollViewNativeComponentType": [
-                "rename",
-                "ScrollViewNativeComponentType"
+                [
+                    "rename",
+                    "ScrollViewNativeComponentType"
+                ]
             ]
         },
         "exportDefault": "none"

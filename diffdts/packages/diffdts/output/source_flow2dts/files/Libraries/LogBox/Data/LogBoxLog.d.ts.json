@@ -22,12 +22,16 @@
         },
         "exports": {
             "LogLevel": [
-                "rename",
-                "LogLevel"
+                [
+                    "rename",
+                    "LogLevel"
+                ]
             ],
             "LogBoxLogData": [
-                "rename",
-                "LogBoxLogData"
+                [
+                    "rename",
+                    "LogBoxLogData"
+                ]
             ]
         },
         "exportDefault": [

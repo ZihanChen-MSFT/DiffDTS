@@ -70,56 +70,82 @@
         },
         "exports": {
             "ChangeEvent": [
-                "rename",
-                "ChangeEvent"
+                [
+                    "rename",
+                    "ChangeEvent"
+                ]
             ],
             "TextInputEvent": [
-                "rename",
-                "TextInputEvent"
+                [
+                    "rename",
+                    "TextInputEvent"
+                ]
             ],
             "ContentSizeChangeEvent": [
-                "rename",
-                "ContentSizeChangeEvent"
+                [
+                    "rename",
+                    "ContentSizeChangeEvent"
+                ]
             ],
             "BlurEvent": [
-                "rename",
-                "BlurEvent"
+                [
+                    "rename",
+                    "BlurEvent"
+                ]
             ],
             "FocusEvent": [
-                "rename",
-                "FocusEvent"
+                [
+                    "rename",
+                    "FocusEvent"
+                ]
             ],
             "SelectionChangeEvent": [
-                "rename",
-                "SelectionChangeEvent"
+                [
+                    "rename",
+                    "SelectionChangeEvent"
+                ]
             ],
             "KeyPressEvent": [
-                "rename",
-                "KeyPressEvent"
+                [
+                    "rename",
+                    "KeyPressEvent"
+                ]
             ],
             "EditingEvent": [
-                "rename",
-                "EditingEvent"
+                [
+                    "rename",
+                    "EditingEvent"
+                ]
             ],
             "KeyboardType": [
-                "rename",
-                "KeyboardType"
+                [
+                    "rename",
+                    "KeyboardType"
+                ]
             ],
             "ReturnKeyType": [
-                "rename",
-                "ReturnKeyType"
+                [
+                    "rename",
+                    "ReturnKeyType"
+                ]
             ],
             "AutoCapitalize": [
-                "rename",
-                "AutoCapitalize"
+                [
+                    "rename",
+                    "AutoCapitalize"
+                ]
             ],
             "TextContentType": [
-                "rename",
-                "TextContentType"
+                [
+                    "rename",
+                    "TextContentType"
+                ]
             ],
             "Props": [
-                "rename",
-                "Props"
+                [
+                    "rename",
+                    "Props"
+                ]
             ]
         },
         "exportDefault": [

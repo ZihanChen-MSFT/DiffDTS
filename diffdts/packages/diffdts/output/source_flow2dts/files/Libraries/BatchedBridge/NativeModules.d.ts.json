@@ -13,16 +13,22 @@
         },
         "exports": {
             "NativeModules": [
-                "type",
-                "TSInterfaceDeclaration"
+                [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ]
             ],
             "ModuleConfig": [
-                "rename",
-                "ModuleConfig"
+                [
+                    "rename",
+                    "ModuleConfig"
+                ]
             ],
             "MethodType": [
-                "rename",
-                "MethodType"
+                [
+                    "rename",
+                    "MethodType"
+                ]
             ]
         },
         "exportDefault": [

@@ -25,16 +25,22 @@
         },
         "exports": {
             "SectionBase": [
-                "rename",
-                "SectionBase"
+                [
+                    "rename",
+                    "SectionBase"
+                ]
             ],
             "Props": [
-                "rename",
-                "Props"
+                [
+                    "rename",
+                    "Props"
+                ]
             ],
             "ScrollToLocationParamsType": [
-                "rename",
-                "ScrollToLocationParamsType"
+                [
+                    "rename",
+                    "ScrollToLocationParamsType"
+                ]
             ]
         },
         "exportDefault": [

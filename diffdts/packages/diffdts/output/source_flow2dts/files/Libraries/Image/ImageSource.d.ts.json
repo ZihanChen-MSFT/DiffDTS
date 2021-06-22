@@ -3,12 +3,16 @@
         "importedFiles": {},
         "exports": {
             "ImageURISource": [
-                "rename",
-                "ImageURISource"
+                [
+                    "rename",
+                    "ImageURISource"
+                ]
             ],
             "ImageSource": [
-                "rename",
-                "ImageSource"
+                [
+                    "rename",
+                    "ImageSource"
+                ]
             ]
         },
         "exportDefault": "none"

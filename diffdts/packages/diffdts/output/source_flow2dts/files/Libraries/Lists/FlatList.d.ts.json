@@ -61,12 +61,16 @@
         },
         "exports": {
             "Props": [
-                "rename",
-                "Props"
+                [
+                    "rename",
+                    "Props"
+                ]
             ],
             "DefaultProps": [
-                "rename",
-                "DefaultProps"
+                [
+                    "rename",
+                    "DefaultProps"
+                ]
             ]
         },
         "exportDefault": [

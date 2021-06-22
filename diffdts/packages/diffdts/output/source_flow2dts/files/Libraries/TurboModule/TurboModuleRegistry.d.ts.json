@@ -13,12 +13,16 @@
         },
         "exports": {
             "get": [
-                "rename",
-                "get"
+                [
+                    "rename",
+                    "get"
+                ]
             ],
             "getEnforcing": [
-                "rename",
-                "getEnforcing"
+                [
+                    "rename",
+                    "getEnforcing"
+                ]
             ]
         },
         "exportDefault": "none"

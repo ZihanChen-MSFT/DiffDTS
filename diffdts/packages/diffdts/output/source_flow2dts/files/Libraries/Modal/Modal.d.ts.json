@@ -35,8 +35,10 @@
         },
         "exports": {
             "Props": [
-                "rename",
-                "Props"
+                [
+                    "rename",
+                    "Props"
+                ]
             ]
         },
         "exportDefault": [

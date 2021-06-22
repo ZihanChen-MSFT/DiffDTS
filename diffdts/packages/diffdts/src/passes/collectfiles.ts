@@ -20,6 +20,13 @@ function recordDecl(context: Context, id: string, decl: t.Declaration | t.Variab
   context.index.decls[id].push(decl);
 }
 
+function recordExport(context: Context, id: string, value: SymbolRawEntry["exports"][string][number]): void {
+  if (context.raw.exports[id] === undefined) {
+    context.raw.exports[id] = [];
+  }
+  context.raw.exports[id].push(value);
+}
+
 function astToRawVisitor(): Visitor<Context> {
   return {
     ImportDeclaration: {
@@ -89,7 +96,7 @@ function astToRawVisitor(): Visitor<Context> {
             case "ClassDeclaration": {
               const id = node.declaration.id.name;
               recordDecl(context, id, node.declaration);
-              context.raw.exports[id] = ["type", node.declaration.type];
+              recordExport(context, id, ["type", node.declaration.type]);
               break;
             }
             case "VariableDeclaration": {
@@ -97,7 +104,7 @@ function astToRawVisitor(): Visitor<Context> {
                 if (decl.id.type === "Identifier") {
                   const id = decl.id.name;
                   recordDecl(context, id, decl);
-                  context.raw.exports[id] = ["symbol"];
+                  recordExport(context, id, ["symbol"]);
                 }
               }
               break;
@@ -106,7 +113,7 @@ function astToRawVisitor(): Visitor<Context> {
         }
         for (const specifier of node.specifiers) {
           if (specifier.type === "ExportSpecifier" && specifier.exported.type === "Identifier") {
-            context.raw.exports[specifier.exported.name] = ["rename", specifier.local.name];
+            recordExport(context, specifier.exported.name, ["rename", specifier.local.name]);
           }
         }
       }

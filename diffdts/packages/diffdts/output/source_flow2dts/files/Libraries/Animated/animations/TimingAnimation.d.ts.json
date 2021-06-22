@@ -25,12 +25,16 @@
         },
         "exports": {
             "TimingAnimationConfig": [
-                "rename",
-                "TimingAnimationConfig"
+                [
+                    "rename",
+                    "TimingAnimationConfig"
+                ]
             ],
             "TimingAnimationConfigSingle": [
-                "rename",
-                "TimingAnimationConfigSingle"
+                [
+                    "rename",
+                    "TimingAnimationConfigSingle"
+                ]
             ]
         },
         "exportDefault": [

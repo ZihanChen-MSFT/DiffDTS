@@ -13,8 +13,10 @@
         },
         "exports": {
             "Spec": [
-                "rename",
-                "Spec"
+                [
+                    "rename",
+                    "Spec"
+                ]
             ]
         },
         "exportDefault": [

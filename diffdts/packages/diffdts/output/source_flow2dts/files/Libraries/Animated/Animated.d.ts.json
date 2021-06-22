@@ -32,28 +32,40 @@
         },
         "exports": {
             "FlatList": [
-                "rename",
-                "AnimatedFlatList$f2tTypeof"
+                [
+                    "rename",
+                    "AnimatedFlatList$f2tTypeof"
+                ]
             ],
             "Image": [
-                "rename",
-                "AnimatedImage$f2tTypeof"
+                [
+                    "rename",
+                    "AnimatedImage$f2tTypeof"
+                ]
             ],
             "ScrollView": [
-                "rename",
-                "AnimatedScrollView$f2tTypeof"
+                [
+                    "rename",
+                    "AnimatedScrollView$f2tTypeof"
+                ]
             ],
             "SectionList": [
-                "rename",
-                "AnimatedSectionList$f2tTypeof"
+                [
+                    "rename",
+                    "AnimatedSectionList$f2tTypeof"
+                ]
             ],
             "Text": [
-                "rename",
-                "AnimatedText$f2tTypeof"
+                [
+                    "rename",
+                    "AnimatedText$f2tTypeof"
+                ]
             ],
             "View": [
-                "rename",
-                "AnimatedView$f2tTypeof"
+                [
+                    "rename",
+                    "AnimatedView$f2tTypeof"
+                ]
             ]
         },
         "exportDefault": [

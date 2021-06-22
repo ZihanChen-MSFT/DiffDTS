@@ -13,16 +13,22 @@
         },
         "exports": {
             "getColorScheme": [
-                "rename",
-                "$f2d_getColorScheme"
+                [
+                    "rename",
+                    "$f2d_getColorScheme"
+                ]
             ],
             "addChangeListener": [
-                "rename",
-                "$f2d_addChangeListener"
+                [
+                    "rename",
+                    "$f2d_addChangeListener"
+                ]
             ],
             "removeChangeListener": [
-                "rename",
-                "$f2d_removeChangeListener"
+                [
+                    "rename",
+                    "$f2d_removeChangeListener"
+                ]
             ]
         },
         "exportDefault": [

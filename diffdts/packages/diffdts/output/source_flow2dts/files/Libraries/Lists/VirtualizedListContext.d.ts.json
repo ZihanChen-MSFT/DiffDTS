@@ -12,28 +12,40 @@
         },
         "exports": {
             "ChildListState": [
-                "rename",
-                "ChildListState"
+                [
+                    "rename",
+                    "ChildListState"
+                ]
             ],
             "ListDebugInfo": [
-                "rename",
-                "ListDebugInfo"
+                [
+                    "rename",
+                    "ListDebugInfo"
+                ]
             ],
             "VirtualizedListContext": [
-                "rename",
-                "VirtualizedListContext"
+                [
+                    "rename",
+                    "VirtualizedListContext"
+                ]
             ],
             "VirtualizedListContextResetter": [
-                "rename",
-                "VirtualizedListContextResetter"
+                [
+                    "rename",
+                    "VirtualizedListContextResetter"
+                ]
             ],
             "VirtualizedListContextProvider": [
-                "rename",
-                "VirtualizedListContextProvider"
+                [
+                    "rename",
+                    "VirtualizedListContextProvider"
+                ]
             ],
             "VirtualizedListCellContextProvider": [
-                "rename",
-                "VirtualizedListCellContextProvider"
+                [
+                    "rename",
+                    "VirtualizedListCellContextProvider"
+                ]
             ]
         },
         "exportDefault": "none"

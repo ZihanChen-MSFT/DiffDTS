@@ -3,8 +3,10 @@
         "importedFiles": {},
         "exports": {
             "PointProp": [
-                "rename",
-                "PointProp"
+                [
+                    "rename",
+                    "PointProp"
+                ]
             ]
         },
         "exportDefault": "none"

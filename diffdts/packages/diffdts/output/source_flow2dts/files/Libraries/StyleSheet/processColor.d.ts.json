@@ -22,8 +22,10 @@
         },
         "exports": {
             "ProcessedColorValue": [
-                "rename",
-                "ProcessedColorValue"
+                [
+                    "rename",
+                    "ProcessedColorValue"
+                ]
             ]
         },
         "exportDefault": [

@@ -66,8 +66,10 @@
         },
         "exports": {
             "StateCallbackType": [
-                "rename",
-                "StateCallbackType"
+                [
+                    "rename",
+                    "StateCallbackType"
+                ]
             ]
         },
         "exportDefault": [

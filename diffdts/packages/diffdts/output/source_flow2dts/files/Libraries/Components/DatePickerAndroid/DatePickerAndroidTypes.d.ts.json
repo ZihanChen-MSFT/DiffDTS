@@ -3,12 +3,16 @@
         "importedFiles": {},
         "exports": {
             "Options": [
-                "rename",
-                "Options"
+                [
+                    "rename",
+                    "Options"
+                ]
             ],
             "DatePickerOpenAction": [
-                "rename",
-                "DatePickerOpenAction"
+                [
+                    "rename",
+                    "DatePickerOpenAction"
+                ]
             ]
         },
         "exportDefault": "none"

@@ -13,8 +13,10 @@
         },
         "exports": {
             "LayoutAnimationConfig": [
-                "rename",
-                "LayoutAnimationConfig"
+                [
+                    "rename",
+                    "LayoutAnimationConfig"
+                ]
             ]
         },
         "exportDefault": [

@@ -8,12 +8,16 @@
         },
         "exports": {
             "HORIZONTAL": [
-                "rename",
-                "HORIZONTAL"
+                [
+                    "rename",
+                    "HORIZONTAL"
+                ]
             ],
             "VERTICAL": [
-                "rename",
-                "VERTICAL"
+                [
+                    "rename",
+                    "VERTICAL"
+                ]
             ]
         },
         "exportDefault": [

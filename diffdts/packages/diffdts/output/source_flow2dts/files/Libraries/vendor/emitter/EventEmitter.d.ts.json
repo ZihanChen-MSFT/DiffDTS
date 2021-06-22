@@ -8,8 +8,10 @@
         },
         "exports": {
             "EventSubscription": [
-                "rename",
-                "EventSubscription"
+                [
+                    "rename",
+                    "EventSubscription"
+                ]
             ]
         },
         "exportDefault": [

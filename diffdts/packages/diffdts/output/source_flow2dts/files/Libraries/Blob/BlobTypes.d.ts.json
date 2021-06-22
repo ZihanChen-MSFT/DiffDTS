@@ -3,16 +3,22 @@
         "importedFiles": {},
         "exports": {
             "BlobCollector": [
-                "rename",
-                "BlobCollector"
+                [
+                    "rename",
+                    "BlobCollector"
+                ]
             ],
             "BlobData": [
-                "rename",
-                "BlobData"
+                [
+                    "rename",
+                    "BlobData"
+                ]
             ],
             "BlobOptions": [
-                "rename",
-                "BlobOptions"
+                [
+                    "rename",
+                    "BlobOptions"
+                ]
             ]
         },
         "exportDefault": "none"

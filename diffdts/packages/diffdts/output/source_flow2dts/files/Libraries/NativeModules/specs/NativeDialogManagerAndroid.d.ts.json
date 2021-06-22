@@ -13,12 +13,16 @@
         },
         "exports": {
             "DialogOptions": [
-                "rename",
-                "DialogOptions"
+                [
+                    "rename",
+                    "DialogOptions"
+                ]
             ],
             "Spec": [
-                "rename",
-                "Spec"
+                [
+                    "rename",
+                    "Spec"
+                ]
             ]
         },
         "exportDefault": [

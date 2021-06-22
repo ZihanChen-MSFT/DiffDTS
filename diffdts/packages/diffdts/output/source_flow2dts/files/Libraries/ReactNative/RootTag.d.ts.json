@@ -13,16 +13,22 @@
         },
         "exports": {
             "RootTag": [
-                "rename",
-                "RootTag"
+                [
+                    "rename",
+                    "RootTag"
+                ]
             ],
             "RootTagContext": [
-                "rename",
-                "RootTagContext"
+                [
+                    "rename",
+                    "RootTagContext"
+                ]
             ],
             "createRootTag": [
-                "rename",
-                "createRootTag"
+                [
+                    "rename",
+                    "createRootTag"
+                ]
             ]
         },
         "exportDefault": "none"

@@ -44,8 +44,10 @@
         },
         "exports": {
             "State": [
-                "rename",
-                "State"
+                [
+                    "rename",
+                    "State"
+                ]
             ]
         },
         "exportDefault": [

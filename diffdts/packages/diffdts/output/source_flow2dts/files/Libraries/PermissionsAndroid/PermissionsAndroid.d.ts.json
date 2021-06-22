@@ -13,8 +13,10 @@
         },
         "exports": {
             "Rationale": [
-                "rename",
-                "Rationale"
+                [
+                    "rename",
+                    "Rationale"
+                ]
             ]
         },
         "exportDefault": [

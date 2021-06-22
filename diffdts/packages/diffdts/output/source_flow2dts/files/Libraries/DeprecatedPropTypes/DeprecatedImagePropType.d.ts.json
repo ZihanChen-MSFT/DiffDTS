@@ -29,72 +29,106 @@
         },
         "exports": {
             "style": [
-                "rename",
-                "$f2d_style"
+                [
+                    "rename",
+                    "$f2d_style"
+                ]
             ],
             "source": [
-                "rename",
-                "$f2d_source"
+                [
+                    "rename",
+                    "$f2d_source"
+                ]
             ],
             "defaultSource": [
-                "rename",
-                "$f2d_defaultSource"
+                [
+                    "rename",
+                    "$f2d_defaultSource"
+                ]
             ],
             "accessible": [
-                "rename",
-                "$f2d_accessible"
+                [
+                    "rename",
+                    "$f2d_accessible"
+                ]
             ],
             "accessibilityLabel": [
-                "rename",
-                "$f2d_accessibilityLabel"
+                [
+                    "rename",
+                    "$f2d_accessibilityLabel"
+                ]
             ],
             "blurRadius": [
-                "rename",
-                "$f2d_blurRadius"
+                [
+                    "rename",
+                    "$f2d_blurRadius"
+                ]
             ],
             "capInsets": [
-                "rename",
-                "$f2d_capInsets"
+                [
+                    "rename",
+                    "$f2d_capInsets"
+                ]
             ],
             "resizeMethod": [
-                "rename",
-                "$f2d_resizeMethod"
+                [
+                    "rename",
+                    "$f2d_resizeMethod"
+                ]
             ],
             "resizeMode": [
-                "rename",
-                "$f2d_resizeMode"
+                [
+                    "rename",
+                    "$f2d_resizeMode"
+                ]
             ],
             "testID": [
-                "rename",
-                "$f2d_testID"
+                [
+                    "rename",
+                    "$f2d_testID"
+                ]
             ],
             "onLayout": [
-                "rename",
-                "$f2d_onLayout"
+                [
+                    "rename",
+                    "$f2d_onLayout"
+                ]
             ],
             "onLoadStart": [
-                "rename",
-                "$f2d_onLoadStart"
+                [
+                    "rename",
+                    "$f2d_onLoadStart"
+                ]
             ],
             "onProgress": [
-                "rename",
-                "$f2d_onProgress"
+                [
+                    "rename",
+                    "$f2d_onProgress"
+                ]
             ],
             "onError": [
-                "rename",
-                "$f2d_onError"
+                [
+                    "rename",
+                    "$f2d_onError"
+                ]
             ],
             "onPartialLoad": [
-                "rename",
-                "$f2d_onPartialLoad"
+                [
+                    "rename",
+                    "$f2d_onPartialLoad"
+                ]
             ],
             "onLoad": [
-                "rename",
-                "$f2d_onLoad"
+                [
+                    "rename",
+                    "$f2d_onLoad"
+                ]
             ],
             "onLoadEnd": [
-                "rename",
-                "$f2d_onLoadEnd"
+                [
+                    "rename",
+                    "$f2d_onLoadEnd"
+                ]
             ]
         },
         "exportDefault": [

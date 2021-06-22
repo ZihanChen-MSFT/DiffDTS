@@ -13,28 +13,40 @@
         },
         "exports": {
             "BubblingEventHandler": [
-                "rename",
-                "BubblingEventHandler"
+                [
+                    "rename",
+                    "BubblingEventHandler"
+                ]
             ],
             "DirectEventHandler": [
-                "rename",
-                "DirectEventHandler"
+                [
+                    "rename",
+                    "DirectEventHandler"
+                ]
             ],
             "Double": [
-                "rename",
-                "Double"
+                [
+                    "rename",
+                    "Double"
+                ]
             ],
             "Float": [
-                "rename",
-                "Float"
+                [
+                    "rename",
+                    "Float"
+                ]
             ],
             "Int32": [
-                "rename",
-                "Int32"
+                [
+                    "rename",
+                    "Int32"
+                ]
             ],
             "WithDefault": [
-                "rename",
-                "WithDefault"
+                [
+                    "rename",
+                    "WithDefault"
+                ]
             ]
         },
         "exportDefault": "none"

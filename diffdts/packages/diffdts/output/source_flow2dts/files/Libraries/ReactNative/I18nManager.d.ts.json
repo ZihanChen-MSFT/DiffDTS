@@ -3,28 +3,40 @@
         "importedFiles": {},
         "exports": {
             "getConstants": [
-                "rename",
-                "$f2d_getConstants"
+                [
+                    "rename",
+                    "$f2d_getConstants"
+                ]
             ],
             "allowRTL": [
-                "rename",
-                "$f2d_allowRTL"
+                [
+                    "rename",
+                    "$f2d_allowRTL"
+                ]
             ],
             "forceRTL": [
-                "rename",
-                "$f2d_forceRTL"
+                [
+                    "rename",
+                    "$f2d_forceRTL"
+                ]
             ],
             "swapLeftAndRightInRTL": [
-                "rename",
-                "$f2d_swapLeftAndRightInRTL"
+                [
+                    "rename",
+                    "$f2d_swapLeftAndRightInRTL"
+                ]
             ],
             "isRTL": [
-                "rename",
-                "$f2d_isRTL"
+                [
+                    "rename",
+                    "$f2d_isRTL"
+                ]
             ],
             "doLeftAndRightSwapInRTL": [
-                "rename",
-                "$f2d_doLeftAndRightSwapInRTL"
+                [
+                    "rename",
+                    "$f2d_doLeftAndRightSwapInRTL"
+                ]
             ]
         },
         "exportDefault": [

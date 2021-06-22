@@ -13,12 +13,16 @@
         },
         "exports": {
             "CodeFrame": [
-                "rename",
-                "CodeFrame"
+                [
+                    "rename",
+                    "CodeFrame"
+                ]
             ],
             "SymbolicatedStackTrace": [
-                "rename",
-                "SymbolicatedStackTrace"
+                [
+                    "rename",
+                    "SymbolicatedStackTrace"
+                ]
             ]
         },
         "exportDefault": [

@@ -58,16 +58,22 @@
         },
         "exports": {
             "ViewLayout": [
-                "rename",
-                "ViewLayout"
+                [
+                    "rename",
+                    "ViewLayout"
+                ]
             ],
             "ViewLayoutEvent": [
-                "rename",
-                "ViewLayoutEvent"
+                [
+                    "rename",
+                    "ViewLayoutEvent"
+                ]
             ],
             "ViewProps": [
-                "rename",
-                "ViewProps"
+                [
+                    "rename",
+                    "ViewProps"
+                ]
             ]
         },
         "exportDefault": "none"

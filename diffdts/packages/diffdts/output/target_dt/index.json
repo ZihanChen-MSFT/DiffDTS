@@ -18,6 +18,18 @@
         ],
         "AccessibilityInfo": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -64,6 +76,18 @@
         ],
         "ActionSheetIOS": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -98,6 +122,18 @@
             }
         ],
         "Alert": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -137,6 +173,18 @@
         ],
         "AppState": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -158,6 +206,18 @@
         ],
         "AsyncStorage": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -168,6 +228,18 @@
             }
         ],
         "BackHandler": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -196,6 +268,18 @@
             }
         ],
         "CameraRoll": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -242,6 +326,18 @@
         ],
         "Clipboard": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -287,6 +383,18 @@
             }
         ],
         "DatePickerAndroid": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -364,6 +472,10 @@
                 "declType": "TSInterfaceDeclaration"
             },
             {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
                 "type": "value"
             },
             {
@@ -395,6 +507,9 @@
             }
         ],
         "Easing": [
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             },
@@ -434,6 +549,10 @@
             }
         ],
         "FlatList": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -493,6 +612,18 @@
         ],
         "I18nManager": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -503,6 +634,10 @@
             }
         ],
         "Image": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -532,6 +667,18 @@
         ],
         "ImageEditor": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -548,6 +695,18 @@
             }
         ],
         "ImagePickerIOS": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -623,6 +782,18 @@
             }
         ],
         "ImageStore": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -741,6 +912,18 @@
         ],
         "LayoutAnimation": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -800,6 +983,18 @@
         ],
         "Linking": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -839,6 +1034,18 @@
             }
         ],
         "LogBox": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -1011,6 +1218,18 @@
         ],
         "PanResponder": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -1049,6 +1268,18 @@
             }
         ],
         "PermissionsAndroid": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -1150,6 +1381,10 @@
                 "declType": "TSInterfaceDeclaration"
             },
             {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
                 "type": "value"
             },
             {
@@ -1228,6 +1463,18 @@
             }
         ],
         "PushNotificationIOS": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -1351,6 +1598,10 @@
                 "declType": "ClassDeclaration"
             },
             {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
                 "type": "value"
             },
             {
@@ -1382,6 +1633,10 @@
             }
         ],
         "SectionList": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -1435,6 +1690,18 @@
         ],
         "Settings": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -1465,6 +1732,18 @@
             }
         ],
         "Share": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
             {
                 "type": "type"
             }
@@ -1565,6 +1844,18 @@
         ],
         "StatusBarIOS": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -1664,6 +1955,18 @@
         ],
         "Systrace": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -1716,6 +2019,18 @@
         ],
         "TestModule": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -1726,6 +2041,10 @@
             }
         ],
         "Text": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -1871,6 +2190,18 @@
         ],
         "TimePickerAndroid": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -1905,6 +2236,18 @@
         ],
         "ToastAndroid": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -1932,6 +2275,10 @@
             }
         ],
         "Touchable": [
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
             {
                 "type": "type",
                 "declType": "TSInterfaceDeclaration"
@@ -2015,6 +2362,18 @@
         ],
         "UIManager": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -2038,6 +2397,18 @@
         ],
         "Vibration": [
             {
+                "type": "value"
+            },
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
                 "type": "type"
             }
         ],
@@ -2048,6 +2419,10 @@
             }
         ],
         "View": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"

@@ -22,28 +22,40 @@
         },
         "exports": {
             "NativeColorValue": [
-                "rename",
-                "NativeColorValue"
+                [
+                    "rename",
+                    "NativeColorValue"
+                ]
             ],
             "PlatformColor": [
-                "rename",
-                "PlatformColor"
+                [
+                    "rename",
+                    "PlatformColor"
+                ]
             ],
             "DynamicColorIOSTuplePrivate": [
-                "rename",
-                "DynamicColorIOSTuplePrivate"
+                [
+                    "rename",
+                    "DynamicColorIOSTuplePrivate"
+                ]
             ],
             "DynamicColorIOSPrivate": [
-                "rename",
-                "DynamicColorIOSPrivate"
+                [
+                    "rename",
+                    "DynamicColorIOSPrivate"
+                ]
             ],
             "normalizeColorObject": [
-                "rename",
-                "normalizeColorObject"
+                [
+                    "rename",
+                    "normalizeColorObject"
+                ]
             ],
             "processColorObject": [
-                "rename",
-                "processColorObject"
+                [
+                    "rename",
+                    "processColorObject"
+                ]
             ]
         },
         "exportDefault": "none"

@@ -25,148 +25,220 @@
         },
         "exports": {
             "accessible": [
-                "rename",
-                "$f2d_accessible"
+                [
+                    "rename",
+                    "$f2d_accessible"
+                ]
             ],
             "accessibilityLabel": [
-                "rename",
-                "$f2d_accessibilityLabel"
+                [
+                    "rename",
+                    "$f2d_accessibilityLabel"
+                ]
             ],
             "accessibilityHint": [
-                "rename",
-                "$f2d_accessibilityHint"
+                [
+                    "rename",
+                    "$f2d_accessibilityHint"
+                ]
             ],
             "accessibilityActions": [
-                "rename",
-                "$f2d_accessibilityActions"
+                [
+                    "rename",
+                    "$f2d_accessibilityActions"
+                ]
             ],
             "accessibilityIgnoresInvertColors": [
-                "rename",
-                "$f2d_accessibilityIgnoresInvertColors"
+                [
+                    "rename",
+                    "$f2d_accessibilityIgnoresInvertColors"
+                ]
             ],
             "accessibilityRole": [
-                "rename",
-                "$f2d_accessibilityRole"
+                [
+                    "rename",
+                    "$f2d_accessibilityRole"
+                ]
             ],
             "accessibilityState": [
-                "rename",
-                "$f2d_accessibilityState"
+                [
+                    "rename",
+                    "$f2d_accessibilityState"
+                ]
             ],
             "accessibilityValue": [
-                "rename",
-                "$f2d_accessibilityValue"
+                [
+                    "rename",
+                    "$f2d_accessibilityValue"
+                ]
             ],
             "accessibilityLiveRegion": [
-                "rename",
-                "$f2d_accessibilityLiveRegion"
+                [
+                    "rename",
+                    "$f2d_accessibilityLiveRegion"
+                ]
             ],
             "importantForAccessibility": [
-                "rename",
-                "$f2d_importantForAccessibility"
+                [
+                    "rename",
+                    "$f2d_importantForAccessibility"
+                ]
             ],
             "accessibilityViewIsModal": [
-                "rename",
-                "$f2d_accessibilityViewIsModal"
+                [
+                    "rename",
+                    "$f2d_accessibilityViewIsModal"
+                ]
             ],
             "accessibilityElementsHidden": [
-                "rename",
-                "$f2d_accessibilityElementsHidden"
+                [
+                    "rename",
+                    "$f2d_accessibilityElementsHidden"
+                ]
             ],
             "onAccessibilityAction": [
-                "rename",
-                "$f2d_onAccessibilityAction"
+                [
+                    "rename",
+                    "$f2d_onAccessibilityAction"
+                ]
             ],
             "onAccessibilityTap": [
-                "rename",
-                "$f2d_onAccessibilityTap"
+                [
+                    "rename",
+                    "$f2d_onAccessibilityTap"
+                ]
             ],
             "onMagicTap": [
-                "rename",
-                "$f2d_onMagicTap"
+                [
+                    "rename",
+                    "$f2d_onMagicTap"
+                ]
             ],
             "testID": [
-                "rename",
-                "$f2d_testID"
+                [
+                    "rename",
+                    "$f2d_testID"
+                ]
             ],
             "nativeID": [
-                "rename",
-                "$f2d_nativeID"
+                [
+                    "rename",
+                    "$f2d_nativeID"
+                ]
             ],
             "onResponderGrant": [
-                "rename",
-                "$f2d_onResponderGrant"
+                [
+                    "rename",
+                    "$f2d_onResponderGrant"
+                ]
             ],
             "onResponderMove": [
-                "rename",
-                "$f2d_onResponderMove"
+                [
+                    "rename",
+                    "$f2d_onResponderMove"
+                ]
             ],
             "onResponderReject": [
-                "rename",
-                "$f2d_onResponderReject"
+                [
+                    "rename",
+                    "$f2d_onResponderReject"
+                ]
             ],
             "onResponderRelease": [
-                "rename",
-                "$f2d_onResponderRelease"
+                [
+                    "rename",
+                    "$f2d_onResponderRelease"
+                ]
             ],
             "onResponderTerminate": [
-                "rename",
-                "$f2d_onResponderTerminate"
+                [
+                    "rename",
+                    "$f2d_onResponderTerminate"
+                ]
             ],
             "onResponderTerminationRequest": [
-                "rename",
-                "$f2d_onResponderTerminationRequest"
+                [
+                    "rename",
+                    "$f2d_onResponderTerminationRequest"
+                ]
             ],
             "onStartShouldSetResponder": [
-                "rename",
-                "$f2d_onStartShouldSetResponder"
+                [
+                    "rename",
+                    "$f2d_onStartShouldSetResponder"
+                ]
             ],
             "onStartShouldSetResponderCapture": [
-                "rename",
-                "$f2d_onStartShouldSetResponderCapture"
+                [
+                    "rename",
+                    "$f2d_onStartShouldSetResponderCapture"
+                ]
             ],
             "onMoveShouldSetResponder": [
-                "rename",
-                "$f2d_onMoveShouldSetResponder"
+                [
+                    "rename",
+                    "$f2d_onMoveShouldSetResponder"
+                ]
             ],
             "onMoveShouldSetResponderCapture": [
-                "rename",
-                "$f2d_onMoveShouldSetResponderCapture"
+                [
+                    "rename",
+                    "$f2d_onMoveShouldSetResponderCapture"
+                ]
             ],
             "hitSlop": [
-                "rename",
-                "$f2d_hitSlop"
+                [
+                    "rename",
+                    "$f2d_hitSlop"
+                ]
             ],
             "onLayout": [
-                "rename",
-                "$f2d_onLayout"
+                [
+                    "rename",
+                    "$f2d_onLayout"
+                ]
             ],
             "pointerEvents": [
-                "rename",
-                "$f2d_pointerEvents"
+                [
+                    "rename",
+                    "$f2d_pointerEvents"
+                ]
             ],
             "style": [
-                "rename",
-                "stylePropType"
+                [
+                    "rename",
+                    "stylePropType"
+                ]
             ],
             "removeClippedSubviews": [
-                "rename",
-                "$f2d_removeClippedSubviews"
+                [
+                    "rename",
+                    "$f2d_removeClippedSubviews"
+                ]
             ],
             "renderToHardwareTextureAndroid": [
-                "rename",
-                "$f2d_renderToHardwareTextureAndroid"
+                [
+                    "rename",
+                    "$f2d_renderToHardwareTextureAndroid"
+                ]
             ],
             "shouldRasterizeIOS": [
-                "rename",
-                "$f2d_shouldRasterizeIOS"
+                [
+                    "rename",
+                    "$f2d_shouldRasterizeIOS"
+                ]
             ],
             "collapsable": [
-                "rename",
-                "$f2d_collapsable"
+                [
+                    "rename",
+                    "$f2d_collapsable"
+                ]
             ],
             "needsOffscreenAlphaCompositing": [
-                "rename",
-                "$f2d_needsOffscreenAlphaCompositing"
+                [
+                    "rename",
+                    "$f2d_needsOffscreenAlphaCompositing"
+                ]
             ]
         },
         "exportDefault": [

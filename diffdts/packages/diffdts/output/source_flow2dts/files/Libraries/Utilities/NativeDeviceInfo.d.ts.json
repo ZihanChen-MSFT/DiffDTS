@@ -13,16 +13,22 @@
         },
         "exports": {
             "DisplayMetrics": [
-                "rename",
-                "DisplayMetrics"
+                [
+                    "rename",
+                    "DisplayMetrics"
+                ]
             ],
             "DimensionsPayload": [
-                "rename",
-                "DimensionsPayload"
+                [
+                    "rename",
+                    "DimensionsPayload"
+                ]
             ],
             "Spec": [
-                "rename",
-                "Spec"
+                [
+                    "rename",
+                    "Spec"
+                ]
             ]
         },
         "exportDefault": [

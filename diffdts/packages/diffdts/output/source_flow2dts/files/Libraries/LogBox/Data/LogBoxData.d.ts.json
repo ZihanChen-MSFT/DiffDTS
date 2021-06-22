@@ -35,120 +35,178 @@
         },
         "exports": {
             "LogBoxLogs": [
-                "rename",
-                "LogBoxLogs"
+                [
+                    "rename",
+                    "LogBoxLogs"
+                ]
             ],
             "LogData": [
-                "rename",
-                "LogData"
+                [
+                    "rename",
+                    "LogData"
+                ]
             ],
             "Observer": [
-                "rename",
-                "Observer"
+                [
+                    "rename",
+                    "Observer"
+                ]
             ],
             "IgnorePattern": [
-                "rename",
-                "IgnorePattern"
+                [
+                    "rename",
+                    "IgnorePattern"
+                ]
             ],
             "Subscription": [
-                "rename",
-                "Subscription"
+                [
+                    "rename",
+                    "Subscription"
+                ]
             ],
             "WarningInfo": [
-                "rename",
-                "WarningInfo"
+                [
+                    "rename",
+                    "WarningInfo"
+                ]
             ],
             "WarningFilter": [
-                "rename",
-                "WarningFilter"
+                [
+                    "rename",
+                    "WarningFilter"
+                ]
             ],
             "reportLogBoxError": [
-                "rename",
-                "reportLogBoxError"
+                [
+                    "rename",
+                    "reportLogBoxError"
+                ]
             ],
             "isLogBoxErrorMessage": [
-                "rename",
-                "isLogBoxErrorMessage"
+                [
+                    "rename",
+                    "isLogBoxErrorMessage"
+                ]
             ],
             "isMessageIgnored": [
-                "rename",
-                "isMessageIgnored"
+                [
+                    "rename",
+                    "isMessageIgnored"
+                ]
             ],
             "addLog": [
-                "rename",
-                "addLog"
+                [
+                    "rename",
+                    "addLog"
+                ]
             ],
             "addException": [
-                "rename",
-                "addException"
+                [
+                    "rename",
+                    "addException"
+                ]
             ],
             "symbolicateLogNow": [
-                "rename",
-                "symbolicateLogNow"
+                [
+                    "rename",
+                    "symbolicateLogNow"
+                ]
             ],
             "retrySymbolicateLogNow": [
-                "rename",
-                "retrySymbolicateLogNow"
+                [
+                    "rename",
+                    "retrySymbolicateLogNow"
+                ]
             ],
             "symbolicateLogLazy": [
-                "rename",
-                "symbolicateLogLazy"
+                [
+                    "rename",
+                    "symbolicateLogLazy"
+                ]
             ],
             "clear": [
-                "rename",
-                "clear"
+                [
+                    "rename",
+                    "clear"
+                ]
             ],
             "setSelectedLog": [
-                "rename",
-                "setSelectedLog"
+                [
+                    "rename",
+                    "setSelectedLog"
+                ]
             ],
             "clearWarnings": [
-                "rename",
-                "clearWarnings"
+                [
+                    "rename",
+                    "clearWarnings"
+                ]
             ],
             "clearErrors": [
-                "rename",
-                "clearErrors"
+                [
+                    "rename",
+                    "clearErrors"
+                ]
             ],
             "dismiss": [
-                "rename",
-                "dismiss"
+                [
+                    "rename",
+                    "dismiss"
+                ]
             ],
             "setWarningFilter": [
-                "rename",
-                "setWarningFilter"
+                [
+                    "rename",
+                    "setWarningFilter"
+                ]
             ],
             "setAppInfo": [
-                "rename",
-                "setAppInfo"
+                [
+                    "rename",
+                    "setAppInfo"
+                ]
             ],
             "getAppInfo": [
-                "rename",
-                "getAppInfo"
+                [
+                    "rename",
+                    "getAppInfo"
+                ]
             ],
             "checkWarningFilter": [
-                "rename",
-                "checkWarningFilter"
+                [
+                    "rename",
+                    "checkWarningFilter"
+                ]
             ],
             "addIgnorePatterns": [
-                "rename",
-                "addIgnorePatterns"
+                [
+                    "rename",
+                    "addIgnorePatterns"
+                ]
             ],
             "setDisabled": [
-                "rename",
-                "setDisabled"
+                [
+                    "rename",
+                    "setDisabled"
+                ]
             ],
             "isDisabled": [
-                "rename",
-                "isDisabled"
+                [
+                    "rename",
+                    "isDisabled"
+                ]
             ],
             "observe": [
-                "rename",
-                "observe"
+                [
+                    "rename",
+                    "observe"
+                ]
             ],
             "withSubscription": [
-                "rename",
-                "withSubscription"
+                [
+                    "rename",
+                    "withSubscription"
+                ]
             ]
         },
         "exportDefault": "none"

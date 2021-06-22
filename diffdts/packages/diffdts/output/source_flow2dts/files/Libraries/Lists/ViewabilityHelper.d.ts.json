@@ -3,16 +3,22 @@
         "importedFiles": {},
         "exports": {
             "ViewToken": [
-                "rename",
-                "ViewToken"
+                [
+                    "rename",
+                    "ViewToken"
+                ]
             ],
             "ViewabilityConfigCallbackPair": [
-                "rename",
-                "ViewabilityConfigCallbackPair"
+                [
+                    "rename",
+                    "ViewabilityConfigCallbackPair"
+                ]
             ],
             "ViewabilityConfig": [
-                "rename",
-                "ViewabilityConfig"
+                [
+                    "rename",
+                    "ViewabilityConfig"
+                ]
             ]
         },
         "exportDefault": [

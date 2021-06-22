@@ -13,8 +13,10 @@
         },
         "exports": {
             "default": [
-                "rename",
-                "NativeEventEmitter"
+                [
+                    "rename",
+                    "NativeEventEmitter"
+                ]
             ]
         },
         "exportDefault": "none"

@@ -377,360 +377,538 @@
         },
         "exports": {
             "HostComponent": [
-                "rename",
-                "HostComponent"
+                [
+                    "rename",
+                    "HostComponent"
+                ]
             ],
             "AccessibilityInfo": [
-                "rename",
-                "AccessibilityInfo$f2tTypeof"
+                [
+                    "rename",
+                    "AccessibilityInfo$f2tTypeof"
+                ]
             ],
             "ActivityIndicator": [
-                "rename",
-                "ActivityIndicator$f2tTypeof"
+                [
+                    "rename",
+                    "ActivityIndicator$f2tTypeof"
+                ]
             ],
             "Button": [
-                "rename",
-                "Button$f2tTypeof"
+                [
+                    "rename",
+                    "Button$f2tTypeof"
+                ]
             ],
             "DatePickerIOS": [
-                "rename",
-                "DatePickerIOS$f2tTypeof"
+                [
+                    "rename",
+                    "DatePickerIOS$f2tTypeof"
+                ]
             ],
             "FlatList": [
-                "rename",
-                "FlatList$f2tTypeof"
+                [
+                    "rename",
+                    "FlatList$f2tTypeof"
+                ]
             ],
             "Image": [
-                "rename",
-                "Image$f2tTypeof"
+                [
+                    "rename",
+                    "Image$f2tTypeof"
+                ]
             ],
             "ImageBackground": [
-                "rename",
-                "ImageBackground$f2tTypeof"
+                [
+                    "rename",
+                    "ImageBackground$f2tTypeof"
+                ]
             ],
             "InputAccessoryView": [
-                "rename",
-                "InputAccessoryView$f2tTypeof"
+                [
+                    "rename",
+                    "InputAccessoryView$f2tTypeof"
+                ]
             ],
             "KeyboardAvoidingView": [
-                "rename",
-                "KeyboardAvoidingView$f2tTypeof"
+                [
+                    "rename",
+                    "KeyboardAvoidingView$f2tTypeof"
+                ]
             ],
             "MaskedViewIOS": [
-                "rename",
-                "MaskedViewIOS$f2tTypeof"
+                [
+                    "rename",
+                    "MaskedViewIOS$f2tTypeof"
+                ]
             ],
             "Modal": [
-                "rename",
-                "Modal$f2tTypeof"
+                [
+                    "rename",
+                    "Modal$f2tTypeof"
+                ]
             ],
             "Picker": [
-                "rename",
-                "Picker$f2tTypeof"
+                [
+                    "rename",
+                    "Picker$f2tTypeof"
+                ]
             ],
             "PickerIOS": [
-                "rename",
-                "PickerIOS$f2tTypeof"
+                [
+                    "rename",
+                    "PickerIOS$f2tTypeof"
+                ]
             ],
             "Pressable": [
-                "rename",
-                "Pressable$f2tTypeof"
+                [
+                    "rename",
+                    "Pressable$f2tTypeof"
+                ]
             ],
             "ProgressViewIOS": [
-                "rename",
-                "ProgressViewIOS$f2tTypeof"
+                [
+                    "rename",
+                    "ProgressViewIOS$f2tTypeof"
+                ]
             ],
             "RefreshControl": [
-                "rename",
-                "RefreshControl$f2tTypeof"
+                [
+                    "rename",
+                    "RefreshControl$f2tTypeof"
+                ]
             ],
             "SafeAreaView": [
-                "rename",
-                "SafeAreaView$f2tTypeof"
+                [
+                    "rename",
+                    "SafeAreaView$f2tTypeof"
+                ]
             ],
             "ScrollView": [
-                "rename",
-                "ScrollView$f2tTypeof"
+                [
+                    "rename",
+                    "ScrollView$f2tTypeof"
+                ]
             ],
             "SectionList": [
-                "rename",
-                "SectionList$f2tTypeof"
+                [
+                    "rename",
+                    "SectionList$f2tTypeof"
+                ]
             ],
             "SegmentedControlIOS": [
-                "rename",
-                "SegmentedControlIOS$f2tTypeof"
+                [
+                    "rename",
+                    "SegmentedControlIOS$f2tTypeof"
+                ]
             ],
             "Slider": [
-                "rename",
-                "Slider$f2tTypeof"
+                [
+                    "rename",
+                    "Slider$f2tTypeof"
+                ]
             ],
             "StatusBar": [
-                "rename",
-                "StatusBar$f2tTypeof"
+                [
+                    "rename",
+                    "StatusBar$f2tTypeof"
+                ]
             ],
             "Switch": [
-                "rename",
-                "Switch$f2tTypeof"
+                [
+                    "rename",
+                    "Switch$f2tTypeof"
+                ]
             ],
             "Text": [
-                "rename",
-                "Text$f2tTypeof"
+                [
+                    "rename",
+                    "Text$f2tTypeof"
+                ]
             ],
             "TextInput": [
-                "rename",
-                "TextInput$f2tTypeof"
+                [
+                    "rename",
+                    "TextInput$f2tTypeof"
+                ]
             ],
             "Touchable": [
-                "rename",
-                "Touchable$f2tTypeof"
+                [
+                    "rename",
+                    "Touchable$f2tTypeof"
+                ]
             ],
             "TouchableHighlight": [
-                "rename",
-                "TouchableHighlight$f2tTypeof"
+                [
+                    "rename",
+                    "TouchableHighlight$f2tTypeof"
+                ]
             ],
             "TouchableNativeFeedback": [
-                "rename",
-                "TouchableNativeFeedback$f2tTypeof"
+                [
+                    "rename",
+                    "TouchableNativeFeedback$f2tTypeof"
+                ]
             ],
             "TouchableOpacity": [
-                "rename",
-                "TouchableOpacity$f2tTypeof"
+                [
+                    "rename",
+                    "TouchableOpacity$f2tTypeof"
+                ]
             ],
             "TouchableWithoutFeedback": [
-                "rename",
-                "TouchableWithoutFeedback$f2tTypeof"
+                [
+                    "rename",
+                    "TouchableWithoutFeedback$f2tTypeof"
+                ]
             ],
             "View": [
-                "rename",
-                "View$f2tTypeof"
+                [
+                    "rename",
+                    "View$f2tTypeof"
+                ]
             ],
             "VirtualizedList": [
-                "rename",
-                "VirtualizedList$f2tTypeof"
+                [
+                    "rename",
+                    "VirtualizedList$f2tTypeof"
+                ]
             ],
             "VirtualizedSectionList": [
-                "rename",
-                "VirtualizedSectionList$f2tTypeof"
+                [
+                    "rename",
+                    "VirtualizedSectionList$f2tTypeof"
+                ]
             ],
             "ActionSheetIOS": [
-                "rename",
-                "ActionSheetIOS$f2tTypeof"
+                [
+                    "rename",
+                    "ActionSheetIOS$f2tTypeof"
+                ]
             ],
             "Alert": [
-                "rename",
-                "Alert$f2tTypeof"
+                [
+                    "rename",
+                    "Alert$f2tTypeof"
+                ]
             ],
             "Animated": [
-                "rename",
-                "Animated$f2tTypeof"
+                [
+                    "rename",
+                    "Animated$f2tTypeof"
+                ]
             ],
             "Appearance": [
-                "rename",
-                "Appearance$f2tTypeof"
+                [
+                    "rename",
+                    "Appearance$f2tTypeof"
+                ]
             ],
             "AppRegistry": [
-                "rename",
-                "AppRegistry$f2tTypeof"
+                [
+                    "rename",
+                    "AppRegistry$f2tTypeof"
+                ]
             ],
             "AppState": [
-                "rename",
-                "AppState$f2tTypeof"
+                [
+                    "rename",
+                    "AppState$f2tTypeof"
+                ]
             ],
             "AsyncStorage": [
-                "rename",
-                "AsyncStorage$f2tTypeof"
+                [
+                    "rename",
+                    "AsyncStorage$f2tTypeof"
+                ]
             ],
             "BackHandler": [
-                "rename",
-                "BackHandler$f2tTypeof"
+                [
+                    "rename",
+                    "BackHandler$f2tTypeof"
+                ]
             ],
             "Clipboard": [
-                "rename",
-                "Clipboard$f2tTypeof"
+                [
+                    "rename",
+                    "Clipboard$f2tTypeof"
+                ]
             ],
             "DatePickerAndroid": [
-                "rename",
-                "DatePickerAndroid$f2tTypeof"
+                [
+                    "rename",
+                    "DatePickerAndroid$f2tTypeof"
+                ]
             ],
             "DeviceInfo": [
-                "rename",
-                "DeviceInfo$f2tTypeof"
+                [
+                    "rename",
+                    "DeviceInfo$f2tTypeof"
+                ]
             ],
             "DevSettings": [
-                "rename",
-                "DevSettings$f2tTypeof"
+                [
+                    "rename",
+                    "DevSettings$f2tTypeof"
+                ]
             ],
             "Dimensions": [
-                "rename",
-                "Dimensions$f2tTypeof"
+                [
+                    "rename",
+                    "Dimensions$f2tTypeof"
+                ]
             ],
             "Easing": [
-                "rename",
-                "Easing$f2tTypeof"
+                [
+                    "rename",
+                    "Easing$f2tTypeof"
+                ]
             ],
             "findNodeHandle": [
-                "rename",
-                "$f2d_findNodeHandle"
+                [
+                    "rename",
+                    "$f2d_findNodeHandle"
+                ]
             ],
             "I18nManager": [
-                "rename",
-                "I18nManager$f2tTypeof"
+                [
+                    "rename",
+                    "I18nManager$f2tTypeof"
+                ]
             ],
             "ImagePickerIOS": [
-                "rename",
-                "ImagePickerIOS$f2tTypeof"
+                [
+                    "rename",
+                    "ImagePickerIOS$f2tTypeof"
+                ]
             ],
             "InteractionManager": [
-                "rename",
-                "InteractionManager$f2tTypeof"
+                [
+                    "rename",
+                    "InteractionManager$f2tTypeof"
+                ]
             ],
             "Keyboard": [
-                "rename",
-                "Keyboard$f2tTypeof"
+                [
+                    "rename",
+                    "Keyboard$f2tTypeof"
+                ]
             ],
             "LayoutAnimation": [
-                "rename",
-                "LayoutAnimation$f2tTypeof"
+                [
+                    "rename",
+                    "LayoutAnimation$f2tTypeof"
+                ]
             ],
             "Linking": [
-                "rename",
-                "Linking$f2tTypeof"
+                [
+                    "rename",
+                    "Linking$f2tTypeof"
+                ]
             ],
             "LogBox": [
-                "rename",
-                "LogBox$f2tTypeof"
+                [
+                    "rename",
+                    "LogBox$f2tTypeof"
+                ]
             ],
             "NativeDialogManagerAndroid": [
-                "rename",
-                "NativeDialogManagerAndroid$f2tTypeof"
+                [
+                    "rename",
+                    "NativeDialogManagerAndroid$f2tTypeof"
+                ]
             ],
             "NativeEventEmitter": [
-                "rename",
-                "NativeEventEmitter$f2tTypeof"
+                [
+                    "rename",
+                    "NativeEventEmitter$f2tTypeof"
+                ]
             ],
             "Networking": [
-                "rename",
-                "Networking$f2tTypeof"
+                [
+                    "rename",
+                    "Networking$f2tTypeof"
+                ]
             ],
             "PanResponder": [
-                "rename",
-                "PanResponder$f2tTypeof"
+                [
+                    "rename",
+                    "PanResponder$f2tTypeof"
+                ]
             ],
             "PermissionsAndroid": [
-                "rename",
-                "PermissionsAndroid$f2tTypeof"
+                [
+                    "rename",
+                    "PermissionsAndroid$f2tTypeof"
+                ]
             ],
             "PixelRatio": [
-                "rename",
-                "PixelRatio$f2tTypeof"
+                [
+                    "rename",
+                    "PixelRatio$f2tTypeof"
+                ]
             ],
             "PushNotificationIOS": [
-                "rename",
-                "PushNotificationIOS$f2tTypeof"
+                [
+                    "rename",
+                    "PushNotificationIOS$f2tTypeof"
+                ]
             ],
             "Settings": [
-                "rename",
-                "Settings$f2tTypeof"
+                [
+                    "rename",
+                    "Settings$f2tTypeof"
+                ]
             ],
             "Share": [
-                "rename",
-                "Share$f2tTypeof"
+                [
+                    "rename",
+                    "Share$f2tTypeof"
+                ]
             ],
             "StatusBarIOS": [
-                "rename",
-                "StatusBarIOS$f2tTypeof"
+                [
+                    "rename",
+                    "StatusBarIOS$f2tTypeof"
+                ]
             ],
             "StyleSheet": [
-                "rename",
-                "StyleSheet$f2tTypeof"
+                [
+                    "rename",
+                    "StyleSheet$f2tTypeof"
+                ]
             ],
             "Systrace": [
-                "rename",
-                "Systrace$f2tTypeof"
+                [
+                    "rename",
+                    "Systrace$f2tTypeof"
+                ]
             ],
             "TurboModuleRegistry": [
-                "rename",
-                "$f2d_TurboModuleRegistry"
+                [
+                    "rename",
+                    "$f2d_TurboModuleRegistry"
+                ]
             ],
             "UIManager": [
-                "rename",
-                "UIManager$f2tTypeof"
+                [
+                    "rename",
+                    "UIManager$f2tTypeof"
+                ]
             ],
             "unstable_batchedUpdates": [
-                "rename",
-                "$f2d_unstable_batchedUpdates"
+                [
+                    "rename",
+                    "$f2d_unstable_batchedUpdates"
+                ]
             ],
             "useColorScheme": [
-                "rename",
-                "useColorScheme$f2tTypeof"
+                [
+                    "rename",
+                    "useColorScheme$f2tTypeof"
+                ]
             ],
             "useWindowDimensions": [
-                "rename",
-                "useWindowDimensions$f2tTypeof"
+                [
+                    "rename",
+                    "useWindowDimensions$f2tTypeof"
+                ]
             ],
             "UTFSequence": [
-                "rename",
-                "UTFSequence$f2tTypeof"
+                [
+                    "rename",
+                    "UTFSequence$f2tTypeof"
+                ]
             ],
             "Vibration": [
-                "rename",
-                "Vibration$f2tTypeof"
+                [
+                    "rename",
+                    "Vibration$f2tTypeof"
+                ]
             ],
             "YellowBox": [
-                "rename",
-                "YellowBox$f2tTypeof"
+                [
+                    "rename",
+                    "YellowBox$f2tTypeof"
+                ]
             ],
             "DeviceEventEmitter": [
-                "rename",
-                "RCTDeviceEventEmitter$f2tTypeof"
+                [
+                    "rename",
+                    "RCTDeviceEventEmitter$f2tTypeof"
+                ]
             ],
             "DynamicColorIOS": [
-                "rename",
-                "DynamicColorIOS$f2tTypeof"
+                [
+                    "rename",
+                    "DynamicColorIOS$f2tTypeof"
+                ]
             ],
             "NativeAppEventEmitter": [
-                "rename",
-                "RCTNativeAppEventEmitter$f2tTypeof"
+                [
+                    "rename",
+                    "RCTNativeAppEventEmitter$f2tTypeof"
+                ]
             ],
             "NativeModules": [
-                "rename",
-                "NativeModules$f2tTypeof"
+                [
+                    "rename",
+                    "NativeModules$f2tTypeof"
+                ]
             ],
             "Platform": [
-                "rename",
-                "Platform$f2tTypeof"
+                [
+                    "rename",
+                    "Platform$f2tTypeof"
+                ]
             ],
             "PlatformColor": [
-                "rename",
-                "PlatformColor$f2tTypeof"
+                [
+                    "rename",
+                    "PlatformColor$f2tTypeof"
+                ]
             ],
             "processColor": [
-                "rename",
-                "processColor$f2tTypeof"
+                [
+                    "rename",
+                    "processColor$f2tTypeof"
+                ]
             ],
             "requireNativeComponent": [
-                "rename",
-                "$f2d_requireNativeComponent"
+                [
+                    "rename",
+                    "$f2d_requireNativeComponent"
+                ]
             ],
             "unstable_RootTagContext": [
-                "rename",
-                "RootTagContext$f2tTypeof"
+                [
+                    "rename",
+                    "RootTagContext$f2tTypeof"
+                ]
             ],
             "unstable_enableLogBox": [
-                "rename",
-                "$f2d_unstable_enableLogBox"
+                [
+                    "rename",
+                    "$f2d_unstable_enableLogBox"
+                ]
             ],
             "EdgeInsetsPropType": [
-                "rename",
-                "DeprecatedEdgeInsetsPropType$f2tTypeof"
+                [
+                    "rename",
+                    "DeprecatedEdgeInsetsPropType$f2tTypeof"
+                ]
             ],
             "PointPropType": [
-                "rename",
-                "DeprecatedPointPropType$f2tTypeof"
+                [
+                    "rename",
+                    "DeprecatedPointPropType$f2tTypeof"
+                ]
             ],
             "ViewPropTypes": [
-                "rename",
-                "DeprecatedViewPropTypes$f2tTypeof"
+                [
+                    "rename",
+                    "DeprecatedViewPropTypes$f2tTypeof"
+                ]
             ]
         },
         "exportDefault": [

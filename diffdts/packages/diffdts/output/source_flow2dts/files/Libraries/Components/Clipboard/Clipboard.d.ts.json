@@ -3,12 +3,16 @@
         "importedFiles": {},
         "exports": {
             "getString": [
-                "rename",
-                "$f2d_getString"
+                [
+                    "rename",
+                    "$f2d_getString"
+                ]
             ],
             "setString": [
-                "rename",
-                "$f2d_setString"
+                [
+                    "rename",
+                    "$f2d_setString"
+                ]
             ]
         },
         "exportDefault": [

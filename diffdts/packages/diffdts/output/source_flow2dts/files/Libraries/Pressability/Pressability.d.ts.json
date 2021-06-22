@@ -22,16 +22,22 @@
         },
         "exports": {
             "PressabilityConfig": [
-                "rename",
-                "PressabilityConfig"
+                [
+                    "rename",
+                    "PressabilityConfig"
+                ]
             ],
             "EventHandlers": [
-                "rename",
-                "EventHandlers"
+                [
+                    "rename",
+                    "EventHandlers"
+                ]
             ],
             "default": [
-                "rename",
-                "Pressability"
+                [
+                    "rename",
+                    "Pressability"
+                ]
             ]
         },
         "exportDefault": "none"

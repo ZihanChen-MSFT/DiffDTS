@@ -21,8 +21,10 @@
         },
         "exports": {
             "RequestBody": [
-                "rename",
-                "RequestBody"
+                [
+                    "rename",
+                    "RequestBody"
+                ]
             ]
         },
         "exportDefault": [

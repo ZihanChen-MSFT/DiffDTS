@@ -26,16 +26,22 @@
         },
         "exports": {
             "ignoreWarnings": [
-                "rename",
-                "$f2d_ignoreWarnings"
+                [
+                    "rename",
+                    "$f2d_ignoreWarnings"
+                ]
             ],
             "install": [
-                "rename",
-                "$f2d_install"
+                [
+                    "rename",
+                    "$f2d_install"
+                ]
             ],
             "uninstall": [
-                "rename",
-                "$f2d_uninstall"
+                [
+                    "rename",
+                    "$f2d_uninstall"
+                ]
             ]
         },
         "exportDefault": [

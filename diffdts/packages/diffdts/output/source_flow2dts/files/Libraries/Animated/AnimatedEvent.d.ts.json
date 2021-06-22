@@ -8,20 +8,28 @@
         },
         "exports": {
             "Mapping": [
-                "rename",
-                "Mapping"
+                [
+                    "rename",
+                    "Mapping"
+                ]
             ],
             "EventConfig": [
-                "rename",
-                "EventConfig"
+                [
+                    "rename",
+                    "EventConfig"
+                ]
             ],
             "AnimatedEvent": [
-                "rename",
-                "AnimatedEvent"
+                [
+                    "rename",
+                    "AnimatedEvent"
+                ]
             ],
             "attachNativeEvent": [
-                "rename",
-                "attachNativeEvent"
+                [
+                    "rename",
+                    "attachNativeEvent"
+                ]
             ]
         },
         "exportDefault": [

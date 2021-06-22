@@ -17,8 +17,10 @@
         },
         "exports": {
             "PickerItem": [
-                "rename",
-                "PickerItem"
+                [
+                    "rename",
+                    "PickerItem"
+                ]
             ]
         },
         "exportDefault": [

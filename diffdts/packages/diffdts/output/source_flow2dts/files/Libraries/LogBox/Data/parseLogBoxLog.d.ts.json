@@ -22,40 +22,58 @@
         },
         "exports": {
             "ExtendedExceptionData": [
-                "rename",
-                "ExtendedExceptionData"
+                [
+                    "rename",
+                    "ExtendedExceptionData"
+                ]
             ],
             "Category": [
-                "rename",
-                "Category"
+                [
+                    "rename",
+                    "Category"
+                ]
             ],
             "CodeFrame": [
-                "rename",
-                "CodeFrame"
+                [
+                    "rename",
+                    "CodeFrame"
+                ]
             ],
             "Message": [
-                "rename",
-                "Message"
+                [
+                    "rename",
+                    "Message"
+                ]
             ],
             "ComponentStack": [
-                "rename",
-                "ComponentStack"
+                [
+                    "rename",
+                    "ComponentStack"
+                ]
             ],
             "parseInterpolation": [
-                "rename",
-                "parseInterpolation"
+                [
+                    "rename",
+                    "parseInterpolation"
+                ]
             ],
             "parseComponentStack": [
-                "rename",
-                "parseComponentStack"
+                [
+                    "rename",
+                    "parseComponentStack"
+                ]
             ],
             "parseLogBoxException": [
-                "rename",
-                "parseLogBoxException"
+                [
+                    "rename",
+                    "parseLogBoxException"
+                ]
             ],
             "parseLogBoxLog": [
-                "rename",
-                "parseLogBoxLog"
+                [
+                    "rename",
+                    "parseLogBoxLog"
+                ]
             ]
         },
         "exportDefault": "none"

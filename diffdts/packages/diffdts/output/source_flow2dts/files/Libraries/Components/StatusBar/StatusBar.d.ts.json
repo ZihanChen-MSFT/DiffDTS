@@ -26,12 +26,16 @@
         },
         "exports": {
             "StatusBarStyle": [
-                "rename",
-                "StatusBarStyle"
+                [
+                    "rename",
+                    "StatusBarStyle"
+                ]
             ],
             "StatusBarAnimation": [
-                "rename",
-                "StatusBarAnimation"
+                [
+                    "rename",
+                    "StatusBarAnimation"
+                ]
             ]
         },
         "exportDefault": [

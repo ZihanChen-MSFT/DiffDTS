@@ -101,16 +101,22 @@
         },
         "exports": {
             "ScrollViewImperativeMethods": [
-                "rename",
-                "ScrollViewImperativeMethods"
+                [
+                    "rename",
+                    "ScrollViewImperativeMethods"
+                ]
             ],
             "ScrollResponderType": [
-                "rename",
-                "ScrollResponderType"
+                [
+                    "rename",
+                    "ScrollResponderType"
+                ]
             ],
             "Props": [
-                "rename",
-                "Props"
+                [
+                    "rename",
+                    "Props"
+                ]
             ]
         },
         "exportDefault": [

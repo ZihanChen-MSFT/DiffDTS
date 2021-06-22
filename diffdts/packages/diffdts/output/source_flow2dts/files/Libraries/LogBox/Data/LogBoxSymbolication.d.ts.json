@@ -22,16 +22,22 @@
         },
         "exports": {
             "Stack": [
-                "rename",
-                "Stack"
+                [
+                    "rename",
+                    "Stack"
+                ]
             ],
             "deleteStack": [
-                "rename",
-                "deleteStack"
+                [
+                    "rename",
+                    "deleteStack"
+                ]
             ],
             "symbolicate": [
-                "rename",
-                "symbolicate"
+                [
+                    "rename",
+                    "symbolicate"
+                ]
             ]
         },
         "exportDefault": "none"

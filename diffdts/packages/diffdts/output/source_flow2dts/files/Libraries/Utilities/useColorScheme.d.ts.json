@@ -13,8 +13,10 @@
         },
         "exports": {
             "default": [
-                "rename",
-                "useColorScheme"
+                [
+                    "rename",
+                    "useColorScheme"
+                ]
             ]
         },
         "exportDefault": "none"

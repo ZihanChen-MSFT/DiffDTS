@@ -31,12 +31,16 @@
         },
         "exports": {
             "NativeText": [
-                "rename",
-                "NativeText"
+                [
+                    "rename",
+                    "NativeText"
+                ]
             ],
             "NativeVirtualText": [
-                "rename",
-                "NativeVirtualText"
+                [
+                    "rename",
+                    "NativeVirtualText"
+                ]
             ]
         },
         "exportDefault": "none"

@@ -13,8 +13,10 @@
         },
         "exports": {
             "ResolvedAssetSource": [
-                "rename",
-                "ResolvedAssetSource"
+                [
+                    "rename",
+                    "ResolvedAssetSource"
+                ]
             ]
         },
         "exportDefault": [

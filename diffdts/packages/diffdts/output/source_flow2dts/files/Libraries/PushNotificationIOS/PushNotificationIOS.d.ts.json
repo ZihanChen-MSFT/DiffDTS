@@ -13,16 +13,22 @@
         },
         "exports": {
             "ContentAvailable": [
-                "rename",
-                "ContentAvailable"
+                [
+                    "rename",
+                    "ContentAvailable"
+                ]
             ],
             "FetchResult": [
-                "rename",
-                "FetchResult"
+                [
+                    "rename",
+                    "FetchResult"
+                ]
             ],
             "PushNotificationEventName": [
-                "rename",
-                "PushNotificationEventName"
+                [
+                    "rename",
+                    "PushNotificationEventName"
+                ]
             ]
         },
         "exportDefault": [

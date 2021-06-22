@@ -22,36 +22,52 @@
         },
         "exports": {
             "TaskProvider": [
-                "rename",
-                "TaskProvider"
+                [
+                    "rename",
+                    "TaskProvider"
+                ]
             ],
             "ComponentProvider": [
-                "rename",
-                "ComponentProvider"
+                [
+                    "rename",
+                    "ComponentProvider"
+                ]
             ],
             "ComponentProviderInstrumentationHook": [
-                "rename",
-                "ComponentProviderInstrumentationHook"
+                [
+                    "rename",
+                    "ComponentProviderInstrumentationHook"
+                ]
             ],
             "AppConfig": [
-                "rename",
-                "AppConfig"
+                [
+                    "rename",
+                    "AppConfig"
+                ]
             ],
             "Runnable": [
-                "rename",
-                "Runnable"
+                [
+                    "rename",
+                    "Runnable"
+                ]
             ],
             "Runnables": [
-                "rename",
-                "Runnables"
+                [
+                    "rename",
+                    "Runnables"
+                ]
             ],
             "Registry": [
-                "rename",
-                "Registry"
+                [
+                    "rename",
+                    "Registry"
+                ]
             ],
             "WrapperComponentProvider": [
-                "rename",
-                "WrapperComponentProvider"
+                [
+                    "rename",
+                    "WrapperComponentProvider"
+                ]
             ]
         },
         "exportDefault": [

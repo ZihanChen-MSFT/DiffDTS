@@ -3,8 +3,10 @@
         "importedFiles": {},
         "exports": {
             "Task": [
-                "rename",
-                "Task"
+                [
+                    "rename",
+                    "Task"
+                ]
             ]
         },
         "exportDefault": [

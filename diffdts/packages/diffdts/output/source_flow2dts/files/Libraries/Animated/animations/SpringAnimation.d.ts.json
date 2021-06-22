@@ -25,12 +25,16 @@
         },
         "exports": {
             "SpringAnimationConfig": [
-                "rename",
-                "SpringAnimationConfig"
+                [
+                    "rename",
+                    "SpringAnimationConfig"
+                ]
             ],
             "SpringAnimationConfigSingle": [
-                "rename",
-                "SpringAnimationConfigSingle"
+                [
+                    "rename",
+                    "SpringAnimationConfigSingle"
+                ]
             ]
         },
         "exportDefault": [
