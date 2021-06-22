@@ -18,8 +18,11 @@ function processEntry(inputFilename: string, outputDirname: string): void {
   console.log(`Writing: index.json`);
   const output = {
     pwd: state.pwd.substr(dirbase.length),
-    ...resolvedExports
+    exports: {}
   };
+  for (const key of Object.keys(resolvedExports.exports).sort()) {
+    output.exports[key] = resolvedExports.exports[key];
+  }
   fs.writeFileSync(path.join(outputDirname, "index.json"), JSON.stringify(output, undefined, 4));
 
   for (const filename in state.entries) {
