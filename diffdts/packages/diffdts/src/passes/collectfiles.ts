@@ -2,8 +2,8 @@ import { Visitor } from "@babel/core";
 import babelTraverse from "@babel/traverse";
 import { File } from "@babel/types";
 import * as t from "@babel/types";
-import * as path from "path";
-import { createSymbolEntry, parseTS, State, SymbolEntry, SymbolIndex, SymbolRawEntry } from "../state";
+import { createSymbolEntry, parseTS, pathToKey, resolveImport } from "../state";
+import { State, SymbolEntry, SymbolIndex, SymbolRawEntry } from "../state";
 
 interface Context {
   state: State;
@@ -145,7 +145,7 @@ function astToRawVisitor(): Visitor<Context> {
 export function collectFiles(state: State, key: string, tsAst: File): void {
   let entry = state.entries[key];
   if (entry === undefined) {
-    console.log(`    collectFiles(${key})`);
+    console.log(`    < ${key}`);
     entry = createSymbolEntry();
     state.entries[key] = entry;
 
@@ -159,14 +159,10 @@ export function collectFiles(state: State, key: string, tsAst: File): void {
     babelTraverse(tsAst, astToRawVisitor(), undefined, context);
 
     for (const importedPath in entry.raw.importedFiles) {
-      if (importedPath.startsWith("./") || importedPath.startsWith("../")) {
-        path.basename
-        let fullname = (path.join(state.pwd, path.dirname(key), importedPath)).replace(/\\/g, "/");
-        if (fullname.endsWith(".js")) {
-          fullname = fullname.substr(0, fullname.length - 3);
-        }
-        fullname += ".d.ts";
-        if (fullname.startsWith(state.pwd)) {
+      const fullname = resolveImport(state, key, importedPath);
+      if (fullname !== undefined) {
+        const [, isLocal] = pathToKey(state, fullname);
+        if (isLocal) {
           const [importedKey, importedAst] = parseTS(state, fullname);
           collectFiles(state, importedKey, importedAst);
         }

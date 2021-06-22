@@ -20,7 +20,7 @@ function processEntry(inputFilename: string, outputDirname: string): void {
   fs.writeFileSync(path.join(outputDirname, "index.json"), JSON.stringify(output, undefined, 4));
 
   for (const filename in state.entries) {
-    console.log(`    > ${inputFilename}.json`);
+    console.log(`    > ${filename}.json`);
     const entry = state.entries[filename];
     const entryOutput = {
       raw: entry.raw,
