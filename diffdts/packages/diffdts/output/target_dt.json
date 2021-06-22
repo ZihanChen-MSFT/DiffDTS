@@ -1,7 +1,17 @@
 {
     "pwd": "@types/react-native/",
-    "filename": "index.d.ts",
-    "files": [
-        "index.d.ts"
-    ]
+    "files": {
+        "index.d.ts": {
+            "raw": {
+                "importedFiles": {
+                    "react": [
+                        "namespace",
+                        "React"
+                    ]
+                },
+                "exports": {},
+                "exportDefault": "none"
+            }
+        }
+    }
 }

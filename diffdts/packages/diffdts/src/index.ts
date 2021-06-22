@@ -8,13 +8,12 @@ function processEntry(inputFilename: string, outputFilename: string): void {
   const state: State = {
     pwd: path.dirname(inputFilename).replace(/\\/g, "/") + "/"
   };
-  const entryAst = parseTS(state, inputFilename);
-  collectFiles(state, inputFilename, entryAst);
+  const [key, entryAst] = parseTS(state, inputFilename);
+  collectFiles(state, key, entryAst);
 
   const output = {
     pwd: state.pwd.substr(dirbase.length),
-    filename: inputFilename.substr(state.pwd.length),
-    files: state.files === undefined ? [] : Object.keys(state.files)
+    files: state.entries ?? {}
   };
   console.log(state.pwd);
   fs.writeFileSync(outputFilename, JSON.stringify(output, undefined, 4));

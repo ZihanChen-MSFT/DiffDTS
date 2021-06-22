@@ -1,7 +1,386 @@
 {
     "pwd": "react-native-tscodegen-types/react-native/",
-    "filename": "index.d.ts",
-    "files": [
-        "index.d.ts"
-    ]
+    "files": {
+        "index.d.ts": {
+            "raw": {
+                "importedFiles": {
+                    "utility-types": [
+                        "names",
+                        [
+                            [
+                                "$PropertyType",
+                                "$PropertyType"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/Components/AccessibilityInfo/AccessibilityInfo": [
+                        "default",
+                        "AccessibilityInfo$f2tTypeof"
+                    ],
+                    "./Libraries/Components/ActivityIndicator/ActivityIndicator": [
+                        "default",
+                        "ActivityIndicator$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Button": [
+                        "default",
+                        "Button$f2tTypeof"
+                    ],
+                    "./Libraries/Components/DatePicker/DatePickerIOS": [
+                        "default",
+                        "DatePickerIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/FlatList": [
+                        "default",
+                        "FlatList$f2tTypeof"
+                    ],
+                    "./Libraries/Image/Image": [
+                        "default",
+                        "Image$f2tTypeof"
+                    ],
+                    "./Libraries/Image/ImageBackground": [
+                        "default",
+                        "ImageBackground$f2tTypeof"
+                    ],
+                    "./Libraries/Components/TextInput/InputAccessoryView": [
+                        "default",
+                        "InputAccessoryView$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Keyboard/KeyboardAvoidingView": [
+                        "default",
+                        "KeyboardAvoidingView$f2tTypeof"
+                    ],
+                    "./Libraries/Components/MaskedView/MaskedViewIOS": [
+                        "default",
+                        "MaskedViewIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Modal/Modal": [
+                        "default",
+                        "Modal$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Picker/Picker": [
+                        "default",
+                        "Picker$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Picker/PickerIOS": [
+                        "default",
+                        "PickerIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Pressable/Pressable": [
+                        "default",
+                        "Pressable$f2tTypeof"
+                    ],
+                    "./Libraries/Components/ProgressViewIOS/ProgressViewIOS": [
+                        "default",
+                        "ProgressViewIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Components/RefreshControl/RefreshControl": [
+                        "default",
+                        "RefreshControl$f2tTypeof"
+                    ],
+                    "./Libraries/Components/SafeAreaView/SafeAreaView": [
+                        "default",
+                        "SafeAreaView$f2tTypeof"
+                    ],
+                    "./Libraries/Components/ScrollView/ScrollView": [
+                        "default",
+                        "ScrollView$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/SectionList": [
+                        "default",
+                        "SectionList$f2tTypeof"
+                    ],
+                    "./Libraries/Components/SegmentedControlIOS/SegmentedControlIOS": [
+                        "default",
+                        "SegmentedControlIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Slider/Slider": [
+                        "default",
+                        "Slider$f2tTypeof"
+                    ],
+                    "./Libraries/Components/StatusBar/StatusBar": [
+                        "default",
+                        "StatusBar$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Switch/Switch": [
+                        "default",
+                        "Switch$f2tTypeof"
+                    ],
+                    "./Libraries/Text/Text": [
+                        "default",
+                        "Text$f2tTypeof"
+                    ],
+                    "./Libraries/Components/TextInput/TextInput": [
+                        "default",
+                        "TextInput$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/Touchable": [
+                        "default",
+                        "Touchable$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableHighlight": [
+                        "default",
+                        "TouchableHighlight$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableNativeFeedback": [
+                        "default",
+                        "TouchableNativeFeedback$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableOpacity": [
+                        "default",
+                        "TouchableOpacity$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Touchable/TouchableWithoutFeedback": [
+                        "default",
+                        "TouchableWithoutFeedback$f2tTypeof"
+                    ],
+                    "./Libraries/Components/View/View": [
+                        "default",
+                        "View$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/VirtualizedList": [
+                        "default",
+                        "VirtualizedList$f2tTypeof"
+                    ],
+                    "./Libraries/Lists/VirtualizedSectionList": [
+                        "default",
+                        "VirtualizedSectionList$f2tTypeof"
+                    ],
+                    "./Libraries/ActionSheetIOS/ActionSheetIOS": [
+                        "default",
+                        "ActionSheetIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Alert/Alert": [
+                        "default",
+                        "Alert$f2tTypeof"
+                    ],
+                    "./Libraries/Animated/Animated": [
+                        "namespace",
+                        "Animated$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/Appearance": [
+                        "default",
+                        "Appearance$f2tTypeof"
+                    ],
+                    "./Libraries/ReactNative/AppRegistry": [
+                        "default",
+                        "AppRegistry$f2tTypeof"
+                    ],
+                    "./Libraries/AppState/AppState": [
+                        "default",
+                        "AppState$f2tTypeof"
+                    ],
+                    "./Libraries/Storage/AsyncStorage": [
+                        "default",
+                        "AsyncStorage$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/BackHandler": [
+                        "default",
+                        "BackHandler$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Clipboard/Clipboard": [
+                        "default",
+                        "Clipboard$f2tTypeof"
+                    ],
+                    "./Libraries/Components/DatePickerAndroid/DatePickerAndroid": [
+                        "default",
+                        "DatePickerAndroid$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/DeviceInfo": [
+                        "default",
+                        "DeviceInfo$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/DevSettings": [
+                        "default",
+                        "DevSettings$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/Dimensions": [
+                        "default",
+                        "Dimensions$f2tTypeof"
+                    ],
+                    "./Libraries/Animated/Easing": [
+                        "default",
+                        "Easing$f2tTypeof"
+                    ],
+                    "./Libraries/Renderer/shims/ReactNative": [
+                        "default",
+                        "ReactNative$f2tTypeof"
+                    ],
+                    "./Libraries/ReactNative/I18nManager": [
+                        "default",
+                        "I18nManager$f2tTypeof"
+                    ],
+                    "./Libraries/Image/ImagePickerIOS": [
+                        "default",
+                        "ImagePickerIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Interaction/InteractionManager": [
+                        "default",
+                        "InteractionManager$f2tTypeof"
+                    ],
+                    "./Libraries/Components/Keyboard/Keyboard": [
+                        "default",
+                        "Keyboard$f2tTypeof"
+                    ],
+                    "./Libraries/LayoutAnimation/LayoutAnimation": [
+                        "default",
+                        "LayoutAnimation$f2tTypeof"
+                    ],
+                    "./Libraries/Linking/Linking": [
+                        "default",
+                        "Linking$f2tTypeof"
+                    ],
+                    "./Libraries/LogBox/LogBox": [
+                        "default",
+                        "LogBox$f2tTypeof"
+                    ],
+                    "./Libraries/NativeModules/specs/NativeDialogManagerAndroid": [
+                        "default",
+                        "NativeDialogManagerAndroid$f2tTypeof"
+                    ],
+                    "./Libraries/EventEmitter/NativeEventEmitter": [
+                        "default",
+                        "NativeEventEmitter$f2tTypeof"
+                    ],
+                    "./Libraries/Network/RCTNetworking": [
+                        "default",
+                        "Networking$f2tTypeof"
+                    ],
+                    "./Libraries/Interaction/PanResponder": [
+                        "default",
+                        "PanResponder$f2tTypeof"
+                    ],
+                    "./Libraries/PermissionsAndroid/PermissionsAndroid": [
+                        "default",
+                        "PermissionsAndroid$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/PixelRatio": [
+                        "default",
+                        "PixelRatio$f2tTypeof"
+                    ],
+                    "./Libraries/PushNotificationIOS/PushNotificationIOS": [
+                        "default",
+                        "PushNotificationIOS$f2tTypeof"
+                    ],
+                    "./Libraries/Settings/Settings": [
+                        "default",
+                        "Settings$f2tTypeof"
+                    ],
+                    "./Libraries/Share/Share": [
+                        "default",
+                        "Share$f2tTypeof"
+                    ],
+                    "./Libraries/Components/StatusBar/StatusBarIOS": [
+                        "default",
+                        "StatusBarIOS$f2tTypeof"
+                    ],
+                    "./Libraries/StyleSheet/StyleSheet": [
+                        "default",
+                        "StyleSheet$f2tTypeof"
+                    ],
+                    "./Libraries/Performance/Systrace": [
+                        "default",
+                        "Systrace$f2tTypeof"
+                    ],
+                    "./Libraries/TurboModule/TurboModuleRegistry": [
+                        "namespace",
+                        "TurboModuleRegistry"
+                    ],
+                    "./Libraries/ReactNative/UIManager": [
+                        "default",
+                        "UIManager$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/useColorScheme": [
+                        "default",
+                        "useColorScheme$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/useWindowDimensions": [
+                        "default",
+                        "useWindowDimensions$f2tTypeof"
+                    ],
+                    "./Libraries/UTFSequence": [
+                        "default",
+                        "UTFSequence$f2tTypeof"
+                    ],
+                    "./Libraries/Vibration/Vibration": [
+                        "default",
+                        "Vibration$f2tTypeof"
+                    ],
+                    "./Libraries/YellowBox/YellowBoxDeprecated": [
+                        "default",
+                        "YellowBox$f2tTypeof"
+                    ],
+                    "./Libraries/StyleSheet/PlatformColorValueTypesIOS": [
+                        "names",
+                        [
+                            [
+                                "DynamicColorIOS",
+                                "DynamicColorIOS$f2tTypeof"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/BatchedBridge/NativeModules": [
+                        "default",
+                        "NativeModules$f2tTypeof"
+                    ],
+                    "./Libraries/Utilities/Platform": [
+                        "default",
+                        "Platform$f2tTypeof"
+                    ],
+                    "./Libraries/StyleSheet/PlatformColorValueTypes": [
+                        "names",
+                        [
+                            [
+                                "PlatformColor",
+                                "PlatformColor$f2tTypeof"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/StyleSheet/processColor": [
+                        "default",
+                        "processColor$f2tTypeof"
+                    ],
+                    "./Libraries/EventEmitter/RCTDeviceEventEmitter": [
+                        "default",
+                        "RCTDeviceEventEmitter$f2tTypeof"
+                    ],
+                    "./Libraries/EventEmitter/RCTNativeAppEventEmitter": [
+                        "default",
+                        "RCTNativeAppEventEmitter$f2tTypeof"
+                    ],
+                    "./Libraries/ReactNative/RootTag": [
+                        "names",
+                        [
+                            [
+                                "RootTagContext",
+                                "RootTagContext$f2tTypeof"
+                            ]
+                        ]
+                    ],
+                    "./Libraries/DeprecatedPropTypes/DeprecatedEdgeInsetsPropType": [
+                        "default",
+                        "DeprecatedEdgeInsetsPropType$f2tTypeof"
+                    ],
+                    "./Libraries/DeprecatedPropTypes/DeprecatedPointPropType": [
+                        "default",
+                        "DeprecatedPointPropType$f2tTypeof"
+                    ],
+                    "./Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes": [
+                        "default",
+                        "DeprecatedViewPropTypes$f2tTypeof"
+                    ],
+                    "./Libraries/Renderer/shims/ReactNativeTypes": [
+                        "names",
+                        [
+                            [
+                                "HostComponent",
+                                "_HostComponentInternal"
+                            ]
+                        ]
+                    ]
+                },
+                "exports": {},
+                "exportDefault": "none"
+            }
+        }
+    }
 }
