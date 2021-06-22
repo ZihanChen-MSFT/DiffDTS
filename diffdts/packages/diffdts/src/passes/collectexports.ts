@@ -123,7 +123,7 @@ export function collectExports(state: State, key: string): ResolvedExports {
                 for (const [propType, propValue] of entry.raw.exportDefault[1]) {
                     switch (propType) {
                         case "value": {
-                            if (output.exports[propValue] !== undefined) {
+                            if (output.exports[propValue] === undefined) {
                                 output.exports[propValue] = [];
                             }
                             output.exports[propValue].push({ type: "value" });
