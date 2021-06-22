@@ -15,16 +15,23 @@ interface Context {
 
 function recordDecl(context: Context, id: string, decl: t.Declaration | t.VariableDeclarator): void {
   if (context.index.decls[id] === undefined) {
-    context.index.decls[id] = [];
+    context.index.decls[id] = [decl];
+  } else if (!context.index.decls[id].includes(decl)) {
+    context.index.decls[id].push(decl);
   }
-  context.index.decls[id].push(decl);
 }
 
 function recordExport(context: Context, id: string, value: SymbolRawEntry["exports"][string][number]): void {
   if (context.raw.exports[id] === undefined) {
-    context.raw.exports[id] = [];
+    context.raw.exports[id] = [value];
+  } else {
+    for (const exists of context.raw.exports[id]) {
+      if (exists[0] === value[0] && exists[1] === value[1]) {
+        return undefined;
+      }
+    }
+    context.raw.exports[id].push(value);
   }
-  context.raw.exports[id].push(value);
 }
 
 function astToRawVisitor(): Visitor<Context> {

@@ -61,7 +61,6 @@
             "NativeModules",
             [
                 "TSInterfaceDeclaration",
-                "TSInterfaceDeclaration",
                 "VariableDeclarator"
             ]
         ],

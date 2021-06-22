@@ -21,12 +21,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -79,12 +73,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -124,12 +112,6 @@
         "Alert": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -176,12 +158,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -209,12 +185,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -230,12 +200,6 @@
         "BackHandler": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -270,12 +234,6 @@
         "CameraRoll": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -329,12 +287,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -348,9 +300,6 @@
             }
         ],
         "ColorPropType": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -385,12 +334,6 @@
         "DatePickerAndroid": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -443,9 +386,6 @@
         "DevSettings": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "DevSettingsStatic": [
@@ -455,9 +395,6 @@
             }
         ],
         "DeviceEventEmitter": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -470,13 +407,6 @@
             {
                 "type": "type",
                 "declType": "TSInterfaceDeclaration"
-            },
-            {
-                "type": "type",
-                "declType": "TSInterfaceDeclaration"
-            },
-            {
-                "type": "value"
             },
             {
                 "type": "value"
@@ -514,12 +444,6 @@
                 "type": "type"
             },
             {
-                "type": "type"
-            },
-            {
-                "type": "value"
-            },
-            {
                 "type": "value"
             }
         ],
@@ -537,9 +461,6 @@
         "EdgeInsetsPropType": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "ErrorUtils": [
@@ -549,10 +470,6 @@
             }
         ],
         "FlatList": [
-            {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -615,12 +532,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -643,13 +554,6 @@
                 "declType": "ClassDeclaration"
             },
             {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
-            {
-                "type": "value"
-            },
-            {
                 "type": "value"
             }
         ],
@@ -668,12 +572,6 @@
         "ImageEditor": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -697,12 +595,6 @@
         "ImagePickerIOS": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -729,9 +621,6 @@
             }
         ],
         "ImagePropTypes": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -786,12 +675,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -837,9 +720,6 @@
         "InteractionManager": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "InteractionManagerStatic": [
@@ -849,9 +729,6 @@
             }
         ],
         "Keyboard": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -913,12 +790,6 @@
         "LayoutAnimation": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -986,12 +857,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -1036,12 +901,6 @@
         "LogBox": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1109,9 +968,6 @@
         "NativeAppEventEmitter": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "NativeEventSubscription": [
@@ -1137,9 +993,6 @@
             }
         ],
         "NativeModules": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -1221,12 +1074,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -1270,12 +1117,6 @@
         "PermissionsAndroid": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1347,9 +1188,6 @@
         "PixelRatio": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "PixelRatioStatic": [
@@ -1359,9 +1197,6 @@
             }
         ],
         "Platform": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -1381,20 +1216,10 @@
                 "declType": "TSInterfaceDeclaration"
             },
             {
-                "type": "type",
-                "declType": "TSInterfaceDeclaration"
-            },
-            {
-                "type": "value"
-            },
-            {
                 "type": "value"
             }
         ],
         "Pressable": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -1465,12 +1290,6 @@
         "PushNotificationIOS": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1598,13 +1417,6 @@
                 "declType": "ClassDeclaration"
             },
             {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
-            {
-                "type": "value"
-            },
-            {
                 "type": "value"
             }
         ],
@@ -1633,10 +1445,6 @@
             }
         ],
         "SectionList": [
-            {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -1693,12 +1501,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -1712,9 +1514,6 @@
             }
         ],
         "ShadowPropTypesIOS": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -1734,12 +1533,6 @@
         "Share": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1847,12 +1640,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -1958,12 +1745,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -2022,12 +1803,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -2048,13 +1823,6 @@
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
-            },
-            {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
-            {
-                "type": "value"
             },
             {
                 "type": "value"
@@ -2147,9 +1915,6 @@
         "TextPropTypes": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "TextProps": [
@@ -2193,12 +1958,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -2239,12 +1998,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -2282,13 +2035,6 @@
             {
                 "type": "type",
                 "declType": "TSInterfaceDeclaration"
-            },
-            {
-                "type": "type",
-                "declType": "TSInterfaceDeclaration"
-            },
-            {
-                "type": "value"
             },
             {
                 "type": "value"
@@ -2365,12 +2111,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -2400,12 +2140,6 @@
                 "type": "value"
             },
             {
-                "type": "value"
-            },
-            {
-                "type": "type"
-            },
-            {
                 "type": "type"
             },
             {
@@ -2426,13 +2160,6 @@
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
-            },
-            {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
-            {
-                "type": "value"
             },
             {
                 "type": "value"
@@ -2463,9 +2190,6 @@
             }
         ],
         "ViewPropTypes": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -2543,15 +2267,9 @@
         "YellowBox": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "absoluteFill": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
@@ -2559,23 +2277,14 @@
         "absoluteFillObject": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "hairlineWidth": [
             {
                 "type": "value"
-            },
-            {
-                "type": "value"
             }
         ],
         "timing": [
-            {
-                "type": "value"
-            },
             {
                 "type": "value"
             }
