@@ -1,36 +1,22 @@
-import { Visitor } from "@babel/core";
-import * as babelParser from "@babel/parser";
-import babelTraverse from "@babel/traverse";
 import * as fs from "fs";
 import * as path from "path";
-
-interface State {}
-
-function dtsVisitor(): Visitor<State> {
-  return {
-    Program: {
-      exit(path, state) {
-        console.log("dtsVisitor()");
-      },
-    },
-  };
-}
+import { collectFiles } from "./passes/collectfiles"
+import { parseTS, State } from "./state";
 
 function processEntry(inputFilename: string, outputFilename: string): void {
   console.log(`Processing: ${inputFilename}`);
-  const tsCode = fs.readFileSync(inputFilename, { encoding: "utf-8" });
-  const tsAst = babelParser.parse(tsCode, {
-    plugins: ["typescript"],
-    sourceType: "module",
-    allowUndeclaredExports: true,
-  });
-
-  const state: State = {};
-  babelTraverse<State>(tsAst, dtsVisitor(), undefined, state);
+  const state: State = {
+    pwd: path.dirname(inputFilename).replace(/\\/g, "/") + "/"
+  };
+  const entryAst = parseTS(state, inputFilename);
+  collectFiles(state, inputFilename, entryAst);
 
   const output = {
-    filename: inputFilename.substr(dirbase.length),
+    pwd: state.pwd.substr(dirbase.length),
+    filename: inputFilename.substr(state.pwd.length),
+    files: state.files === undefined ? [] : Object.keys(state.files)
   };
+  console.log(state.pwd);
   fs.writeFileSync(outputFilename, JSON.stringify(output, undefined, 4));
 }
 

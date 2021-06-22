@@ -1,3 +1,7 @@
 {
-    "filename": "react-native-tscodegen-types\\react-native\\index.d.ts"
+    "pwd": "react-native-tscodegen-types/react-native/",
+    "filename": "index.d.ts",
+    "files": [
+        "index.d.ts"
+    ]
 }

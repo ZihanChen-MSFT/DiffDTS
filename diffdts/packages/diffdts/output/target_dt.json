@@ -1,3 +1,7 @@
 {
-    "filename": "@types\\react-native\\index.d.ts"
+    "pwd": "@types/react-native/",
+    "filename": "index.d.ts",
+    "files": [
+        "index.d.ts"
+    ]
 }
