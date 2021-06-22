@@ -1,15 +1,22 @@
 import * as babelParser from "@babel/parser";
 import { File } from "@babel/types";
+import * as t from "@babel/types";
 import * as fs from "fs";
 
 export interface SymbolRawEntry {
     importedFiles: { [key: string]: ["names", [string, string][]] | ["default", string] | ["namespace", string] }
-    exports: { [key: string]: ["declaration", string] | ["variable", string] };
-    exportDefault: ["variable", string] | "unrecognized" | "none";
+    exports: { [key: string]: ["type", string] | ["variable"] | ["rename", string] };
+    exportDefault: ["variable", string] | ["object", ["value" | "spread", string][]] | "unrecognized" | "none";
+}
+
+export interface SymbolIndex {
+    decls: { [key: string]: t.Declaration | t.VariableDeclarator }
+    exportDefault?: t.ExportDefaultDeclaration;
 }
 
 export interface SymbolEntry {
     raw: SymbolRawEntry;
+    index: SymbolIndex;
 }
 
 export function createSymbolEntry(): SymbolEntry {
@@ -18,24 +25,23 @@ export function createSymbolEntry(): SymbolEntry {
             importedFiles: {},
             exports: {},
             exportDefault: "none"
+        },
+        index: {
+            decls: {}
         }
     };
 }
 
 export interface State {
     pwd: string;
-    files?: { [key: string]: File };
-    entries?: { [key: string]: SymbolEntry };
+    files: { [key: string]: File };
+    entries: { [key: string]: SymbolEntry };
 }
 
 export function parseTS(state: State, filename: string): [string, File] {
     let key = filename.replace(/\\/g, "/");
     if (key.startsWith(state.pwd)) {
         key = key.substr(state.pwd.length);
-    }
-
-    if (state.files === undefined) {
-        state.files = {};
     }
 
     let tsAst = state.files[key];

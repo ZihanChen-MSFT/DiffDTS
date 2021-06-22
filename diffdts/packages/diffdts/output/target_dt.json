@@ -1,17 +1,1444 @@
 {
     "pwd": "@types/react-native/",
-    "files": {
-        "index.d.ts": {
-            "raw": {
-                "importedFiles": {
-                    "react": [
-                        "namespace",
-                        "React"
-                    ]
-                },
-                "exports": {},
-                "exportDefault": "none"
-            }
+    "files": [
+        {
+            "importedFiles": {
+                "react": [
+                    "namespace",
+                    "React"
+                ]
+            },
+            "exports": {
+                "MeasureOnSuccessCallback": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "MeasureInWindowOnSuccessCallback": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "MeasureLayoutOnSuccessCallback": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "NativeMethods": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeMethodsMixin": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "NativeMethodsMixinType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "HostComponent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Runnable": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "NativeSyntheticEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeTouchEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "GestureResponderEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PointPropType": [
+                    "variable"
+                ],
+                "Insets": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PressableStateCallbackType": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PressableAndroidRippleConfig": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PressableProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Pressable": [
+                    "variable"
+                ],
+                "Touchable": [
+                    "variable"
+                ],
+                "ComponentProvider": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AppConfig": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "LayoutAnimationType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "LayoutAnimationTypes": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "LayoutAnimationProperty": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "LayoutAnimationProperties": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "LayoutAnimationAnim": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "LayoutAnimationConfig": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "LayoutAnimationStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "FlexStyle": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ShadowPropTypesIOSStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TransformsStyle": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "StyleSheetProperties": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "LayoutRectangle": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "LayoutChangeEvent": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "TextLayoutEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "FontVariant": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "TextStyleIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextStyleAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextStyle": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Text": [
+                    "variable"
+                ],
+                "DocumentSelectionState": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputAndroidProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "KeyboardType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "KeyboardTypeIOS": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "KeyboardTypeAndroid": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "KeyboardTypeOptions": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ReturnKeyType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ReturnKeyTypeAndroid": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ReturnKeyTypeIOS": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ReturnKeyTypeOptions": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "TargetedEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputFocusEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputScrollEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputSelectionChangeEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputKeyPressEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputChangeEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputContentSizeChangeEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputEndEditingEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputSubmitEditingEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputTextInputEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInputProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TextInput": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ToolbarAndroidAction": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ToolbarAndroidProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ToolbarAndroid": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "GestureResponderHandlers": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewStyle": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TVParallaxProperties": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "TVViewPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "StyleProp": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AccessibilityProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AccessibilityActionInfo": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AccessibilityActionName": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AccessibilityActionEvent": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AccessibilityState": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AccessibilityValue": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AccessibilityRole": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AccessibilityPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AccessibilityPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "View": [
+                    "variable"
+                ],
+                "ViewPagerAndroidOnPageScrollEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewPagerAndroidOnPageSelectedEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewPagerAndroidProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewPagerAndroid": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "KeyboardAvoidingView": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "KeyboardAvoidingViewProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeSegmentedControlIOSChangeEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SegmentedControlIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SafeAreaView": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "InputAccessoryView": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "InputAccessoryViewProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SegmentedControlIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "NavigatorIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NavigatorIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ActivityIndicatorProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ActivityIndicator": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ActivityIndicatorIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DatePickerIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DatePickerIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "DrawerSlideEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DrawerLayoutAndroidProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DrawerLayoutAndroid": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "PickerIOSItemProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PickerIOSItem": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "PickerItemProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PickerPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PickerPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PickerProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Picker": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "PickerIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PickerIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ProgressBarAndroidProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ProgressBarAndroid": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ProgressViewIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ProgressViewIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "RefreshControlPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "RefreshControlPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "RefreshControlProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "RefreshControl": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "RecyclerViewBackedScrollViewProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "RecyclerViewBackedScrollView": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "SliderPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SliderPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SliderProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Slider": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "SliderIOS": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "SwitchIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SwitchIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ImageResizeMode": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ImageResizeModeStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ShadowStyleIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageStyle": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageURISource": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageRequireSource": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ImageProgressEventDataIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImagePropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageSourcePropType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ImageLoadEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageErrorEventData": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageResolvedAssetSource": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImagePropsBase": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Image": [
+                    "variable"
+                ],
+                "ImageBackgroundProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageBackground": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ViewToken": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewabilityConfig": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewabilityConfigCallbackPair": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ViewabilityConfigCallbackPairs": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ListRenderItemInfo": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ListRenderItem": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "FlatListProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "FlatList": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "SectionBase": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SectionListData": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "SectionListRenderItemInfo": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SectionListRenderItem": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "SectionListProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SectionListScrollParams": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SectionList": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "SectionListStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "VirtualizedList": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "VirtualizedListProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "VirtualizedListWithoutRenderItemProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ListViewProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ListView": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "MaskedViewIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ModalBaseProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ModalPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ModalPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ModalProps": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Modal": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "TouchableWithoutFeedbackPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TouchableWithoutFeedbackPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TouchableWithoutFeedbackProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TouchableWithoutFeedback": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "TouchableHighlightProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TouchableHighlight": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "TouchableOpacityProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TouchableOpacity": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "TouchableNativeFeedbackProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TouchableNativeFeedback": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "Route": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "hairlineWidth": [
+                    "variable"
+                ],
+                "absoluteFillObject": [
+                    "variable"
+                ],
+                "absoluteFill": [
+                    "variable"
+                ],
+                "RelayProfiler": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SystraceStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DataSourceAssetCallback": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ListViewDataSource": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TabBarIOSItemProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TabBarIOSItem": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "TabBarIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TabBarIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "PixelRatioStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PlatformOSType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ColorValue": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ProcessedColorValue": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ScaledSize": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Dimensions": [
+                    "variable"
+                ],
+                "SimpleTask": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "PromiseTask": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Handle": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "InteractionManagerStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ScrollResponderEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ScrollViewPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ScrollViewPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ScrollViewProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ScrollView": [
+                    "variable"
+                ],
+                "NativeScrollRectangle": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeScrollPoint": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeScrollVelocity": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeScrollSize": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeScrollEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SnapshotViewIOSProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SnapshotViewIOS": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "SwipeableListViewDataSource": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SwipeableListViewProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SwipeableListView": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ActionSheetIOSOptions": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ShareActionSheetIOSOptions": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ActionSheetIOSStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ShareContent": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ShareOptions": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ShareSharedAction": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ShareDismissedAction": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ShareAction": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ShareStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AccessibilityInfoStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AlertButton": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AlertStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AlertType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AppStateEvent": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AppStateStatus": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AppStateStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "AsyncStorageStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "BackPressEventName": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "BackHandlerStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ButtonProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Button": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "CameraRollGroupType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "CameraRollAssetType": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "CameraRollFetchParams": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "CameraRollNodeInfo": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "CameraRollEdgeInfo": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "CameraRollAssetInfo": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "GetPhotosParamType": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "GetPhotosReturnType": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "CameraRollStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ClipboardStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DatePickerAndroidOpenOptions": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DatePickerAndroidDateSetAction": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DatePickerAndroidDismissedAction": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DatePickerAndroidOpenReturn": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "DatePickerAndroidStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "LinkingStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "LogBoxStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PanResponderGestureState": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PanResponderCallbacks": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PanResponderInstance": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PanResponderStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Rationale": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Permission": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "PermissionStatus": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "PermissionsAndroidStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PushNotificationPermissions": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PushNotification": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "PushNotificationEventName": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "PushNotificationIOSStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SettingsStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "StatusBarStyle": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "StatusBarAnimation": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "StatusBarPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "StatusBarPropsAndroid": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "StatusBarProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "StatusBar": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "StatusBarIOSStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TimePickerAndroidOpenOptions": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TimePickerAndroidTimeSetAction": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TimePickerAndroidDismissedAction": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TimePickerAndroidOpenReturn": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "TimePickerAndroidStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ToastAndroidStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "UIManagerStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SwitchPropsIOS": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SwitchChangeEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "SwitchProps": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Switch": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "VibrationStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "EasingFunction": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "EasingStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "Value": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "ValueXY": [
+                    "type",
+                    "ClassDeclaration"
+                ],
+                "CompositeAnimation": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "timing": [
+                    "variable"
+                ],
+                "ComponentProps": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "LegacyRef": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "WithAnimatedValue": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AnimatedProps": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AnimatedComponent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "I18nManagerStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "OpenCameraDialogOptions": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "OpenSelectDialogOptions": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImagePickerResult": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ImagePickerIOSStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "ImageStoreStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "NativeEventSubscription": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "KeyboardEventName": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "KeyboardEventEasing": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "KeyboardEvent": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "KeyboardStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DevSettingsStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "DevSettings": [
+                    "variable"
+                ],
+                "ActionSheetIOS": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AccessibilityInfo": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Alert": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AppState": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "AsyncStorage": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "BackHandler": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "CameraRoll": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Clipboard": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "DatePickerAndroid": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Easing": [
+                    "variable"
+                ],
+                "I18nManager": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ImageEditor": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ImagePickerIOS": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ImageStore": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "InteractionManager": [
+                    "variable"
+                ],
+                "Keyboard": [
+                    "variable"
+                ],
+                "LayoutAnimation": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Linking": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "LogBox": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "PanResponder": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "PermissionsAndroid": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "PushNotificationIOS": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Settings": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Share": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "StatusBarIOS": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Systrace": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "TimePickerAndroid": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ToastAndroid": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "UIManager": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "Vibration": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ShadowPropTypesIOS": [
+                    "variable"
+                ],
+                "DeviceEventEmitter": [
+                    "variable"
+                ],
+                "NativeAppEventEmitter": [
+                    "variable"
+                ],
+                "NativeModules": [
+                    "variable"
+                ],
+                "Platform": [
+                    "variable"
+                ],
+                "PixelRatio": [
+                    "variable"
+                ],
+                "YellowBox": [
+                    "variable"
+                ],
+                "ErrorUtils": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TestModuleStatic": [
+                    "type",
+                    "TSInterfaceDeclaration"
+                ],
+                "TestModule": [
+                    "type",
+                    "TSTypeAliasDeclaration"
+                ],
+                "ColorPropType": [
+                    "variable"
+                ],
+                "EdgeInsetsPropType": [
+                    "variable"
+                ],
+                "ViewPropTypes": [
+                    "variable"
+                ],
+                "TextPropTypes": [
+                    "variable"
+                ],
+                "ImagePropTypes": [
+                    "variable"
+                ]
+            },
+            "exportDefault": "none"
         }
-    }
+    ]
 }

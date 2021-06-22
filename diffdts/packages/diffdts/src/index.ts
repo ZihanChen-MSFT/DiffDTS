@@ -6,14 +6,16 @@ import { parseTS, State } from "./state";
 function processEntry(inputFilename: string, outputFilename: string): void {
   console.log(`Processing: ${inputFilename}`);
   const state: State = {
-    pwd: path.dirname(inputFilename).replace(/\\/g, "/") + "/"
+    pwd: path.dirname(inputFilename).replace(/\\/g, "/") + "/",
+    files: {},
+    entries: {}
   };
   const [key, entryAst] = parseTS(state, inputFilename);
   collectFiles(state, key, entryAst);
 
   const output = {
     pwd: state.pwd.substr(dirbase.length),
-    files: state.entries ?? {}
+    files: Object.keys(state.entries).map((key) => state.entries[key].raw)
   };
   console.log(state.pwd);
   fs.writeFileSync(outputFilename, JSON.stringify(output, undefined, 4));
