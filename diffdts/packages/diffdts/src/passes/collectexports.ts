@@ -28,7 +28,7 @@ function findSymbolAsExport(state: State, key: string, name: string): Export | u
     {
         const imported = entry.index.importedDefaults[name];
         if (imported !== undefined) {
-            const fullpath = resolveImport(state, key, imported[0]);
+            const fullpath = resolveImport(state, key, imported);
             if (fullpath !== undefined) {
                 const [importedKey, isLocal] = pathToKey(state, fullpath);
                 if (isLocal) {

@@ -2,253 +2,278 @@
     "pwd": "react-native-tscodegen-types/react-native/",
     "exports": {
         "AccessibilityInfo": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "ActionSheetIOS": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "ActivityIndicator": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Alert": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "Animated": {
             "type": "value"
         },
         "AppRegistry": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "AppState": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Appearance": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "AsyncStorage": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "BackHandler": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Button": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "Clipboard": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "DatePickerAndroid": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "DatePickerIOS": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "DevSettings": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "DeviceEventEmitter": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "DeviceInfo": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Dimensions": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "DynamicColorIOS": {
             "type": "value"
         },
         "Easing": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "EdgeInsetsPropType": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "FlatList": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "HostComponent": {
             "type": "type"
         },
         "I18nManager": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Image": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "ImageBackground": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "ImagePickerIOS": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "InputAccessoryView": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "InteractionManager": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Keyboard": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "KeyboardAvoidingView": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "LayoutAnimation": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Linking": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "LogBox": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "MaskedViewIOS": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "Modal": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "NativeAppEventEmitter": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "NativeDialogManagerAndroid": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "NativeEventEmitter": {
             "type": "unrecognized"
         },
         "NativeModules": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Networking": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "PanResponder": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "PermissionsAndroid": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Picker": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "PickerIOS": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "PixelRatio": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "Platform": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "PlatformColor": {
             "type": "value"
         },
         "PointPropType": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Pressable": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "ProgressViewIOS": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "PushNotificationIOS": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "RefreshControl": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "SafeAreaView": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "ScrollView": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "SectionList": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "SegmentedControlIOS": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Settings": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Share": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "Slider": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "StatusBar": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "StatusBarIOS": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "StyleSheet": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Switch": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "Systrace": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Text": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "TextInput": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Touchable": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "TouchableHighlight": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "TouchableNativeFeedback": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "TouchableOpacity": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "TouchableWithoutFeedback": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "TurboModuleRegistry": {
             "type": "value"
         },
         "UIManager": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "UTFSequence": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "Vibration": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "View": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "ViewPropTypes": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "VirtualizedList": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "VirtualizedSectionList": {
-            "type": "unrecognized"
+            "type": "type",
+            "declType": "ClassDeclaration"
         },
         "YellowBox": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "findNodeHandle": {
             "type": "value"
         },
         "processColor": {
-            "type": "unrecognized"
+            "type": "value"
         },
         "requireNativeComponent": {
             "type": "value"
