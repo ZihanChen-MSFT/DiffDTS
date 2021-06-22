@@ -30,6 +30,20 @@
             "DatePickerIOS"
         ]
     },
+    "importedNames": {
+        "SyntheticEvent": [
+            "../../Types/CoreEventTypes",
+            "SyntheticEvent"
+        ],
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react"
+    },
     "decls": [
         [
             "Event",

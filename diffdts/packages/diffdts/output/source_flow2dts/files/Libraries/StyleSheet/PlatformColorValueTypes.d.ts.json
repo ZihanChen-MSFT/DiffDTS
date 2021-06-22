@@ -48,6 +48,18 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "ColorValue": [
+            "./StyleSheet",
+            "ColorValue"
+        ],
+        "ProcessedColorValue": [
+            "./processColor",
+            "ProcessedColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "NativeColorValue",

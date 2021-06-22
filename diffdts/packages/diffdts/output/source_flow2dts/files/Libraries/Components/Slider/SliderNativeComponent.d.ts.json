@@ -53,6 +53,42 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "BubblingEventHandler": [
+            "../../Types/CodegenTypes",
+            "BubblingEventHandler"
+        ],
+        "DirectEventHandler": [
+            "../../Types/CodegenTypes",
+            "DirectEventHandler"
+        ],
+        "Double": [
+            "../../Types/CodegenTypes",
+            "Double"
+        ],
+        "WithDefault": [
+            "../../Types/CodegenTypes",
+            "WithDefault"
+        ],
+        "HostComponent": [
+            "../../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "ImageSource": [
+            "../../Image/ImageSource",
+            "ImageSource"
+        ],
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "Event",

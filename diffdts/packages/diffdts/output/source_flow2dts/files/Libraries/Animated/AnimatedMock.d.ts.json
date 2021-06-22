@@ -186,6 +186,44 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "EndCallback": [
+            "./animations/Animation",
+            "EndCallback"
+        ],
+        "TimingAnimationConfig": [
+            "./animations/TimingAnimation",
+            "TimingAnimationConfig"
+        ],
+        "DecayAnimationConfig": [
+            "./animations/DecayAnimation",
+            "DecayAnimationConfig"
+        ],
+        "SpringAnimationConfig": [
+            "./animations/SpringAnimation",
+            "SpringAnimationConfig"
+        ],
+        "Mapping": [
+            "./AnimatedEvent",
+            "Mapping"
+        ],
+        "EventConfig": [
+            "./AnimatedEvent",
+            "EventConfig"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AnimatedEvent",
+        "$9": "./AnimatedEvent",
+        "$3": "./AnimatedImplementation",
+        "$4": "./nodes/AnimatedInterpolation",
+        "$5": "./nodes/AnimatedNode",
+        "$6": "./nodes/AnimatedProps",
+        "$7": "./nodes/AnimatedValue",
+        "$8": "./nodes/AnimatedValueXY",
+        "$11": "./createAnimatedComponent"
+    },
     "decls": [
         [
             "CompositeAnimation",

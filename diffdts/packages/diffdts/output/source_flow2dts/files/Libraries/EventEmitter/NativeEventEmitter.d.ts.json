@@ -19,6 +19,16 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "EventSubscription": [
+            "../vendor/emitter/EventEmitter",
+            "EventSubscription"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "EventEmitter": "../vendor/emitter/EventEmitter"
+    },
     "decls": [
         [
             "NativeModule",

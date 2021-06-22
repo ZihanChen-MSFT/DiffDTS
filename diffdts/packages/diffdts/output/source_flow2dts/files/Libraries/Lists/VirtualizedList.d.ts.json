@@ -65,6 +65,39 @@
             "VirtualizedList"
         ]
     },
+    "importedNames": {
+        "ScrollResponderType": [
+            "../Components/ScrollView/ScrollView",
+            "ScrollResponderType"
+        ],
+        "ViewStyleProp": [
+            "../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "ViewabilityConfig": [
+            "./ViewabilityHelper",
+            "ViewabilityConfig"
+        ],
+        "ViewToken": [
+            "./ViewabilityHelper",
+            "ViewToken"
+        ],
+        "ViewabilityConfigCallbackPair": [
+            "./ViewabilityHelper",
+            "ViewabilityConfigCallbackPair"
+        ],
+        "VirtualizedListContext": [
+            "./VirtualizedListContext.js",
+            "VirtualizedListContext"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "$1": "../Components/ScrollView/ScrollView",
+        "$2": "../Components/View/View"
+    },
     "decls": [
         [
             "Item",

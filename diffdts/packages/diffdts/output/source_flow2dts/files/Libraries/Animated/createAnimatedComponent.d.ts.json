@@ -21,6 +21,12 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "../Components/View/View",
+        "$1": "react"
+    },
     "decls": [
         [
             "AnimatedComponentType",

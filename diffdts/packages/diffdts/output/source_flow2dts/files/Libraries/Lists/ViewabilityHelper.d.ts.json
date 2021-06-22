@@ -20,6 +20,9 @@
             "ViewabilityHelper"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ViewToken",

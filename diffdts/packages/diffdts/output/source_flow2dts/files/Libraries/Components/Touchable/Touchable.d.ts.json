@@ -30,6 +30,20 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "EdgeInsetsProp": [
+            "../../StyleSheet/EdgeInsetsPropType",
+            "EdgeInsetsProp"
+        ],
+        "PressEvent": [
+            "../../Types/CoreEventTypes",
+            "PressEvent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react"
+    },
     "decls": [
         [
             "States",

@@ -36,6 +36,30 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "RectOrSize": [
+            "../StyleSheet/Rect",
+            "RectOrSize"
+        ],
+        "BlurEvent": [
+            "../Types/CoreEventTypes",
+            "BlurEvent"
+        ],
+        "FocusEvent": [
+            "../Types/CoreEventTypes",
+            "FocusEvent"
+        ],
+        "PressEvent": [
+            "../Types/CoreEventTypes",
+            "PressEvent"
+        ],
+        "MouseEvent": [
+            "../Types/CoreEventTypes",
+            "MouseEvent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "PressabilityConfig",

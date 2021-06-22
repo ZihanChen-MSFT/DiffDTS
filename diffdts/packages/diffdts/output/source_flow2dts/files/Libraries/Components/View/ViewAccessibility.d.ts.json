@@ -35,6 +35,14 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "SyntheticEvent": [
+            "../../Types/CoreEventTypes",
+            "SyntheticEvent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "AccessibilityRole",

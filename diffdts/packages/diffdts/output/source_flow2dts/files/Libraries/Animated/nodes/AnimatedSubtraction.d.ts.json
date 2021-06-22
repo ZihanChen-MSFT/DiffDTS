@@ -25,6 +25,18 @@
             "AnimatedSubtraction"
         ]
     },
+    "importedNames": {
+        "InterpolationConfigType": [
+            "./AnimatedInterpolation",
+            "InterpolationConfigType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AnimatedInterpolation",
+        "$2": "./AnimatedNode",
+        "$4": "./AnimatedWithChildren"
+    },
     "decls": [
         [
             "AnimatedSubtraction",

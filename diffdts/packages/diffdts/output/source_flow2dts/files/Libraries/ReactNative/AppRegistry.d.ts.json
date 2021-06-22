@@ -59,6 +59,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "React$ComponentType": [
+            "flow2dts-flow-types-polyfill",
+            "React$ComponentType"
+        ],
+        "IPerformanceLogger": [
+            "../Utilities/createPerformanceLogger",
+            "IPerformanceLogger"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "Task",

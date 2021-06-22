@@ -16,6 +16,12 @@
             "AnimatedValueXY"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AnimatedValue",
+        "$3": "./AnimatedWithChildren"
+    },
     "decls": [
         [
             "ValueXYListenerCallback",

@@ -52,6 +52,58 @@
             "TouchableWithoutFeedback"
         ]
     },
+    "importedNames": {
+        "Stringish": [
+            "flow2dts-flow-types-polyfill",
+            "Stringish"
+        ],
+        "AccessibilityActionEvent": [
+            "../../Components/View/ViewAccessibility",
+            "AccessibilityActionEvent"
+        ],
+        "AccessibilityActionInfo": [
+            "../../Components/View/ViewAccessibility",
+            "AccessibilityActionInfo"
+        ],
+        "AccessibilityRole": [
+            "../../Components/View/ViewAccessibility",
+            "AccessibilityRole"
+        ],
+        "AccessibilityState": [
+            "../../Components/View/ViewAccessibility",
+            "AccessibilityState"
+        ],
+        "AccessibilityValue": [
+            "../../Components/View/ViewAccessibility",
+            "AccessibilityValue"
+        ],
+        "EdgeInsetsProp": [
+            "../../StyleSheet/EdgeInsetsPropType",
+            "EdgeInsetsProp"
+        ],
+        "BlurEvent": [
+            "../../Types/CoreEventTypes",
+            "BlurEvent"
+        ],
+        "FocusEvent": [
+            "../../Types/CoreEventTypes",
+            "FocusEvent"
+        ],
+        "LayoutEvent": [
+            "../../Types/CoreEventTypes",
+            "LayoutEvent"
+        ],
+        "PressEvent": [
+            "../../Types/CoreEventTypes",
+            "PressEvent"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "Pressability": "../../Pressability/Pressability"
+    },
     "decls": [
         [
             "Props",

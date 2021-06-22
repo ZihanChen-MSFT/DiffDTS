@@ -42,6 +42,21 @@
             "VirtualizedSectionList"
         ]
     },
+    "importedNames": {
+        "$Diff": [
+            "utility-types",
+            "$Diff"
+        ],
+        "$PropertyType": [
+            "utility-types",
+            "$PropertyType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react",
+        "$2": "./VirtualizedList"
+    },
     "decls": [
         [
             "Item",

@@ -43,6 +43,20 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ViewProps": [
+            "./ViewPropTypes",
+            "ViewProps"
+        ],
+        "HostComponent": [
+            "../../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {},
     "decls": [
         [
             "ViewNativeComponentType",

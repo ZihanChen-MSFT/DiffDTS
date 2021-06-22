@@ -29,6 +29,23 @@
             "AnimatedValue"
         ]
     },
+    "importedNames": {
+        "EndCallback": [
+            "../animations/Animation",
+            "EndCallback"
+        ],
+        "InterpolationConfigType": [
+            "./AnimatedInterpolation",
+            "InterpolationConfigType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AnimatedInterpolation",
+        "$3": "./AnimatedWithChildren",
+        "Animation": "../animations/Animation",
+        "AnimatedTracking": "./AnimatedTracking"
+    },
     "decls": [
         [
             "AnimatedValue",

@@ -21,6 +21,16 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "React$PropType$Primitive": [
+            "flow2dts-flow-types-polyfill",
+            "React$PropType$Primitive"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$3": "prop-types"
+    },
     "decls": [
         [
             "ImageURISourcePropType",

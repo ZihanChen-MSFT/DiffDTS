@@ -22,6 +22,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "PermissionStatus": [
+            "./NativePermissionsAndroid",
+            "PermissionStatus"
+        ],
+        "PermissionType": [
+            "./NativePermissionsAndroid",
+            "PermissionType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "Rationale",

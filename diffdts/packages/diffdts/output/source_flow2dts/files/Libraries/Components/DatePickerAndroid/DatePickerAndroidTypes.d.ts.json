@@ -13,6 +13,9 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "Options",

@@ -36,6 +36,18 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "StackFrame": [
+            "../../Core/NativeExceptionsManager",
+            "StackFrame"
+        ],
+        "SymbolicatedStackTrace": [
+            "../../Core/Devtools/symbolicateStackTrace",
+            "SymbolicatedStackTrace"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "Stack",

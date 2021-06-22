@@ -35,6 +35,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$PropertyType": [
+            "utility-types",
+            "$PropertyType"
+        ],
+        "PressEvent": [
+            "../Types/CoreEventTypes",
+            "PressEvent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "GestureState",

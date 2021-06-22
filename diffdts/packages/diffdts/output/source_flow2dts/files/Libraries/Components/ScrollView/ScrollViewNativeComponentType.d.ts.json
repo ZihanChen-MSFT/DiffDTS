@@ -68,6 +68,42 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "HostComponent": [
+            "../../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ],
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ],
+        "ViewStyleProp": [
+            "../../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "DangerouslyImpreciseStyle": [
+            "../../StyleSheet/StyleSheet",
+            "DangerouslyImpreciseStyle"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "EdgeInsetsProp": [
+            "../../StyleSheet/EdgeInsetsPropType",
+            "EdgeInsetsProp"
+        ],
+        "ScrollEvent": [
+            "../../Types/CoreEventTypes",
+            "ScrollEvent"
+        ],
+        "PointProp": [
+            "../../StyleSheet/PointPropType",
+            "PointProp"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ScrollViewNativeProps",

@@ -17,6 +17,18 @@
             "DatePickerAndroid"
         ]
     },
+    "importedNames": {
+        "Options": [
+            "./DatePickerAndroidTypes",
+            "Options"
+        ],
+        "DatePickerOpenAction": [
+            "./DatePickerAndroidTypes",
+            "DatePickerOpenAction"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "DatePickerAndroid",

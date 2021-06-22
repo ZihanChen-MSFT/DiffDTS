@@ -17,6 +17,9 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "BlobCollector",

@@ -34,6 +34,14 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "IgnorePattern": [
+            "./Data/LogBoxData",
+            "IgnorePattern"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "$f2d_ignoreLogs",

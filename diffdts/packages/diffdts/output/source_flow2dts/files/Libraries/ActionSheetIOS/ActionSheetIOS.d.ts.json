@@ -26,6 +26,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ColorValue": [
+            "../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "ProcessedColorValue": [
+            "../StyleSheet/processColor",
+            "ProcessedColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ActionSheetIOS",

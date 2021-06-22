@@ -16,6 +16,9 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "$f2d_getString",

@@ -53,6 +53,34 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "Float": [
+            "../../Types/CodegenTypes",
+            "Float"
+        ],
+        "WithDefault": [
+            "../../Types/CodegenTypes",
+            "WithDefault"
+        ],
+        "ImageSource": [
+            "../../Image/ImageSource",
+            "ImageSource"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ],
+        "HostComponent": [
+            "../../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "NativeProps",

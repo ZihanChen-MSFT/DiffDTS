@@ -37,6 +37,11 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "NativeEventEmitter": "../../EventEmitter/NativeEventEmitter"
+    },
     "decls": [
         [
             "KeyboardEventEmitter",

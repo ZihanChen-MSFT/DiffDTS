@@ -12,6 +12,11 @@
             "AnimatedWithChildren"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AnimatedNode"
+    },
     "decls": [
         [
             "AnimatedWithChildren",

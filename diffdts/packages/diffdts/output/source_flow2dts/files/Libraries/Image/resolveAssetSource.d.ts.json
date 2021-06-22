@@ -26,6 +26,20 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$TEMPORARY$module$exports$assign": [
+            "flow2dts-flow-types-polyfill",
+            "$TEMPORARY$module$exports$assign"
+        ],
+        "ResolvedAssetSource": [
+            "./AssetSourceResolver",
+            "ResolvedAssetSource"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AssetSourceResolver"
+    },
     "decls": [
         [
             "$f2tExportDefault",

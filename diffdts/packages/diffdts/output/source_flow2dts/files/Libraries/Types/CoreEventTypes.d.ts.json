@@ -72,6 +72,20 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "$PropertyType": [
+            "utility-types",
+            "$PropertyType"
+        ],
+        "HostComponent": [
+            "../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {},
     "decls": [
         [
             "SyntheticEvent",

@@ -17,6 +17,14 @@
             "Dimensions"
         ]
     },
+    "importedNames": {
+        "DisplayMetrics": [
+            "./NativeDeviceInfo",
+            "DisplayMetrics"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "DimensionsValue",

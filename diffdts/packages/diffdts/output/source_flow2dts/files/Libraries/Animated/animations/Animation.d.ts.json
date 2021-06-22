@@ -25,6 +25,11 @@
             "Animation"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "AnimatedValue": "../nodes/AnimatedValue"
+    },
     "decls": [
         [
             "EndResult",

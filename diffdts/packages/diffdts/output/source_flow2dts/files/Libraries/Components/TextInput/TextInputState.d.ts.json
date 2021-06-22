@@ -66,6 +66,16 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "HostComponent": [
+            "../../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react"
+    },
     "decls": [
         [
             "ComponentRef",

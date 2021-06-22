@@ -30,6 +30,14 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$FlowFixMe": [
+            "flow2dts-flow-types-polyfill",
+            "$FlowFixMe"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ModuleConfig",

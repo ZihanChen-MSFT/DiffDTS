@@ -52,6 +52,37 @@
             "SectionList"
         ]
     },
+    "importedNames": {
+        "$Diff": [
+            "utility-types",
+            "$Diff"
+        ],
+        "$PropertyType": [
+            "utility-types",
+            "$PropertyType"
+        ],
+        "ScrollResponderType": [
+            "../Components/ScrollView/ScrollView",
+            "ScrollResponderType"
+        ],
+        "ScrollToLocationParamsType": [
+            "./VirtualizedSectionList",
+            "ScrollToLocationParamsType"
+        ],
+        "_SectionBase": [
+            "./VirtualizedSectionList",
+            "SectionBase"
+        ],
+        "VirtualizedSectionListProps": [
+            "./VirtualizedSectionList",
+            "Props"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react",
+        "$3": "./VirtualizedSectionList"
+    },
     "decls": [
         [
             "Item",

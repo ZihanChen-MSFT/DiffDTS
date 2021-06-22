@@ -21,6 +21,16 @@
             "ImageBackground"
         ]
     },
+    "importedNames": {
+        "$FlowFixMeProps": [
+            "flow2dts-flow-types-polyfill",
+            "$FlowFixMeProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react"
+    },
     "decls": [
         [
             "ImageBackground",

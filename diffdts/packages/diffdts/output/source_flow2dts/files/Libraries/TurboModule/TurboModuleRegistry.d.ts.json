@@ -23,5 +23,13 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "TurboModule": [
+            "./RCTExport",
+            "TurboModule"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": []
 }

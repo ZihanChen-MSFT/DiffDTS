@@ -17,6 +17,18 @@
             "Blob"
         ]
     },
+    "importedNames": {
+        "BlobData": [
+            "./BlobTypes",
+            "BlobData"
+        ],
+        "BlobOptions": [
+            "./BlobTypes",
+            "BlobOptions"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "Blob",

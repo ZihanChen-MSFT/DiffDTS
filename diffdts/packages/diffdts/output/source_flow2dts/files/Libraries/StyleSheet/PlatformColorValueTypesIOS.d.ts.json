@@ -23,6 +23,14 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "ColorValue": [
+            "./StyleSheet",
+            "ColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "DynamicColorIOSTuple",

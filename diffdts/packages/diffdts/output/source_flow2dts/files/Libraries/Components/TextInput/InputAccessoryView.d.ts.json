@@ -21,6 +21,20 @@
             "InputAccessoryView"
         ]
     },
+    "importedNames": {
+        "ViewStyleProp": [
+            "../../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react"
+    },
     "decls": [
         [
             "Props",

@@ -30,6 +30,17 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ViewProps": [
+            "./ViewPropTypes",
+            "ViewProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react",
+        "ViewNativeComponent": "./ViewNativeComponent"
+    },
     "decls": [
         [
             "Props",

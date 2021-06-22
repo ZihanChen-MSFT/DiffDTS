@@ -26,6 +26,14 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "TurboModule": [
+            "../../TurboModule/RCTExport",
+            "TurboModule"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "DialogAction",

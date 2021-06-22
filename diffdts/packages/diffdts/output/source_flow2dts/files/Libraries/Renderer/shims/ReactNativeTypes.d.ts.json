@@ -100,6 +100,22 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "React$Element": [
+            "flow2dts-flow-types-polyfill",
+            "React$Element"
+        ],
+        "ElementRef": [
+            "react",
+            "ElementRef"
+        ],
+        "AbstractComponent": [
+            "react",
+            "AbstractComponent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "MeasureOnSuccessCallback",

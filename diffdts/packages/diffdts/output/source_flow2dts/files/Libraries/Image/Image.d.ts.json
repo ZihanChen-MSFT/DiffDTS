@@ -33,6 +33,19 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ImagePropsType": [
+            "./ImageProps",
+            "ImageProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "../DeprecatedPropTypes/DeprecatedImagePropType",
+        "$2": "react",
+        "$3": "./resolveAssetSource",
+        "ImageViewNativeComponent": "./ImageViewNativeComponent"
+    },
     "decls": [
         [
             "ImageComponentStatics",

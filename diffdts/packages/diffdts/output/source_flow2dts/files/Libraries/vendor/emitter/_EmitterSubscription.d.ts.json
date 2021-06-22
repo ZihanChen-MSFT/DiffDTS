@@ -20,6 +20,13 @@
             "EmitterSubscription"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "EventEmitter": "./_EventEmitter",
+        "EventSubscription": "./_EventSubscription",
+        "EventSubscriptionVendor": "./_EventSubscriptionVendor"
+    },
     "decls": [
         [
             "EmitterSubscription",

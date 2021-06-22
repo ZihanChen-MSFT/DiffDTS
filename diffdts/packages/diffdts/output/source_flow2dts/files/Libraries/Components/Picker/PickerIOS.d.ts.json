@@ -57,6 +57,36 @@
             "PickerIOS"
         ]
     },
+    "importedNames": {
+        "Stringish": [
+            "flow2dts-flow-types-polyfill",
+            "Stringish"
+        ],
+        "TextStyleProp": [
+            "../../StyleSheet/StyleSheet",
+            "TextStyleProp"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "ProcessedColorValue": [
+            "../../StyleSheet/processColor",
+            "ProcessedColorValue"
+        ],
+        "SyntheticEvent": [
+            "../../Types/CoreEventTypes",
+            "SyntheticEvent"
+        ],
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react"
+    },
     "decls": [
         [
             "PickerIOSChangeEvent",

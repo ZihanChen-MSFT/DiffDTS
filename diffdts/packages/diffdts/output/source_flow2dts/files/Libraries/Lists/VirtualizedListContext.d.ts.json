@@ -38,6 +38,13 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {},
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "VirtualizedList": "./VirtualizedList.js"
+    },
     "decls": [
         [
             "Frame",

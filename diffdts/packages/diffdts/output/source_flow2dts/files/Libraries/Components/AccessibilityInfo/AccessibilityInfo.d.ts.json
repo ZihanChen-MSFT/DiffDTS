@@ -26,6 +26,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$FlowFixMe": [
+            "flow2dts-flow-types-polyfill",
+            "$FlowFixMe"
+        ],
+        "$Keys": [
+            "utility-types",
+            "$Keys"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ChangeEventName",

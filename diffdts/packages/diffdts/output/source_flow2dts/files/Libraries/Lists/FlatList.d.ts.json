@@ -74,6 +74,38 @@
             "FlatList"
         ]
     },
+    "importedNames": {
+        "$Diff": [
+            "utility-types",
+            "$Diff"
+        ],
+        "$PropertyType": [
+            "utility-types",
+            "$PropertyType"
+        ],
+        "ScrollResponderType": [
+            "../Components/ScrollView/ScrollView",
+            "ScrollResponderType"
+        ],
+        "ScrollViewNativeComponentType": [
+            "../Components/ScrollView/ScrollViewNativeComponentType.js",
+            "ScrollViewNativeComponentType"
+        ],
+        "ViewStyleProp": [
+            "../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "RenderItemType": [
+            "./VirtualizedList",
+            "RenderItemType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react",
+        "$3": "../Components/View/View",
+        "$4": "./VirtualizedList"
+    },
     "decls": [
         [
             "RequiredProps",

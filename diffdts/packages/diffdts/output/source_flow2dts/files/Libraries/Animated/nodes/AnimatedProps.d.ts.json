@@ -12,6 +12,11 @@
             "AnimatedProps"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AnimatedNode"
+    },
     "decls": [
         [
             "AnimatedProps",

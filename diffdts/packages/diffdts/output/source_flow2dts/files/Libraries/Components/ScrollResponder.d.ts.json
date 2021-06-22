@@ -53,6 +53,32 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "HostComponent": [
+            "../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ],
+        "PressEvent": [
+            "../Types/CoreEventTypes",
+            "PressEvent"
+        ],
+        "ScrollEvent": [
+            "../Types/CoreEventTypes",
+            "ScrollEvent"
+        ],
+        "EventSubscription": [
+            "../vendor/emitter/EventEmitter",
+            "EventSubscription"
+        ],
+        "KeyboardEvent": [
+            "./Keyboard/Keyboard",
+            "KeyboardEvent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react"
+    },
     "decls": [
         [
             "State",

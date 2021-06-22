@@ -25,6 +25,17 @@
             "AnimatedTracking"
         ]
     },
+    "importedNames": {
+        "EndCallback": [
+            "../animations/Animation",
+            "EndCallback"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$3": "./AnimatedValue",
+        "$1": "./AnimatedNode"
+    },
     "decls": [
         [
             "AnimatedTracking",

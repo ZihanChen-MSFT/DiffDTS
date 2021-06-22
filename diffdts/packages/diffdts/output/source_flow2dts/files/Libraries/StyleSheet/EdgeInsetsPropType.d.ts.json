@@ -19,6 +19,14 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "Rect": [
+            "./Rect",
+            "Rect"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "EdgeInsetsProp",

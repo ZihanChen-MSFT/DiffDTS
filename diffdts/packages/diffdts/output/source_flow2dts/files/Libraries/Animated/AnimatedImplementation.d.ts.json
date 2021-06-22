@@ -206,6 +206,50 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "EndCallback": [
+            "./animations/Animation",
+            "EndCallback"
+        ],
+        "TimingAnimationConfig": [
+            "./animations/TimingAnimation",
+            "TimingAnimationConfig"
+        ],
+        "DecayAnimationConfig": [
+            "./animations/DecayAnimation",
+            "DecayAnimationConfig"
+        ],
+        "SpringAnimationConfig": [
+            "./animations/SpringAnimation",
+            "SpringAnimationConfig"
+        ],
+        "Mapping": [
+            "./AnimatedEvent",
+            "Mapping"
+        ],
+        "EventConfig": [
+            "./AnimatedEvent",
+            "EventConfig"
+        ]
+    },
+    "importedNamespaces": {
+        "$14": "./AnimatedEvent",
+        "$4": "./AnimatedEvent"
+    },
+    "importedDefaults": {
+        "$1": "./nodes/AnimatedAddition",
+        "$2": "./nodes/AnimatedDiffClamp",
+        "$3": "./nodes/AnimatedDivision",
+        "$6": "./nodes/AnimatedInterpolation",
+        "$7": "./nodes/AnimatedModulo",
+        "$8": "./nodes/AnimatedMultiplication",
+        "$9": "./nodes/AnimatedNode",
+        "$10": "./nodes/AnimatedProps",
+        "$11": "./nodes/AnimatedSubtraction",
+        "$12": "./nodes/AnimatedValue",
+        "$13": "./nodes/AnimatedValueXY",
+        "$16": "./createAnimatedComponent"
+    },
     "decls": [
         [
             "CompositeAnimation",

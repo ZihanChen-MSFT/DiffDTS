@@ -25,6 +25,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "AnimatedComponentType": [
+            "../createAnimatedComponent",
+            "AnimatedComponentType"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "$1": "../../Components/ScrollView/ScrollView"
+    },
     "decls": [
         [
             "$f2tExportDefault",

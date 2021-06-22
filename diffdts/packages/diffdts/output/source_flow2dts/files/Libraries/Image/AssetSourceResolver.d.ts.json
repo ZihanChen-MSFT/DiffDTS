@@ -22,6 +22,14 @@
             "AssetSourceResolver"
         ]
     },
+    "importedNames": {
+        "PackagerAsset": [
+            "@react-native/assets/registry",
+            "PackagerAsset"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ResolvedAssetSource",

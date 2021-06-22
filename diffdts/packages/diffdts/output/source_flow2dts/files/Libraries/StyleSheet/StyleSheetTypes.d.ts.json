@@ -92,6 +92,20 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "$Shape": [
+            "utility-types",
+            "$Shape"
+        ],
+        "NativeColorValue": [
+            "./PlatformColorValueTypes",
+            "NativeColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "../Animated/nodes/AnimatedNode"
+    },
     "decls": [
         [
             "____ColorValue_Internal",

@@ -20,6 +20,14 @@
             "TouchableNativeFeedback"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "Pressability": "../../Pressability/Pressability",
+        "TouchableWithoutFeedback$f2tTypeof": "./TouchableWithoutFeedback"
+    },
     "decls": [
         [
             "TouchableWithoutFeedback",

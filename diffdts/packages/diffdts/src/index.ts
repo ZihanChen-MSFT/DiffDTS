@@ -30,6 +30,9 @@ function processEntry(inputFilename: string, outputDirname: string): void {
     const entry = state.entries[filename];
     const entryOutput = {
       raw: entry.raw,
+      importedNames: entry.index.importedNames,
+      importedNamespaces: entry.index.importedNamespaces,
+      importedDefaults: entry.index.importedDefaults,
       decls: Object.keys(entry.index.decls).map((id) => [id, entry.index.decls[id].type])
     };
 

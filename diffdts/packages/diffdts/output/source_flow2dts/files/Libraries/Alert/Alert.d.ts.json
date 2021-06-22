@@ -20,6 +20,9 @@
             "Alert"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "AlertType",

@@ -43,6 +43,20 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "Class": [
+            "utility-types",
+            "Class"
+        ],
+        "IgnorePattern": [
+            "../LogBox/Data/LogBoxData",
+            "IgnorePattern"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react"
+    },
     "decls": [
         [
             "Props",

@@ -118,6 +118,61 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$PropertyType": [
+            "utility-types",
+            "$PropertyType"
+        ],
+        "EdgeInsetsProp": [
+            "../../StyleSheet/EdgeInsetsPropType",
+            "EdgeInsetsProp"
+        ],
+        "PointProp": [
+            "../../StyleSheet/PointPropType",
+            "PointProp"
+        ],
+        "ViewStyleProp": [
+            "../../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "PressEvent": [
+            "../../Types/CoreEventTypes",
+            "PressEvent"
+        ],
+        "ScrollEvent": [
+            "../../Types/CoreEventTypes",
+            "ScrollEvent"
+        ],
+        "HostComponent": [
+            "../../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ],
+        "ScrollResponderState": [
+            "../ScrollResponder",
+            "State"
+        ],
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ],
+        "ScrollViewStickyHeaderProps": [
+            "./ScrollViewStickyHeader",
+            "Props"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "ScrollResponder": "../ScrollResponder",
+        "View": "../View/View",
+        "ScrollViewContext": "./ScrollViewContext",
+        "ScrollViewNativeComponent": "./ScrollViewNativeComponent"
+    },
     "decls": [
         [
             "ScrollViewImperativeMethods",

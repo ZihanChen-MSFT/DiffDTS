@@ -39,6 +39,14 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "SyntheticEvent": [
+            "./CoreEventTypes",
+            "SyntheticEvent"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "BubblingEventHandler",

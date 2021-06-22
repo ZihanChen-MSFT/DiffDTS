@@ -30,6 +30,14 @@
             "PushNotificationIOS"
         ]
     },
+    "importedNames": {
+        "$Keys": [
+            "utility-types",
+            "$Keys"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ContentAvailable",

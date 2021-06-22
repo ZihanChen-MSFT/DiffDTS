@@ -31,6 +31,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ColorValue": [
+            "./StyleSheet",
+            "ColorValue"
+        ],
+        "NativeColorValue": [
+            "./PlatformColorValueTypes",
+            "NativeColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ProcessedColorValue",

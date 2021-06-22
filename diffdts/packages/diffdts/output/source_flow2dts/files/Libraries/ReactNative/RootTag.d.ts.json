@@ -27,6 +27,14 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "React$Context": [
+            "flow2dts-flow-types-polyfill",
+            "React$Context"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "RootTag",

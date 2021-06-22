@@ -12,6 +12,9 @@
             "TaskQueue"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "SimpleTask",

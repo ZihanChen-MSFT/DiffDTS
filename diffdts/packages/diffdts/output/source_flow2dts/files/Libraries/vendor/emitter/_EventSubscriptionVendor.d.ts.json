@@ -12,6 +12,11 @@
             "EventSubscriptionVendor"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "EventSubscription": "./_EventSubscription"
+    },
     "decls": [
         [
             "EventSubscriptionVendor",

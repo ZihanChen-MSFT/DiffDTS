@@ -25,6 +25,18 @@
             "AnimatedDivision"
         ]
     },
+    "importedNames": {
+        "InterpolationConfigType": [
+            "./AnimatedInterpolation",
+            "InterpolationConfigType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "./AnimatedInterpolation",
+        "$3": "./AnimatedNode",
+        "$4": "./AnimatedWithChildren"
+    },
     "decls": [
         [
             "AnimatedDivision",

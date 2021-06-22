@@ -17,6 +17,14 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "Spec": [
+            "./NativeUIManager",
+            "Spec"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "UIManagerJSInterface",

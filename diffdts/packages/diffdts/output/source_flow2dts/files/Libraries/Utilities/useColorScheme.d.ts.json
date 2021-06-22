@@ -19,5 +19,13 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "ColorSchemeName": [
+            "./NativeAppearance",
+            "ColorSchemeName"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": []
 }

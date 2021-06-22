@@ -39,6 +39,20 @@
             "StatusBar"
         ]
     },
+    "importedNames": {
+        "$Keys": [
+            "utility-types",
+            "$Keys"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "react"
+    },
     "decls": [
         [
             "StatusBarStyle",

@@ -31,6 +31,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$FlowFixMe": [
+            "flow2dts-flow-types-polyfill",
+            "$FlowFixMe"
+        ],
+        "Task": [
+            "./TaskQueue",
+            "Task"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "Handle",

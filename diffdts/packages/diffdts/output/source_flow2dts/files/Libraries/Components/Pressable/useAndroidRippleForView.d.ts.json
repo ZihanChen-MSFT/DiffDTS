@@ -40,6 +40,22 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "PressEvent": [
+            "../../Types/CoreEventTypes",
+            "PressEvent"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "View": "../../Components/View/View"
+    },
     "decls": [
         [
             "NativeBackgroundProp",

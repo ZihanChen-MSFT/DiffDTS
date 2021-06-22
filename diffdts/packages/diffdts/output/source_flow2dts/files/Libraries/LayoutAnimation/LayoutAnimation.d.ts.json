@@ -22,6 +22,22 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "LayoutAnimationType": [
+            "../Renderer/shims/ReactNativeTypes",
+            "LayoutAnimationType"
+        ],
+        "LayoutAnimationProperty": [
+            "../Renderer/shims/ReactNativeTypes",
+            "LayoutAnimationProperty"
+        ],
+        "LayoutAnimationConfig_": [
+            "../Renderer/shims/ReactNativeTypes",
+            "LayoutAnimationConfig"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "LayoutAnimationConfig",

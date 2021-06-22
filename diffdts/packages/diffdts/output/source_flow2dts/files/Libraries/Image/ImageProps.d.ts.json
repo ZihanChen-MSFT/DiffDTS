@@ -77,6 +77,46 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "Stringish": [
+            "flow2dts-flow-types-polyfill",
+            "Stringish"
+        ],
+        "$Diff": [
+            "utility-types",
+            "$Diff"
+        ],
+        "SyntheticEvent": [
+            "../Types/CoreEventTypes",
+            "SyntheticEvent"
+        ],
+        "LayoutEvent": [
+            "../Types/CoreEventTypes",
+            "LayoutEvent"
+        ],
+        "EdgeInsetsProp": [
+            "../StyleSheet/EdgeInsetsPropType",
+            "EdgeInsetsProp"
+        ],
+        "ImageSource": [
+            "./ImageSource",
+            "ImageSource"
+        ],
+        "ViewStyleProp": [
+            "../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "ImageStyleProp": [
+            "../StyleSheet/StyleSheet",
+            "ImageStyleProp"
+        ],
+        "ViewProps": [
+            "../Components/View/ViewPropTypes",
+            "ViewProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ImageLoadEvent",

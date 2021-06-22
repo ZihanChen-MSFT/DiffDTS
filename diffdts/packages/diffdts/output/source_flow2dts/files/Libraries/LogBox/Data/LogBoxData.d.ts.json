@@ -153,6 +153,38 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "LogLevel": [
+            "./LogBoxLog",
+            "LogLevel"
+        ],
+        "Message": [
+            "./parseLogBoxLog",
+            "Message"
+        ],
+        "Category": [
+            "./parseLogBoxLog",
+            "Category"
+        ],
+        "ComponentStack": [
+            "./parseLogBoxLog",
+            "ComponentStack"
+        ],
+        "ExtendedExceptionData": [
+            "./parseLogBoxLog",
+            "ExtendedExceptionData"
+        ],
+        "ExtendedError": [
+            "../../Core/Devtools/parseErrorStack",
+            "ExtendedError"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "LogBoxLog": "./LogBoxLog"
+    },
     "decls": [
         [
             "LogBoxLogs",

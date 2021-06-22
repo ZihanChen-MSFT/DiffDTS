@@ -38,6 +38,23 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$Diff": [
+            "utility-types",
+            "$Diff"
+        ],
+        "ViewStyleProp": [
+            "../../../Libraries/StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "TouchableWithoutFeedback$f2tTypeof": "./TouchableWithoutFeedback",
+        "Animated": "../../../Libraries/Animated/Animated"
+    },
     "decls": [
         [
             "TouchableWithoutFeedback",

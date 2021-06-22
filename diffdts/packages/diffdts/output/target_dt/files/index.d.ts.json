@@ -1438,6 +1438,11 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {},
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {},
     "decls": [
         [
             "Omit",

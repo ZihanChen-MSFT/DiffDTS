@@ -30,6 +30,20 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "NativeResponseType": [
+            "./XMLHttpRequest",
+            "NativeResponseType"
+        ],
+        "RequestBody": [
+            "./convertRequestBody",
+            "RequestBody"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "NativeEventEmitter": "../EventEmitter/NativeEventEmitter"
+    },
     "decls": [
         [
             "RCTNetworking",

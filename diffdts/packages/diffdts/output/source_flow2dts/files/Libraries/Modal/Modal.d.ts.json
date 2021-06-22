@@ -44,6 +44,24 @@
             "Modal"
         ]
     },
+    "importedNames": {
+        "ViewProps": [
+            "../Components/View/ViewPropTypes",
+            "ViewProps"
+        ],
+        "RootTag": [
+            "../ReactNative/RootTag",
+            "RootTag"
+        ],
+        "DirectEventHandler": [
+            "../Types/CodegenTypes",
+            "DirectEventHandler"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react"
+    },
     "decls": [
         [
             "OrientationChangeEvent",

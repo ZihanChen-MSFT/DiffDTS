@@ -30,6 +30,21 @@
             "DecayAnimation"
         ]
     },
+    "importedNames": {
+        "AnimationConfig": [
+            "./Animation",
+            "AnimationConfig"
+        ],
+        "EndCallback": [
+            "./Animation",
+            "EndCallback"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./Animation",
+        "AnimatedValue": "../nodes/AnimatedValue"
+    },
     "decls": [
         [
             "DecayAnimationConfig",

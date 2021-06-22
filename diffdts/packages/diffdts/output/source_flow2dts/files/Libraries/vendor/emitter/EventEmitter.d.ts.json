@@ -17,6 +17,11 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./_EventEmitter"
+    },
     "decls": [
         [
             "EventSubscription",

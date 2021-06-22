@@ -60,6 +60,18 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "ExceptionData": [
+            "../../Core/NativeExceptionsManager",
+            "ExceptionData"
+        ],
+        "LogBoxLogData": [
+            "./LogBoxLog",
+            "LogBoxLogData"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ExtendedExceptionData",

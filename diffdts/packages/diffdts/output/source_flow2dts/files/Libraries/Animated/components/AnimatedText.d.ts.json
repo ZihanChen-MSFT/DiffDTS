@@ -25,6 +25,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "AnimatedComponentType": [
+            "../createAnimatedComponent",
+            "AnimatedComponentType"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "$1": "../../Text/Text"
+    },
     "decls": [
         [
             "$f2tExportDefault",

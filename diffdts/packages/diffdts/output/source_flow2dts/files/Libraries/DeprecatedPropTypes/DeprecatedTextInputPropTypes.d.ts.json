@@ -250,6 +250,23 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "React$PropType$Primitive": [
+            "flow2dts-flow-types-polyfill",
+            "React$PropType$Primitive"
+        ],
+        "ReactPropsCheckType": [
+            "flow2dts-flow-types-polyfill",
+            "ReactPropsCheckType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "../../TypeScriptSupplementals/DeprecatedColorPropType",
+        "$2": "./DeprecatedViewPropTypes",
+        "$3": "prop-types",
+        "$4": "../Text/Text"
+    },
     "decls": [
         [
             "$f2d_autoCapitalize",

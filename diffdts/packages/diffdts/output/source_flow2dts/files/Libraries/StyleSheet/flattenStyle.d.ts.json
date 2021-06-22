@@ -17,6 +17,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "DangerouslyImpreciseStyle": [
+            "./StyleSheet",
+            "DangerouslyImpreciseStyle"
+        ],
+        "DangerouslyImpreciseStyleProp": [
+            "./StyleSheet",
+            "DangerouslyImpreciseStyleProp"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "$f2tExportDefault",

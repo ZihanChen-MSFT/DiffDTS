@@ -72,6 +72,70 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "Stringish": [
+            "flow2dts-flow-types-polyfill",
+            "Stringish"
+        ],
+        "BlurEvent": [
+            "../../Types/CoreEventTypes",
+            "BlurEvent"
+        ],
+        "FocusEvent": [
+            "../../Types/CoreEventTypes",
+            "FocusEvent"
+        ],
+        "MouseEvent": [
+            "../../Types/CoreEventTypes",
+            "MouseEvent"
+        ],
+        "PressEvent": [
+            "../../Types/CoreEventTypes",
+            "PressEvent"
+        ],
+        "Layout": [
+            "../../Types/CoreEventTypes",
+            "Layout"
+        ],
+        "LayoutEvent": [
+            "../../Types/CoreEventTypes",
+            "LayoutEvent"
+        ],
+        "EdgeInsetsProp": [
+            "../../StyleSheet/EdgeInsetsPropType",
+            "EdgeInsetsProp"
+        ],
+        "Node": [
+            "react",
+            "Node"
+        ],
+        "ViewStyleProp": [
+            "../../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "AccessibilityRole": [
+            "./ViewAccessibility",
+            "AccessibilityRole"
+        ],
+        "AccessibilityState": [
+            "./ViewAccessibility",
+            "AccessibilityState"
+        ],
+        "AccessibilityValue": [
+            "./ViewAccessibility",
+            "AccessibilityValue"
+        ],
+        "AccessibilityActionEvent": [
+            "./ViewAccessibility",
+            "AccessibilityActionEvent"
+        ],
+        "AccessibilityActionInfo": [
+            "./ViewAccessibility",
+            "AccessibilityActionInfo"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ViewLayout",

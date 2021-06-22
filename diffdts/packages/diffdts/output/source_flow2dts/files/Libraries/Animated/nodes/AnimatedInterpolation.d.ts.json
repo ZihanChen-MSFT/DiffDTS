@@ -21,6 +21,12 @@
             "AnimatedInterpolation"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "./AnimatedNode",
+        "$3": "./AnimatedWithChildren"
+    },
     "decls": [
         [
             "ExtrapolateType",

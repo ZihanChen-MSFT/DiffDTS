@@ -26,6 +26,20 @@
             "Picker"
         ]
     },
+    "importedNames": {
+        "TextStyleProp": [
+            "../../StyleSheet/StyleSheet",
+            "TextStyleProp"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$3": "react"
+    },
     "decls": [
         [
             "PickerItemProps",

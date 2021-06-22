@@ -12,6 +12,11 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "NativeDeviceInfo": "./NativeDeviceInfo"
+    },
     "decls": [
         [
             "$f2tExportDefault",

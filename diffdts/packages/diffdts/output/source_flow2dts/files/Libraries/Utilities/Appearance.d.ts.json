@@ -30,6 +30,18 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "AppearancePreferences": [
+            "./NativeAppearance",
+            "AppearancePreferences"
+        ],
+        "ColorSchemeName": [
+            "./NativeAppearance",
+            "ColorSchemeName"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "AppearanceListener",

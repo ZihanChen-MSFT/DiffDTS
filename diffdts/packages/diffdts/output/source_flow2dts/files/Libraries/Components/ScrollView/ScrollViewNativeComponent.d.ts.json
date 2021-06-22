@@ -17,6 +17,14 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ScrollViewNativeComponentType": [
+            "./ScrollViewNativeComponentType",
+            "ScrollViewNativeComponentType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "$f2tExportDefault",

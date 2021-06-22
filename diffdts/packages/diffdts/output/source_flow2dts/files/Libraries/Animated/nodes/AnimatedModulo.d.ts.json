@@ -25,6 +25,18 @@
             "AnimatedModulo"
         ]
     },
+    "importedNames": {
+        "InterpolationConfigType": [
+            "./AnimatedInterpolation",
+            "InterpolationConfigType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./AnimatedInterpolation",
+        "$3": "./AnimatedNode",
+        "$4": "./AnimatedWithChildren"
+    },
     "decls": [
         [
             "AnimatedModulo",

@@ -43,6 +43,29 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ImageSource": [
+            "../../Image/ImageSource",
+            "ImageSource"
+        ],
+        "ViewStyleProp": [
+            "../../StyleSheet/StyleSheet",
+            "ViewStyleProp"
+        ],
+        "ColorValue": [
+            "../../StyleSheet/StyleSheet",
+            "ColorValue"
+        ],
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "SliderNativeComponent": "./SliderNativeComponent",
+        "$1": "react"
+    },
     "decls": [
         [
             "IOSProps",

@@ -20,6 +20,13 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "EventEmitter": "../vendor/emitter/EventEmitter",
+        "EmitterSubscription": "../vendor/emitter/_EmitterSubscription",
+        "EventSubscriptionVendor": "../vendor/emitter/_EventSubscriptionVendor"
+    },
     "decls": [
         [
             "RCTDeviceEventEmitter",

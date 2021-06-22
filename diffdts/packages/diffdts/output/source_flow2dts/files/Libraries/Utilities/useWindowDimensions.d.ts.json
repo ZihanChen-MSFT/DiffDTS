@@ -19,5 +19,13 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "DisplayMetrics": [
+            "./NativeDeviceInfo",
+            "DisplayMetrics"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": []
 }

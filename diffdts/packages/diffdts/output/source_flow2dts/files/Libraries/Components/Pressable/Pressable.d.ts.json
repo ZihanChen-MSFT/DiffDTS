@@ -75,6 +75,58 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "Stringish": [
+            "flow2dts-flow-types-polyfill",
+            "Stringish"
+        ],
+        "$ElementType": [
+            "utility-types",
+            "$ElementType"
+        ],
+        "RippleConfig": [
+            "./useAndroidRippleForView",
+            "RippleConfig"
+        ],
+        "AccessibilityActionEvent": [
+            "../View/ViewAccessibility",
+            "AccessibilityActionEvent"
+        ],
+        "AccessibilityActionInfo": [
+            "../View/ViewAccessibility",
+            "AccessibilityActionInfo"
+        ],
+        "AccessibilityRole": [
+            "../View/ViewAccessibility",
+            "AccessibilityRole"
+        ],
+        "AccessibilityState": [
+            "../View/ViewAccessibility",
+            "AccessibilityState"
+        ],
+        "AccessibilityValue": [
+            "../View/ViewAccessibility",
+            "AccessibilityValue"
+        ],
+        "RectOrSize": [
+            "../../StyleSheet/Rect",
+            "RectOrSize"
+        ],
+        "LayoutEvent": [
+            "../../Types/CoreEventTypes",
+            "LayoutEvent"
+        ],
+        "PressEvent": [
+            "../../Types/CoreEventTypes",
+            "PressEvent"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "View": "../View/View"
+    },
     "decls": [
         [
             "ViewStyleProp",

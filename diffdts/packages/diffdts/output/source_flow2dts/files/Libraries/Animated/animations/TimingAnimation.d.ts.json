@@ -38,6 +38,23 @@
             "TimingAnimation"
         ]
     },
+    "importedNames": {
+        "AnimationConfig": [
+            "./Animation",
+            "AnimationConfig"
+        ],
+        "EndCallback": [
+            "./Animation",
+            "EndCallback"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "../nodes/AnimatedValue",
+        "$3": "../nodes/AnimatedValueXY",
+        "$1": "../nodes/AnimatedInterpolation",
+        "$4": "./Animation"
+    },
     "decls": [
         [
             "TimingAnimationConfig",

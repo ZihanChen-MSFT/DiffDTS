@@ -59,6 +59,42 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "Stringish": [
+            "flow2dts-flow-types-polyfill",
+            "Stringish"
+        ],
+        "LayoutEvent": [
+            "../Types/CoreEventTypes",
+            "LayoutEvent"
+        ],
+        "PressEvent": [
+            "../Types/CoreEventTypes",
+            "PressEvent"
+        ],
+        "TextLayoutEvent": [
+            "../Types/CoreEventTypes",
+            "TextLayoutEvent"
+        ],
+        "Node": [
+            "react",
+            "Node"
+        ],
+        "TextStyleProp": [
+            "../StyleSheet/StyleSheet",
+            "TextStyleProp"
+        ],
+        "AccessibilityRole": [
+            "../Components/View/ViewAccessibility",
+            "AccessibilityRole"
+        ],
+        "AccessibilityState": [
+            "../Components/View/ViewAccessibility",
+            "AccessibilityState"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "PressRetentionOffset",

@@ -21,6 +21,16 @@
             "MaskedViewIOS"
         ]
     },
+    "importedNames": {
+        "ViewProps": [
+            "../View/ViewPropTypes",
+            "ViewProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react"
+    },
     "decls": [
         [
             "Props",

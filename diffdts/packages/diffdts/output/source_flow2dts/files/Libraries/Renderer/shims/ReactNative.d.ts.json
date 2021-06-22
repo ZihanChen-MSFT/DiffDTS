@@ -17,6 +17,14 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "ReactNativeType": [
+            "./ReactNativeTypes",
+            "ReactNativeType"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "$f2tExportDefault",

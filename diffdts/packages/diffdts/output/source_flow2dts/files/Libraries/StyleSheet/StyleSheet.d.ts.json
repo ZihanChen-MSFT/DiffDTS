@@ -103,6 +103,60 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$ElementType": [
+            "utility-types",
+            "$ElementType"
+        ],
+        "$Keys": [
+            "utility-types",
+            "$Keys"
+        ],
+        "____ColorValue_Internal": [
+            "./StyleSheetTypes",
+            "____ColorValue_Internal"
+        ],
+        "____Styles_Internal": [
+            "./StyleSheetTypes",
+            "____Styles_Internal"
+        ],
+        "____DangerouslyImpreciseStyle_Internal": [
+            "./StyleSheetTypes",
+            "____DangerouslyImpreciseStyle_Internal"
+        ],
+        "____DangerouslyImpreciseStyleProp_Internal": [
+            "./StyleSheetTypes",
+            "____DangerouslyImpreciseStyleProp_Internal"
+        ],
+        "____ViewStyle_Internal": [
+            "./StyleSheetTypes",
+            "____ViewStyle_Internal"
+        ],
+        "____ViewStyleProp_Internal": [
+            "./StyleSheetTypes",
+            "____ViewStyleProp_Internal"
+        ],
+        "____TextStyle_Internal": [
+            "./StyleSheetTypes",
+            "____TextStyle_Internal"
+        ],
+        "____TextStyleProp_Internal": [
+            "./StyleSheetTypes",
+            "____TextStyleProp_Internal"
+        ],
+        "____ImageStyle_Internal": [
+            "./StyleSheetTypes",
+            "____ImageStyle_Internal"
+        ],
+        "____ImageStyleProp_Internal": [
+            "./StyleSheetTypes",
+            "____ImageStyleProp_Internal"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "./flattenStyle"
+    },
     "decls": [
         [
             "ColorValue",

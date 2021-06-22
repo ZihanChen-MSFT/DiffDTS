@@ -53,6 +53,38 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "DangerouslyImpreciseStyle": [
+            "../StyleSheet/StyleSheet",
+            "DangerouslyImpreciseStyle"
+        ],
+        "ResolvedAssetSource": [
+            "./AssetSourceResolver",
+            "ResolvedAssetSource"
+        ],
+        "HostComponent": [
+            "../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ],
+        "ImageProps": [
+            "./ImageProps",
+            "ImageProps"
+        ],
+        "ViewProps": [
+            "../Components/View/ViewPropTypes",
+            "ViewProps"
+        ],
+        "ImageStyleProp": [
+            "../StyleSheet/StyleSheet",
+            "ImageStyleProp"
+        ],
+        "ColorValue": [
+            "../StyleSheet/StyleSheet",
+            "ColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "NativeProps",

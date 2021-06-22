@@ -16,6 +16,12 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "NativeEventEmitter": "../EventEmitter/NativeEventEmitter",
+        "EventEmitter": "../vendor/emitter/EventEmitter"
+    },
     "decls": [
         [
             "AppState",

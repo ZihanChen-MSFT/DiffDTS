@@ -22,6 +22,14 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "StackFrame": [
+            "../NativeExceptionsManager",
+            "StackFrame"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "ExtendedError",

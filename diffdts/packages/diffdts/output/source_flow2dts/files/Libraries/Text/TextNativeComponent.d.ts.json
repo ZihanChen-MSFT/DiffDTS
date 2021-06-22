@@ -41,6 +41,22 @@
         },
         "exportDefault": "none"
     },
+    "importedNames": {
+        "HostComponent": [
+            "../Renderer/shims/ReactNativeTypes",
+            "HostComponent"
+        ],
+        "ProcessedColorValue": [
+            "../StyleSheet/processColor",
+            "ProcessedColorValue"
+        ],
+        "TextProps": [
+            "./TextProps",
+            "TextProps"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "NativeTextProps",

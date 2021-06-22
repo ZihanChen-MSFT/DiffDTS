@@ -35,6 +35,30 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "Category": [
+            "./parseLogBoxLog",
+            "Category"
+        ],
+        "Message": [
+            "./parseLogBoxLog",
+            "Message"
+        ],
+        "ComponentStack": [
+            "./parseLogBoxLog",
+            "ComponentStack"
+        ],
+        "CodeFrame": [
+            "./parseLogBoxLog",
+            "CodeFrame"
+        ],
+        "Stack": [
+            "./LogBoxSymbolication",
+            "Stack"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {},
     "decls": [
         [
             "SymbolicationStatus",

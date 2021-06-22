@@ -30,6 +30,18 @@
             "ScrollViewStickyHeader"
         ]
     },
+    "importedNames": {
+        "LayoutEvent": [
+            "../../Types/CoreEventTypes",
+            "LayoutEvent"
+        ]
+    },
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {
+        "AnimatedImplementation": "../../Animated/AnimatedImplementation"
+    },
     "decls": [
         [
             "Props",

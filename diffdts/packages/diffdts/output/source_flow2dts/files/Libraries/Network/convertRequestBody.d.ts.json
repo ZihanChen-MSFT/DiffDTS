@@ -30,6 +30,17 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {
+        "$ArrayBufferView": [
+            "flow2dts-flow-types-polyfill",
+            "$ArrayBufferView"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$1": "../Blob/Blob",
+        "$2": "./FormData"
+    },
     "decls": [
         [
             "RequestBody",

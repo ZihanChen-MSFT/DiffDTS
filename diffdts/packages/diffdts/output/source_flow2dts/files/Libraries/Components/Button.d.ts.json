@@ -30,6 +30,20 @@
             "Button"
         ]
     },
+    "importedNames": {
+        "PressEvent": [
+            "../Types/CoreEventTypes",
+            "PressEvent"
+        ],
+        "ColorValue": [
+            "../StyleSheet/StyleSheet",
+            "ColorValue"
+        ]
+    },
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "$2": "react"
+    },
     "decls": [
         [
             "ButtonProps",

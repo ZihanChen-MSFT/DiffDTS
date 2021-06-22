@@ -21,6 +21,11 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {
+        "React": "react"
+    },
+    "importedDefaults": {},
     "decls": [
         [
             "Value",

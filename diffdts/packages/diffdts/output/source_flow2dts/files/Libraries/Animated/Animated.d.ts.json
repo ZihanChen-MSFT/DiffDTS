@@ -61,6 +61,17 @@
             "$f2tExportDefault"
         ]
     },
+    "importedNames": {},
+    "importedNamespaces": {},
+    "importedDefaults": {
+        "AnimatedFlatList$f2tTypeof": "./components/AnimatedFlatList",
+        "AnimatedImage$f2tTypeof": "./components/AnimatedImage",
+        "AnimatedScrollView$f2tTypeof": "./components/AnimatedScrollView",
+        "AnimatedSectionList$f2tTypeof": "./components/AnimatedSectionList",
+        "AnimatedText$f2tTypeof": "./components/AnimatedText",
+        "AnimatedView$f2tTypeof": "./components/AnimatedView",
+        "$1": "./AnimatedMock"
+    },
     "decls": [
         [
             "AnimatedFlatList",
