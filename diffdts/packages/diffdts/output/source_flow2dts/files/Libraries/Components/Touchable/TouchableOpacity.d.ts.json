@@ -58,19 +58,27 @@
     "decls": [
         [
             "TouchableWithoutFeedback",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "TVProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Props",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

@@ -139,55 +139,81 @@
     "decls": [
         [
             "ViewLayout",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "ViewLayoutEvent",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "BubblingEventProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "DirectEventProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "MouseEventProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "TouchEventProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "GestureResponderEventProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "AndroidDrawableThemeAttr",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "AndroidDrawableRipple",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "AndroidDrawable",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "AndroidViewProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "IOSViewProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "ViewProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ]
     ]
 }

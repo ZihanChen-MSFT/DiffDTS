@@ -46,11 +46,15 @@
     "decls": [
         [
             "ProcessedColorValue",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

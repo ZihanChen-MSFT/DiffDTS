@@ -35,23 +35,33 @@
     "decls": [
         [
             "Timespan",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "ExtraValue",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Extras",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "IPerformanceLogger",
-            "TSInterfaceDeclaration"
+            [
+                "TSInterfaceDeclaration"
+            ]
         ],
         [
             "getCurrentTimestamp",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

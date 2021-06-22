@@ -88,11 +88,15 @@
     "decls": [
         [
             "NativeProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

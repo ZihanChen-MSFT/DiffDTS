@@ -26,23 +26,33 @@
     "decls": [
         [
             "AlertType",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "AlertButtonStyle",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Buttons",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Options",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Alert",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

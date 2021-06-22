@@ -130,19 +130,27 @@
     "decls": [
         [
             "ViewStyleProp",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "StateCallbackType",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Props",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

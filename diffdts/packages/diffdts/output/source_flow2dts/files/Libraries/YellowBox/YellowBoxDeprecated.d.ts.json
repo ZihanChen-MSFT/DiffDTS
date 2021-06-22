@@ -60,23 +60,33 @@
     "decls": [
         [
             "Props",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "$f2d_ignoreWarnings",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_install",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_uninstall",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

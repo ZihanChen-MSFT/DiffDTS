@@ -41,11 +41,15 @@
     "decls": [
         [
             "ActionSheetIOS",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

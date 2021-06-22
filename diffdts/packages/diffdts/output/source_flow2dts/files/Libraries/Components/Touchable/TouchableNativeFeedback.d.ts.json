@@ -31,19 +31,27 @@
     "decls": [
         [
             "TouchableWithoutFeedback",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Props",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "State",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "TouchableNativeFeedback",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

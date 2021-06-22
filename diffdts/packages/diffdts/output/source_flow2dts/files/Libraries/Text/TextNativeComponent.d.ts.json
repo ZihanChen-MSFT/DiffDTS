@@ -60,15 +60,21 @@
     "decls": [
         [
             "NativeTextProps",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "NativeText",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "NativeVirtualText",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

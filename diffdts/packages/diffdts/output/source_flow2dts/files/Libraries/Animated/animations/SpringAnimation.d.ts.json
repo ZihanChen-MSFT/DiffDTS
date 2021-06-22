@@ -58,15 +58,21 @@
     "decls": [
         [
             "SpringAnimationConfig",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "SpringAnimationConfigSingle",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "SpringAnimation",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

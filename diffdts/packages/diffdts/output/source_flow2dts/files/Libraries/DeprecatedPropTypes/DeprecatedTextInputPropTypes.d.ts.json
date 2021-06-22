@@ -270,219 +270,327 @@
     "decls": [
         [
             "$f2d_autoCapitalize",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_autoCompleteType",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_autoCorrect",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_spellCheck",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_autoFocus",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_allowFontScaling",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_maxFontSizeMultiplier",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_editable",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_keyboardType",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_keyboardAppearance",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_returnKeyType",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_returnKeyLabel",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_maxLength",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_numberOfLines",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_disableFullscreenUI",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_enablesReturnKeyAutomatically",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_multiline",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_textBreakStrategy",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onBlur",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onFocus",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onChange",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onChangeText",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onContentSizeChange",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onTextInput",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onEndEditing",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onSelectionChange",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onSubmitEditing",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onKeyPress",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onLayout",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_onScroll",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_placeholder",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_placeholderTextColor",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_scrollEnabled",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_secureTextEntry",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_selectionColor",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_selection",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_value",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_defaultValue",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_clearButtonMode",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_clearTextOnFocus",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_selectTextOnFocus",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_blurOnSubmit",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_style",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_underlineColorAndroid",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_inlineImageLeft",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_inlineImagePadding",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_rejectResponderTermination",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_dataDetectorTypes",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_caretHidden",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_contextMenuHidden",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_inputAccessoryViewID",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_textContentType",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2d_showSoftInputOnFocus",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

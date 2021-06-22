@@ -32,7 +32,9 @@
     "decls": [
         [
             "DatePickerAndroid",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

@@ -15,7 +15,9 @@
     "decls": [
         [
             "PointProp",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ]
     ]
 }

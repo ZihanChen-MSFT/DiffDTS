@@ -63,15 +63,21 @@
     "decls": [
         [
             "PressabilityConfig",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "EventHandlers",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "Pressability",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

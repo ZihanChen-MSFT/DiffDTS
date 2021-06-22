@@ -20,11 +20,15 @@
     "decls": [
         [
             "StatusBarIOS",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

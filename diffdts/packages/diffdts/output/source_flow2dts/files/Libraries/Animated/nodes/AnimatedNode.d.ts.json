@@ -13,7 +13,9 @@
     "decls": [
         [
             "AnimatedNode",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

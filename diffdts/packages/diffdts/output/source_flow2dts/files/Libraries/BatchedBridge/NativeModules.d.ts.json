@@ -41,19 +41,29 @@
     "decls": [
         [
             "ModuleConfig",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "MethodType",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "NativeModules",
-            "VariableDeclarator"
+            [
+                "TSInterfaceDeclaration",
+                "TSInterfaceDeclaration",
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

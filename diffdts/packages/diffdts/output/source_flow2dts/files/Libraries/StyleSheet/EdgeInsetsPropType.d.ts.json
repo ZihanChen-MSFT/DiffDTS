@@ -30,7 +30,9 @@
     "decls": [
         [
             "EdgeInsetsProp",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ]
     ]
 }

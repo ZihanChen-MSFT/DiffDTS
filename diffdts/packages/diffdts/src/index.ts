@@ -33,7 +33,7 @@ function processEntry(inputFilename: string, outputDirname: string): void {
       importedNames: entry.index.importedNames,
       importedNamespaces: entry.index.importedNamespaces,
       importedDefaults: entry.index.importedDefaults,
-      decls: Object.keys(entry.index.decls).map((id) => [id, entry.index.decls[id].type])
+      decls: Object.keys(entry.index.decls).map((id) => [id, entry.index.decls[id].map((decl) => decl.type)])
     };
 
     const outputEntryPath = path.join(outputDirname, "files", filename + ".json");

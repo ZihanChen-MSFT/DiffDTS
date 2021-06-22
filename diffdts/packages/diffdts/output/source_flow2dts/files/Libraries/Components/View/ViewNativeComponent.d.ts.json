@@ -60,27 +60,39 @@
     "decls": [
         [
             "ViewNativeComponentType",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "viewConfig",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "__INTERNAL_VIEW_CONFIG",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "NativeCommands",
-            "TSInterfaceDeclaration"
+            [
+                "TSInterfaceDeclaration"
+            ]
         ],
         [
             "Commands",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

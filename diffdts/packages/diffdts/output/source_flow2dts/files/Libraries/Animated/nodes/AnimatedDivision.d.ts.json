@@ -40,7 +40,9 @@
     "decls": [
         [
             "AnimatedDivision",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

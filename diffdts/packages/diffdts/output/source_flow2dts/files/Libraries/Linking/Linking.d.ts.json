@@ -20,11 +20,15 @@
     "decls": [
         [
             "Linking",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

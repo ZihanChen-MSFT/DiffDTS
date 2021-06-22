@@ -254,6 +254,9 @@
         "ColorPropType": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "ColorValue": [
@@ -332,6 +335,9 @@
         "DevSettings": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "DevSettingsStatic": [
@@ -343,9 +349,23 @@
         "DeviceEventEmitter": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "Dimensions": [
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -376,6 +396,15 @@
         ],
         "Easing": [
             {
+                "type": "type"
+            },
+            {
+                "type": "type"
+            },
+            {
+                "type": "value"
+            },
+            {
                 "type": "value"
             }
         ],
@@ -391,6 +420,9 @@
             }
         ],
         "EdgeInsetsPropType": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -472,6 +504,17 @@
         ],
         "Image": [
             {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            },
+            {
                 "type": "value"
             }
         ],
@@ -527,6 +570,9 @@
             }
         ],
         "ImagePropTypes": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -620,6 +666,9 @@
         "InteractionManager": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "InteractionManagerStatic": [
@@ -629,6 +678,9 @@
             }
         ],
         "Keyboard": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -850,6 +902,9 @@
         "NativeAppEventEmitter": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "NativeEventSubscription": [
@@ -875,6 +930,9 @@
             }
         ],
         "NativeModules": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -1058,6 +1116,9 @@
         "PixelRatio": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "PixelRatioStatic": [
@@ -1069,6 +1130,9 @@
         "Platform": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "PlatformOSType": [
@@ -1078,10 +1142,24 @@
         ],
         "PointPropType": [
             {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "value"
+            },
+            {
                 "type": "value"
             }
         ],
         "Pressable": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -1265,6 +1343,17 @@
         ],
         "ScrollView": [
             {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            },
+            {
                 "type": "value"
             }
         ],
@@ -1356,6 +1445,9 @@
             }
         ],
         "ShadowPropTypesIOS": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -1635,6 +1727,17 @@
         ],
         "Text": [
             {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            },
+            {
                 "type": "value"
             }
         ],
@@ -1723,6 +1826,9 @@
             }
         ],
         "TextPropTypes": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -1826,6 +1932,17 @@
             }
         ],
         "Touchable": [
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -1932,6 +2049,17 @@
         ],
         "View": [
             {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            },
+            {
                 "type": "value"
             }
         ],
@@ -1960,6 +2088,9 @@
             }
         ],
         "ViewPropTypes": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -2037,9 +2168,15 @@
         "YellowBox": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "absoluteFill": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }
@@ -2047,14 +2184,23 @@
         "absoluteFillObject": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "hairlineWidth": [
             {
                 "type": "value"
+            },
+            {
+                "type": "value"
             }
         ],
         "timing": [
+            {
+                "type": "value"
+            },
             {
                 "type": "value"
             }

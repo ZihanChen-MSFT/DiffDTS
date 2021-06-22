@@ -40,7 +40,9 @@
     "decls": [
         [
             "AnimatedModulo",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

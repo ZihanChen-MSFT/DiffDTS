@@ -25,19 +25,27 @@
     "decls": [
         [
             "AppState",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ],
         [
             "MissingNativeAppStateShim",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ],
         [
             "AppStateInstance",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ],
         [
             "$f2tExportDefault",
-            "VariableDeclarator"
+            [
+                "VariableDeclarator"
+            ]
         ]
     ]
 }

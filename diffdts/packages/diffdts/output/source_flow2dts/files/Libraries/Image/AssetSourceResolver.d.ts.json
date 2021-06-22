@@ -33,11 +33,15 @@
     "decls": [
         [
             "ResolvedAssetSource",
-            "TSTypeAliasDeclaration"
+            [
+                "TSTypeAliasDeclaration"
+            ]
         ],
         [
             "AssetSourceResolver",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

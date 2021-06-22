@@ -14,7 +14,7 @@ export interface SymbolIndex {
     importedNames: { [key: string]: [string, string] };
     importedNamespaces: { [key: string]: string };
     importedDefaults: { [key: string]: string };
-    decls: { [key: string]: t.Declaration | t.VariableDeclarator };
+    decls: { [key: string]: (t.Declaration | t.VariableDeclarator)[] };
     exportDefault?: t.ExportDefaultDeclaration;
 }
 

@@ -34,7 +34,9 @@
     "decls": [
         [
             "ImageBackground",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

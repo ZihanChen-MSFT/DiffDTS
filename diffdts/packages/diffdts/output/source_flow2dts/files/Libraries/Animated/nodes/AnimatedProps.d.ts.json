@@ -20,7 +20,9 @@
     "decls": [
         [
             "AnimatedProps",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

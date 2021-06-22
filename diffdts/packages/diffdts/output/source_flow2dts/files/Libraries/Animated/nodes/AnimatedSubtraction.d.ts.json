@@ -40,7 +40,9 @@
     "decls": [
         [
             "AnimatedSubtraction",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

@@ -13,7 +13,9 @@
     "decls": [
         [
             "PixelRatio",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

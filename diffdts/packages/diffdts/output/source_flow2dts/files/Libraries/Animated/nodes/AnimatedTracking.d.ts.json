@@ -39,7 +39,9 @@
     "decls": [
         [
             "AnimatedTracking",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

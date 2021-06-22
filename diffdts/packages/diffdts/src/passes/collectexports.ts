@@ -10,7 +10,7 @@ export interface ResolvedExports {
     exports: { [key: string]: Export[] };
 }
 
-function findSymbolAsExport(state: State, key: string, name: string): Export | undefined {
+function findSymbolAsExport(state: State, key: string, name: string): Export[] {
     const entry = state.entries[key];
     {
         const imported = entry.index.importedNames[name];
@@ -22,7 +22,7 @@ function findSymbolAsExport(state: State, key: string, name: string): Export | u
                     return findSymbolAsExport(state, importedKey, imported[1]);
                 }
             }
-            return { type: "unrecognized" };
+            return [{ type: "unrecognized" }];
         }
     }
     {
@@ -36,36 +36,39 @@ function findSymbolAsExport(state: State, key: string, name: string): Export | u
                     const exportDefault = importedEntry.raw.exportDefault;
                     if (exportDefault !== "unrecognized" && exportDefault !== "none") {
                         switch (exportDefault[0]) {
-                            case "type": return { type: "type", declType: exportDefault[1] };
-                            case "object": return { type: "value" };
+                            case "type": return [{ type: "type", declType: exportDefault[1] }];
+                            case "object": return [{ type: "value" }];
                             case "symbol": return findSymbolAsExport(state, importedKey, exportDefault[1]);
                         }
                     }
                 }
             }
-            return { type: "unrecognized" };
+            return [{ type: "unrecognized" }];
         }
     }
     {
         const imported = entry.index.importedNamespaces[name];
         if (imported !== undefined) {
-            return { type: "value" };
+            return [{ type: "value" }];
         }
     }
     {
-        const decl = entry.index.decls[name];
-        if (decl !== undefined) {
-            switch (decl.type) {
-                case "VariableDeclarator": return { type: "value" };
-                case "TSTypeAliasDeclaration": return { type: "type" };
-                case "TSInterfaceDeclaration":
-                case "ClassDeclaration": {
-                    return { type: "type", declType: decl.type };
+        const decls = entry.index.decls[name];
+        if (decls !== undefined) {
+            return decls.map((decl) => {
+                switch (decl.type) {
+                    case "VariableDeclarator": return { type: "value" };
+                    case "TSTypeAliasDeclaration": return { type: "type" };
+                    case "TSInterfaceDeclaration":
+                    case "ClassDeclaration": {
+                        return { type: "type", declType: decl.type };
+                    }
+                    default: return { type: "unrecognized" };
                 }
-                default: return { type: "unrecognized" };
-            }
+            });
         }
     }
+    return [];
 }
 
 function exportMembersOfSymbol(state: State, key: string, name: string, output: ResolvedExports): void {
@@ -93,17 +96,13 @@ export function collectExports(state: State, key: string): ResolvedExports {
                 break;
             }
             case "symbol": {
-                const resolvedExport = findSymbolAsExport(state, key, exportName);
-                if (resolvedExport !== undefined) {
-                    output.exports[exportName].push(resolvedExport);
-                }
+                const resolvedExports = findSymbolAsExport(state, key, exportName);
+                output.exports[exportName].push(...resolvedExports);
                 break;
             }
             case "rename": {
-                const resolvedExport = findSymbolAsExport(state, key, rawExport[1]);
-                if (resolvedExport !== undefined) {
-                    output.exports[exportName].push(resolvedExport);
-                }
+                const resolvedExports = findSymbolAsExport(state, key, rawExport[1]);
+                output.exports[exportName].push(...resolvedExports);
                 break;
             }
         }
@@ -113,8 +112,7 @@ export function collectExports(state: State, key: string): ResolvedExports {
         switch (entry.raw.exportDefault[0]) {
             case "symbol": {
                 const name = entry.raw.exportDefault[0];
-                const resolvedExport = findSymbolAsExport(state, key, name);
-                if (resolvedExport !== undefined && resolvedExport.type === "value") {
+                if (findSymbolAsExport(state, key, name).length !== 0) {
                     exportMembersOfSymbol(state, key, name, output);
                 }
                 break;

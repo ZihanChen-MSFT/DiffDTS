@@ -23,11 +23,15 @@
     "decls": [
         [
             "DEPRECATED_RCTExport",
-            "TSInterfaceDeclaration"
+            [
+                "TSInterfaceDeclaration"
+            ]
         ],
         [
             "TurboModule",
-            "TSInterfaceDeclaration"
+            [
+                "TSInterfaceDeclaration"
+            ]
         ]
     ]
 }

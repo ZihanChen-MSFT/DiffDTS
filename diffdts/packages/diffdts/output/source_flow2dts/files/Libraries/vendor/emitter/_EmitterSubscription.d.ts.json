@@ -30,7 +30,9 @@
     "decls": [
         [
             "EmitterSubscription",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

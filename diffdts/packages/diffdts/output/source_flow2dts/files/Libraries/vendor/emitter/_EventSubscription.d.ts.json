@@ -20,7 +20,9 @@
     "decls": [
         [
             "EventSubscription",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

@@ -40,7 +40,9 @@
     "decls": [
         [
             "AnimatedMultiplication",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

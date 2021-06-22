@@ -49,7 +49,9 @@
     "decls": [
         [
             "AnimatedValue",
-            "ClassDeclaration"
+            [
+                "ClassDeclaration"
+            ]
         ]
     ]
 }

@@ -13,6 +13,13 @@ interface Context {
   index: SymbolIndex;
 }
 
+function recordDecl(context: Context, id: string, decl: t.Declaration | t.VariableDeclarator): void {
+  if (context.index.decls[id] === undefined) {
+    context.index.decls[id] = [];
+  }
+  context.index.decls[id].push(decl);
+}
+
 function astToRawVisitor(): Visitor<Context> {
   return {
     ImportDeclaration: {
@@ -49,17 +56,17 @@ function astToRawVisitor(): Visitor<Context> {
     },
     TSTypeAliasDeclaration: {
       exit(path, context) {
-        context.index.decls[path.node.id.name] = path.node;
+        recordDecl(context, path.node.id.name, path.node);
       }
     },
     TSInterfaceDeclaration: {
       exit(path, context) {
-        context.index.decls[path.node.id.name] = path.node;
+        recordDecl(context, path.node.id.name, path.node);
       }
     },
     ClassDeclaration: {
       exit(path, context) {
-        context.index.decls[path.node.id.name] = path.node;
+        recordDecl(context, path.node.id.name, path.node);
       }
     },
     VariableDeclaration: {
@@ -67,7 +74,7 @@ function astToRawVisitor(): Visitor<Context> {
         for (const decl of path.node.declarations) {
           if (decl.id.type === "Identifier") {
             const id = decl.id.name;
-            context.index.decls[id] = decl;
+            recordDecl(context, id, decl);
           }
         }
       }
@@ -81,7 +88,7 @@ function astToRawVisitor(): Visitor<Context> {
             case "TSInterfaceDeclaration":
             case "ClassDeclaration": {
               const id = node.declaration.id.name;
-              context.index.decls[id] = node.declaration;
+              recordDecl(context, id, node.declaration);
               context.raw.exports[id] = ["type", node.declaration.type];
               break;
             }
@@ -89,7 +96,7 @@ function astToRawVisitor(): Visitor<Context> {
               for (const decl of node.declaration.declarations) {
                 if (decl.id.type === "Identifier") {
                   const id = decl.id.name;
-                  context.index.decls[id] = decl;
+                  recordDecl(context, id, decl);
                   context.raw.exports[id] = ["symbol"];
                 }
               }
