@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { collectFiles } from "./passes/collectfiles"
+import { collectExports } from "./passes/collectexports"
 import { parseTS, State } from "./state";
 
 function processEntry(inputFilename: string, outputDirname: string): void {
@@ -12,10 +13,12 @@ function processEntry(inputFilename: string, outputDirname: string): void {
   };
   const [key, entryAst] = parseTS(state, inputFilename);
   collectFiles(state, key, entryAst);
+  const resolvedExports = collectExports(state, key);
 
   console.log(`Writing: index.json`);
   const output = {
-    pwd: state.pwd.substr(dirbase.length)
+    pwd: state.pwd.substr(dirbase.length),
+    ...resolvedExports
   };
   fs.writeFileSync(path.join(outputDirname, "index.json"), JSON.stringify(output, undefined, 4));
 

@@ -1,3 +1,35 @@
 {
-    "pwd": "react-native-tscodegen-types/react-native/"
+    "pwd": "react-native-tscodegen-types/react-native/",
+    "exports": {
+        "HostComponent": {
+            "type": "type"
+        },
+        "Animated": {
+            "type": "value"
+        },
+        "findNodeHandle": {
+            "type": "value"
+        },
+        "TurboModuleRegistry": {
+            "type": "value"
+        },
+        "unstable_batchedUpdates": {
+            "type": "value"
+        },
+        "DynamicColorIOS": {
+            "type": "value"
+        },
+        "PlatformColor": {
+            "type": "value"
+        },
+        "requireNativeComponent": {
+            "type": "value"
+        },
+        "unstable_RootTagContext": {
+            "type": "value"
+        },
+        "unstable_enableLogBox": {
+            "type": "value"
+        }
+    }
 }

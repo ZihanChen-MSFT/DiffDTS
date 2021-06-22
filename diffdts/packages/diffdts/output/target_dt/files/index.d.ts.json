@@ -52,7 +52,7 @@
                 "TSInterfaceDeclaration"
             ],
             "PointPropType": [
-                "variable"
+                "symbol"
             ],
             "Insets": [
                 "type",
@@ -71,10 +71,10 @@
                 "TSInterfaceDeclaration"
             ],
             "Pressable": [
-                "variable"
+                "symbol"
             ],
             "Touchable": [
-                "variable"
+                "symbol"
             ],
             "ComponentProvider": [
                 "type",
@@ -169,7 +169,7 @@
                 "TSInterfaceDeclaration"
             ],
             "Text": [
-                "variable"
+                "symbol"
             ],
             "DocumentSelectionState": [
                 "type",
@@ -344,7 +344,7 @@
                 "TSInterfaceDeclaration"
             ],
             "View": [
-                "variable"
+                "symbol"
             ],
             "ViewPagerAndroidOnPageScrollEventData": [
                 "type",
@@ -595,7 +595,7 @@
                 "TSInterfaceDeclaration"
             ],
             "Image": [
-                "variable"
+                "symbol"
             ],
             "ImageBackgroundProps": [
                 "type",
@@ -758,13 +758,13 @@
                 "TSInterfaceDeclaration"
             ],
             "hairlineWidth": [
-                "variable"
+                "symbol"
             ],
             "absoluteFillObject": [
-                "variable"
+                "symbol"
             ],
             "absoluteFill": [
-                "variable"
+                "symbol"
             ],
             "RelayProfiler": [
                 "type",
@@ -819,7 +819,7 @@
                 "TSInterfaceDeclaration"
             ],
             "Dimensions": [
-                "variable"
+                "symbol"
             ],
             "SimpleTask": [
                 "type",
@@ -854,7 +854,7 @@
                 "TSInterfaceDeclaration"
             ],
             "ScrollView": [
-                "variable"
+                "symbol"
             ],
             "NativeScrollRectangle": [
                 "type",
@@ -1197,7 +1197,7 @@
                 "TSInterfaceDeclaration"
             ],
             "timing": [
-                "variable"
+                "symbol"
             ],
             "ComponentProps": [
                 "type",
@@ -1268,7 +1268,7 @@
                 "TSInterfaceDeclaration"
             ],
             "DevSettings": [
-                "variable"
+                "symbol"
             ],
             "ActionSheetIOS": [
                 "type",
@@ -1307,7 +1307,7 @@
                 "TSTypeAliasDeclaration"
             ],
             "Easing": [
-                "variable"
+                "symbol"
             ],
             "I18nManager": [
                 "type",
@@ -1326,10 +1326,10 @@
                 "TSTypeAliasDeclaration"
             ],
             "InteractionManager": [
-                "variable"
+                "symbol"
             ],
             "Keyboard": [
-                "variable"
+                "symbol"
             ],
             "LayoutAnimation": [
                 "type",
@@ -1388,25 +1388,25 @@
                 "TSTypeAliasDeclaration"
             ],
             "ShadowPropTypesIOS": [
-                "variable"
+                "symbol"
             ],
             "DeviceEventEmitter": [
-                "variable"
+                "symbol"
             ],
             "NativeAppEventEmitter": [
-                "variable"
+                "symbol"
             ],
             "NativeModules": [
-                "variable"
+                "symbol"
             ],
             "Platform": [
-                "variable"
+                "symbol"
             ],
             "PixelRatio": [
-                "variable"
+                "symbol"
             ],
             "YellowBox": [
-                "variable"
+                "symbol"
             ],
             "ErrorUtils": [
                 "type",
@@ -1421,19 +1421,19 @@
                 "TSTypeAliasDeclaration"
             ],
             "ColorPropType": [
-                "variable"
+                "symbol"
             ],
             "EdgeInsetsPropType": [
-                "variable"
+                "symbol"
             ],
             "ViewPropTypes": [
-                "variable"
+                "symbol"
             ],
             "TextPropTypes": [
-                "variable"
+                "symbol"
             ],
             "ImagePropTypes": [
-                "variable"
+                "symbol"
             ]
         },
         "exportDefault": "none"

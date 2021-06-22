@@ -90,7 +90,7 @@ function astToRawVisitor(): Visitor<Context> {
                 if (decl.id.type === "Identifier") {
                   const id = decl.id.name;
                   context.index.decls[id] = decl;
-                  context.raw.exports[id] = ["variable"];
+                  context.raw.exports[id] = ["symbol"];
                 }
               }
               break;
