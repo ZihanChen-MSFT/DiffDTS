@@ -1,10 +1,10 @@
 import * as fs from "fs";
 import * as path from "path";
 import { collectFiles } from "./passes/collectfiles"
-import { collectExports } from "./passes/collectexports"
+import { collectExports, ResolvedExports } from "./passes/collectexports"
 import { parseTS, State } from "./state";
 
-function processEntry(inputFilename: string, outputDirname: string): void {
+function processEntry(inputFilename: string, outputDirname: string): ResolvedExports {
   console.log(`Processing: ${inputFilename}`);
   const state: State = {
     pwd: path.dirname(inputFilename).replace(/\\/g, "/") + "/",
@@ -43,6 +43,8 @@ function processEntry(inputFilename: string, outputDirname: string): void {
     }
     fs.writeFileSync(outputEntryPath, JSON.stringify(entryOutput, undefined, 4));
   }
+
+  return resolvedExports;
 }
 
 const dirbase = path.join(__dirname, "../../../../download/node_modules/");
@@ -56,5 +58,35 @@ const entrydst = path.join(dirdst, "index.d.ts");
 if (!fs.existsSync(dirout)) {
   fs.mkdirSync(dirout, { recursive: true });
 }
-processEntry(entrysrc, path.join(dirout, "source_flow2dts"));
-processEntry(entrydst, path.join(dirout, "target_dt"));
+const resrc = processEntry(entrysrc, path.join(dirout, "source_flow2dts"));
+const redst = processEntry(entrydst, path.join(dirout, "target_dt"));
+
+let same = 0;
+let extra = 0;
+let different = 0;
+let missing = 0;
+const keys = Array.from(new Set(Object.keys(resrc.exports).concat(Object.keys(redst.exports)))).sort();
+for (const key of keys) {
+  const esrc = resrc.exports[key];
+  const edst = redst.exports[key];
+  if (edst !== undefined) {
+    if (esrc === undefined) {
+      missing++;
+    } else {
+      const jsonsrc = JSON.stringify(esrc.map(e => JSON.stringify(e)).sort());
+      const jsondst = JSON.stringify(edst.map(e => JSON.stringify(e)).sort());
+      if (jsonsrc === jsondst) {
+        same++;
+      } else {
+        different++;
+      }
+    }
+  } else {
+    extra++;
+  }
+}
+
+console.log(`same: ${same}`);
+console.log(`extra: ${extra}`);
+console.log(`missing: ${missing}`);
+console.log(`different: ${different}`);
