@@ -27,7 +27,7 @@ function recordExport(context: Context, id: string, value: SymbolRawEntry["expor
   } else {
     for (const exists of context.raw.exports[id]) {
       if (exists[0] === value[0] && exists[1] === value[1]) {
-        return undefined;
+        return;
       }
     }
     context.raw.exports[id].push(value);

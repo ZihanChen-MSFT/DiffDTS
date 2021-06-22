@@ -79,7 +79,18 @@ function recordExport(output: ResolvedExports, id: string, ...values: Export[]):
     if (output.exports[id] === undefined) {
         output.exports[id] = [];
     }
-    output.exports[id].push(...values);
+    for (const value of values) {
+        let skip = false;
+        for (const exists of output.exports[id]) {
+            if (exists.type === value.type && exists.declType === value.declType) {
+                skip = true;
+                break;
+            }
+        }
+        if (!skip) {
+            output.exports[id].push(value);
+        }
+    }
 }
 
 export function collectExports(state: State, key: string): ResolvedExports {

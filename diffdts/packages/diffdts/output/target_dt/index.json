@@ -22,9 +22,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "AccessibilityInfoStatic": [
@@ -74,9 +71,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "ActionSheetIOSOptions": [
@@ -112,9 +106,6 @@
         "Alert": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -159,9 +150,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "AppStateEvent": [
@@ -186,9 +174,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "AsyncStorageStatic": [
@@ -200,9 +185,6 @@
         "BackHandler": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -234,9 +216,6 @@
         "CameraRoll": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -288,9 +267,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "ClipboardStatic": [
@@ -334,9 +310,6 @@
         "DatePickerAndroid": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -405,10 +378,6 @@
                 "declType": "TSInterfaceDeclaration"
             },
             {
-                "type": "type",
-                "declType": "TSInterfaceDeclaration"
-            },
-            {
                 "type": "value"
             }
         ],
@@ -437,9 +406,6 @@
             }
         ],
         "Easing": [
-            {
-                "type": "type"
-            },
             {
                 "type": "type"
             },
@@ -533,9 +499,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "I18nManagerStatic": [
@@ -545,10 +508,6 @@
             }
         ],
         "Image": [
-            {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -575,9 +534,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "ImageErrorEventData": [
@@ -595,9 +551,6 @@
         "ImagePickerIOS": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -673,9 +626,6 @@
         "ImageStore": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -793,9 +743,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "LayoutAnimationAnim": [
@@ -858,9 +805,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "LinkingStatic": [
@@ -901,9 +845,6 @@
         "LogBox": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1075,9 +1016,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "PanResponderCallbacks": [
@@ -1117,9 +1055,6 @@
         "PermissionsAndroid": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1212,10 +1147,6 @@
                 "declType": "TSInterfaceDeclaration"
             },
             {
-                "type": "type",
-                "declType": "TSInterfaceDeclaration"
-            },
-            {
                 "type": "value"
             }
         ],
@@ -1290,9 +1221,6 @@
         "PushNotificationIOS": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1413,10 +1341,6 @@
                 "declType": "ClassDeclaration"
             },
             {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
-            {
                 "type": "value"
             }
         ],
@@ -1502,9 +1426,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "SettingsStatic": [
@@ -1533,9 +1454,6 @@
         "Share": [
             {
                 "type": "value"
-            },
-            {
-                "type": "type"
             },
             {
                 "type": "type"
@@ -1641,9 +1559,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "StatusBarIOSStatic": [
@@ -1746,9 +1661,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "SystraceStatic": [
@@ -1804,9 +1716,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "TestModuleStatic": [
@@ -1816,10 +1725,6 @@
             }
         ],
         "Text": [
-            {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
@@ -1959,9 +1864,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "TimePickerAndroidDismissedAction": [
@@ -1999,9 +1901,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "ToastAndroidStatic": [
@@ -2028,10 +1927,6 @@
             }
         ],
         "Touchable": [
-            {
-                "type": "type",
-                "declType": "TSInterfaceDeclaration"
-            },
             {
                 "type": "type",
                 "declType": "TSInterfaceDeclaration"
@@ -2112,9 +2007,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "UIManagerStatic": [
@@ -2141,9 +2033,6 @@
             },
             {
                 "type": "type"
-            },
-            {
-                "type": "type"
             }
         ],
         "VibrationStatic": [
@@ -2153,10 +2042,6 @@
             }
         ],
         "View": [
-            {
-                "type": "type",
-                "declType": "ClassDeclaration"
-            },
             {
                 "type": "type",
                 "declType": "ClassDeclaration"
