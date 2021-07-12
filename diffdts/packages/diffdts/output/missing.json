@@ -1,0 +1,1712 @@
+{
+    "AccessibilityActionEvent": [
+        {
+            "type": "type"
+        }
+    ],
+    "AccessibilityActionInfo": [
+        {
+            "type": "type"
+        }
+    ],
+    "AccessibilityActionName": [
+        {
+            "type": "type"
+        }
+    ],
+    "AccessibilityInfoStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AccessibilityProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AccessibilityPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AccessibilityPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AccessibilityRole": [
+        {
+            "type": "type"
+        }
+    ],
+    "AccessibilityState": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AccessibilityValue": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ActionSheetIOSOptions": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ActionSheetIOSStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ActivityIndicatorIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ActivityIndicatorProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AlertButton": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AlertStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AlertType": [
+        {
+            "type": "type"
+        }
+    ],
+    "AnimatedComponent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AnimatedProps": [
+        {
+            "type": "type"
+        }
+    ],
+    "AppConfig": [
+        {
+            "type": "type"
+        }
+    ],
+    "AppStateEvent": [
+        {
+            "type": "type"
+        }
+    ],
+    "AppStateStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "AppStateStatus": [
+        {
+            "type": "type"
+        }
+    ],
+    "AsyncStorageStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "BackHandlerStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "BackPressEventName": [
+        {
+            "type": "type"
+        }
+    ],
+    "ButtonProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "CameraRoll": [
+        {
+            "type": "value"
+        },
+        {
+            "type": "type"
+        }
+    ],
+    "CameraRollAssetInfo": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "CameraRollAssetType": [
+        {
+            "type": "type"
+        }
+    ],
+    "CameraRollEdgeInfo": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "CameraRollFetchParams": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "CameraRollGroupType": [
+        {
+            "type": "type"
+        }
+    ],
+    "CameraRollNodeInfo": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "CameraRollStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ClipboardStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ColorPropType": [
+        {
+            "type": "value"
+        }
+    ],
+    "ColorValue": [
+        {
+            "type": "type"
+        }
+    ],
+    "ComponentProps": [
+        {
+            "type": "type"
+        }
+    ],
+    "ComponentProvider": [
+        {
+            "type": "type"
+        }
+    ],
+    "CompositeAnimation": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DataSourceAssetCallback": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DatePickerAndroidDateSetAction": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DatePickerAndroidDismissedAction": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DatePickerAndroidOpenOptions": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DatePickerAndroidOpenReturn": [
+        {
+            "type": "type"
+        }
+    ],
+    "DatePickerAndroidStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DatePickerIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DevSettingsStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DocumentSelectionState": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DrawerLayoutAndroid": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "DrawerLayoutAndroidProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "DrawerSlideEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "EasingFunction": [
+        {
+            "type": "type"
+        }
+    ],
+    "EasingStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ErrorUtils": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "FlatListProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "FlexStyle": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "FontVariant": [
+        {
+            "type": "type"
+        }
+    ],
+    "GestureResponderEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "GestureResponderHandlers": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "GetPhotosParamType": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "GetPhotosReturnType": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "Handle": [
+        {
+            "type": "type"
+        }
+    ],
+    "I18nManagerStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageBackgroundProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageEditor": [
+        {
+            "type": "value"
+        },
+        {
+            "type": "type"
+        }
+    ],
+    "ImageErrorEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageLoadEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImagePickerIOSStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImagePickerResult": [
+        {
+            "type": "type"
+        }
+    ],
+    "ImageProgressEventDataIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImagePropTypes": [
+        {
+            "type": "value"
+        }
+    ],
+    "ImageProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImagePropsBase": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImagePropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageRequireSource": [
+        {
+            "type": "type"
+        }
+    ],
+    "ImageResizeMode": [
+        {
+            "type": "type"
+        }
+    ],
+    "ImageResizeModeStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageResolvedAssetSource": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageSourcePropType": [
+        {
+            "type": "type"
+        }
+    ],
+    "ImageStore": [
+        {
+            "type": "value"
+        },
+        {
+            "type": "type"
+        }
+    ],
+    "ImageStoreStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageStyle": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ImageURISource": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "InputAccessoryViewProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "Insets": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "InteractionManagerStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "KeyboardAvoidingViewProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "KeyboardEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "KeyboardEventEasing": [
+        {
+            "type": "type"
+        }
+    ],
+    "KeyboardEventName": [
+        {
+            "type": "type"
+        }
+    ],
+    "KeyboardStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "KeyboardType": [
+        {
+            "type": "type"
+        }
+    ],
+    "KeyboardTypeAndroid": [
+        {
+            "type": "type"
+        }
+    ],
+    "KeyboardTypeIOS": [
+        {
+            "type": "type"
+        }
+    ],
+    "KeyboardTypeOptions": [
+        {
+            "type": "type"
+        }
+    ],
+    "LayoutAnimationAnim": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "LayoutAnimationConfig": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "LayoutAnimationProperties": [
+        {
+            "type": "type"
+        }
+    ],
+    "LayoutAnimationProperty": [
+        {
+            "type": "type"
+        }
+    ],
+    "LayoutAnimationStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "LayoutAnimationType": [
+        {
+            "type": "type"
+        }
+    ],
+    "LayoutAnimationTypes": [
+        {
+            "type": "type"
+        }
+    ],
+    "LayoutChangeEvent": [
+        {
+            "type": "type"
+        }
+    ],
+    "LayoutRectangle": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "LegacyRef": [
+        {
+            "type": "type"
+        }
+    ],
+    "LinkingStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ListRenderItem": [
+        {
+            "type": "type"
+        }
+    ],
+    "ListRenderItemInfo": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ListView": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "ListViewDataSource": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ListViewProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "LogBoxStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "MeasureInWindowOnSuccessCallback": [
+        {
+            "type": "type"
+        }
+    ],
+    "MeasureLayoutOnSuccessCallback": [
+        {
+            "type": "type"
+        }
+    ],
+    "MeasureOnSuccessCallback": [
+        {
+            "type": "type"
+        }
+    ],
+    "ModalBaseProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ModalProps": [
+        {
+            "type": "type"
+        }
+    ],
+    "ModalPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ModalPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeEventSubscription": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeMethods": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeMethodsMixin": [
+        {
+            "type": "type"
+        }
+    ],
+    "NativeMethodsMixinType": [
+        {
+            "type": "type"
+        }
+    ],
+    "NativeScrollEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeScrollPoint": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeScrollRectangle": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeScrollSize": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeScrollVelocity": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeSegmentedControlIOSChangeEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeSyntheticEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NativeTouchEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "NavigatorIOS": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "NavigatorIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "OpenCameraDialogOptions": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "OpenSelectDialogOptions": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PanResponderCallbacks": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PanResponderGestureState": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PanResponderInstance": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PanResponderStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "Permission": [
+        {
+            "type": "type"
+        }
+    ],
+    "PermissionStatus": [
+        {
+            "type": "type"
+        }
+    ],
+    "PermissionsAndroidStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PickerIOSItem": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "PickerIOSItemProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PickerIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PickerItemProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PickerProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PickerPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PickerPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PixelRatioStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PlatformOSType": [
+        {
+            "type": "type"
+        }
+    ],
+    "PressableAndroidRippleConfig": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PressableProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PressableStateCallbackType": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ProcessedColorValue": [
+        {
+            "type": "type"
+        }
+    ],
+    "ProgressBarAndroid": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "ProgressBarAndroidProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ProgressViewIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PromiseTask": [
+        {
+            "type": "type"
+        }
+    ],
+    "PushNotification": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PushNotificationEventName": [
+        {
+            "type": "type"
+        }
+    ],
+    "PushNotificationIOSStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "PushNotificationPermissions": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "Rationale": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "RecyclerViewBackedScrollView": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "RecyclerViewBackedScrollViewProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "RefreshControlProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "RefreshControlPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "RefreshControlPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "RelayProfiler": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ReturnKeyType": [
+        {
+            "type": "type"
+        }
+    ],
+    "ReturnKeyTypeAndroid": [
+        {
+            "type": "type"
+        }
+    ],
+    "ReturnKeyTypeIOS": [
+        {
+            "type": "type"
+        }
+    ],
+    "ReturnKeyTypeOptions": [
+        {
+            "type": "type"
+        }
+    ],
+    "Route": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "Runnable": [
+        {
+            "type": "type"
+        }
+    ],
+    "ScaledSize": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ScrollResponderEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ScrollViewProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ScrollViewPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ScrollViewPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SectionBase": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SectionListData": [
+        {
+            "type": "type"
+        }
+    ],
+    "SectionListProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SectionListRenderItem": [
+        {
+            "type": "type"
+        }
+    ],
+    "SectionListRenderItemInfo": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SectionListScrollParams": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SectionListStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SegmentedControlIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SettingsStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ShadowPropTypesIOS": [
+        {
+            "type": "value"
+        }
+    ],
+    "ShadowPropTypesIOSStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ShadowStyleIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ShareAction": [
+        {
+            "type": "type"
+        }
+    ],
+    "ShareActionSheetIOSOptions": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ShareContent": [
+        {
+            "type": "type"
+        }
+    ],
+    "ShareDismissedAction": [
+        {
+            "type": "type"
+        }
+    ],
+    "ShareOptions": [
+        {
+            "type": "type"
+        }
+    ],
+    "ShareSharedAction": [
+        {
+            "type": "type"
+        }
+    ],
+    "ShareStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SimpleTask": [
+        {
+            "type": "type"
+        }
+    ],
+    "SliderIOS": [
+        {
+            "type": "type"
+        }
+    ],
+    "SliderProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SliderPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SliderPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SnapshotViewIOS": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "SnapshotViewIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "StatusBarAnimation": [
+        {
+            "type": "type"
+        }
+    ],
+    "StatusBarIOSStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "StatusBarProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "StatusBarPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "StatusBarPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "StatusBarStyle": [
+        {
+            "type": "type"
+        }
+    ],
+    "StyleProp": [
+        {
+            "type": "type"
+        }
+    ],
+    "StyleSheetProperties": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SwipeableListView": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "SwipeableListViewDataSource": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SwipeableListViewProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SwitchChangeEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SwitchIOS": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "SwitchIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SwitchProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SwitchPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "SystraceStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TVParallaxProperties": [
+        {
+            "type": "type"
+        }
+    ],
+    "TVViewPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TabBarIOS": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "TabBarIOSItem": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "TabBarIOSItemProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TabBarIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TargetedEvent": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TestModule": [
+        {
+            "type": "value"
+        },
+        {
+            "type": "type"
+        }
+    ],
+    "TestModuleStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputAndroidProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputChangeEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputContentSizeChangeEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputEndEditingEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputFocusEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputIOSProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputKeyPressEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputScrollEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputSelectionChangeEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputSubmitEditingEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextInputTextInputEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextLayoutEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextPropTypes": [
+        {
+            "type": "value"
+        }
+    ],
+    "TextProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextStyle": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextStyleAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TextStyleIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TimePickerAndroid": [
+        {
+            "type": "value"
+        },
+        {
+            "type": "type"
+        }
+    ],
+    "TimePickerAndroidDismissedAction": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TimePickerAndroidOpenOptions": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TimePickerAndroidOpenReturn": [
+        {
+            "type": "type"
+        }
+    ],
+    "TimePickerAndroidStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TimePickerAndroidTimeSetAction": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ToastAndroid": [
+        {
+            "type": "value"
+        },
+        {
+            "type": "type"
+        }
+    ],
+    "ToastAndroidStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ToolbarAndroid": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "ToolbarAndroidAction": [
+        {
+            "type": "type"
+        }
+    ],
+    "ToolbarAndroidProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TouchableHighlightProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TouchableNativeFeedbackProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TouchableOpacityProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TouchableWithoutFeedbackProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TouchableWithoutFeedbackPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TouchableWithoutFeedbackPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "TransformsStyle": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "UIManagerStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "Value": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "ValueXY": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "VibrationStatic": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewPagerAndroid": [
+        {
+            "type": "type",
+            "declType": "ClassDeclaration"
+        }
+    ],
+    "ViewPagerAndroidOnPageScrollEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewPagerAndroidOnPageSelectedEventData": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewPagerAndroidProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewPropsAndroid": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewPropsIOS": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewStyle": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewToken": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewabilityConfig": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewabilityConfigCallbackPair": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "ViewabilityConfigCallbackPairs": [
+        {
+            "type": "type"
+        }
+    ],
+    "VirtualizedListProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "VirtualizedListWithoutRenderItemProps": [
+        {
+            "type": "type",
+            "declType": "TSInterfaceDeclaration"
+        }
+    ],
+    "WithAnimatedValue": [
+        {
+            "type": "type"
+        }
+    ],
+    "absoluteFill": [
+        {
+            "type": "value"
+        }
+    ],
+    "absoluteFillObject": [
+        {
+            "type": "value"
+        }
+    ],
+    "hairlineWidth": [
+        {
+            "type": "value"
+        }
+    ],
+    "timing": [
+        {
+            "type": "value"
+        }
+    ]
+}

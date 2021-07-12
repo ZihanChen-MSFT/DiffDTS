@@ -1,0 +1,595 @@
+{
+    "AccessibilityInfo": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "ActionSheetIOS": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "ActivityIndicator": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "Alert": {
+        "ours": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "AppState": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "AsyncStorage": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "BackHandler": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Clipboard": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "DatePickerAndroid": {
+        "ours": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Dimensions": {
+        "ours": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "Easing": {
+        "ours": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "HostComponent": {
+        "ours": [
+            {
+                "type": "type"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            }
+        ]
+    },
+    "I18nManager": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Image": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "ImagePickerIOS": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "LayoutAnimation": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Linking": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "LogBox": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "PanResponder": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "PermissionsAndroid": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "PixelRatio": {
+        "ours": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "PointPropType": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "ProgressViewIOS": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "PushNotificationIOS": {
+        "ours": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "SafeAreaView": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "ScrollView": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "SegmentedControlIOS": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "Settings": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Share": {
+        "ours": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Slider": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "StatusBarIOS": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Systrace": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Text": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "TextInput": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "Touchable": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "TSInterfaceDeclaration"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    },
+    "TouchableHighlight": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "TouchableOpacity": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            }
+        ]
+    },
+    "UIManager": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "Vibration": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "value"
+            },
+            {
+                "type": "type"
+            }
+        ]
+    },
+    "View": {
+        "ours": [
+            {
+                "type": "value"
+            }
+        ],
+        "theirs": [
+            {
+                "type": "type",
+                "declType": "ClassDeclaration"
+            },
+            {
+                "type": "value"
+            }
+        ]
+    }
+}

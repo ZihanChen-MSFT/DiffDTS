@@ -65,6 +65,8 @@ let same = 0;
 let extra = 0;
 let different = 0;
 let missing = 0;
+let differentDetails = {};
+let missingDetails = {};
 const keys = Array.from(new Set(Object.keys(resrc.exports).concat(Object.keys(redst.exports)))).sort();
 for (const key of keys) {
   const esrc = resrc.exports[key];
@@ -72,6 +74,7 @@ for (const key of keys) {
   if (edst !== undefined) {
     if (esrc === undefined) {
       missing++;
+      missingDetails[key] = edst;
     } else {
       const jsonsrc = JSON.stringify(esrc.map(e => JSON.stringify(e)).sort());
       const jsondst = JSON.stringify(edst.map(e => JSON.stringify(e)).sort());
@@ -79,12 +82,19 @@ for (const key of keys) {
         same++;
       } else {
         different++;
+        differentDetails[key] = {
+          ours: esrc,
+          theirs: edst
+        };
       }
     }
   } else {
     extra++;
   }
 }
+
+fs.writeFileSync(path.join(dirout, "different.json"), JSON.stringify(differentDetails, undefined, 4));
+fs.writeFileSync(path.join(dirout, "missing.json"), JSON.stringify(missingDetails, undefined, 4));
 
 console.log(`same: ${same}`);
 console.log(`extra: ${extra}`);
