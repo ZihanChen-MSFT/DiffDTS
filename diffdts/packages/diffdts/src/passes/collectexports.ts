@@ -72,7 +72,7 @@ function findSymbolAsExport(state: State, key: string, name: string): Export[] {
 }
 
 function exportMembersOfSymbol(state: State, key: string, name: string, output: ResolvedExports): void {
-    // TODO:
+    throw new Error("Not Implemented!");
 }
 
 function recordExport(output: ResolvedExports, id: string, ...values: Export[]): void {
